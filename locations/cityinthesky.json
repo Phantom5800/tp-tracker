@@ -1,0 +1,566 @@
+[
+  {
+    "name": "City in the sky",
+    "chest_unopened_img": "images/chest_closed.png",
+    "chest_opened_img": "images/chest_open.png",
+    "access_rules": [
+      "sky6, cs"
+    ],
+    "children": [
+      {
+        "name": "B3",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "B3",
+            "children": [
+              {
+                "name": "B3",
+                "sections": [
+                  {
+                    "name": "Aeralfos Chest",
+                    "access_rules": [
+                      "City_in_The_Sky_Small_Key, spinner, boomerang, iron "
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "City in the sky",
+                    "x": 505,
+                    "y": 229
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B1",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "B1",
+            "children": [
+              {
+                "name": "B1",
+                "sections": [
+                  {
+                    "name": "West Wing Baba Balcony Chest",
+                    "access_rules": [
+                      "City_in_The_Sky_Small_Key, dcs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "City in the sky",
+                    "x": 1290,
+                    "y": 197
+                  }
+                ]
+              },
+              {
+                "name": "B1",
+                "sections": [
+                  {
+                    "name": "East Wing Lower Level Chest",
+                    "access_rules": [
+                      "City_in_The_Sky_Small_Key, spinner, dcs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "City in the sky",
+                    "x": 1569,
+                    "y": 245
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "1F",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "1F",
+            "children": [
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Underwater West Chest",
+                    "access_rules": [
+                      "iron"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "City in the sky",
+                    "x": 2011,
+                    "y": 474
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Underwater East Chest",
+                    "access_rules": [
+                      "iron"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "City in the sky",
+                    "x": 2038,
+                    "y": 474
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "West Wing First Chest",
+                    "access_rules": [
+                      "dcs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "City in the sky",
+                    "x": 1843,
+                    "y": 232
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "West Wing Narrow Ledge Chest",
+                    "access_rules": [
+                      "dcs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "City in the sky",
+                    "x": 1854,
+                    "y": 220
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "West Wing Tile Worm Chest",
+                    "access_rules": [
+                      "dcs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "City in the sky",
+                    "x": 1887,
+                    "y": 195
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Chest Behind North Fan",
+                    "access_rules": [
+                      "dcs, iron"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "City in the sky",
+                    "x": 2023,
+                    "y": 77
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "East Tile Worm Small Chest",
+                    "access_rules": [
+                      "City_in_The_Sky_Small_Key, spinner"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "City in the sky",
+                    "x": 2213,
+                    "y": 263
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "East First Wing Chest After Fans",
+                    "access_rules": [
+                      "City_in_The_Sky_Small_Key, spinner"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "City in the sky",
+                    "x": 2249,
+                    "y": 240
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "2F",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "2F",
+            "children": [
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "Baba Tower Narrow Ledge Chest",
+                    "access_rules": [
+                      "dcs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "City in the sky",
+                    "x": 87,
+                    "y": 734
+                  }
+                ]
+              },
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "Baba Tower Alcove Chest",
+                    "access_rules": [
+                      "dcs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "City in the sky",
+                    "x": 60,
+                    "y": 765
+                  }
+                ]
+              },
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "West Garden Lower Chest",
+                    "access_rules": [
+                      "dcs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "City in the sky",
+                    "x": 94,
+                    "y": 804
+                  }
+                ]
+              },
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "West Garden Lone Island Chest",
+                    "access_rules": [
+                      "dcs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "City in the sky",
+                    "x": 68,
+                    "y": 886
+                  }
+                ]
+              },
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "East Wing After Dinalfos Ledge Chest",
+                    "access_rules": [
+                      "City_in_The_Sky_Small_Key, boomerang, spinner"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "City in the sky",
+                    "x": 425,
+                    "y": 875
+                  }
+                ]
+              },
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "East Wing After Dinalfos Alcove Chest",
+                    "access_rules": [
+                      "City_in_The_Sky_Small_Key, boomerang, spinner"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "City in the sky",
+                    "x": 473,
+                    "y": 881
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "3F",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "3F",
+            "children": [
+              {
+                "name": "3F",
+                "sections": [
+                  {
+                    "name": "Baba Tower Top Small Chest",
+                    "access_rules": [
+                      "dcs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "City in the sky",
+                    "x": 645,
+                    "y": 742
+                  }
+                ]
+              },
+              {
+                "name": "3F",
+                "sections": [
+                  {
+                    "name": "West Garden Corner Chest",
+                    "access_rules": [
+                      "dcs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "City in the sky",
+                    "x": 641,
+                    "y": 841
+                  }
+                ]
+              },
+              {
+                "name": "3F",
+                "sections": [
+                  {
+                    "name": "West Garden Ledge Chest",
+                    "access_rules": [
+                      "dcs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "City in the sky",
+                    "x": 695,
+                    "y": 859
+                  }
+                ]
+              },
+              {
+                "name": "3F",
+                "sections": [
+                  {
+                    "name": "Chest Below Big Key Chest",
+                    "access_rules": [
+                      "dcs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "City in the sky",
+                    "x": 840,
+                    "y": 813
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "4F",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "4F",
+            "children": [
+              {
+                "name": "4F",
+                "sections": [
+                  {
+                    "name": "Big Key Chest",
+                    "access_rules": [
+                      "dcs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "City in the sky",
+                    "x": 1417,
+                    "y": 825
+                  }
+                ]
+              },
+              {
+                "name": "4F",
+                "sections": [
+                  {
+                    "name": "Central Outside Ledge Chest",
+                    "access_rules": [
+                      "dcs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "City in the sky",
+                    "x": 1432,
+                    "y": 839
+                  }
+                ]
+              },
+              {
+                "name": "4F",
+                "sections": [
+                  {
+                    "name": "Central Outside Poe Island Chest",
+                    "access_rules": [
+                      "dcs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "City in the sky",
+                    "x": 1481,
+                    "y": 823
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "5F",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "5F",
+            "children": [
+              {
+                "name": "5F",
+                "sections": [
+                  {
+                    "name": "Argorok Heart Container",
+                    "access_rules": [
+                      "City_in_The_Sky_Big_Key, dcs, sword2, iron"
+                    ],
+                    "item_count": 1,
+                    "chest_unopened_img": "images/HC.png",
+                    "chest_opened_img": "images/HC-grey.png"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "City in the sky",
+                    "x": 2024,
+                    "y": 654
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

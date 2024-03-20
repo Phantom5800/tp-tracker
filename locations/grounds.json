@@ -1,0 +1,453 @@
+[
+  {
+    "name": "Arbiter's ground",
+    "chest_unopened_img": "images/chest_closed.png",
+    "chest_opened_img": "images/chest_open.png",
+        "access_rules": [
+      "Auru"
+    ],
+    "children": [
+      {
+        "name": "B2",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "B2",
+            "children": [
+                        {
+                "name": "B2",
+                "sections": [
+                  {
+                    "name": "Spinner Room Lower North Chest",
+                    "access_rules": [
+                      "Arbiters_Grounds_Small_Key:5, lantern, Clawshot, $can_smash, spinner"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Arbiter's ground",
+                    "x": 101,
+                    "y": 171
+                  }
+                ]
+              },
+              {
+                "name": "B2",
+                "sections": [
+                  {
+                    "name": "Lower Central Small Chest",
+                    "access_rules": [
+                      "Arbiters_Grounds_Small_Key:5, lantern, Clawshot, $can_smash, spinner"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Arbiter's ground",
+                    "x": 114,
+                    "y": 199
+                  }
+                ]
+              },
+              {
+                "name": "B2",
+                "sections": [
+                  {
+                    "name": "Spinner Room First Small Chest",
+                    "access_rules": [
+                      "Arbiters_Grounds_Small_Key:5, lantern, Clawshot, $can_smash, spinner"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Arbiter's ground",
+                    "x": 148,
+                    "y": 199
+                  }
+                ]
+              },
+              {
+                "name": "B2",
+                "sections": [
+                  {
+                    "name": "Spinner Room Stalfos Alcove Chest",
+                    "access_rules": [
+                      "Arbiters_Grounds_Small_Key:5, lantern, Clawshot, $can_smash, spinner"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Arbiter's ground",
+                    "x": 207,
+                    "y": 185
+                  }
+                ]
+              },
+              {
+                "name": "B2",
+                "sections": [
+                  {
+                    "name": "Death Sword Chest",
+                    "access_rules": [
+                      "Arbiters_Grounds_Small_Key:5, lantern, Clawshot, $can_smash, sword1, Clawshot",
+                      "Arbiters_Grounds_Small_Key:5, lantern, Clawshot, $can_smash, Ball_and_Chain, Clawshot",
+                      "Arbiters_Grounds_Small_Key:5, lantern, Clawshot, $can_smash, iron, Clawshot"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Arbiter's ground",
+                    "x": 293,
+                    "y": 31
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B1",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "B1",
+            "children": [
+                        
+              {
+                "name": "B1",
+                "sections": [
+                  {
+                    "name": "North Turning Room Chest",
+                    "access_rules": [
+                      "Arbiters_Grounds_Small_Key:4, lantern, Clawshot, $can_smash"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Arbiter's ground",
+                    "x": 965,
+                    "y": 162
+                  }
+                ]
+              },
+              {
+                "name": "B1",
+                "sections": [
+                  {
+                    "name": "East Lower Turnable Redead Chest",
+                    "access_rules": [
+                      "Arbiters_Grounds_Small_Key:1, lantern"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Arbiter's ground",
+                    "x": 974,
+                    "y": 238
+                  }
+                ]
+              },
+              {
+                "name": "B1",
+                "sections": [
+                  {
+                    "name": "Second Small Chest",
+                    "access_rules": [
+                      "Arbiters_Grounds_Small_Key:5, lantern, Clawshot, $can_smash, spinner"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Arbiter's ground",
+                    "x": 786,
+                    "y": 142
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "1F",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "1F",
+            "children": [
+                        {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "West Stalfos West Chest",
+                    "access_rules": [
+                      "Arbiters_Grounds_Small_Key:4, lantern"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Arbiter's ground",
+                    "x": 1308,
+                    "y": 263
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "West Stalfos Northeast Chest",
+                    "access_rules": [
+                      "Arbiters_Grounds_Small_Key:4, lantern"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Arbiter's ground",
+                    "x": 1338,
+                    "y": 252
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "West Chandelier Chest",
+                    "access_rules": [
+                      "Arbiters_Grounds_Small_Key:4, lantern"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Arbiter's ground",
+                    "x": 1402,
+                    "y": 290
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "West Small Chest Behind Block",
+                    "access_rules": [
+                      "Arbiters_Grounds_Small_Key:1, lantern"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Arbiter's ground",
+                    "x": 1416,
+                    "y": 224
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Torch Room West Chest",
+                    "access_rules": [
+                      "Arbiters_Grounds_Small_Key:1, lantern"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Arbiter's ground",
+                    "x": 1465,
+                    "y": 224
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Torch Room East Chest",
+                    "access_rules": [
+                      "Arbiters_Grounds_Small_Key:1, lantern"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Arbiter's ground",
+                    "x": 1510,
+                    "y": 224
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Big Key Chest",
+                    "access_rules": [
+                      "Arbiters_Grounds_Small_Key:5, lantern, Clawshot, $can_smash, spinner"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Arbiter's ground",
+                    "x": 1413,
+                    "y": 142
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Entrance Chest",
+                    "access_rules": [
+                      ""
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Arbiter's ground",
+                    "x": 1434,
+                    "y": 372
+                  }
+                ]
+              }                                    
+            ]
+          }
+        ]
+      },
+      {
+        "name": "2F",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "2F",
+            "children": [
+                        {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "Ghoul Rat Room Chest",
+                    "access_rules": [
+                      "Arbiters_Grounds_Small_Key:3, lantern"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Arbiter's ground",
+                    "x": 380,
+                    "y": 876
+                  }
+                ]
+              },
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "East Upper Turnable Chest",
+                    "access_rules": [
+                      "Arbiters_Grounds_Small_Key:2, lantern"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Arbiter's ground",
+                    "x": 476,
+                    "y": 970
+                  }
+                ]
+              },
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "East Upper Turnable Redead Chest",
+                    "access_rules": [
+                      "Arbiters_Grounds_Small_Key:2, lantern"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Arbiter's ground",
+                    "x": 529,
+                    "y": 947
+                  }
+                ]
+              }                                                
+            ]
+          }
+        ]
+      },
+      {
+        "name": "4F",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "4F",
+            "children": [
+                        {
+                "name": "4F",
+                "sections": [
+                  {
+                    "name": "Stallord Heart Container",
+                    "access_rules": [
+                      "Arbiters_Grounds_Small_Key:5, Arbiters_Grounds_Big_Key, lantern, Clawshot, $can_smash, spinner, sword1"
+                    ],
+                    "item_count": 1,
+                    "chest_unopened_img": "images/HC.png",
+                    "chest_opened_img": "images/HC-grey.png"
+                  }                  
+                ],
+                "map_locations": [
+                  {
+                    "map": "Arbiter's ground",
+                    "x": 1487,
+                    "y": 855
+                  }
+                ]
+              }                                                           
+            ]
+          }
+        ]
+      }          
+    ]        
+  }
+]
+

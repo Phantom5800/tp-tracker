@@ -1,0 +1,41 @@
+{
+  "options_popup": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "Randomizer Options",
+        "content": {
+          "type": "itemgrid",
+          "item_margin": "1,2",
+          "item_size": 45,
+          "rows": [
+            [
+              "skip-faron-off",
+              "skip-mdh-off",
+              "skip-prologue-off",
+              "increase-wallet-off",
+              "palace-vanilla",
+              "castle-vanilla"
+            ],
+            [
+              "early-mines-off",
+              "early-lakebed-off",
+              "early-arbiters-off",
+              "early-snowpeak-off",
+              "early-tot-off",
+              "early-city-off"
+            ],
+            [
+              "golden-bugs-enabled",
+              "agitha-enabled",
+              "jovani-enabled",
+              "howling-stones-enabled",
+              "small-keysy-enabled",
+              "boss-keysy-enabled"
+            ]
+          ]
+        }
+      }
+    ]
+  }
+}

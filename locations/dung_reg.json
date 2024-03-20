@@ -1,0 +1,1766 @@
+[
+  {
+    "name": "Forest Temple",
+    "chest_unopened_img": "images/chest_closed.png",
+    "chest_opened_img": "images/chest_open.png",
+    "access_rules": [
+      "$canCompletePrologue, Shadow_Crystal",
+      "$canCompletePrologue, Lantern"
+    ],
+    "sections": [
+      {
+        "name": "Forest Temple Big Baba Key",
+        "access_rules": [
+          "$canBurnWebs, Forest_Temple_Small_Key:2, $canDefeatBokoblin, $canDefeatBigBaba, $canDefeatWalltula, $canBreakMonkeyCage",
+          "$canBurnWebs, Clawshot, $canDefeatBigBaba, $canDefeatWalltula, $canBreakMonkeyCage, $canDefeatBokoblin"
+        ],
+        "item_count": 1
+      },  
+      {
+        "name": "Forest Temple Big Key Chest",
+        "short_name": "Forest Big Key",
+        "access_rules": [
+          "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, Boomerang"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Forest Temple Central Chest Behind Stairs",
+        "item_count": 1,
+        "access_rules": [
+          "Boomerang, $canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage"
+        ]
+      },
+      {
+        "name": "Forest Temple Central Chest Hanging From Web",
+        "item_count": 1,
+        "access_rules": [
+          "$canCutHangingWeb, $canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage"
+        ]
+      },
+      {
+        "name": "Forest Temple Central North Chest",
+        "access_rules": [
+          "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, Lantern"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Forest Temple Diababa Heart Container",
+        "access_rules": [
+          "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, Boomerang, Forest_Temple_Big_Key, $canFreeAllMonkeys, $canDefeatDiababa",
+          "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, Boomerang, Forest_Temple_Big_Key, Clawshot, $canDefeatDiababa"
+        ],
+        "chest_unopened_img": "images/HC.png",
+        "chest_opened_img": "images/HC-grey.png",
+        "item_count": 1
+      },
+      {
+        "name": "Forest Temple Dungeon Reward",
+        "access_rules": [
+          "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, Boomerang, Forest_Temple_Big_Key, $canFreeAllMonkeys, $canDefeatDiababa",
+          "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, Boomerang, Forest_Temple_Big_Key, Clawshot, $canDefeatDiababa"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Forest Temple East Tile Worm Chest",
+        "access_rules": [
+          "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, Boomerang, Forest_Temple_Small_Key:4"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Forest Temple East Water Cave Chest",
+        "access_rules": [
+          "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Forest Temple Entrance Vines Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$canDefeatWalltula"
+        ]
+      },
+      {
+        "name": "Forest Temple Gale Boomerang",
+        "access_rules": [
+          "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, Lantern, Forest_Temple_Small_Key:4, $canDefeatOok",
+          "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, $canBurnWebs, Forest_Temple_Small_Key:4, Boomerang, $canDefeatOok",
+          "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, Clawshot, Boomerang, $canDefeatOok, $canBurnWebs"
+
+        ],
+        "chest_unopened_img": "images/boomerang.png",
+        "chest_opened_img": "images/boomerang-grey.png",
+        "item_count": 1
+      },
+      {
+        "name": "Forest Temple North Deku Like Chest",
+        "access_rules": [
+          "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, Boomerang"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Forest Temple Second Monkey Under Bridge Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, Forest_Temple_Small_Key:4"
+        ]
+      },
+      {
+        "name": "Forest Temple Totem Pole Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$canBurnWebs, Forest_Temple_Small_Key:2, $canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage,",
+          "$canBurnWebs, Clawshot, $canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage,"
+        ]
+      },
+      {
+        "name": "Forest Temple West Deku Like Chest",
+        "short_name": "Deku Like PoH",
+        "item_count": 1,
+        "access_rules": [
+          "$canBurnWebs, Forest_Temple_Small_Key:2, $canDefeatBokoblin",
+          "$canBurnWebs, Clawshot"
+        ]
+      },
+      {
+        "name": "Forest Temple West Tile Worm Chest Behind Stairs",
+        "access_rules": [
+          "$canBurnWebs, Forest_Temple_Small_Key:4, $canDefeatBokoblin, Boomerang",
+          "$canBurnWebs, Clawshot, Boomerang"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Forest Temple West Tile Worm Vines Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$canBurnWebs, Forest_Temple_Small_Key:2, $canDefeatBokoblin",
+          "$canBurnWebs, Clawshot"
+        ]
+      },
+      {
+        "name": "Forest Temple Windless Bridge Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Main",
+        "x": 570.96,
+        "y": 827.5
+      }
+    ]
+  },
+  {
+    "name": "Goron Mines",
+    "access_rules": [
+      "$canAccessMines"
+    ],
+    "chest_unopened_img": "images/chest_closed.png",
+    "chest_opened_img": "images/chest_open.png",
+    "sections": [
+      {
+        "name": "Goron Mines After Crystal Switch Room Magnet Wall Chest",
+        "item_count": 1,
+        "access_rules": [
+          "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:1"
+        ]
+      },
+      {
+        "name": "Goron Mines Beamos Room Chest",
+        "item_count": 1,
+        "access_rules": [
+          "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:3, Progressive_Bow, $canDefeatDangoro"
+        ]
+      },
+      {
+        "name": "Goron Mines Chest Before Dangoro",
+        "item_count": 1,
+        "access_rules": [
+          "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:3"
+        ]
+      },
+      {
+        "name": "Goron Mines Crystal Switch Room Small Chest",
+        "item_count": 1,
+        "access_rules": [
+          "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:1"
+        ]
+      },
+      {
+        "name": "Goron Mines Crystal Switch Room Underwater Chest",
+        "item_count": 1,
+        "access_rules": [
+          "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:1"
+        ]
+      },
+      {
+        "name": "Goron Mines Dangoro Chest",
+        "item_count": 1,
+        "access_rules": [
+          "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:3, $canDefeatDangoro"
+        ]
+      },
+      {
+        "name": "Goron Mines Dungeon Reward",
+        "item_count": 1,
+        "access_rules": [
+          "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:3, Progressive_Bow, $canDefeatBulblin, $canDefeatFyrus, Goron_Mines_Big_Key:3"
+        ]
+      },
+      {
+        "name": "Goron Mines Fyrus Heart Container",
+        "item_count": 1,
+        "access_rules": [
+          "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:3, Progressive_Bow, $canDefeatBulblin, $canDefeatFyrus, Goron_Mines_Big_Key:3"
+        ],
+        "chest_unopened_img": "images/HC.png",
+        "chest_opened_img": "images/HC-grey.png"
+      },
+      {
+        "name": "Goron Mines Entrance Chest",
+        "item_count": 1,
+        "access_rules": [
+          "Iron_Boots, $canBreakWoodenDoor"
+        ]
+      },
+      {
+        "name": "Goron Mines Gor Amato Chest",
+        "item_count": 1,
+        "access_rules": [
+          "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:1"
+        ]
+      },
+      {
+        "name": "Goron Mines Gor Amato Key Shard",
+        "item_count": 1,
+        "access_rules": [
+          "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:1"
+        ]
+      },
+      {
+        "name": "Goron Mines Gor Amato Small Chest",
+        "item_count": 1,
+        "access_rules": [
+          "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:1"
+        ]
+      },
+      {
+        "name": "Goron Mines Gor Ebizo Chest",
+        "item_count": 1,
+        "access_rules": [
+          "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:3, $hasSword",
+          "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:3, Progressive_Bow"
+        ]
+      },
+      {
+        "name": "Goron Mines Gor Ebizo Key Shard",
+        "item_count": 1,
+        "access_rules": [
+          "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:3, $hasSword",
+          "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:3, Progressive_Bow"
+        ]
+      },
+      {
+        "name": "Goron Mines Gor Liggs Chest",
+        "item_count": 1,
+        "access_rules": [
+          "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:3, Progressive_Bow, $canDefeatDangoro"
+        ]
+      },
+      {
+        "name": "Goron Mines Gor Liggs Key Shard",
+        "item_count": 1,
+        "access_rules": [
+          "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:3, Progressive_Bow, $canDefeatDangoro"
+        ]
+      },
+      {
+        "name": "Goron Mines Magnet Maze Chest",
+        "item_count": 1,
+        "access_rules": [
+          "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:1"
+        ]
+      },
+      {
+        "name": "Goron Mines Main Magnet Room Bottom Chest",
+        "item_count": 1,
+        "access_rules": [
+          "Iron_Boots, $canBreakWoodenDoor"
+        ]
+      },
+      {
+        "name": "Goron Mines Main Magnet Room Top Chest",
+        "item_count": 1,
+        "access_rules": [
+          "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:3, Progressive_Bow, $canDefeatDangoro"
+        ]
+      },
+      {
+        "name": "Goron Mines Outside Beamos Chest",
+        "item_count": 1,
+        "access_rules": [
+          "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:2, Progressive_Bow",
+          "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:2, $hasSword"
+        ]
+      },
+      {
+        "name": "Goron Mines Outside Clawshot Chest",
+        "item_count": 1,
+        "access_rules": [
+          "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:2, Progressive_Bow, Clawshot",
+          "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:2, $hasSword, Clawshot"
+        ]
+      },
+      {
+        "name": "Goron Mines Outside Underwater Chest",
+        "item_count": 1,
+        "access_rules": [
+          "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:2, Progressive_Bow, $canUseWaterBombs",
+          "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:2, $hasSword"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Main",
+        "x": 1030.92,
+        "y": 477
+      }
+    ]
+  },
+  {
+    "name": "Lakebed Temple",
+    "access_rules": [
+      "$canAccessLakebed"
+    ],
+    "chest_unopened_img": "images/chest_closed.png",
+    "chest_opened_img": "images/chest_open.png",
+    "sections": [
+      {
+        "name": "Lakebed Temple Before Deku Toad Alcove Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$canLaunchBombs, Lakebed_Temple_Small_Key:3",
+          "$canSmash, Clawshot, Lakebed_Temple_Small_Key:3"
+        ]
+      },
+      {
+        "name": "Lakebed Temple Before Deku Toad Underwater Left Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$canLaunchBombs, Iron_Boots, Lakebed_Temple_Small_Key:3"
+        ]
+      },
+      {
+        "name": "Lakebed Temple Before Deku Toad Underwater Right Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$canLaunchBombs, Zora_Armor, Iron_Boots, Lakebed_Temple_Small_Key:3"
+        ]
+      },
+      {
+        "name": "Lakebed Temple Big Key Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$canLaunchBombs, Lakebed_Temple_Small_Key:3, Clawshot, $canUseWaterBombs, Zora_Armor, Iron_Boots"
+        ]
+      },
+      {
+        "name": "Lakebed Temple Central Room Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$canLaunchBombs"
+        ]
+      },
+      {
+        "name": "Lakebed Temple Central Room Small Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$canLaunchBombs"
+        ]
+      },
+      {
+        "name": "Lakebed Temple Central Room Spire Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$canLaunchBombs, Iron_Boots, Lakebed_Temple_Small_Key:3"
+        ]
+      },
+      {
+        "name": "Lakebed Temple Chandelier Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$canLaunchBombs, Clawshot"
+        ]
+      },
+      {
+        "name": "Lakebed Temple Deku Toad Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$canLaunchBombs, Zora_Armor, Iron_Boots, Lakebed_Temple_Small_Key:3, $canUseWaterBombs, $canDefeatDekuToad"
+        ]
+      },
+      {
+        "name": "Lakebed Temple Dungeon Reward",
+        "item_count": 1,
+        "access_rules": [
+          "$canLaunchBombs, Lakebed_Temple_Small_Key:3, Lakebed_Temple_Big_Key, $canDefeatMorpheel"
+        ]
+      },
+      {
+        "name": "Lakebed Temple East Lower Waterwheel Bridge Chest",
+        "item_count": 1,
+        "access_rules": [
+          "Clawshot, Lakebed_Temple_Small_Key:3, $canLaunchBombs"
+        ]
+      },
+      {
+        "name": "Lakebed Temple East Lower Waterwheel Stalactite Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$canLaunchBombs"
+        ]
+      },
+      {
+        "name": "Lakebed Temple East Second Floor Southeast Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$canLaunchBombs, Lakebed_Temple_Small_Key:1"
+        ]
+      },
+      {
+        "name": "Lakebed Temple East Second Floor Southwest Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$canLaunchBombs, Lakebed_Temple_Small_Key:1"
+        ]
+      },
+      {
+        "name": "Lakebed Temple East Water Supply Clawshot Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$canLaunchBombs, Lakebed_Temple_Small_Key:3, Clawshot, Iron_Boots"
+        ]
+      },
+      {
+        "name": "Lakebed Temple East Water Supply Small Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$canLaunchBombs, Lakebed_Temple_Small_Key:3, Iron_Boots"
+        ]
+      },
+      {
+        "name": "Lakebed Temple Lobby Left Chest",
+        "item_count": 1
+      },
+      {
+        "name": "Lakebed Temple Lobby Rear Chest",
+        "item_count": 1
+      },
+      {
+        "name": "Lakebed Temple Morpheel Heart Container",
+        "item_count": 1,
+        "access_rules": [
+          "$canLaunchBombs, Lakebed_Temple_Small_Key:3, Lakebed_Temple_Big_Key, $canDefeatMorpheel"
+        ],
+        "chest_unopened_img": "images/HC.png",
+        "chest_opened_img": "images/HC-grey.png"
+      },
+      {
+        "name": "Lakebed Temple Stalactite Room Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$canLaunchBombs"
+        ]
+      },
+      {
+        "name": "Lakebed Temple Underwater Maze Small Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$canLaunchBombs, Lakebed_Temple_Small_Key:3, Clawshot, Zora_Armor"
+        ]
+      },
+      {
+        "name": "Lakebed Temple West Lower Small Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$canLaunchBombs, Lakebed_Temple_Small_Key:3, Clawshot"
+        ]
+      },
+      {
+        "name": "Lakebed Temple West Second Floor Central Small Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$canLaunchBombs, Lakebed_Temple_Small_Key:3, Clawshot"
+        ]
+      },
+      {
+        "name": "Lakebed Temple West Second Floor Northeast Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$canLaunchBombs, Lakebed_Temple_Small_Key:3, Clawshot"
+        ]
+      },
+      {
+        "name": "Lakebed Temple West Second Floor Southeast Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$canLaunchBombs, Lakebed_Temple_Small_Key:3, Clawshot"
+        ]
+      },
+      
+      {
+        "name": "Lakebed Temple West Second FLoor Southwest Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$canLaunchBombs, Lakebed_Temple_Small_Key:3, Clawshot, Iron_Boots"
+        ]
+      },
+      {
+        "name": "Lakebed Temple West Water Supply Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$canLaunchBombs, Lakebed_Temple_Small_Key:3, Clawshot, Iron_Boots"
+        ]
+      },
+      {
+        "name": "Lakebed Temple West Water Supply Small Chest",
+        "item_count": 1,
+        "access_rules": [
+          "$canLaunchBombs, Lakebed_Temple_Small_Key:3, Clawshot, Iron_Boots"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Main",
+        "x": 483.96,
+        "y": 597
+      }
+    ]
+  },
+  {
+    "name": "Arbiters Grounds",
+    "parent": "Gerudo Desert",
+    "access_rules": [
+      "$canAccessArbiters"
+    ],
+    "chest_unopened_img": "images/chest_closed.png",
+    "chest_opened_img": "images/chest_open.png",
+    "sections": [
+      {
+        "name": "Arbiters Grounds Big Key Chest",
+        "access_rules": [
+          "Arbiters_Grounds_Small_Key:5, Lantern, Shadow_Crystal, Clawshot, $canSmash, Spinner"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Arbiters Grounds Death Sword Chest",
+        "access_rules": [
+          "Arbiters_Grounds_Small_Key:5, Lantern, Shadow_Crystal, Clawshot, $canSmash"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Arbiters Grounds East Lower Turnable Redead Chest",
+        "access_rules": [
+          "Arbiters_Grounds_Small_Key:1, Lantern, Shadow_Crystal"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Arbiters Grounds East Upper Turnable Chest",
+        "access_rules": [
+          "Arbiters_Grounds_Small_Key:2, Lantern"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Arbiters Grounds East Upper Turnable Redead Chest",
+        "access_rules": [
+          "Arbiters_Grounds_Small_Key:2, Lantern"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Arbiters Grounds Entrance Chest",
+        "access_rules": [
+          "$canBreakWoodenDoor"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Arbiters Grounds Ghoul Rat Room Chest",
+        "access_rules": [
+          "$canDefeatBubble, Arbiters_Grounds_Small_Key:3"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Arbiters Grounds North Turning Room Chest",
+        "access_rules": [
+          "Arbiters_Grounds_Small_Key:4, Lantern, Shadow_Crystal, Clawshot"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Arbiters Grounds Spinner Room First Small Chest",
+        "access_rules": [
+          "Arbiters_Grounds_Small_Key:5, Lantern, Shadow_Crystal, Clawshot, Spinner"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Arbiters Grounds Spinner Room Lower Central Small Chest",
+        "access_rules": [
+          "Arbiters_Grounds_Small_Key:5, Lantern, Shadow_Crystal, Clawshot, Spinner"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Arbiters Grounds Spinner Room Lower North Chest",
+        "access_rules": [
+          "Arbiters_Grounds_Small_Key:5, Lantern, Shadow_Crystal, Clawshot, Spinner"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Arbiters Grounds Spinner Room Second Small Chest",
+        "access_rules": [
+          "Arbiters_Grounds_Small_Key:5, Lantern, Shadow_Crystal, Clawshot, Spinner"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Arbiters Grounds Spinner Room Stalfos Alcove Chest",
+        "access_rules": [
+          "Arbiters_Grounds_Small_Key:5, Lantern, Shadow_Crystal, Clawshot, Spinner"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Arbiters Grounds Stallord Heart Container",
+        "access_rules": [
+          "Arbiters_Grounds_Small_Key:5, Lantern, Shadow_Crystal, Clawshot, Spinner, Arbiters_Grounds_Big_Key"
+        ],
+        "item_count": 1,
+        "chest_unopened_img": "images/HC.png",
+        "chest_opened_img": "images/HC-grey.png"
+      },
+      {
+        "name": "Arbiters Grounds Torch Room East Chest",
+        "access_rules": [
+          "Arbiters_Grounds_Small_Key:1, Lantern"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Arbiters Grounds Torch Room West Chest",
+        "access_rules": [
+          "Arbiters_Grounds_Small_Key:1, Lantern"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Arbiter's Grounds West Chandelier Chest",
+        "access_rules": [
+          "Arbiters_Grounds_Small_Key:4, Lantern, Shadow_Crystal"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Arbiter's Grounds West Small Chest Behind Block",
+        "access_rules": [
+          "Arbiters_Grounds_Small_Key:1, Lantern"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Arbiter's Grounds West Stalfos Northeast Chest",
+        "access_rules": [
+          "Arbiters_Grounds_Small_Key:4, Lantern, Shadow_Crystal"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Arbiter's Grounds West Stalfos West Chest",
+        "access_rules": [
+          "Arbiters_Grounds_Small_Key:4, Lantern, Shadow_Crystal"
+        ],
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Main",
+        "x": 180.4,
+        "y": 518
+      }
+    ]
+  },
+  {
+    "name": "Snowpeak Ruins",
+    "access_rules": [
+      "$canAccessSnowpeakRuins"
+    ],
+    "chest_unopened_img": "images/chest_closed.png",
+    "chest_opened_img": "images/chest_open.png",
+    "sections": [
+      {
+        "name": "Snowpeak Ruins Ball and Chain",
+        "access_rules": [
+          "Ordon_Pumpkin, Snowpeak_Ruins_Small_Key:2, Bomb_Bag:1, $canDefeatDarkhammer",
+          "Ordon_Pumpkin, Ordon_Goat_Cheese, Bomb_Bag:1, $canDefeatDarkhammer",
+          "Ball_and_Chain, $canDefeatDarkhammer"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Snowpeak Ruins Blizzeta Heart Container",
+        "access_rules": [
+          "Snowpeak_Ruins_Small_Key:4, Ordon_Goat_Cheese, Ball_and_Chain, $hasBombs, Snowpeak_Ruins_Bedroom_Key"
+        ],
+        "item_count": 1,
+        "chest_unopened_img": "images/HC.png",
+        "chest_opened_img": "images/HC-grey.png"
+      },
+      {
+        "name": "Snowpeak Ruins Broken Floor Chest",
+        "access_rules": [
+          "Ordon_Goat_Cheese, Ball_and_Chain"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Snowpeak Ruins Chapel Chest",
+        "access_rules": [
+          "Snowpeak_Ruins_Small_Key:4, Ordon_Goat_Cheese, Ball_and_Chain, $hasBombs"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Snowpeak Ruins Chest After Darkhammer",
+        "access_rules": [
+          "Ball_and_Chain, $canDefeatDarkhammer"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Snowpeak Ruins Courtyard Central Chest",
+        "access_rules": [
+          "Ordon_Pumpkin, Snowpeak_Ruins_Small_Key:2, Shadow_Crystal",
+          "Ball_and_Chain, $canDefeatDarkhammer, Shadow_Crystal"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Snowpeak Ruins Dungeon Reward",
+        "access_rules": [
+          "Snowpeak_Ruins_Small_Key:4, Ordon_Goat_Cheese, Ball_and_Chain, $hasBombs, Snowpeak_Ruins_Bedroom_Key"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Snowpeak Ruins East Courtyard Buried Chest",
+        "access_rules": [
+          "Shadow_Crystal"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Snowpeak Ruins East Courtyard Chest",
+        "access_rules": [
+          "Shadow_Crystal",
+          "Ball_and_Chain"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Snowpeak Ruins Lobby Chandelier Chest",
+        "access_rules": [
+          "Snowpeak_Ruins_Small_Key:3, Ordon_Goat_Cheese, Ball_and_Chain"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Snowpeak Ruins Lobby East Armor Chest",
+        "access_rules": [
+          "Ball_and_Chain"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Snowpeak Ruins Lobby West Armor Chest",
+        "access_rules": [
+          "Ball_and_Chain"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Snowpeak Ruins Mansion Map",
+        "item_count": 1
+      },
+      {
+        "name": "Snowpeak Ruins Northeast Chandelier Chest",
+        "access_rules": [
+          "Ball_and_Chain, Clawshot, Ordon_Goat_Cheese, Snowpeak_Ruins_Small_Key:3"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Snowpeak Ruins Ordon Pumpkin Chest",
+        "access_rules": [
+          "Shadow_Crystal, Snowpeak_Ruins_Small_Key:2",
+          "Ball_and_Chain, Snowpeak_Ruins_Small_Key:2"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Snowpeak Ruins West Cannon Room Central Chest",
+        "access_rules": [
+          "Ball_and_Chain"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Snowpeak Ruins West Cannon Room Corner Chest",
+        "access_rules": [
+          "Ordon_Pumpkin, Bomb_Bag:1",
+          "Ball_and_Chain",
+          "Ordon_Goat_Cheese, Snowpeak_Ruins_Small_Key:2, Bomb_Bag:1"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Snowpeak Ruins West Courtyard Buried Chest",
+        "access_rules": [
+          "Shadow_Crystal, Ball_and_Chain",
+          "Shadow_Crystal, Ordon_Pumpkin",
+          "Ordon_Goat_Cheese, Snowpeak_Ruins_Small_Key:2, Shadow_Crystal"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Snowpeak Ruins Wooden Beam Central Chest",
+        "access_rules": [
+          "Ball_and_Chain",
+          "Ordon_Pumpkin, Bomb_bag:1",
+          "Ordon_Goat_Cheese, Snowpeak_Ruins_Small_Key:2, Bomb_Bag:1"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Snowpeak Ruins Wooden Beam Chandelier Chest",
+        "access_rules": [
+          "Ball_and_Chain, Ordon_Goat_Cheese"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Snowpeak Ruins Wooden Beam Northwest Chest",
+        "access_rules": [
+          "Ball_and_Chain",
+          "Ordon_Pumpkin, Bomb_bag:1",
+          "Ordon_Goat_Cheese, Snowpeak_Ruins_Small_Key:2, Bomb_Bag:1"
+        ],
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Main",
+        "x": 255.72,
+        "y": 358
+      }
+    ]
+  },
+  {
+    "name": "Snowpeak Ruins Poes",
+    "access_rules": [
+      "$canAccessSnowpeakRuins"
+    ],
+    "chest_unopened_img": "images/soul.png",
+    "chest_opened_img": "images/soul-grey.png",
+    "sections": [
+      {
+        "name": "Snowpeak Ruins Lobby Poe",
+        "item_count": 1,
+        "access_rules": [
+          "Shadow_Crystal"
+        ]
+      },
+      {
+        "name": "Snowpeak Ruins Lobby Armor Poe",
+        "item_count": 1,
+        "access_rules": [
+          "Ball_and_Chain, Shadow_Crystal"
+        ]
+      },
+      {
+        "name": "Snowpeak Ruins Ice Room Poe",
+        "item_count": 1,
+        "access_rules": [
+          "Ball_and_Chain, Ordon_Goat_Cheese, Snowpeak_Ruins_Small_Key:3, Shadow_Crystal"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Poes",
+        "x": 249,
+        "y": 355
+      }
+    ]
+  },
+  {
+    "name": "Arbiters Grounds Poes",
+    "access_rules": [
+      "$canAccessArbiters"
+    ],
+    "chest_unopened_img": "images/soul.png",
+    "chest_opened_img": "images/soul-grey.png",
+    "sections": [
+      {
+        "name": "Arbiters Grounds Torch Room Poe",
+        "item_count": 1,
+        "access_rules": [
+          "Arbiters_Grounds_Small_Key:1, Lantern, Shadow_Crystal"
+        ]
+      },
+      {
+        "name": "Arbiters Grounds East Turning Room Poe",
+        "item_count": 1,
+        "access_rules": [
+          "Arbiters_Grounds_Small_Key:1, Lantern, Shadow_Crystal, Clawshot"
+        ]
+      },
+      {
+        "name": "Arbiters Grounds Hidden Wall Poe",
+        "item_count": 1,
+        "access_rules": [
+          "Shadow_Crystal, $canDefeatRedeadKnight, Arbiters_Grounds_Small_Key:3"
+        ]
+      },
+      {
+        "name": "Arbiters Grounds West Poe",
+        "item_count": 1,
+        "access_rules": [
+          "Shadow_Crystal, $canSmash, Arbiters_Grounds_Small_Key:4"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Poes",
+        "x": 180.4,
+        "y": 518
+      }
+    ]
+  },
+  {
+    "name": "Temple of Time",
+    "access_rules": [
+      "$canCompletePrologue, Shadow_Crystal, $canDefeatShadowBeast, Progressive_Sword_3",
+      "$canCompletePrologue, Shadow_Crystal, early-tot-open"
+    ],
+    "chest_unopened_img": "images/chest_closed.png",
+    "chest_opened_img": "images/chest_open.png",
+    "sections": [
+      {
+        "name": "Temple of Time Armogohma Heart Container",
+        "access_rules": [
+          "Progressive_Dominion_Rod_1, Progressive_Bow, Spinner, Temple_of_Time_Small_Key:3, Temple_of_Time_Big_Key, $canDefeatArmogohma"
+        ],
+        "item_count": 1,
+        "chest_unopened_img": "images/HC.png",
+        "chest_opened_img": "images/HC-grey.png"
+      },
+      {
+        "name": "Temple of Time Armos Antechamber East Chest",
+        "access_rules": [
+          "Temple_of_Time_Small_Key:1, $hasRangedItem, Spinner, $canDefeatLizalfos, $canDefeatArmos"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Temple of Time Armos Antechamber North Chest",
+        "access_rules": [
+          "Temple_of_Time_Small_Key:1, $hasRangedItem, Spinner, $canDefeatLizalfos"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Temple of Time Armos Antechamber Statue Chest",
+        "access_rules": [
+          "Temple_of_Time_Small_Key:1, $hasRangedItem, Spinner, $canDefeatLizalfos, $canDefeatArmos, Progressive_Dominion_Rod_1"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Temple of Time Big Key Chest",
+        "access_rules": [
+          "Temple_of_Time_Small_Key:2, Progressive_Bow, Spinner, $canDefeatLizalfos, Clawshot"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Temple of Time Chest Before Darknut",
+        "access_rules": [
+          "Temple_of_Time_Small_Key:2, Progressive_Bow, Spinner, $canDefeatLizalfos"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Temple of Time Darknut Chest",
+        "access_rules": [
+          "Temple_of_Time_Small_Key:3, Progressive_Bow, Spinner, $canDefeatLizalfos, $canDefeatDarknut"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Temple of Time Dungeon Reward",
+        "access_rules": [
+          "Progressive_Dominion_Rod_1, Progressive_Bow, Spinner, Temple_of_Time_Small_Key:3, Temple_of_Time_Big_Key, $canDefeatArmogohma"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Temple of Time First Staircase Armos Chest",
+        "access_rules": [
+          "Temple_of_Time_Small_Key:1, $hasRangedItem, $canDefeatLizalfos, $canDefeatArmos"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Temple of Time First Staircase Gohma Gate Chest",
+        "access_rules": [
+          "Temple_of_Time_Small_Key:1, $hasRangedItem, Spinner, $canDefeatLizalfos, $canDefeatArmos"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Temple of Time Armos First Staircase Window Chest",
+        "access_rules": [
+          "Temple_of_Time_Small_Key:1, $hasRangedItem"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Temple of Time Floor Switch Puzzle Room Upper Chest",
+        "access_rules": [
+          "Temple_of_Time_Small_Key:2, Progressive_Bow, Spinner, $canDefeatLizalfos, Clawshot"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Temple of Time Gilloutine Chest",
+        "access_rules": [
+          "Temple_of_Time_Small_Key:2, Progressive_Bow, Spinner, $canDefeatLizalfos"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Temple of Time Lobby Lantern Chest",
+        "access_rules": [
+          "Lantern"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Temple of Time Moving Wall Beamos Room Chest",
+        "access_rules": [
+          "Temple_of_Time_Small_Key:2, Progressive_Bow, Spinner, $canDefeatLizalfos"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Temple of Time Moving Wall Dinalfos Room Chest",
+        "access_rules": [
+          "Temple_of_Time_Small_Key:2, Progressive_Bow, Spinner, $canDefeatLizalfos, $canDefeatDinalfos, Progressive_Dominion_Rod_1"
+        ],
+        "item_count": 1
+      }, 
+      {
+        "name": "Temple of Time Scales Gohma Chest",
+        "access_rules": [
+          "Temple_of_Time_Small_Key:2, Progressive_Bow, Spinner, $canDefeatLizalfos"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Temple of Time Scales Upper Chest",
+        "access_rules": [
+          "Temple_of_Time_Small_Key:2, Progressive_Bow, Spinner, $canDefeatLizalfos"
+        ],
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Main",
+        "x": 525.96,
+        "y": 792
+      }
+    ]
+  },
+  {
+    "name": "Temple of Time",
+    "access_rules": [
+      "$canCompletePrologue, Shadow_Crystal, $canDefeatShadowBeast, Progressive_Sword_3",
+      "$canCompletePrologue, Shadow_Crystal, early-tot-open"
+    ],
+    "chest_unopened_img": "images/soul.png",
+    "chest_opened_img": "images/soul-grey.png",
+    "sections": [
+      {
+        "name": "Temple of Time Poe Behind Gate",
+        "access_rules": [
+          "Temple_of_Time_Small_Key:1, Shadow_Crystal, Progressive_Dominion_Rod_1"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Temple of Time Poe Above Scales",
+        "access_rules": [
+          "Temple_of_Time_Small_Key:2, Progressive_Bow, Spinner, $canDefeatLizalfos, Clawshot, Shadow_Crystal"
+        ],
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Poes",
+        "x": 524,
+        "y": 808
+      }
+    ]
+  },
+  {
+    "name": "City in The Sky",
+    "access_rules": [
+      "$canAccessCiTS"
+    ],
+    "chest_unopened_img": "images/chest_closed.png",
+    "chest_opened_img": "images/chest_open.png",
+    "sections": [
+      {
+        "name": "City in The Sky Aeralfos Chest",
+        "access_rules": [
+          "Clawshot, Spinner, City_in_The_Sky_Small_Key:1, Iron_Boots, Boomerang"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "City in The Sky Argorok Heart Container",
+        "access_rules": [
+          "Double_Clawshot, Shadow_Crystal, Iron_Boots, City_in_The_Sky_Big_Key, $canDefeatArgorok"
+        ],
+        "chest_unopened_img": "images/HC.png",
+        "chest_opened_img": "images/HC_grey.png",
+        "item_count": 1
+      },
+      {
+        "name": "City in The Sky Baba Tower Alcove Chest",
+        "access_rules": [
+          "Double_Clawshot, $canDefeatBigBaba"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "City in The Sky Baba Tower Narrow Ledge Chest",
+        "access_rules": [
+          "Double_Clawshot, $canDefeatBigBaba"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "City in The Sky Baba Tower Top Small Chest",
+        "access_rules": [
+          "Double_Clawshot, $canDefeatBigBaba"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "City in The Sky Big Key Chest",
+        "access_rules": [
+          "Double_Clawshot, $canDefeatBigBaba, Iron_Boots, Shadow_Crystal"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "City in The Sky Central Outside Ledge Chest",
+        "access_rules": [
+          "Double_Clawshot, $canDefeatBigBaba, Shadow_Crystal"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "City in The Sky Central Outside Poe Island Chest",
+        "access_rules": [
+          "Double_Clawshot, $canDefeatBigBaba, Shadow_Crystal"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "City in The Sky Chest Behind North Fan",
+        "access_rules": [
+          "Double_Clawshot, $canDefeatBigBaba, Iron_Boots, Shadow_Crystal"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "City in The Sky Chest Below Big Key Chest",
+        "access_rules": [
+          "Double_Clawshot, $canDefeatBigBaba"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "City in The Sky Dungeon Reward",
+        "access_rules": [
+          "Double_Clawshot, Shadow_Crystal, Iron_Boots, City_in_The_Sky_Big_Key, $canDefeatArgorok"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "City in The Sky East First Wing Chest After Fans",
+        "access_rules": [
+          "Clawshot, Spinner, City_in_The_Sky_Small_Key:1"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "City in The Sky East Tile Worm Small Chest",
+        "access_rules": [
+          "Clawshot, Spinner, City_in_The_Sky_Small_Key:1"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "City in The Sky East Wing After Dinalfos Alcove Chest",
+        "access_rules": [
+          "Clawshot, Spinner, City_in_The_Sky_Small_Key:1, $canDefeatTileWorm, $canDefeatDinalfos"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "City in The Sky East Wing After Dinalfos Ledge Chest",
+        "access_rules": [
+          "Clawshot, Spinner, City_in_The_Sky_Small_Key:1"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "City in The Sky East Wing Lower Level Chest",
+        "access_rules": [
+          "Double_Clawshot, Spinner, City_in_The_Sky_Small_Key:1, $canDefeatDinalfos, $canDefeatTileWorm"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "City in The Sky Underwater East Chest",
+        "access_rules": [
+          "Iron_Boots"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "City in The Sky Underwater West Chest",
+        "access_rules": [
+          "Iron_Boots"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "City in The Sky West Garden Corner Chest",
+        "access_rules": [
+          "Double_Clawshot, $canDefeatBigBaba"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "City in The Sky West Garden Ledge Chest",
+        "access_rules": [
+          "Double_Clawshot, $canDefeatBigBaba"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "City in The Sky West Garden Lone Island Chest",
+        "access_rules": [
+          "Double_Clawshot, $canDefeatBigBaba"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "City in The Sky West Garden Lower Chest",
+        "access_rules": [
+          "Double_Clawshot, $canDefeatBigBaba"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "City in The Sky West Wing Baba Balcony Chest",
+        "access_rules": [
+          "Double_Clawshot"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "City in The Sky West Wing First Chest",
+        "access_rules": [
+          "Double_Clawshot"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "City in The Sky West Wing Narrow Ledge Chest",
+        "access_rules": [
+          "Double_Clawshot"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "City in The Sky West Wing Tile Worm Chest",
+        "access_rules": [
+          "Double_Clawshot"
+        ],
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Main",
+        "x": 456,
+        "y": 632
+      }
+    ]
+  },
+  {
+    "name": "City in the Sky Poes",
+    "access_rules": [
+      "$canAccessCiTS"
+    ],
+    "chest_unopened_img": "images/soul.png",
+    "chest_opened_img": "images/soul-grey.png",
+    "sections": [
+      {
+        "name": "City in The Sky Garden Island Poe",
+        "item_count": 1,
+        "access_rules": [
+          "Double_Clawshot, $canDefeatBigBaba, Shadow_Crystal"
+        ]
+      },
+      {
+        "name": "City in The Sky Poe Above Central Fan",
+        "item_count": 1,
+        "access_rules": [
+          "Double_Clawshot, $canDefeatBigBaba, Iron_Boots, Shadow_Crystal"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Poes",
+        "x": 456,
+        "y": 632
+      }
+    ]
+  },
+  {
+    "name": "Palace of Twilight",
+    "chest_unopened_img": "images/chest_closed.png",
+    "chest_opened_img": "images/chest_open.png",
+    "access_rules": [
+      "$canAccessPoT"
+    ],
+    "sections": [
+      {
+        "name": "Palace of Twilight Big Key Chest",
+        "access_rules": [
+          "Progressive_Sword_4, Double_Clawshot, Shadow_Crystal, Palace_of_Twilight_Small_Key:5"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Palace of Twilight Central First Room Chest",
+        "access_rules": [
+          "Progressive_Sword_4, Clawshot, Shadow_Crystal, Palace_of_Twilight_Small_Key:4"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Palace of Twilight Central Outdoor Chest",
+        "access_rules": [
+          "Progressive_Sword_4, Clawshot, Shadow_Crystal, Palace_of_Twilight_Small_Key:5"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Palace of Twilight Central Tower Chest",
+        "access_rules": [
+          "Progressive_Sword_4, Clawshot, Shadow_Crystal, Palace_of_Twilight_Small_Key:6"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Palace of Twilight Collect Both Sols",
+        "access_rules": [
+          "$canDefeatPhantomZant, Clawshot, Shadow_Crystal, Palace_of_Twilight_Small_Key:4"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Palace of Twilight East Wing First Room East Alcove",
+        "access_rules": [
+          "$canDefeatPhantomZant, Clawshot, Shadow_Crystal, Palace_of_Twilight_Small_Key:2, Progressive_Sword_4",
+          "$canDefeatPhantomZant, Clawshot, Shadow_Crystal, Palace_of_Twilight_Small_Key:4"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Palace of Twilight East Wing First Room North Small Chest",
+        "access_rules": [
+          "$canDefeatPhantomZant, Clawshot, Shadow_Crystal, Palace_of_Twilight_Small_Key:2"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Palace of Twilight East Wing First Room West Alcove",
+        "access_rules": [
+          "$canDefeatPhantomZant, Clawshot, Shadow_Crystal, Palace_of_Twilight_Small_Key:2, Progressive_Sword_4",
+          "$canDefeatPhantomZant, Clawshot, Shadow_Crystal, Palace_of_Twilight_Small_Key:4"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Palace of Twilight East Wing First Room Zant Head Chest",
+        "access_rules": [
+          "$canDefeatPhantomZant, Clawshot, Shadow_Crystal, Palace_of_Twilight_Small_Key:2"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Palace of Twilight East Wing Second Room Northeast Chest",
+        "access_rules": [
+          "$canDefeatPhantomZant, Double_Clawshot, Shadow_Crystal, Palace_of_Twilight_Small_Key:3"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Palace of Twilight East Wing Second Room Northwest Chest",
+        "access_rules": [
+          "$canDefeatPhantomZant, Clawshot, Shadow_Crystal, Palace_of_Twilight_Small_Key:3"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Palace of Twilight East Wing Second Room Southeast Chest",
+        "access_rules": [
+          "$canDefeatPhantomZant, Double_Clawshot, Shadow_Crystal, Palace_of_Twilight_Small_Key:3"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Palace of Twilight East Wing Second Room Southwest Chest",
+        "access_rules": [
+          "$canDefeatPhantomZant, Double_Clawshot, Shadow_Crystal, Palace_of_Twilight_Small_Key:3"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Palace of Twilight West Wing Chest Behind Wall of Darkness",
+        "access_rules": [
+          "Progressive_Sword_4, Clawshot"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Palace of Twilight West Wing First Room Central Chest",
+        "access_rules": [
+          "$canDefeatZantHead"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Palace of Twilight West Wing Second Room Central Chest",
+        "access_rules": [
+          "$canDefeatPhantomZant, Clawshot, Palace_of_Twilight_Small_Key:1"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Palace of Twilight West Wing Second Room Lower South Chest",
+        "access_rules": [
+          "$canDefeatPhantomZant, Clawshot, Palace_of_Twilight_Small_Key:1"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Palace of Twilight West Wing Second Room Southeast Chest",
+        "access_rules": [
+          "$canDefeatPhantomZant, Double_Clawshot, Palace_of_Twilight_Small_Key:1"
+        ],
+        "item_count": 1
+      },
+      { 
+        "name": "Palace of Twilight Zant Heart Container",
+        "access_rules": [
+          "Progressive_Sword_4, Shadow_Crystal, Palace_of_Twilight_Small_Key:7, Palace_of_Twilight_Big_Key, $canDefeatZant"
+        ],
+        "chest_unopened_img": "images/HC.png",
+        "chest_opened_img": "images/HC_grey.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Main",
+        "x": 180,
+        "y": 468
+      }
+    ]
+  },
+  {
+    "name": "Hyrule Castle",
+    "chest_unopened_img": "images/chest_closed.png",
+    "chest_opened_img": "images/chest_open.png",
+    "access_rules": [
+      "$canAccessLanayru, $canCompleteMDH, castle-vanilla, $canCompletePalaceofTwilight",
+      "$canAccessLanayru, $canCompleteMDH, castle-fused, Progressive_Fused_Shadow_3",
+      "$canAccessLanayru, $canCompleteMDH, castle-mirror, Progressive_Mirror_Shard_3",
+      "$canAccessLanayru, $canCompleteMDH, castle-all, Diababa,Fyrus,Morpheel,Stallord,Blizzeta,Armogohma,Argorok,Zant",
+      "$canAccessLanayru, $canCompleteMDH, castle-open"
+    ],
+    "sections": [
+      {
+        "name": "Hyrule Castle Big Key Chest",
+        "access_rules": [
+          "Hyrule_Castle_Small_Key:1, $canDefeatLizalfos, Double_Clawshot, $canDefeatDarknut, Boomerang, Lantern, $canDefeatDinalfos",
+          "Hyrule_Castle_Small_Key:1, $canDefeatLizalfos, Double_Clawshot, $canDefeatDarknut, Boomerang, $canKnockDownHCPainting"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Hyrule Castle East Wing Balcony Chest",
+        "access_rules": [
+          "Boomerang"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Hyrule Castle East Wing Boomerang Puzzle Chest",
+        "access_rules": [
+          "Boomerang"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Hyrule Castle Graveyard Grave Switch Room Back Left Chest",
+        "access_rules": [
+          "Shadow_Crystal, $canSmash"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Hyrule Castle Graveyard Grave Switch Room Front Left Chest",
+        "access_rules": [
+          "Shadow_Crystal, $canSmash"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Hyrule Castle Graveyard Grave Switch Room Right Chest",
+        "access_rules": [
+          "Shadow_Crystal, $canSmash"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Hyrule Castle Graveyard Grave Owl Statue Chest",
+        "access_rules": [
+          "Shadow_Crystal, $canSmash, Lantern, Progressive_Dominion_Rod_2"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Hyrule Castle King Bulblin Key",
+        "access_rules": [
+          "$canDefeatKingBulblinCastle"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Hyrule Castle Lantern Staircase Chest",
+        "access_rules": [
+          "Hyrule_Castle_Small_Key:1, $canDefeatLizalfos, Double_Clawshot, $canDefeatDarknut, Boomerang"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Hyrule Castle Main Hall Northeast Chest",
+        "access_rules": [
+          "Hyrule_Castle_Small_Key:1, $canDefeatLizalfos, Clawshot"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Hyrule Castle Main Hall Northwest Chest",
+        "access_rules": [
+          "$canKnockDownHCPainting, Hyrule_Castle_Small_Key:1, $canDefeatLizalfos, Double_Clawshot, Boomerang, Lantern"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Hyrule Castle Main Hall Southwest Chest",
+        "access_rules": [
+          "$canKnockDownHCPainting, Hyrule_Castle_Small_Key:1, $canDefeatLizalfos, Double_Clawshot, Boomerang, Lantern"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Hyrule Castle Southeast Balcony Tower Chest",
+        "access_rules": [
+          "Hyrule_Castle_Small_Key:1, $canDefeatLizalfos, Double_Clawshot, $canDefeatDarknut, Boomerang, Lantern, $canDefeatDinalfos, $canDefeatAeralfos",
+          "Hyrule_Castle_Small_Key:1, $canDefeatLizalfos, Double_Clawshot, $canDefeatDarknut, Boomerang, $canKnockDownHCPainting, $canDefeatAeralfos"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Hyrule Castle Treasure Room Eighth Small Chest",
+        "access_rules": [
+          "Hyrule_Castle_Small_Key:3, $canDefeatLizalfos, Double_Clawshot, $canDefeatDarknut, Boomerang, Lantern, $canDefeatDinalfos, Spinner",
+          "Hyrule_Castle_Small_Key:3, $canDefeatLizalfos, Double_Clawshot, $canDefeatDarknut, Boomerang, $canKnockDownHCPainting, Spinner"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Hyrule Castle Treasure Room Fifth Chest",
+        "access_rules": [
+          "Hyrule_Castle_Small_Key:3, $canDefeatLizalfos, Double_Clawshot, $canDefeatDarknut, Boomerang, Lantern, $canDefeatDinalfos, Spinner",
+          "Hyrule_Castle_Small_Key:3, $canDefeatLizalfos, Double_Clawshot, $canDefeatDarknut, Boomerang, $canKnockDownHCPainting, Spinner"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Hyrule Castle Treasure Room Fifth Small Chest",
+        "access_rules": [
+          "Hyrule_Castle_Small_Key:3, $canDefeatLizalfos, Double_Clawshot, $canDefeatDarknut, Boomerang, Lantern, $canDefeatDinalfos, Spinner",
+          "Hyrule_Castle_Small_Key:3, $canDefeatLizalfos, Double_Clawshot, $canDefeatDarknut, Boomerang, $canKnockDownHCPainting, Spinner"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Hyrule Castle Treasure Room First Chest",
+        "access_rules": [
+          "Hyrule_Castle_Small_Key:3, $canDefeatLizalfos, Double_Clawshot, $canDefeatDarknut, Boomerang, Lantern, $canDefeatDinalfos, Spinner",
+          "Hyrule_Castle_Small_Key:3, $canDefeatLizalfos, Double_Clawshot, $canDefeatDarknut, Boomerang, $canKnockDownHCPainting, Spinner"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Hyrule Castle Treasure Room First Small Chest",
+        "access_rules": [
+          "Hyrule_Castle_Small_Key:3, $canDefeatLizalfos, Double_Clawshot, $canDefeatDarknut, Boomerang, Lantern, $canDefeatDinalfos, Spinner",
+          "Hyrule_Castle_Small_Key:3, $canDefeatLizalfos, Double_Clawshot, $canDefeatDarknut, Boomerang, $canKnockDownHCPainting, Spinner"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Hyrule Castle Treasure Room Fourth Chest",
+        "access_rules": [
+          "Hyrule_Castle_Small_Key:3, $canDefeatLizalfos, Double_Clawshot, $canDefeatDarknut, Boomerang, Lantern, $canDefeatDinalfos, Spinner",
+          "Hyrule_Castle_Small_Key:3, $canDefeatLizalfos, Double_Clawshot, $canDefeatDarknut, Boomerang, $canKnockDownHCPainting, Spinner"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Hyrule Castle Treasure Room Fourth Small Chest",
+        "access_rules": [
+          "Hyrule_Castle_Small_Key:3, $canDefeatLizalfos, Double_Clawshot, $canDefeatDarknut, Boomerang, Lantern, $canDefeatDinalfos, Spinner",
+          "Hyrule_Castle_Small_Key:3, $canDefeatLizalfos, Double_Clawshot, $canDefeatDarknut, Boomerang, $canKnockDownHCPainting, Spinner"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Hyrule Castle Treasure Room Second Chest",
+        "access_rules": [
+          "Hyrule_Castle_Small_Key:3, $canDefeatLizalfos, Double_Clawshot, $canDefeatDarknut, Boomerang, Lantern, $canDefeatDinalfos, Spinner",
+          "Hyrule_Castle_Small_Key:3, $canDefeatLizalfos, Double_Clawshot, $canDefeatDarknut, Boomerang, $canKnockDownHCPainting, Spinner"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Hyrule Castle Treasure Room Second Small Chest",
+        "access_rules": [
+          "Hyrule_Castle_Small_Key:3, $canDefeatLizalfos, Double_Clawshot, $canDefeatDarknut, Boomerang, Lantern, $canDefeatDinalfos, Spinner",
+          "Hyrule_Castle_Small_Key:3, $canDefeatLizalfos, Double_Clawshot, $canDefeatDarknut, Boomerang, $canKnockDownHCPainting, Spinner"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Hyrule Castle Treasure Room Seventh Small Chest",
+        "access_rules": [
+          "Hyrule_Castle_Small_Key:3, $canDefeatLizalfos, Double_Clawshot, $canDefeatDarknut, Boomerang, Lantern, $canDefeatDinalfos, Spinner",
+          "Hyrule_Castle_Small_Key:3, $canDefeatLizalfos, Double_Clawshot, $canDefeatDarknut, Boomerang, $canKnockDownHCPainting, Spinner"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Hyrule Castle Treasure Room Sixth Small Chest",
+        "access_rules": [
+          "Hyrule_Castle_Small_Key:3, $canDefeatLizalfos, Double_Clawshot, $canDefeatDarknut, Boomerang, Lantern, $canDefeatDinalfos, Spinner",
+          "Hyrule_Castle_Small_Key:3, $canDefeatLizalfos, Double_Clawshot, $canDefeatDarknut, Boomerang, $canKnockDownHCPainting, Spinner"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Hyrule Castle Treasure Room Third Chest",
+        "access_rules": [
+          "Hyrule_Castle_Small_Key:3, $canDefeatLizalfos, Double_Clawshot, $canDefeatDarknut, Boomerang, Lantern, $canDefeatDinalfos, Spinner",
+          "Hyrule_Castle_Small_Key:3, $canDefeatLizalfos, Double_Clawshot, $canDefeatDarknut, Boomerang, $canKnockDownHCPainting, Spinner"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Hyrule Castle Treasure Room Third Small Chest",
+        "access_rules": [
+          "Hyrule_Castle_Small_Key:3, $canDefeatLizalfos, Double_Clawshot, $canDefeatDarknut, Boomerang, Lantern, $canDefeatDinalfos, Spinner",
+          "Hyrule_Castle_Small_Key:3, $canDefeatLizalfos, Double_Clawshot, $canDefeatDarknut, Boomerang, $canKnockDownHCPainting, Spinner"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Hyrule Castle West Courtyard Central Small Chest",
+        "access_rules": [
+          "$canDefeatBokoblin"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Hyrule Castle West Courtyard North Small Chest",
+        "access_rules": [
+          "$canDefeatBokoblin"
+        ],
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Main",
+        "x": 645.36,
+        "y": 457
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+﻿{
+  "name": "Twilight Princess Item Tracker",
+  "game_name": "Twilight Princess",
+  "package_version": "3.3",
+  "package_uid": "tptracker_phantom",
+  "author": "Lunar Soap and Chrono Triggered | Keanu | Phantom5800",
+  "variants": {
+    "map_tracker": {
+      "display_name": "Map Tracker"
+    }
+  }
+}

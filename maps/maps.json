@@ -1,0 +1,80 @@
+﻿[
+  {
+    "name": "Main",
+    "location_size": 20,
+    "location_border_thickness": 5,
+    "img": "images/overworld_map.png"
+  },
+  {
+    "name": "Poes",
+    "location_size": 20,
+    "location_border_thickness": 5,
+    "img": "images/overworld_map.png"
+  },
+  {
+    "name": "Golden Bugs",
+    "location_size": 20,
+    "location_border_thickness": 5,
+    "img": "images/overworld_map.png"
+  },
+  {
+    "name": "Forest",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/forestmap.png"
+  },
+  {
+    "name": "Goron Mines",
+    "location_size": 20,
+    "location_border_thickness": 5,
+    "img": "images/minesmap.png"
+  },
+  {
+    "name": "Lakebed Temple",
+    "location_size": 20,
+    "location_border_thickness": 5,
+    "img": "images/lakebedmap.png"
+  },
+  {
+    "name": "Arbiter's Grounds",
+    "location_size": 20,
+    "location_border_thickness": 5,
+    "img": "images/groundsmap.png"
+  },
+  {
+    "name": "Golden Bugs",
+    "location_size": 20,
+    "location_border_thickness": 5,
+    "img": "images/overworld_map.png"
+  },
+  {
+    "name": "Snowpeak",
+    "location_size": 20,
+    "location_border_thickness": 5,
+    "img": "images/ruinsmap.png"
+  },
+  {
+    "name": "Temple of Time",
+    "location_size": 20,
+    "location_border_thickness": 5,
+    "img": "images/timemap.png"
+  },
+  {
+    "name": "City in the Sky",
+    "location_size": 20,
+    "location_border_thickness": 5,
+    "img": "images/skymap.png"
+  },
+  {
+    "name": "Palace of Twilight",
+    "location_size": 20,
+    "location_border_thickness": 5,
+    "img": "images/palacemap.png"
+  },
+  {
+    "name": "Hyrule Castle",
+    "location_size": 20,
+    "location_border_thickness": 5,
+    "img": "images/castlemap.png"
+  }
+]

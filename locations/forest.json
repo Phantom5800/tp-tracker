@@ -1,0 +1,393 @@
+[
+  {
+    "name": "forest",
+    "chest_unopened_img": "images/chest_closed.png",
+    "chest_opened_img": "images/chest_open.png",
+    "access_rules": [
+      "$canCompletePrologue, Shadow_Crystal",
+      "$canCompletePrologue, Lantern"
+    ],
+    "children": [
+      {
+        "name": "1F",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "1F",
+            "color": "#18a50e",
+            "access_rules": [
+              ""
+            ],
+            "children": [
+              {
+                "name": "1F",
+                "children": [
+                  {
+                    "name": "1F",
+                    "sections": [
+                      {
+                        "name": "Entrance Vines Chest",
+                        "access_rules": [
+                          "$canDefeatWalltula"
+                        ],
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "Forest",
+                        "x": 306,
+                        "y": 491
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "1F",
+            "access_rules": [
+              "Ball_and_Chain",
+              "Slingshot",
+              "Progressive_Bow",
+              "Boomerang",
+              "Clawshot"
+            ],
+            "children": [
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Diababa Heart Container",
+                    "access_rules": [
+                      "Forest_Temple_Small_Key:4, Forest_Temple_Big_Key, Boomerang",
+                      "Forest_Temple_Big_Key, Boomerang, Clawshot"
+                    ],
+                    "item_count": 1,
+                    "chest_unopened_img": "images/HC.png",
+                    "chest_opened_img": "images/HC-grey.png"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Forest",
+                    "x": 385,
+                    "y": 51
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "West Tile Worm Chest Behind Stairs",
+                    "access_rules": [
+                      "Forest_Temple_Small_Key:2, Lantern, Boomerang",
+                      "Forest_Temple_Small_Key:2, $canSmash, Boomerang",
+                      "Clawshot, Lantern, Boomerang",
+                      "Clawshot, $canSmash, Boomerang"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Forest",
+                    "x": 97,
+                    "y": 369
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "West Tile Worm Room Vines Chest",
+                    "access_rules": [
+                      "Forest_Temple_Small_Key:2, Lantern",
+                      "Forest_Temple_Small_Key:2, $canSmash"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Forest",
+                    "x": 142,
+                    "y": 355
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Totem Pole Chest",
+                    "access_rules": [
+                      "Forest_Temple_Small_Key:2, Lantern",
+                      "Forest_Temple_Small_Key:2, $canSmash",
+                      "Clawshot, Lantern",
+                      "Clawshot, $canSmash"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Forest",
+                    "x": 185,
+                    "y": 356
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Big Baba Key",
+                    "access_rules": [
+                      "Clawshot, Lantern",
+                      "Clawshot, $canSmash",
+                      "Forest_Temple_Small_Key:2, Lantern, Progressive_Bow",
+                      "Forest_Temple_Small_Key:2, Lantern, Slingshot",
+                      "Forest_Temple_Small_Key:2, Lantern, Boomerang",
+                      "Forest_Temple_Small_Key:2, $canSmash"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Forest",
+                    "x": 221,
+                    "y": 436
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "West Deku Like Chest",
+                    "access_rules": [
+                      "Forest_Temple_Small_Key:2, Lantern",
+                      "Forest_Temple_Small_Key:2, $canSmash",
+                      "Clawshot, Lantern",
+                      "Clawshot, $canSmash"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Forest",
+                    "x": 248,
+                    "y": 399
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Central Chest Hanging From Web",
+                    "access_rules": [
+                      "Boomerang",
+                      "Clawshot",
+                      "Progressive_Bow",
+                      "Ball_and_Chain"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Forest",
+                    "x": 293,
+                    "y": 382
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Central Chest Behind Stairs",
+                    "access_rules": [
+                      "Boomerang"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Forest",
+                    "x": 293,
+                    "y": 362
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Central North Chest",
+                    "access_rules": [
+                      "Lantern"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Forest",
+                    "x": 301,
+                    "y": 360
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Gale Boomerang",
+                    "access_rules": [
+                      "Forest_Temple_Small_Key:4, Lantern",
+                      "Forest_Temple_Small_Key:2, Lantern, Boomerang",
+                      "Forest_Temple_Small_Key:2, $canSmash, Boomerang",
+                      "Clawshot, Lantern, Boomerang",
+                      "Clawshot, $canSmash, Boomerang"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Forest",
+                    "x": 293,
+                    "y": 209
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "North Deku Like Chest",
+                    "access_rules": [
+                      "Boomerang"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Forest",
+                    "x": 309,
+                    "y": 172
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Windless Bridge Chest",
+                    "access_rules": [
+                      ""
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Forest",
+                    "x": 377,
+                    "y": 250
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Big Key Chest",
+                    "access_rules": [
+                      "Boomerang"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Forest",
+                    "x": 411,
+                    "y": 396
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "East Water Cave Chest",
+                    "access_rules": [
+                      ""
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Forest",
+                    "x": 423,
+                    "y": 396
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Second Monkey Under Bridge Chest",
+                    "access_rules": [
+                      "Forest_Temple_Small_Key:4"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Forest",
+                    "x": 444,
+                    "y": 338
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "East Tile Worm Chest",
+                    "access_rules": [
+                      "Forest_Temple_Small_Key:4, Boomerang"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Forest",
+                    "x": 434,
+                    "y": 211
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

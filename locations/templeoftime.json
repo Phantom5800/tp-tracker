@@ -1,0 +1,432 @@
+[
+  {
+    "name": "Temple of time",
+    "chest_unopened_img": "images/chest_closed.png",
+    "chest_opened_img": "images/chest_open.png",
+    "access_rules": [
+      "sword3"
+    ],
+    "children": [
+      {
+        "name": "1F",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "1F",
+            "children": [
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Lobby Lantern Chest",
+                    "access_rules": [
+                      "lantern"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Temple of time",
+                    "x": 354,
+                    "y": 407
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Armogohma Heart Container",
+                    "access_rules": [
+                      "Temple_of_Time_Big_Key, brokedominion"
+                    ],
+                    "item_count": 1,
+                    "chest_unopened_img": "images/HC.png",
+                    "chest_opened_img": "images/HC-grey.png"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Temple of time",
+                    "x": 310,
+                    "y": 88
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "2F",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "2F",
+            "access_rules": [
+              "Temple_of_Time_Small_Key:1, lantern"
+            ],
+            "children": [
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "First Staircase Gohma Gate Chest",
+                    "access_rules": [
+                      ""
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Temple of time",
+                    "x": 899,
+                    "y": 539
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "3F",
+        "color": "#18a50e",
+        "access_rules": [
+          "Temple_of_Time_Small_Key:1, lantern"
+        ],
+        "children": [
+          {
+            "name": "3F",
+            "children": [
+              {
+                "name": "3F",
+                "sections": [
+                  {
+                    "name": "First Staircase Window Chest",
+                    "access_rules": [
+                      ""
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Temple of time",
+                    "x": 1590,
+                    "y": 470
+                  }
+                ]
+              },
+              {
+                "name": "3F",
+                "sections": [
+                  {
+                    "name": "First Staircase Armos Chest",
+                    "access_rules": [
+                      ""
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Temple of time",
+                    "x": 1610,
+                    "y": 457
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "5F",
+        "color": "#18a50e",
+        "access_rules": [
+          "Temple_of_Time_Small_Key:1, lantern, spinner"
+        ],
+        "children": [
+          {
+            "name": "5F",
+            "children": [
+              {
+                "name": "5F",
+                "sections": [
+                  {
+                    "name": "Armos Antechamber North Chest",
+                    "access_rules": [
+                      "Temple_of_Time_Small_Key:1"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Temple of time",
+                    "x": 309,
+                    "y": 1145
+                  }
+                ]
+              },
+              {
+                "name": "5F",
+                "sections": [
+                  {
+                    "name": "Armos Antechamber East Chest",
+                    "access_rules": [
+                      "Temple_of_Time_Small_Key:1"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Temple of time",
+                    "x": 278,
+                    "y": 1089
+                  }
+                ]
+              },
+              {
+                "name": "5F",
+                "sections": [
+                  {
+                    "name": "Armos Antechamber Statue Chest",
+                    "access_rules": [
+                      "Temple_of_Time_Small_Key:1, brokedominion"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Temple of time",
+                    "x": 342,
+                    "y": 1089
+                  }
+                ]
+              },
+              {
+                "name": "5F",
+                "sections": [
+                  {
+                    "name": "Moving Wall Beamos Room Chest",
+                    "access_rules": [
+                      "bow"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Temple of time",
+                    "x": 248,
+                    "y": 895
+                  }
+                ]
+              },
+              {
+                "name": "5F",
+                "sections": [
+                  {
+                    "name": "Moving Wall Dinalfos Room Chest",
+                    "access_rules": [
+                      "bow, brokedominion"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Temple of time",
+                    "x": 160,
+                    "y": 907
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "6F",
+        "color": "#18a50e",
+        "access_rules": [
+          "Temple_of_Time_Small_Key:1, lantern, bow, spinner"
+        ],
+        "children": [
+          {
+            "name": "6F",
+            "children": [
+              {
+                "name": "6F",
+                "sections": [
+                  {
+                    "name": "Scales Gohma Chest",
+                    "access_rules": [
+                      ""
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Temple of time",
+                    "x": 901,
+                    "y": 960
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "7F",
+        "color": "#18a50e",
+        "access_rules": [
+          "Temple_of_Time_Small_Key:1, lantern, bow, spinner"
+        ],
+        "children": [
+          {
+            "name": "7F",
+            "children": [
+              {
+                "name": "7F",
+                "sections": [
+                  {
+                    "name": "Gilloutine Chest",
+                    "access_rules": [
+                      ""
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Temple of time",
+                    "x": 1582,
+                    "y": 1138
+                  }
+                ]
+              },
+              {
+                "name": "7F",
+                "sections": [
+                  {
+                    "name": "Scales Upper Chest",
+                    "access_rules": [
+                      "cs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Temple of time",
+                    "x": 1512,
+                    "y": 1032
+                  }
+                ]
+              },
+              {
+                "name": "7F",
+                "sections": [
+                  {
+                    "name": "Big Key Chest",
+                    "access_rules": [
+                      "cs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Temple of time",
+                    "x": 1579,
+                    "y": 990
+                  }
+                ]
+              },
+              {
+                "name": "7F",
+                "sections": [
+                  {
+                    "name": "Floor Switch Puzzle Room Upper Chest",
+                    "access_rules": [
+                      "cs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Temple of time",
+                    "x": 1599,
+                    "y": 990
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "8F",
+        "color": "#18a50e",
+        "access_rules": [
+          "Temple_of_Time_Small_Key:1, lantern, bow, spinner"
+        ],
+        "children": [
+          {
+            "name": "8F",
+            "children": [
+              {
+                "name": "8F",
+                "sections": [
+                  {
+                    "name": "Chest Before Darknut",
+                    "access_rules": [
+                      ""
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Temple of time",
+                    "x": 2173,
+                    "y": 979
+                  }
+                ]
+              },
+              {
+                "name": "8F",
+                "sections": [
+                  {
+                    "name": "Darknut Chest",
+                    "access_rules": [
+                      "Temple_of_Time_Small_Key:3"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Temple of time",
+                    "x": 1998,
+                    "y": 1003
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

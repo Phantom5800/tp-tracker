@@ -1,0 +1,396 @@
+[
+  {
+    "name": "mines",
+    "chest_unopened_img": "images/chest_closed.png",
+    "chest_opened_img": "images/chest_open.png",
+    "access_rules": [
+      "$canAccessMines"
+    ],
+    "children": [
+      {
+        "name": "1F",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "1F",
+            "children": [
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Gor Amato Small Chest",
+                    "access_rules": [
+                      "Goron_Mines_Small_Key:1"
+                    ],
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Gor Amato Chest",
+                    "access_rules": [
+                      "Goron_Mines_Small_Key:1"
+                    ],
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Gor Amato Key Shard",
+                    "access_rules": [
+                      "Goron_Mines_Small_Key:1"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Goron Mines",
+                    "x": 101,
+                    "y": 308
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Magnet Maze Chest",
+                    "access_rules": [
+                      "Goron_Mines_Small_Key:1"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Goron Mines",
+                    "x": 243,
+                    "y": 288
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Main Magnet Room Bottom Chest",
+                    "access_rules": [
+                      ""
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Goron Mines",
+                    "x": 346,
+                    "y": 354
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Entrance Chest",
+                    "access_rules": [
+                      ""
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Goron Mines",
+                    "x": 327,
+                    "y": 463
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "2F",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "2F",
+            "children": [
+                        {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "Fyrus Heart Container",
+                    "access_rules": [
+                      "Goron_Mines_Small_Key:2,Goron_Mines_Big_Key:3, Progressive_Bow, Progressive_Sword_1"
+                    ],
+                    "item_count": 1,
+                    "chest_unopened_img": "images/HC.png",
+                    "chest_opened_img": "images/HC-grey.png"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Goron Mines",
+                    "x": 830,
+                    "y": 171
+                  }
+                ]
+              },
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "Outside Beamos Chest",
+                    "access_rules": [
+                      "Goron_Mines_Small_Key:2"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Goron Mines",
+                    "x": 890,
+                    "y": 96
+                  }
+                ]
+              },
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "Outside Underwater Chest",
+                    "access_rules": [
+                      "Goron_Mines_Small_Key:2, Progressive_Sword_1",
+                      "Goron_Mines_Small_Key:2, $has_explosives"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Goron Mines",
+                    "x": 936,
+                    "y": 57
+                  }
+                ]
+              },
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "Outside Clawshot Chest",
+                    "access_rules": [
+                      "Goron_Mines_Small_Key:2,Clawshot"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Goron Mines",
+                    "x": 937,
+                    "y": 38
+                  }
+                ]
+              },
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "After Crystal Switch Room Magnet Wall Chest",
+                    "access_rules": [
+                      "Goron_Mines_Small_Key:1"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Goron Mines",
+                    "x": 890,
+                    "y": 204
+                  }
+                ]
+              },
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "Crystal Switch Room Small Chest",
+                    "access_rules": [
+                      "Goron_Mines_Small_Key:1"
+                    ],
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Crystal Switch Room Underwater Chest",
+                    "access_rules": [
+                      "Goron_Mines_Small_Key:1"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Goron Mines",
+                    "x": 921,
+                    "y": 228
+                  }
+                ]
+              },
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "Coffre7",
+                    "access_rules": [
+                      ""
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Goron Mines",
+                    "x": 953,
+                    "y": 338
+                  }
+                ]
+              },
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "Main Magnet Room Top Chest",
+                    "access_rules": [
+                      "Goron_Mines_Small_Key:3, Progressive_Bow"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Goron Mines",
+                    "x": 953,
+                    "y": 338
+                  }
+                ]
+              },
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "Beamos Room Chest",
+                    "access_rules": [
+                      "Goron_Mines_Small_Key:3, Progressive_Bow"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Goron Mines",
+                    "x": 989,
+                    "y": 266
+                  }
+                ]
+              },
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "Gor Liggs Key Shard",
+                    "access_rules": [
+                      "Goron_Mines_Small_Key:3, Progressive_Bow"
+                    ],
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Gor Liggs Chest",
+                    "access_rules": [
+                      "Goron_Mines_Small_Key:3, Progressive_Bow"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Goron Mines",
+                    "x": 1074,
+                    "y": 266
+                  }
+                ]
+              },
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "Dangoro Chest",
+                    "access_rules": [
+                      "Goron_Mines_Small_Key:3"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Goron Mines",
+                    "x": 1009,
+                    "y": 219
+                  }
+                ]
+              },
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "Chest Before Dangoro",
+                    "access_rules": [
+                      "Goron_Mines_Small_Key:3"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Goron Mines",
+                    "x": 1034,
+                    "y": 90
+                  }
+                ]
+              },
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "Gor Ebizo Key Shard",
+                    "access_rules": [
+                      "Goron_Mines_Small_Key:3"
+                    ],
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Gor Ebizo Chest",
+                    "access_rules": [
+                      "Goron_Mines_Small_Key:3"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Goron Mines",
+                    "x": 1071,
+                    "y": 59
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }          
+    ]        
+  }
+]
+

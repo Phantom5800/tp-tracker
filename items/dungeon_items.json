@@ -1,0 +1,232 @@
+﻿[
+  {
+    "name": "Gale Boomerang",
+    "type": "toggle",
+    "img": "images/boomerang.png",
+    "codes": "Boomerang"
+  },
+  {
+    "name": "Bow",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/bow.png",
+        "codes": "Progressive_Bow"
+      },
+      {
+        "img": "images/Bow2.png",
+        "codes": "Progressive_Bow_2"
+      },
+      {
+        "img": "images/Bow3.png",
+        "codes": "Progressive_Bow_3"
+      }
+    ]
+  },
+  {
+    "name": "Clawshot",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/clawshot.png",
+        "codes": "Clawshot"
+      },
+      {
+        "img": "images/clawshot2.png",
+        "codes": "Double_Clawshot"
+      }
+    ]
+  },
+  {
+    "name": "Spinner",
+    "type": "toggle",
+    "img": "images/spinner.png",
+    "codes": "Spinner"
+  },
+  {
+    "name": "Ball and Chain",
+    "type": "toggle",
+    "img": "images/chainball.png",
+    "codes": "Ball_and_Chain"
+  },
+  {
+    "name": "Dominion Rod",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/brokendominion.png",
+        "codes": "Progressive_Dominion_Rod_1"
+      },
+      {
+        "img": "images/dominion.png",
+        "codes": "Progressive_Dominion_Rod_2"
+      }
+    ]
+  },
+  {
+    "name": "Shadows",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/shadow1.png",
+        "codes": "Progressive_Fused_Shadow_1"
+      },
+      {
+        "img": "images/shadow2.png",
+        "codes": "Progressive_Fused_Shadow_2"
+      },
+      {
+        "img": "images/shadow3.png",
+        "codes": "Progressive_Fused_Shadow_3"
+      }
+    ]
+  },
+  {
+    "name": "Shards",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/shard1.png",
+        "codes": "Progressive_Mirror_Shard_1"
+      },
+      {
+        "img": "images/shard2.png",
+        "codes": "Progressive_Mirror_Shard_2"
+      },
+      {
+        "img": "images/shard4.png",
+        "codes": "Progressive_Mirror_Shard_3"
+      }
+    ]
+  },
+  {
+    "name": "Forest Big Key",
+    "type": "toggle",
+    "img": "images/bosskey.png",
+    "codes": "Forest_Temple_Big_Key"
+  },
+  {
+    "name": "Forest Small Key",
+    "type": "consumable",
+    "img": "images/smallkey.png",
+    "codes": "Forest_Temple_Small_Key",
+    "max_quantity": 4
+  },
+  {
+    "name": "Mines Big Key",
+    "type": "consumable",
+    "img": "images/mineskey.png",
+    "codes": "Goron_Mines_Big_Key",
+    "max_quantity": 3
+  },
+  {
+    "name": "Mines Small Key",
+    "type": "consumable",
+    "img": "images/smallkey.png",
+    "codes": "Goron_Mines_Small_Key",
+    "max_quantity": 3
+  },
+  {
+    "name": "Lakebed Big Key",
+    "type": "toggle",
+    "img": "images/bosskey.png",
+    "codes": "Lakebed_Temple_Big_Key"
+  },
+  {
+    "name": "Lakebed Small Key",
+    "type": "consumable",
+    "img": "images/smallkey.png",
+    "codes": "Lakebed_Temple_Small_Key",
+    "max_quantity": 3
+  },
+  {
+    "name": "Arbiters Big Key",
+    "type": "toggle",
+    "img": "images/bosskey.png",
+    "codes": "Arbiters_Grounds_Big_Key"
+  },
+  {
+    "name": "Arbiters Small Key",
+    "type": "consumable",
+    "img": "images/smallkey.png",
+    "codes": "Arbiters_Grounds_Small_Key",
+    "max_quantity": 5
+  },
+  {
+    "name": "Snowpeak Bedroom Key",
+    "type": "toggle",
+    "img": "images/bedroomkey.png",
+    "codes": "Snowpeak_Ruins_Bedroom_Key"
+  },
+  {
+    "name": "Snowpeak Small Key",
+    "type": "consumable",
+    "img": "images/smallkey.png",
+    "codes": "Snowpeak_Ruins_Small_Key",
+    "max_quantity": 4
+  },
+  {
+    "name": "Ordon Pumpkin",
+    "type": "toggle",
+    "img": "images/pumpkin.png",
+    "codes": "Ordon_Pumpkin"
+  },
+  {
+    "name": "Ordon Goat Cheese",
+    "type": "toggle",
+    "img": "images/cheese.png",
+    "codes": "Ordon_Goat_Cheese"
+  },
+  {
+    "name": "Temple of Time Big Key",
+    "type": "toggle",
+    "img": "images/bosskey.png",
+    "codes": "Temple_of_Time_Big_Key"
+  },
+  {
+    "name": "Temple of Time Small Key",
+    "type": "consumable",
+    "img": "images/smallkey.png",
+    "codes": "Temple_of_Time_Small_Key",
+    "max_quantity": 3
+  },
+  {
+    "name": "City in The Sky Big Key",
+    "type": "toggle",
+    "img": "images/bosskey.png",
+    "codes": "City_in_The_Sky_Big_Key"
+  },
+  {
+    "name": "City in The Sky Small Key",
+    "type": "consumable",
+    "img": "images/smallkey.png",
+    "codes": "City_in_The_Sky_Small_Key",
+    "max_quantity": 1
+  },
+  {
+    "name": "Palace of Twilight Big Key",
+    "type": "toggle",
+    "img": "images/bosskey.png",
+    "codes": "Palace_of_Twilight_Big_Key"
+  },
+  {
+    "name": "Palace of Twilight Small Key",
+    "type": "consumable",
+    "img": "images/smallkey.png",
+    "codes": "Palace_of_Twilight_Small_Key",
+    "max_quantity": 7
+  },
+  {
+    "name": "Hyrule Castle Big Key",
+    "type": "toggle",
+    "img": "images/bosskey.png",
+    "codes": "Hyrule_Castle_Big_Key"
+  },
+  {
+    "name": "Hyrule Castle Small Key",
+    "type": "consumable",
+    "img": "images/smallkey.png",
+    "codes": "Hyrule_Castle_Small_Key",
+    "max_quantity": 3
+  }
+]

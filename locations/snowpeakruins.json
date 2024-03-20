@@ -1,0 +1,436 @@
+[
+  {
+    "name": "Snowpeak ruins",
+    "chest_unopened_img": "images/chest_closed.png",
+    "chest_opened_img": "images/chest_open.png",
+    "access_rules": [
+      "earring"
+    ],
+    "children": [
+      {
+        "name": "1F",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "1F",
+            "children": [
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Lobby West Armor Chest",
+                    "access_rules": [
+                      "Ball_and_Chain"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Snowpeak ruins",
+                    "x": 261,
+                    "y": 503
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Lobby East Armor Chest",
+                    "access_rules": [
+                      "Ball_and_Chain"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Snowpeak ruins",
+                    "x": 307,
+                    "y": 480
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Mansion Map",
+                    "access_rules": [
+                      ""
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Snowpeak ruins",
+                    "x": 296,
+                    "y": 316
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Broken Floor Chest",
+                    "access_rules": [
+                      "Ordon_Goat_Cheese, Ball_and_Chain"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Snowpeak ruins",
+                    "x": 174,
+                    "y": 374
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Wooden Beam Central Chest",
+                    "access_rules": [
+                      "Ball_and_Chain",
+                      "Ordon_Pumpkin, $has_explosives"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Snowpeak ruins",
+                    "x": 154,
+                    "y": 259
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Wooden Beam Northwest Chest",
+                    "access_rules": [
+                      "Ball_and_Chain",
+                      "Ordon_Pumpkin, $has_explosives"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Snowpeak ruins",
+                    "x": 178,
+                    "y": 281
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "West Cannon Room Central Chest",
+                    "access_rules": [
+                      "Ball_and_Chain"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Snowpeak ruins",
+                    "x": 131,
+                    "y": 127
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "West Cannon Room Corner Chest",
+                    "access_rules": [
+                      "Ball_and_Chain",
+                      "Ordon_Pumpkin, $has_explosives"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Snowpeak ruins",
+                    "x": 225,
+                    "y": 98
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "West Courtyard Buried Chest",
+                    "access_rules": [
+                      "Ball_and_Chain",
+                      "Ordon_Pumpkin"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Snowpeak ruins",
+                    "x": 239,
+                    "y": 188
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Courtyard Central Chest",
+                    "access_rules": [
+                      "Ball_and_Chain",
+                      "$has_explosives,Snowpeak_Ruins_Small_Key:2",
+                      "$has_explosives, Ordon_Goat_Cheese",
+                      "$has_explosives, Ordon_Pumpkin"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Snowpeak ruins",
+                    "x": 285,
+                    "y": 283
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "East Courtyard Chest",
+                    "access_rules": [
+                      ""
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Snowpeak ruins",
+                    "x": 318,
+                    "y": 275
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "East Courtyard Buried Chest",
+                    "access_rules": [
+                      ""
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Snowpeak ruins",
+                    "x": 325,
+                    "y": 196
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Ordon Pumpkin Chest",
+                    "access_rules": [
+                      "Snowpeak_Ruins_Small_Key:4"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Snowpeak ruins",
+                    "x": 437,
+                    "y": 174
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Chest After Darkhammer",
+                    "access_rules": [
+                      "Ball_and_Chain"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Snowpeak ruins",
+                    "x": 285,
+                    "y": 25
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Ball and Chain",
+                    "access_rules": [
+                      "Ball_and_Chain",
+                      "Ordon_Pumpkin, $has_explosives",
+                      "Ordon_Goat_Cheese, $has_explosives, Snowpeak_Ruins_Small_Key:2"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Snowpeak ruins",
+                    "x": 285,
+                    "y": 116
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "2F",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "2F",
+            "children": [
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "Lobby Chandelier Chest",
+                    "access_rules": [
+                      "Snowpeak_Ruins_Small_Key:3, Ordon_Goat_Cheese, Ball_and_Chain"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Snowpeak ruins",
+                    "x": 851,
+                    "y": 461
+                  }
+                ]
+              },
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "Wooden Beam Chandelier Chest",
+                    "access_rules": [
+                      "Ordon_Goat_Cheese, Ball_and_Chain,Snowpeak_Ruins_Small_Key:4"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Snowpeak ruins",
+                    "x": 723,
+                    "y": 213
+                  }
+                ]
+              },
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "Chapel Chest",
+                    "access_rules": [
+                      "Ordon_Goat_Cheese, Ball_and_Chain,Snowpeak_Ruins_Small_Key:4, $has_explosives"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Snowpeak ruins",
+                    "x": 722,
+                    "y": 71
+                  }
+                ]
+              },
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "Northeast Chandelier Chest",
+                    "access_rules": [
+                      "Ball_and_Chain, Snowpeak_Ruins_Small_Key:4; cs"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Snowpeak ruins",
+                    "x": 978,
+                    "y": 174
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "3F",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "1F",
+            "children": [
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Blizzeta Heart Container",
+                    "access_rules": [
+                      "Ordon_Goat_Cheese, Ball_and_Chain,Snowpeak_Ruins_Small_Key:4, $has_explosives, Snowpeak_Ruins_Bedroom_Key"
+                    ],
+                    "item_count": 1,
+                    "chest_unopened_img": "images/HC.png",
+                    "chest_opened_img": "images/HC-grey.png"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Snowpeak ruins",
+                    "x": 1417,
+                    "y": 122
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

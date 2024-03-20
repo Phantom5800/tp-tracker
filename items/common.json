@@ -1,0 +1,357 @@
+﻿[
+  {
+    "name": "Progressive Wallet",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/wallet.png",
+        "codes": "Progressive_Wallet_1"
+      },
+      {
+        "img": "images/bigwallet.png",
+        "codes": "Progressive_Wallet_2"
+      },
+      {
+        "img": "images/giantwallet.png",
+        "codes": "Progressive_Wallet_3"
+      }
+    ]
+  },
+  {
+    "name": "Bomb Bag",
+    "type": "consumable",
+    "img": "images/bombbag.png",
+    "codes": "Bomb_Bag",
+    "max_quantity": 3
+  },
+  {
+    "name": "Giant Bomb Bags",
+    "type": "toggle",
+    "img": "images/giantbombbag.png",
+    "codes": "Giant_Bomb_Bags"
+  },
+  {
+    "name": "Slingshot",
+    "type": "toggle",
+    "img": "images/slingshot.png",
+    "codes": "Slingshot"
+  },
+  {
+    "name": "Progressive Fishing Rod",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/rod.png",
+        "codes": "Progressive_Fishing_Rod_1"
+      },
+      {
+        "img": "images/earring.png",
+        "codes": "Progressive_Fishing_Rod_2"
+      }
+    ]
+  },
+  {
+    "name": "Foolish Item",
+    "img": "images/foolish.png",
+    "codes": "Foolish_Item",
+    "type": "consumable",
+    "max_quantity": 100
+  },
+  {
+    "name": "Auru's Memo",
+    "type": "toggle",
+    "img": "images/memo.png",
+    "codes": "Auru_Memo"
+  },
+  {
+    "name": "Ashei's Sketch",
+    "type": "toggle",
+    "img": "images/sketch.png",
+    "codes": "Ashei_Sketch"
+  },
+  {
+    "name": "Desert Key",
+    "type": "toggle",
+    "img": "images/desertkey.png",
+    "codes": "Gerudo_Desert_Small_Key, desertkey"
+  },
+  {
+    "name": "Gate Keys",
+    "type": "toggle",
+    "img": "images/gatekeys.png",
+    "codes": "Gate_Keys"
+  },
+  {
+    "name": "Faron Keys",
+    "type": "consumable",
+    "img": "images/forestkey.png",
+    "codes": "Faron_Woods_Small_Key, forestkey",
+    "max_quantity": 2
+  },
+  {
+    "name": "Youth's Scent",
+    "type": "toggle",
+    "img": "images/youth-scent.png",
+    "codes": "Youth_Scent"
+  },
+  {
+    "name": "Ilia Scent",
+    "type": "toggle",
+    "img": "images/ilia-scent.png",
+    "codes": "Ilia_Scent"
+  },
+  {
+    "name": "Poe Scent",
+    "type": "toggle",
+    "img": "images/poe-scent.png",
+    "codes": "Poe_Scent"
+  },
+  {
+    "name": "Reekfish Scent",
+    "type": "toggle",
+    "img": "images/reekfish-scent.png",
+    "codes": "Reekfish_Scent"
+  },
+  {
+    "name": "Medicine Scent",
+    "type": "toggle",
+    "img": "images/medicine-scent.png",
+    "codes": "Medicine_Scent"
+  },
+  {
+    "name": "Diababa",
+    "type": "toggle",
+    "img": "images/forest-1.png",
+    "codes": "Diababa"
+  },
+  {
+    "name": "Fyrus",
+    "type": "toggle",
+    "img": "images/mines-1.png",
+    "codes": "Fyrus"
+  },
+  {
+    "name": "Morpheel",
+    "type": "toggle",
+    "img": "images/lakebed-1.png",
+    "codes": "Morpheel"
+  },
+  {
+    "name": "Stallord",
+    "type": "toggle",
+    "img": "images/arbiters-1.png",
+    "codes": "Stallord"
+  },
+  {
+    "name": "Blizzeta",
+    "type": "toggle",
+    "img": "images/snowpeak-1.png",
+    "codes": "Blizzeta"
+  },
+  {
+    "name": "Armogohma",
+    "type": "toggle",
+    "img": "images/time-1.png",
+    "codes": "Armogohma"
+  },
+  {
+    "name": "Argorok",
+    "type": "toggle",
+    "img": "images/city-1.png",
+    "codes": "Argorok"
+  },
+  {
+    "name": "Zant",
+    "type": "toggle",
+    "img": "images/palace-1.png",
+    "codes": "Zant"
+  },
+  {
+    "name": "Ganondorf",
+    "type": "toggle",
+    "img": "images/hyrule-1.png",
+    "codes": "Ganondorf"
+  },
+
+  {
+    "name": "Renados Letter",
+    "type": "toggle",
+    "img": "images/letter.png",
+    "codes": "Renado_Letter"
+  },
+  {
+    "name": "Invoice",
+    "type": "toggle",
+    "img": "images/invoice.png",
+    "codes": "Invoice"
+  },
+  {
+    "name": "Wooden Statue",
+    "type": "toggle",
+    "img": "images/statue.png",
+    "codes": "Wooden_Statue"
+  },
+  {
+    "name": "Ilias Charm",
+    "type": "toggle",
+    "img": "images/ilia-charm.png",
+    "codes": "Ilia_Charm"
+  },
+  {
+    "name": "Horse Call",
+    "type": "toggle",
+    "img": "images/horse-call.png",
+    "codes": "Horse_Call"
+  },
+ 
+  {
+    "name": "Vessel of Light",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/vessel.png",
+        "img_mods": "@disabled",
+        "codes": "Vessel_of_Light"
+      },
+      {
+        "img": "images/Vessel1.png",
+        "codes": "Faron_Vessel_of_Light"
+      },
+      {
+        "img": "images/Vessel2.png",
+        "codes": "Eldin_Vessel_of_Light"
+      },
+      {
+        "img": "images/Vessel3.png",
+        "codes": "Lanayru_Vessel_of_Light"
+      }
+    ]
+  },
+  {
+    "name": "Bottle",
+    "type": "consumable",
+    "img": "images/bottle-empty.png",
+    "codes": "Bottle",
+    "max_quantity": 4
+  },
+  {
+    "name": "Skybook",
+    "type": "consumable",
+    "img": "images/skybook.png",
+    "codes": "Skybook",
+    "max_quantity": 7
+  },
+  {
+    "name": "Hawkeye",
+    "type": "toggle",
+    "img": "images/hawkeye.png",
+    "codes": "Hawkeye"
+  },
+  {
+    "name": "Lantern",
+    "type": "toggle",
+    "img": "images/lantern.png",
+    "codes": "Lantern"
+  },
+  {
+    "name": "Golden Bugs",
+    "type": "consumable",
+    "img": "images/m-dragonfly.png",
+    "codes": "Golden_Bugs",
+    "max_quantity": 24
+  },
+  {
+    "name": "Hidden Skills",
+    "type": "consumable",
+    "img": "images/hiddenskill.png",
+    "max_quantity": 7,
+    "codes": "Progressive_Hidden_Skill"
+  },
+  {
+    "name": "Hero's Tunic",
+    "type": "static",
+    "img": "images/herotunic.png",
+    "codes": "Hero_Tunic"
+  },
+  {
+    "name": "Magic Armor",
+    "type": "toggle",
+    "img": "images/magic-armor.png",
+    "codes": "Magic_Armor"
+  },
+  {
+    "name": "Zora Armor",
+    "type": "toggle",
+    "img": "images/zora-armor.png",
+    "codes": "Zora_Armor"
+  },
+  {
+    "name": "Iron Boots",
+    "type": "toggle",
+    "img": "images/iron-boots.png",
+    "codes": "Iron_Boots"
+  },
+  {
+    "name": "Heart Pieces",
+    "type": "consumable",
+    "img": "images/HP.png",
+    "codes": "Piece_of_Heart",
+    "max_quantity": 45
+  },
+  {
+    "name": "Heart Container",
+    "type": "consumable",
+    "img": "images/HC.png",
+    "codes": "Heart_Container",
+    "max_quantity": 8
+  },
+  {
+    "name": "Progressive Sword",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/wooden-sword.png",
+        "codes": "Progressive_Sword_1"
+      },
+      {
+        "img": "images/ordon-sword.png",
+        "codes": "Progressive_Sword_2"
+      },
+      {
+        "img": "images/master-sword.png",
+        "codes": "Progressive_Sword_3"
+      },
+      {
+        "img": "images/master-sword-light.png",
+        "codes": "Progressive_Sword_4"
+      }
+    ]
+  },
+  {
+    "name": "Shadow Crystal",
+    "type": "toggle",
+    "img": "images/shad-crystal.png",
+    "codes": "Shadow_Crystal"
+  },
+  {
+    "name": "Ordon Shield",
+    "type": "toggle",
+    "img": "images/ordon-shield.png",
+    "codes": "Ordon_Shield"
+  },
+  {
+    "name": "Hylian Shield",
+    "type": "toggle",
+    "img": "images/hylian-shield.png",
+    "codes": "Hylian_Shield"
+  },
+  {
+    "name": "Poe Souls",
+    "type": "consumable",
+    "img": "images/soul.png",
+    "codes": "Poe_Soul",
+    "max_quantity": 60
+  }
+]

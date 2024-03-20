@@ -1,0 +1,64 @@
+{
+  "tracker_capture_item": {
+    "type": "container",
+    "content": {
+      "type": "itemgrid",
+      "h_alignment": "center",
+      "item_margin": "0,0,10,5",
+      "rows": [
+        [
+          "Progressive_Fishing_Rod_1",
+          "Slingshot",
+          "Lantern",
+          "Boomerang",
+          "Iron_Boots",
+          "Progressive_Bow",
+          "Bomb_Bag"
+        ],
+        [
+          "Water_Bombs",
+          "Hawkeye",
+          "Clawshot",
+          "Spinner",
+          "Ball_and_Chain",
+          "Progressive_Dominion_Rod_1",
+          "Bottle"
+        ],
+        [
+          "Auru_Memo",
+          "Ashei_Sketch",
+          "Renado_Letter",
+          "Invoice",
+          "Wooden_Statue",
+          "Ilia_Charm",
+          "Horse_Call"
+        ],
+        [
+          "Skybook",
+          "Progressive_Hidden_Skill",
+          "Shadow_Crystal",
+          "Progressive_Sword_1",
+          "Shield1",
+          "Hero_Tunic",
+          "Wallet"
+        ],
+        [
+          "Golden_Bugs",
+          "Poe_Soul",
+          "Zora_Armor",
+          "Magic_Armor",
+          "Piece_of_Heart",
+          "Heart_Container",
+          "Foolish_Item"
+        ],
+        [
+          "Youth_Scent",
+          "Ilia_Scent",
+          "Poe_Scent",
+          "Reekfish_Scent",
+          "Medicine_Scent"
+        ]
+      ]
+    }
+  }
+}

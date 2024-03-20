@@ -1,0 +1,332 @@
+{
+  "dungeon_grid_tall": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "h_alignment": "center",
+        "item_margin": "0,0,10,5",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "canvas",
+            "width": 60,
+            "height": 90,
+            "margin": "5,5",
+            "content": [
+              {
+                "type": "item",
+                "item": "Diababa",
+                "canvas_depth": 1,
+                "width": 60,
+                "height": 30
+              },
+              {
+                "type": "item",
+                "item": "Forest_Temple_Small_Key",
+                "canvas_depth": 1,
+                "canvas_left": 0,
+                "canvas_top": 30,
+                "width": 30,
+                "height": 30
+              },
+              {
+                "type": "item",
+                "item": "Forest_Temple_Big_Key",
+                "canvas_depth": 1,
+                "canvas_left": 30,
+                "canvas_top": 30,
+                "width": 30,
+                "height": 30
+              }
+            ]
+          },
+          {
+            "type": "canvas",
+            "width": 60,
+            "height": 90,
+            "margin": "5,5",
+            "content": [
+              {
+                "type": "item",
+                "item": "Fyrus",
+                "canvas_depth": 1,
+                "width": 60,
+                "height": 30
+              },
+              {
+                "type": "item",
+                "item": "Goron_Mines_Small_Key",
+                "canvas_depth": 1,
+                "canvas_left": 0,
+                "canvas_top": 30,
+                "width": 30,
+                "height": 30
+              },
+              {
+                "type": "item",
+                "item": "Goron_Mines_Big_Key",
+                "canvas_depth": 1,
+                "canvas_left": 30,
+                "canvas_top": 30,
+                "width": 30,
+                "height": 30
+              }
+            ]
+          },
+          {
+            "type": "canvas",
+            "width": 60,
+            "height": 90,
+            "margin": "5,5",
+            "content": [
+              {
+                "type": "item",
+                "item": "Morpheel",
+                "canvas_depth": 1,
+                "width": 60,
+                "height": 30
+              },
+              {
+                "type": "item",
+                "item": "Lakebed_Temple_Small_Key",
+                "canvas_depth": 1,
+                "canvas_left": 0,
+                "canvas_top": 30,
+                "width": 30,
+                "height": 30
+              },
+              {
+                "type": "item",
+                "item": "Lakebed_Temple_Big_Key",
+                "canvas_depth": 1,
+                "canvas_left": 30,
+                "canvas_top": 30,
+                "width": 30,
+                "height": 30
+              }
+            ]
+          },
+          {
+            "type": "canvas",
+            "width": 60,
+            "height": 90,
+            "margin": "5,5",
+            "content": [
+              {
+                "type": "item",
+                "item": "Stallord",
+                "canvas_depth": 1,
+                "width": 60,
+                "height": 30
+              },
+              {
+                "type": "item",
+                "item": "Arbiters_Grounds_Small_Key",
+                "canvas_depth": 1,
+                "canvas_left": 0,
+                "canvas_top": 30,
+                "width": 30,
+                "height": 30
+              },
+              {
+                "type": "item",
+                "item": "Arbiters_Grounds_Big_Key",
+                "canvas_depth": 1,
+                "canvas_left": 30,
+                "canvas_top": 30,
+                "width": 30,
+                "height": 30
+              }
+            ]
+          },
+          {
+            "type": "canvas",
+            "width": 60,
+            "height": 90,
+            "margin": "5,5",
+            "content": [
+              {
+                "type": "item",
+                "item": "Ordon_Pumpkin",
+                "canvas_depth": 2,
+                "canvas_left": 0,
+                "canvas_top": 60,
+                "width": 25,
+                "height": 25
+              },
+              {
+                "type": "item",
+                "item": "Ordon_Goat_Cheese",
+                "canvas_depth": 2,
+                "canvas_left": 30,
+                "canvas_top": 60,
+                "width": 25,
+                "height": 25
+              },
+              {
+                "type": "item",
+                "item": "Blizzeta",
+                "canvas_depth": 1,
+                "width": 60,
+                "height": 30
+              },
+              {
+                "type": "item",
+                "item": "Snowpeak_Ruins_Small_Key",
+                "canvas_depth": 1,
+                "canvas_left": 0,
+                "canvas_top": 30,
+                "width": 30,
+                "height": 30
+              },
+              {
+                "type": "item",
+                "item": "Snowpeak_Ruins_Bedroom_Key",
+                "canvas_depth": 1,
+                "canvas_left": 30,
+                "canvas_top": 30,
+                "width": 30,
+                "height": 30
+              }
+            ]
+          },
+          {
+            "type": "canvas",
+            "width": 60,
+            "height": 90,
+            "margin": "5,5",
+            "content": [
+              {
+                "type": "item",
+                "item": "Armogohma",
+                "canvas_depth": 1,
+                "width": 60,
+                "height": 30
+              },
+              {
+                "type": "item",
+                "item": "Temple_of_Time_Small_Key",
+                "canvas_depth": 1,
+                "canvas_left": 0,
+                "canvas_top": 30,
+                "width": 30,
+                "height": 30
+              },
+              {
+                "type": "item",
+                "item": "Temple_of_Time_Big_Key",
+                "canvas_depth": 1,
+                "canvas_left": 30,
+                "canvas_top": 30,
+                "width": 30,
+                "height": 30
+              }
+            ]
+          },
+          {
+            "type": "canvas",
+            "width": 60,
+            "height": 90,
+            "margin": "5,5",
+            "content": [
+              {
+                "type": "item",
+                "item": "Argorok",
+                "canvas_depth": 1,
+                "width": 60,
+                "height": 30
+              },
+              {
+                "type": "item",
+                "item": "City_in_The_Sky_Small_Key",
+                "canvas_depth": 1,
+                "canvas_left": 0,
+                "canvas_top": 30,
+                "width": 30,
+                "height": 30
+              },
+              {
+                "type": "item",
+                "item": "City_in_The_Sky_Big_Key",
+                "canvas_depth": 1,
+                "canvas_left": 30,
+                "canvas_top": 30,
+                "width": 30,
+                "height": 30
+              }
+            ]
+          },
+          {
+            "type": "canvas",
+            "width": 60,
+            "height": 90,
+            "margin": "5,5",
+            "content": [
+              {
+                "type": "item",
+                "item": "Zant",
+                "canvas_depth": 1,
+                "width": 60,
+                "height": 30
+              },
+              {
+                "type": "item",
+                "item": "Palace_of_Twilight_Small_Key",
+                "canvas_depth": 1,
+                "canvas_left": 0,
+                "canvas_top": 30,
+                "width": 30,
+                "height": 30
+              },
+              {
+                "type": "item",
+                "item": "Palace_of_Twilight_Big_Key",
+                "canvas_depth": 1,
+                "canvas_left": 30,
+                "canvas_top": 30,
+                "width": 30,
+                "height": 30
+              }
+            ]
+          },
+          {
+            "type": "canvas",
+            "width": 60,
+            "height": 90,
+            "margin": "5,5",
+            "content": [
+              {
+                "type": "item",
+                "item": "Ganondorf",
+                "canvas_depth": 1,
+                "width": 60,
+                "height": 30
+              },
+              {
+                "type": "item",
+                "item": "Hyrule_Castle_Small_Key",
+                "canvas_depth": 1,
+                "canvas_left": 0,
+                "canvas_top": 30,
+                "width": 30,
+                "height": 30
+              },
+              {
+                "type": "item",
+                "item": "Hyrule_Castle_Big_Key",
+                "canvas_depth": 1,
+                "canvas_left": 30,
+                "canvas_top": 30,
+                "width": 30,
+                "height": 30
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

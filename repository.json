@@ -1,0 +1,41 @@
+{
+  "name": "Lunar Soap Item Trackers",
+  "packages": [
+    {
+      "name": "Twilight Princess Item Tracker",
+      "author": "Lunar Soap & Chrono Triggered | Keanu | Phantom5800",
+      "game_name": "Twilight Princess",
+      "flags": [
+        "chathud"
+      ],
+      "version": "3.2",
+      "uid": "tptracker_lunar",
+      "link": "https://lunarsoap5.github.io/tptracker/tptracker_lunar.zip",
+      "documentation_url": "https://github.com/lunarsoap5/tptracker/blob/master/README.md",
+      "variants": [
+        {
+          "name": "SD Version",
+          "flags": 
+          [
+            "chathud"
+          ]
+        },
+        {
+          "name": "HD Version",
+          "flags": 
+          [
+            "chathud"
+          ]
+        },
+        {
+          "name": "Map Tracker",
+          "flags": [
+            "map",
+            "pins",
+            "chathud"
+          ]
+        }
+      ]
+    }
+  ]
+}

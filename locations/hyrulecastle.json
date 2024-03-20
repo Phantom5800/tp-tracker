@@ -1,0 +1,334 @@
+[
+  {
+    "name": "Hyrule castle",
+    "chest_unopened_img": "images/chest_closed.png",
+    "chest_opened_img": "images/chest_open.png",
+    "access_rules": [
+      "shad1, shad2, shad3"
+    ],
+    "children": [
+      {
+        "name": "2F",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "1F",
+            "children": [
+                        {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "West Courtyard Central Small Chest",
+                    "access_rules": [
+                      ""
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Hyrule castle",
+                    "x": 182,
+                    "y": 281
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "King Bulblin Key",
+                    "access_rules": [
+                      ""
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Hyrule castle",
+                    "x": 168,
+                    "y": 175
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "West Courtyard North Small Chest",
+                    "access_rules": [
+                      ""
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Hyrule castle",
+                    "x": 185,
+                    "y": 144
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "East Wing Boomerang Puzzle Chest",
+                    "access_rules": [
+                      "boomerang"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Hyrule castle",
+                    "x": 320,
+                    "y": 157
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Graveyard Owl Statue Chest",
+                    "access_rules": [
+                      "$can_smash, lantern, dominion"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Hyrule castle",
+                    "x": 286,
+                    "y": 160
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "Graveyard Grave Switch Room",
+                    "access_rules": [
+                      "$can_smash"
+                    ],
+                    "item_count": 3
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Hyrule castle",
+                    "x": 365,
+                    "y": 72
+                  }
+                ]
+              }              
+            ]
+          }
+        ]
+      },
+      {
+        "name": "2F",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "2F",
+            "children": [
+                        {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "Big Key Chest",
+                    "access_rules": [
+                      "Hyrule_Castle_Small_Key:1, Double_Clawshot, boomerang"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Hyrule castle",
+                    "x": 718,
+                    "y": 433
+                  }
+                ]
+              },              
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "Main Hall Southwest Chest",
+                    "access_rules": [
+                      "Hyrule_Castle_Small_Key:1, boomerang, Double_Clawshot, sword1",
+                      "Hyrule_Castle_Small_Key:1, boomerang, Double_Clawshot, Ball_and_Chain, $has_explosives"                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Hyrule castle",
+                    "x": 845,
+                    "y": 309
+                  }
+                ]
+              },
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "Main Hall Northwest Chest",
+                    "access_rules": [
+                      "Hyrule_Castle_Small_Key:1, boomerang, Double_Clawshot, sword1",
+                      "Hyrule_Castle_Small_Key:1, boomerang, Double_Clawshot, Ball_and_Chain, $has_explosives"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Hyrule castle",
+                    "x": 831,
+                    "y": 267
+                  }
+                ]
+              },
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "Lantern Staircase Chest",
+                    "access_rules": [
+                      "Hyrule_Castle_Small_Key:1, Double_Clawshot, boomerang, sword1"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Hyrule castle",
+                    "x": 869,
+                    "y": 195
+                  }
+                ]
+              },
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "Main Hall Northeast Chest",
+                    "access_rules": [
+                      "Hyrule_Castle_Small_Key:1, Clawshot"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Hyrule castle",
+                    "x": 908,
+                    "y": 267
+                  }
+                ]
+              },
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "East Wing Balcony Chest",
+                    "access_rules": [
+                      "boomerang"
+                    ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Hyrule castle",
+                    "x": 957,
+                    "y": 342
+                  }
+                ]
+              },
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "Southeast Balcony Tower Chest",
+                    "access_rules": [
+                      "Hyrule_Castle_Small_Key:1, Double_Clawshot, boomerang"
+                 ],
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Hyrule castle",
+                    "x": 1021,
+                    "y": 434
+                  }
+                ]
+              }              
+            ]
+          }
+        ]
+      },
+      {
+        "name": "4F",
+        "color": "#18a50e",
+        "children": [
+          {
+            "name": "4F",
+            "children": [
+                        {
+                "name": "4F",
+                "sections": [
+                  {
+                    "name": "Treasure Room",
+                    "access_rules": [
+                      "Hyrule_Castle_Small_Key:3, Double_Clawshot, boomerang, spinner"
+                    ],
+                    "item_count": 13
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Hyrule castle",
+                    "x": 920,
+                    "y": 901
+                  }
+                ]
+              },
+              {
+                "name": "4F",
+                "sections": [
+                  {
+                    "name": "Beat the game",
+                    "access_rules": [
+                      "Hyrule_Castle_Small_Key:2, Double_Clawshot, boomerang, spinner, Hyrule_Castle_Big_Key, sword3, skills:1"
+                    ],
+                    "item_count": 1,
+                    "chest_unopened_img": "images/HC.png",
+                    "chest_opened_img": "images/HC-grey.png"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Hyrule castle",
+                    "x": 870,
+                    "y": 957
+                  }
+                ]
+              }           
+            ]
+          }
+        ]
+      }           
+    ]        
+  }
+]
+

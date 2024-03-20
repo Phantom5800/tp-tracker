@@ -1,0 +1,312 @@
+[
+  {
+    "name": "Faron Escape",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/FaronEscapeOff.png",
+        "codes": "skip-faron-off"
+      },
+      {
+        "img": "images/FaronEscapeOn.png",
+        "codes": "skip-faron-on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Skip MDH",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/MDHSkipOff.png",
+        "codes": "skip-mdh-off"
+      },
+      {
+        "img": "images/MDHSkipOn.png",
+        "codes": "skip-mdh-on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Skip Prologue",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/SkipIntroOff.png",
+        "codes": "skip-prologue-off"
+      },
+      {
+        "img": "images/SkipIntroOn.png",
+        "codes": "skip-prologue-on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Early CiTS",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/city-closed.png",
+        "codes": "early-city-off"
+      },
+      {
+        "img": "images/city-open.png",
+        "codes": "early-city-on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Mines Settings",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 2,
+    "stages": [
+      {
+        "img": "images/mines-closed.png",
+        "codes": "early-mines-off"
+      },
+      {
+        "img": "images/mines-no-wrestle.png",
+        "codes": "early-mines-no-wrestle",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/mines-open.png",
+        "codes": "early-mines-open",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Hyrule Castle Logic",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/castle-vanilla.png",
+        "codes": "castle-vanilla"
+      },
+      {
+        "img": "images/castle-fused.png",
+        "codes": "castle-fused",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/castle-mirror.png",
+        "codes": "castle-mirror",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/castle-all.png",
+        "codes": "castle-ad",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/castle-open.png",
+        "codes": "castle-open",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Escort Skip",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/EscortSkipOff.png",
+        "codes": "EscortSkipOff"
+      },
+      {
+        "img": "images/EscortSkipOn.png",
+        "codes": "EscortSkip",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Early Lakebed",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/lakebed-closed.png",
+        "codes": "early-lakebed-off"
+      },
+      {
+        "img": "images/lakebed-open.png",
+        "codes": "early-lakebed-on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Early Arbiters",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/arbiters-closed.png",
+        "codes": "early-arbiters-off"
+      },
+      {
+        "img": "images/arbiters-open.png",
+        "codes": "early-arbiters-on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Early Snowpeak",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/snowpeak-closed.png",
+        "codes": "early-snowpeak-off"
+      },
+      {
+        "img": "images/snowpeak-open.png",
+        "codes": "early-snowpeak-on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Early ToT",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 2,
+    "stages": [
+      {
+        "img": "images/time-closed.png",
+        "codes": "early-tot-off"
+      },
+      {
+        "img": "images/time-grove.png",
+        "codes": "early-tot-grove",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/time-open.png",
+        "codes": "early-tot-open",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Wallet Increase",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/wallet-off.png",
+        "codes": "increase-wallet-off"
+      },
+      {
+        "img": "images/wallet-on.png",
+        "codes": "increase-wallet",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Palace Requirements",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 2,
+    "stages": [
+      {
+        "img": "images/palace-vanilla.png",
+        "codes": "palace-vanilla"
+      },
+      {
+        "img": "images/palace-fused.png",
+        "codes": "palace-fused",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/palace-mirror.png",
+        "codes": "palace-mirror",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/palace-open.png",
+        "codes": "palace-open",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Small Keysy",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/smallkey.png",
+    "codes": "small-keysy-enabled"
+  },
+  {
+    "name": "Boss Keysy",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/bosskey.png",
+    "codes": "boss-keysy-enabled"
+  },
+  {
+    "name": "Golden Bugs",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/Golden_Bug.png",
+    "codes": "golden-bugs-enabled"
+  },
+  {
+    "name": "Agitha Checks",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/m-dragonfly.png",
+    "codes": "agitha-enabled"
+  },
+  {
+    "name": "Poe Rewards",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/soul.png",
+    "codes": "jovani-enabled"
+  },
+  {
+    "name": "Howling Stone Wolves",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/GWolf.png",
+    "codes": "howling-stones-enabled"
+  }
+]
