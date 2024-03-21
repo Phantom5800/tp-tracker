@@ -1452,7 +1452,7 @@ function canFreeAllMonkeys()
                 and has("Boomerang")
                 and canDefeatBokoblin()
                 and (
-                    has("Forest_Temple_Small_Key",4)
+                    has("Forest_Temple_Small_Key",4) or has("small-keysy-enabled")
                 )
             )
             then
