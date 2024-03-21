@@ -12,6 +12,7 @@
         "name": "Forest Temple Big Baba Key",
         "access_rules": [
           "$canBurnWebs, Forest_Temple_Small_Key:2, $canDefeatBokoblin, $canDefeatBigBaba, $canDefeatWalltula, $canBreakMonkeyCage",
+          "$canBurnWebs, small-keysy-enabled, $canDefeatBokoblin, $canDefeatBigBaba, $canDefeatWalltula, $canBreakMonkeyCage",
           "$canBurnWebs, Clawshot, $canDefeatBigBaba, $canDefeatWalltula, $canBreakMonkeyCage, $canDefeatBokoblin"
         ],
         "item_count": 1
@@ -49,7 +50,9 @@
         "name": "Forest Temple Diababa Heart Container",
         "access_rules": [
           "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, Boomerang, Forest_Temple_Big_Key, $canFreeAllMonkeys, $canDefeatDiababa",
-          "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, Boomerang, Forest_Temple_Big_Key, Clawshot, $canDefeatDiababa"
+          "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, Boomerang, Forest_Temple_Big_Key, Clawshot, $canDefeatDiababa",
+          "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, Boomerang, boss-keysy-enabled, $canFreeAllMonkeys, $canDefeatDiababa",
+          "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, Boomerang, boss-keysy-enabled, Clawshot, $canDefeatDiababa"
         ],
         "chest_unopened_img": "images/HC.png",
         "chest_opened_img": "images/HC-grey.png",
@@ -59,14 +62,17 @@
         "name": "Forest Temple Dungeon Reward",
         "access_rules": [
           "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, Boomerang, Forest_Temple_Big_Key, $canFreeAllMonkeys, $canDefeatDiababa",
-          "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, Boomerang, Forest_Temple_Big_Key, Clawshot, $canDefeatDiababa"
+          "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, Boomerang, Forest_Temple_Big_Key, Clawshot, $canDefeatDiababa",
+          "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, Boomerang, boss-keysy-enabled, $canFreeAllMonkeys, $canDefeatDiababa",
+          "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, Boomerang, boss-keysy-enabled, Clawshot, $canDefeatDiababa"
         ],
         "item_count": 1
       },
       {
         "name": "Forest Temple East Tile Worm Chest",
         "access_rules": [
-          "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, Boomerang, Forest_Temple_Small_Key:4"
+          "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, Boomerang, Forest_Temple_Small_Key:4",
+          "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, Boomerang, small-keysy-enabled"
         ],
         "item_count": 1
       },
@@ -89,6 +95,8 @@
         "access_rules": [
           "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, Lantern, Forest_Temple_Small_Key:4, $canDefeatOok",
           "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, $canBurnWebs, Forest_Temple_Small_Key:4, Boomerang, $canDefeatOok",
+          "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, Lantern, small-keysy-enabled, $canDefeatOok",
+          "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, $canBurnWebs, small-keysy-enabled, Boomerang, $canDefeatOok",
           "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, Clawshot, Boomerang, $canDefeatOok, $canBurnWebs"
 
         ],
@@ -107,7 +115,8 @@
         "name": "Forest Temple Second Monkey Under Bridge Chest",
         "item_count": 1,
         "access_rules": [
-          "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, Forest_Temple_Small_Key:4"
+          "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, Forest_Temple_Small_Key:4",
+          "$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage, small-keysy-enabled"
         ]
       },
       {
@@ -115,6 +124,7 @@
         "item_count": 1,
         "access_rules": [
           "$canBurnWebs, Forest_Temple_Small_Key:2, $canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage,",
+          "$canBurnWebs, small-keysy-enabled, $canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage,",
           "$canBurnWebs, Clawshot, $canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage,"
         ]
       },
@@ -124,6 +134,7 @@
         "item_count": 1,
         "access_rules": [
           "$canBurnWebs, Forest_Temple_Small_Key:2, $canDefeatBokoblin",
+          "$canBurnWebs, small-keysy-enabled, $canDefeatBokoblin",
           "$canBurnWebs, Clawshot"
         ]
       },
@@ -131,6 +142,7 @@
         "name": "Forest Temple West Tile Worm Chest Behind Stairs",
         "access_rules": [
           "$canBurnWebs, Forest_Temple_Small_Key:2, $canDefeatBokoblin, Boomerang",
+          "$canBurnWebs, small-keysy-enabled, $canDefeatBokoblin, Boomerang",
           "$canBurnWebs, Clawshot, Boomerang"
         ],
         "item_count": 1
@@ -140,6 +152,7 @@
         "item_count": 1,
         "access_rules": [
           "$canBurnWebs, Forest_Temple_Small_Key:2, $canDefeatBokoblin",
+          "$canBurnWebs, small-keysy-enabled, $canDefeatBokoblin",
           "$canBurnWebs, Clawshot"
         ]
       },

@@ -63,6 +63,16 @@
                     "item_count": 1,
                     "chest_unopened_img": "images/HC.png",
                     "chest_opened_img": "images/HC-grey.png"
+                  },
+                  {
+                    "name": "Forest Temple Dungeon Reward",
+                    "access_rules": [
+                      "Boomerang, Forest_Temple_Big_Key, $canFreeAllMonkeys, $canDefeatDiababa",
+                      "Boomerang, Forest_Temple_Big_Key, Clawshot, $canDefeatDiababa",
+                      "Boomerang, boss-keysy-enabled, $canFreeAllMonkeys, $canDefeatDiababa",
+                      "Boomerang, boss-keysy-enabled, Clawshot, $canDefeatDiababa"
+                    ],
+                    "item_count": 1
                   }
                 ],
                 "map_locations": [
