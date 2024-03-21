@@ -793,7 +793,9 @@
         "access_rules": [
           "Arbiters_Grounds_Small_Key:1, Lantern, Shadow_Crystal",
           "small-keysy-enabled, Lantern, Shadow_Crystal"
-        ]
+        ],
+        "chest_unopened_img": "images/soul-grey.png",
+        "chest_opened_img": "images/soul.png"
       },
       {
         "name": "Arbiters Grounds East Turning Room Poe",
@@ -802,7 +804,9 @@
         "access_rules": [
           "Arbiters_Grounds_Small_Key:1, Lantern, Shadow_Crystal, Clawshot",
           "small-keysy-enabled, Lantern, Shadow_Crystal, Clawshot"
-        ]
+        ],
+        "chest_unopened_img": "images/soul-grey.png",
+        "chest_opened_img": "images/soul.png"
       },
       {
         "name": "Arbiters Grounds Hidden Wall Poe",
@@ -811,7 +815,9 @@
         "access_rules": [
           "Shadow_Crystal, $canDefeatRedeadKnight, Arbiters_Grounds_Small_Key:3",
           "Shadow_Crystal, $canDefeatRedeadKnight, small-keysy-enabled"
-        ]
+        ],
+        "chest_unopened_img": "images/soul-grey.png",
+        "chest_opened_img": "images/soul.png"
       },
       {
         "name": "Arbiters Grounds West Poe",
@@ -820,7 +826,9 @@
         "access_rules": [
           "Shadow_Crystal, $canSmash, Arbiters_Grounds_Small_Key:4",
           "Shadow_Crystal, $canSmash, small-keysy-enabled"
-        ]
+        ],
+        "chest_unopened_img": "images/soul-grey.png",
+        "chest_opened_img": "images/soul.png"
       }
     ],
     "map_locations": [
@@ -1004,7 +1012,9 @@
         "visibility_rules": ["poes-enabled"],
         "access_rules": [
           "Shadow_Crystal"
-        ]
+        ],
+        "chest_unopened_img": "images/soul-grey.png",
+        "chest_opened_img": "images/soul.png"
       },
       {
         "name": "Snowpeak Ruins Lobby Armor Poe",
@@ -1012,7 +1022,9 @@
         "visibility_rules": ["poes-enabled"],
         "access_rules": [
           "Ball_and_Chain, Shadow_Crystal"
-        ]
+        ],
+        "chest_unopened_img": "images/soul-grey.png",
+        "chest_opened_img": "images/soul.png"
       },
       {
         "name": "Snowpeak Ruins Ice Room Poe",
@@ -1020,7 +1032,9 @@
         "visibility_rules": ["poes-enabled"],
         "access_rules": [
           "Ball_and_Chain, Ordon_Goat_Cheese, Snowpeak_Ruins_Small_Key:3, Shadow_Crystal"
-        ]
+        ],
+        "chest_unopened_img": "images/soul-grey.png",
+        "chest_opened_img": "images/soul.png"
       }
     ],
     "map_locations": [
@@ -1192,7 +1206,9 @@
           "small-keysy-enabled, Shadow_Crystal, Progressive_Dominion_Rod_1"
         ],
         "visibility_rules": ["poes-enabled"],
-        "item_count": 1
+        "item_count": 1,
+        "chest_unopened_img": "images/soul-grey.png",
+        "chest_opened_img": "images/soul.png"
       },
       {
         "name": "Temple of Time Poe Above Scales",
@@ -1201,7 +1217,9 @@
           "small-keysy-enabled, Progressive_Bow, Spinner, $canDefeatLizalfos, Clawshot, Shadow_Crystal"
         ],
         "visibility_rules": ["poes-enabled"],
-        "item_count": 1
+        "item_count": 1,
+        "chest_unopened_img": "images/soul-grey.png",
+        "chest_opened_img": "images/soul.png"
       }
     ],
     "map_locations": [
@@ -1410,7 +1428,9 @@
         "visibility_rules": ["poes-enabled"],
         "access_rules": [
           "Double_Clawshot, $canDefeatBigBaba, Shadow_Crystal"
-        ]
+        ],
+        "chest_unopened_img": "images/soul-grey.png",
+        "chest_opened_img": "images/soul.png"
       },
       {
         "name": "City in The Sky Poe Above Central Fan",
@@ -1418,7 +1438,9 @@
         "visibility_rules": ["poes-enabled"],
         "access_rules": [
           "Double_Clawshot, $canDefeatBigBaba, Iron_Boots, Shadow_Crystal"
-        ]
+        ],
+        "chest_unopened_img": "images/soul-grey.png",
+        "chest_opened_img": "images/soul.png"
       }
     ],
     "map_locations": [

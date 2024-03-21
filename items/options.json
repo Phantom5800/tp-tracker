@@ -296,14 +296,14 @@
     "codes": "agitha-enabled"
   },
   {
-    "name": "Poe Rewards",
+    "name": "Poe Souls",
     "type": "toggle",
     "loop": true,
-    "img": "images/soul.png",
+    "img": "images/ghost.png",
     "codes": "poes-enabled"
   },
   {
-    "name": "Poe Rewards",
+    "name": "Jovani Rewards",
     "type": "toggle",
     "loop": true,
     "img": "images/soul.png",
