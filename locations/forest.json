@@ -47,13 +47,7 @@
           },
           {
             "name": "1F",
-            "access_rules": [
-              "Ball_and_Chain",
-              "Slingshot",
-              "Progressive_Bow",
-              "Boomerang",
-              "Clawshot"
-            ],
+            "access_rules": ["$canDefeatWalltula, $canDefeatBokoblin, $canBreakMonkeyCage"],
             "children": [
               {
                 "name": "1F",
@@ -61,8 +55,10 @@
                   {
                     "name": "Diababa Heart Container",
                     "access_rules": [
-                      "Forest_Temple_Small_Key:4, Forest_Temple_Big_Key, Boomerang",
-                      "Forest_Temple_Big_Key, Boomerang, Clawshot"
+                      "Boomerang, Forest_Temple_Big_Key, $canFreeAllMonkeys, $canDefeatDiababa",
+                      "Boomerang, Forest_Temple_Big_Key, Clawshot, $canDefeatDiababa",
+                      "Boomerang, boss-keysy-enabled, $canFreeAllMonkeys, $canDefeatDiababa",
+                      "Boomerang, boss-keysy-enabled, Clawshot, $canDefeatDiababa"
                     ],
                     "item_count": 1,
                     "chest_unopened_img": "images/HC.png",
@@ -83,10 +79,9 @@
                   {
                     "name": "West Tile Worm Chest Behind Stairs",
                     "access_rules": [
-                      "Forest_Temple_Small_Key:2, Lantern, Boomerang",
-                      "Forest_Temple_Small_Key:2, $canSmash, Boomerang",
-                      "Clawshot, Lantern, Boomerang",
-                      "Clawshot, $canSmash, Boomerang"
+                      "$canBurnWebs, Forest_Temple_Small_Key:2, Boomerang",
+                      "$canBurnWebs, Clawshot, Boomerang",
+                      "$canBurnWebs, small-keysy-enabled, Boomerang"
                     ],
                     "item_count": 1
                   }
@@ -105,8 +100,9 @@
                   {
                     "name": "West Tile Worm Room Vines Chest",
                     "access_rules": [
-                      "Forest_Temple_Small_Key:2, Lantern",
-                      "Forest_Temple_Small_Key:2, $canSmash"
+                      "$canBurnWebs, Forest_Temple_Small_Key:2",
+                      "$canBurnWebs, small-keysy-enabled",
+                      "$canBurnWebs, Clawshot"
                     ],
                     "item_count": 1
                   }
@@ -125,10 +121,9 @@
                   {
                     "name": "Totem Pole Chest",
                     "access_rules": [
-                      "Forest_Temple_Small_Key:2, Lantern",
-                      "Forest_Temple_Small_Key:2, $canSmash",
-                      "Clawshot, Lantern",
-                      "Clawshot, $canSmash"
+                      "$canBurnWebs, Forest_Temple_Small_Key:2",
+                      "$canBurnWebs, small-keysy-enabled",
+                      "$canBurnWebs, Clawshot"
                     ],
                     "item_count": 1
                   }
@@ -147,12 +142,9 @@
                   {
                     "name": "Big Baba Key",
                     "access_rules": [
-                      "Clawshot, Lantern",
-                      "Clawshot, $canSmash",
-                      "Forest_Temple_Small_Key:2, Lantern, Progressive_Bow",
-                      "Forest_Temple_Small_Key:2, Lantern, Slingshot",
-                      "Forest_Temple_Small_Key:2, Lantern, Boomerang",
-                      "Forest_Temple_Small_Key:2, $canSmash"
+                      "$canBurnWebs, Forest_Temple_Small_Key:2, $canDefeatBigBaba",
+                      "$canBurnWebs, small-keysy-enabled, $canDefeatBigBaba",
+                      "$canBurnWebs, Clawshot, $canDefeatBigBaba"
                     ],
                     "item_count": 1
                   }
@@ -171,10 +163,9 @@
                   {
                     "name": "West Deku Like Chest",
                     "access_rules": [
-                      "Forest_Temple_Small_Key:2, Lantern",
-                      "Forest_Temple_Small_Key:2, $canSmash",
-                      "Clawshot, Lantern",
-                      "Clawshot, $canSmash"
+                      "$canBurnWebs, Forest_Temple_Small_Key:2",
+                      "$canBurnWebs, small-keysy-enabled",
+                      "$canBurnWebs, Clawshot"
                     ],
                     "item_count": 1
                   }
@@ -193,10 +184,7 @@
                   {
                     "name": "Central Chest Hanging From Web",
                     "access_rules": [
-                      "Boomerang",
-                      "Clawshot",
-                      "Progressive_Bow",
-                      "Ball_and_Chain"
+                      "$canCutHangingWeb"
                     ],
                     "item_count": 1
                   }
@@ -253,11 +241,11 @@
                   {
                     "name": "Gale Boomerang",
                     "access_rules": [
-                      "Forest_Temple_Small_Key:4, Lantern",
-                      "Forest_Temple_Small_Key:2, Lantern, Boomerang",
-                      "Forest_Temple_Small_Key:2, $canSmash, Boomerang",
-                      "Clawshot, Lantern, Boomerang",
-                      "Clawshot, $canSmash, Boomerang"
+                      "Lantern, Forest_Temple_Small_Key:4, $canDefeatOok",
+                      "$canBurnWebs, Forest_Temple_Small_Key:4, Boomerang, $canDefeatOok",
+                      "Lantern, small-keysy-enabled, $canDefeatOok",
+                      "$canBurnWebs, small-keysy-enabled, Boomerang, $canDefeatOok",
+                      "Clawshot, Boomerang, $canDefeatOok, $canBurnWebs"
                     ],
                     "item_count": 1
                   }
@@ -352,7 +340,8 @@
                   {
                     "name": "Second Monkey Under Bridge Chest",
                     "access_rules": [
-                      "Forest_Temple_Small_Key:4"
+                      "Forest_Temple_Small_Key:4",
+                      "small-keysy-enabled"
                     ],
                     "item_count": 1
                   }
@@ -371,7 +360,8 @@
                   {
                     "name": "East Tile Worm Chest",
                     "access_rules": [
-                      "Forest_Temple_Small_Key:4, Boomerang"
+                      "Forest_Temple_Small_Key:4, Boomerang",
+                      "small-keysy-enabled, Boomerang"
                     ],
                     "item_count": 1
                   }

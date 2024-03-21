@@ -130,7 +130,7 @@
       {
         "name": "Forest Temple West Tile Worm Chest Behind Stairs",
         "access_rules": [
-          "$canBurnWebs, Forest_Temple_Small_Key:4, $canDefeatBokoblin, Boomerang",
+          "$canBurnWebs, Forest_Temple_Small_Key:2, $canDefeatBokoblin, Boomerang",
           "$canBurnWebs, Clawshot, Boomerang"
         ],
         "item_count": 1
