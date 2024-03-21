@@ -28,8 +28,11 @@
             [
               "golden-bugs-enabled",
               "agitha-enabled",
+              "poes-enabled",
               "jovani-enabled",
-              "howling-stones-enabled",
+              "howling-stones-enabled"
+            ],
+            [
               "small-keysy-enabled",
               "boss-keysy-enabled"
             ]

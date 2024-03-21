@@ -300,6 +300,13 @@
     "type": "toggle",
     "loop": true,
     "img": "images/soul.png",
+    "codes": "poes-enabled"
+  },
+  {
+    "name": "Poe Rewards",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/soul.png",
     "codes": "jovani-enabled"
   },
   {
