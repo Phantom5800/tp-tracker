@@ -4,70 +4,8 @@
     "background": "#5f417b",
     "content": [
       {
-        "type": "itemgrid",
-        "h_alignment": "center",
-        "item_size": 60,
-        "rows": [
-          [
-            "Progressive_Fishing_Rod_1",
-            "Slingshot",
-            "Lantern",
-            "Boomerang",
-            "Iron_Boots",
-            "Progressive_Bow",
-            "Hawkeye",
-            "Bomb_Bag",
-            "Giant_Bomb_Bags"
-          ],
-          [
-            "Clawshot",
-            "Spinner",
-            "Ball_and_Chain",
-            "Progressive_Dominion_Rod_1",
-            "Bottle",
-            "Progressive_Wallet_1",
-            "Gate_Keys",
-            "Faron_Woods_Small_Key",
-            "Gerudo_Desert_Small_Key"
-          ],
-          [
-            "Progressive_Sword_1",
-            "Ordon_Shield",
-            "Hylian_Shield",
-            "Shadow_Crystal",
-            "Progressive_Hidden_Skill",
-            "Zora_Armor",
-            "Magic_Armor",
-            "Piece_of_Heart",
-            "Heart_Container"
-          ],
-          [
-            "Auru_Memo",
-            "Ashei_Sketch",
-            "Renado_Letter",
-            "Invoice",
-            "Wooden_Statue",
-            "Skybook",
-            "Golden_Bugs",
-            "Poe_Soul",
-            "Horse_Call",
-            "Ilia_Charm"
-          ],
-          [
-            "Vessel_of_Light",
-            "Progressive_Fused_Shadow_1",
-            "Progressive_Mirror_Shard_1",
-            "Youth_Scent",
-            "Ilia_Scent",
-            "Poe_Scent",
-            "Reekfish_Scent",
-            "Medicine_Scent"
-          ]
-        ]
-      },
-      {
         "type": "layout",
-        "key": "dungeon_grid_tall"
+        "key": "item_grid"
       }
     ]
   }

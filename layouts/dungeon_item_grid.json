@@ -1,5 +1,5 @@
 {
-  "dungeon_grid_tall": {
+  "dungeon_grid": {
     "type": "array",
     "orientation": "vertical",
     "content": [
@@ -13,12 +13,12 @@
           {
             "type": "canvas",
             "width": 60,
-            "height": 90,
+            "height": 140,
             "margin": "5,5",
             "content": [
               {
                 "type": "item",
-                "item": "Diababa",
+                "item": "Forest",
                 "canvas_depth": 1,
                 "width": 60,
                 "height": 30
@@ -40,18 +40,26 @@
                 "canvas_top": 30,
                 "width": 30,
                 "height": 30
+              },
+              {
+                "type": "item",
+                "item": "Diababa",
+                "canvas_depth": 1,
+                "canvas_top": 80,
+                "width": 60,
+                "height": 60
               }
             ]
           },
           {
             "type": "canvas",
             "width": 60,
-            "height": 90,
+            "height": 140,
             "margin": "5,5",
             "content": [
               {
                 "type": "item",
-                "item": "Fyrus",
+                "item": "GoronMines",
                 "canvas_depth": 1,
                 "width": 60,
                 "height": 30
@@ -73,18 +81,26 @@
                 "canvas_top": 30,
                 "width": 30,
                 "height": 30
+              },
+              {
+                "type": "item",
+                "item": "Fyrus",
+                "canvas_depth": 1,
+                "canvas_top": 80,
+                "width": 60,
+                "height": 60
               }
             ]
           },
           {
             "type": "canvas",
             "width": 60,
-            "height": 90,
+            "height": 140,
             "margin": "5,5",
             "content": [
               {
                 "type": "item",
-                "item": "Morpheel",
+                "item": "Lakebed",
                 "canvas_depth": 1,
                 "width": 60,
                 "height": 30
@@ -106,18 +122,26 @@
                 "canvas_top": 30,
                 "width": 30,
                 "height": 30
+              },
+              {
+                "type": "item",
+                "item": "Morpheel",
+                "canvas_depth": 1,
+                "canvas_top": 80,
+                "width": 60,
+                "height": 60
               }
             ]
           },
           {
             "type": "canvas",
             "width": 60,
-            "height": 90,
+            "height": 140,
             "margin": "5,5",
             "content": [
               {
                 "type": "item",
-                "item": "Stallord",
+                "item": "Arbiters",
                 "canvas_depth": 1,
                 "width": 60,
                 "height": 30
@@ -139,13 +163,21 @@
                 "canvas_top": 30,
                 "width": 30,
                 "height": 30
+              },
+              {
+                "type": "item",
+                "item": "Stallord",
+                "canvas_depth": 1,
+                "canvas_top": 80,
+                "width": 60,
+                "height": 60
               }
             ]
           },
           {
             "type": "canvas",
             "width": 60,
-            "height": 90,
+            "height": 140,
             "margin": "5,5",
             "content": [
               {
@@ -168,7 +200,7 @@
               },
               {
                 "type": "item",
-                "item": "Blizzeta",
+                "item": "Snowpeak",
                 "canvas_depth": 1,
                 "width": 60,
                 "height": 30
@@ -190,18 +222,26 @@
                 "canvas_top": 30,
                 "width": 30,
                 "height": 30
+              },
+              {
+                "type": "item",
+                "item": "Blizzeta",
+                "canvas_depth": 1,
+                "canvas_top": 80,
+                "width": 60,
+                "height": 60
               }
             ]
           },
           {
             "type": "canvas",
             "width": 60,
-            "height": 90,
+            "height": 140,
             "margin": "5,5",
             "content": [
               {
                 "type": "item",
-                "item": "Armogohma",
+                "item": "TempleOfTime",
                 "canvas_depth": 1,
                 "width": 60,
                 "height": 30
@@ -223,18 +263,26 @@
                 "canvas_top": 30,
                 "width": 30,
                 "height": 30
+              },
+              {
+                "type": "item",
+                "item": "Armogohma",
+                "canvas_depth": 1,
+                "canvas_top": 80,
+                "width": 60,
+                "height": 60
               }
             ]
           },
           {
             "type": "canvas",
             "width": 60,
-            "height": 90,
+            "height": 140,
             "margin": "5,5",
             "content": [
               {
                 "type": "item",
-                "item": "Argorok",
+                "item": "CityInTheSky",
                 "canvas_depth": 1,
                 "width": 60,
                 "height": 30
@@ -256,18 +304,26 @@
                 "canvas_top": 30,
                 "width": 30,
                 "height": 30
+              },
+              {
+                "type": "item",
+                "item": "Argorok",
+                "canvas_depth": 1,
+                "canvas_top": 80,
+                "width": 60,
+                "height": 60
               }
             ]
           },
           {
             "type": "canvas",
             "width": 60,
-            "height": 90,
+            "height": 140,
             "margin": "5,5",
             "content": [
               {
                 "type": "item",
-                "item": "Zant",
+                "item": "PalaceOfTwilight",
                 "canvas_depth": 1,
                 "width": 60,
                 "height": 30
@@ -289,18 +345,26 @@
                 "canvas_top": 30,
                 "width": 30,
                 "height": 30
+              },
+              {
+                "type": "item",
+                "item": "Zant",
+                "canvas_depth": 1,
+                "canvas_top": 80,
+                "width": 60,
+                "height": 60
               }
             ]
           },
           {
             "type": "canvas",
             "width": 60,
-            "height": 90,
+            "height": 140,
             "margin": "5,5",
             "content": [
               {
                 "type": "item",
-                "item": "Ganondorf",
+                "item": "HyruleCastle",
                 "canvas_depth": 1,
                 "width": 60,
                 "height": 30
@@ -322,6 +386,14 @@
                 "canvas_top": 30,
                 "width": 30,
                 "height": 30
+              },
+              {
+                "type": "item",
+                "item": "Ganondorf",
+                "canvas_depth": 1,
+                "canvas_top": 80,
+                "width": 60,
+                "height": 60
               }
             ]
           }

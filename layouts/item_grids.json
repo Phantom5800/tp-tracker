@@ -1,5 +1,5 @@
 {
-  "item_grid_tall": {
+  "item_grid": {
     "type": "array",
     "orientation": "vertical",
     "content": [
@@ -68,7 +68,7 @@
       },
       {
         "type": "layout",
-        "key": "dungeon_grid_tall"
+        "key": "dungeon_grid"
       }
     ]
   }

@@ -228,5 +228,59 @@
     "img": "images/smallkey.png",
     "codes": "Hyrule_Castle_Small_Key",
     "max_quantity": 3
+  },
+  {
+    "name": "Diababa",
+    "type": "toggle",
+    "img": "images/Boss1.png",
+    "codes": "Diababa"
+  },
+  {
+    "name": "Fyrus",
+    "type": "toggle",
+    "img": "images/Boss2.png",
+    "codes": "Fyrus"
+  },
+  {
+    "name": "Morpheel",
+    "type": "toggle",
+    "img": "images/Boss3.png",
+    "codes": "Morpheel"
+  },
+  {
+    "name": "Stallord",
+    "type": "toggle",
+    "img": "images/Boss4.png",
+    "codes": "Stallord"
+  },
+  {
+    "name": "Blizzeta",
+    "type": "toggle",
+    "img": "images/Boss5.png",
+    "codes": "Blizzeta"
+  },
+  {
+    "name": "Armogohma",
+    "type": "toggle",
+    "img": "images/Boss6.png",
+    "codes": "Armogohma"
+  },
+  {
+    "name": "Argorok",
+    "type": "toggle",
+    "img": "images/Boss7.png",
+    "codes": "Argorok"
+  },
+  {
+    "name": "Zant",
+    "type": "toggle",
+    "img": "images/Boss8.png",
+    "codes": "Zant"
+  },
+  {
+    "name": "Ganondorf",
+    "type": "toggle",
+    "img": "images/Boss9.png",
+    "codes": "Ganondorf"
   }
 ]

@@ -120,60 +120,59 @@
     "codes": "Medicine_Scent"
   },
   {
-    "name": "Diababa",
+    "name": "Forest Temple",
     "type": "toggle",
     "img": "images/forest-1.png",
-    "codes": "Diababa"
+    "codes": "Forest"
   },
   {
-    "name": "Fyrus",
+    "name": "Goron Mines",
     "type": "toggle",
     "img": "images/mines-1.png",
-    "codes": "Fyrus"
+    "codes": "GoronMines"
   },
   {
-    "name": "Morpheel",
+    "name": "Lakebed Temple",
     "type": "toggle",
     "img": "images/lakebed-1.png",
-    "codes": "Morpheel"
+    "codes": "Lakebed"
   },
   {
-    "name": "Stallord",
+    "name": "Arbiters Grounds",
     "type": "toggle",
     "img": "images/arbiters-1.png",
-    "codes": "Stallord"
+    "codes": "Arbiters"
   },
   {
-    "name": "Blizzeta",
+    "name": "Snowpeak Ruins",
     "type": "toggle",
     "img": "images/snowpeak-1.png",
-    "codes": "Blizzeta"
+    "codes": "Snowpeak"
   },
   {
-    "name": "Armogohma",
+    "name": "Temple of Time",
     "type": "toggle",
     "img": "images/time-1.png",
-    "codes": "Armogohma"
+    "codes": "TempleOfTime"
   },
   {
-    "name": "Argorok",
+    "name": "City in the Sky",
     "type": "toggle",
     "img": "images/city-1.png",
-    "codes": "Argorok"
+    "codes": "CityInTheSky"
   },
   {
-    "name": "Zant",
+    "name": "Palace of Twilight",
     "type": "toggle",
     "img": "images/palace-1.png",
-    "codes": "Zant"
+    "codes": "PalaceOfTwilight"
   },
   {
-    "name": "Ganondorf",
+    "name": "Hyrule Castle",
     "type": "toggle",
     "img": "images/hyrule-1.png",
-    "codes": "Ganondorf"
+    "codes": "HyruleCastle"
   },
-
   {
     "name": "Renados Letter",
     "type": "toggle",
