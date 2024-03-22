@@ -18,18 +18,22 @@
             "Progressive_Bow",
             "Hawkeye",
             "Bomb_Bag",
-            "Giant_Bomb_Bags"
+            "Giant_Bomb_Bags",
+            "Clawshot",
+            "Spinner"
           ],
           [
-            "Clawshot",
-            "Spinner",
             "Ball_and_Chain",
             "Progressive_Dominion_Rod_1",
             "Bottle",
             "Progressive_Wallet_1",
             "Gate_Keys",
             "Faron_Woods_Small_Key",
-            "Gerudo_Desert_Small_Key"
+            "Gerudo_Desert_Small_Key",
+            "Auru_Memo",
+            "Ashei_Sketch",
+            "Horse_Call",
+            "Ilia_Charm"
           ],
           [
             "Progressive_Sword_1",
@@ -43,27 +47,23 @@
             "Heart_Container"
           ],
           [
-            "Auru_Memo",
-            "Ashei_Sketch",
             "Renado_Letter",
             "Invoice",
             "Wooden_Statue",
             "Skybook",
             "Golden_Bugs",
             "Poe_Soul",
-            "Horse_Call",
-            "Ilia_Charm"
-          ],
-          [
             "Vessel_of_Light",
             "Progressive_Fused_Shadow_1",
-            "Progressive_Mirror_Shard_1",
-            "Youth_Scent",
-            "Ilia_Scent",
-            "Poe_Scent",
-            "Reekfish_Scent",
-            "Medicine_Scent"
+            "Progressive_Mirror_Shard_1"
           ]
+          // [
+          //   "Youth_Scent",
+          //   "Ilia_Scent",
+          //   "Poe_Scent",
+          //   "Reekfish_Scent",
+          //   "Medicine_Scent"
+          // ]
         ]
       },
       {
