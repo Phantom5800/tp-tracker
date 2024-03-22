@@ -869,169 +869,70 @@ end
 
 -- Old stuff
 function canAccessForest()
-  return has("$can_access_north_faron") and (has("FaronEscape") or has("$can_burn_webs"))
+  return has("$can_access_north_faron") 
+          and (has("FaronEscape") or has("$can_burn_webs"))
 end
 
 function canAccessMines()
-  return has("Iron_Boots") and canDefeatGoron() and ((hasSword() and has("Slingshot")) or has("skip-prologue-on")) and canLeaveForest()
+  return has("Iron_Boots") 
+          and canDefeatGoron() 
+          and ((hasSword() and has("Slingshot")) or has("skip-prologue-on")) 
+          and canLeaveForest()
 end
 
 function canAccessLakebed()
-  return canLeaveForest() and ((canSmash() and (hasSword() and  has("Slingshot")) or has("skip-prologue-on")) or (has("Gate_Keys") and (hasSword() and  has("Slingshot")) or has("skip-prologue-on"))) and has("Zora_Armor") and (has("early-lakebed-on") or (has("Iron_Boots") and canUseWaterBombs()))
+  return canLeaveForest() 
+          and ((canSmash() and (hasSword() and has("Slingshot")) or has("skip-prologue-on")) 
+                or (has("Gate_Keys") and (hasSword() and has("Slingshot")) or has("skip-prologue-on"))) 
+          and has("Zora_Armor") 
+          and (has("early-lakebed-on") or (has("Iron_Boots") and canUseWaterBombs()))
 end
 
 function canAccessLanayru()
-  return canLeaveForest() and ((canSmash() or has("Gate_Keys")) and ((hasSword() and  has("Slingshot")) or has("skip-prologue-on")))
+  return canLeaveForest() 
+          and ((canSmash() or has("Gate_Keys")) 
+                and ((hasSword() and has("Slingshot")) 
+                      or has("skip-prologue-on")))
 end
 
 function canAccessArbiters()
-  return ((canSmash() or has("Gate_Keys")) and ((hasSword() and has("Slingshot")) or  has("skip-prologue-on")) and has("Auru_Memo") and (has("early-arbiters-on") or has("Gerudo_Desert_Small_Key")) and canLeaveForest())
+  return (canSmash() or has("Gate_Keys")) 
+          and ((hasSword() and has("Slingshot")) or has("skip-prologue-on")) 
+          and has("Auru_Memo") 
+          and (has("early-arbiters-on") or has("Gerudo_Desert_Small_Key")) 
+          and canLeaveForest()
 end
 
 function canAccessSnowpeakRuins()
-  return canSmash() and ((hasSword() and has("Slingshot")) or has("skip-prologue-on")) and canLeaveForest() and has("Shadow_Crystal") and (has("Reekfish_Scent") or has("early-snowpeak-on"))
+  return canSmash() 
+          and ((hasSword() and has("Slingshot")) or has("skip-prologue-on"))
+          and canLeaveForest() 
+          and has("Shadow_Crystal") 
+          and (has("Reekfish_Scent") or has("early-snowpeak-on"))
 end
 
 function canAccessToT()
-  return canCompletePrologue() and has("Shadow_Crystal") and (canDefeatShadowBeast() and has("Progressive_Sword_3") or has("early-tot-open"))
+  return canCompletePrologue() 
+          and has("Shadow_Crystal") 
+          and (canDefeatShadowBeast() and has("Progressive_Sword_3") or has("early-tot-open"))
 end
 
 function canAccessCiTS()
-  return (canAccessLanayru() and has("Clawshot") and (has("Skybook",7) or has("early-city-on")))
+  return canAccessLanayru() 
+          and has("Clawshot") 
+          and (has("Skybook",7) or has("early-city-on"))
 end
 
 function canAccessPoT()
-  return ((canAccessLanayru() and has("Auru_Memo"))
-          and (canDefeatKingBulblinDesert() 
-              and has("Gerudo_Desert_Small_Key") 
-              and has("Arbiters_Grounds_Small_Key",5) 
-              and has("Lantern") 
-              and has("Shadow_Crystal") 
-              and has("Clawshot") 
-              and has("Spinner") 
-              and has("Arbiters_Grounds_Big_Key")) 
-            or (has("early-arbiters-on") 
-              and has("Arbiters_Grounds_Small_Key",5) 
-              and has("Lantern") 
-              and has("Shadow_Crystal") 
-              and has("Clawshot") 
-              and has("Spinner") 
-              and has("Arbiters_Grounds_Big_Key")))
+  return canCompleteArbitersGrounds()
           and has("Shadow_Crystal") 
           and ((has("palace-vanilla") and canCompleteCityinTheSky()) 
-            or (has("palace-fused") 
-              and has("Progressive_Fused_Shadow_3") 
-              or (has("palace-mirror") and has("Progressive_Mirror_Shard_3")) 
-              or has("palace-open")))
+            or (has("palace-fused") and has("Progressive_Fused_Shadow_3"))
+            or (has("palace-mirror") and has("Progressive_Mirror_Shard_3")) 
+            or has("palace-open"))
 end
 
 function canAccessHyrule()
   return (has("boss8") or has("EarlyHyruleCastle"))
           and has("$can_access_castle_town")
-end
-
-function has_explosives()
-  return has("bombs") or has("wbombs")
-end
-
-function can_smash()
-  return has("$has_explosives") or has("Ball_and_Chain")
-end
-
-function shoot_pew()
-  return has("bow") and has("$has_explosives")
-end
-
-function can_do_damage()
-  return has("bow") or has("spinner") or has("Ball_and_Chain") or has("sword1") or has("sword2") or has("sword3") or has("sword4") or has("irons") or has("$has_explosives") or has("Shadow_Crystal")
-end
-
-function has_ranged_item()
-  return has("bow") or has("Ball_and_Chain") or has("cs") or has("dcs") or has("slingshot") or has("boomerang")
-end
-
-function can_burn_webs()
-  return has("lantern") or has("$can_smash")
-end
-
-function faron_twilight_cleared()
-  return has("vessel1") or has("TwilightSkip")
-end
-
-function eldin_twilight_cleared()
-  return has("vessel2") or has("TwilightSkip")
-end
-
-function lanayru_twilight_cleared()
-  return has("vessel3") or has("TwilightSkip")
-end
-
-
---Area Access Logic--
-function can_access_north_faron()
-  return has("$faron_twilight_cleared") and (has("lantern") or has("Shadow_Crystal"))
-end
-
-function can_access_kak_gorge()
-  return has("$eldin_twilight_cleared") and (has("$can_access_faron_field") or has("$can_access_kak_village"))
-end
-
-function can_access_kak_village()
-  return has("$eldin_twilight_cleared") and has("$can_access_kak_gorge")
-end
-
-function can_access_death_mountain()
-  return has("$eldin_twilight_cleared") and has("$can_access_kak_village") and (has("irons") or has("MinesPatch"))
-end
-
-function can_access_lake_hylia()
-  return has("$lanayru_twilight_cleared") and has("$can_access_lanayru_field") and (has("$can_smash") or has("OpenGates"))
-end
-
-function can_access_desert()
-  return has("can_access_lake_hylia") and (has("memo") or has("EarlyDesert")) and has("Shadow_Crystal")
-end
-
-function can_access_zora_domain()
-  return has("$lanayru_twilight_cleared") and (has("Shadow_Crystal") or (has("$can_smash") and has("$can_access_lanayru_field")))
-end
-
-function can_access_snowpeak_summit()
-  return has("$can_access_zora_domain") and has("reekfishscent") and has("Shadow_Crystal")
-end
-
-function can_access_grove()
-  return (has("$can_access_north_faron") and has("set_mdh_flag") and has("Shadow_Crystal")) or (has("EarlyToT") and has("Shadow_Crystal"))
-end
-
-function can_access_grove_2()
-  return (has("$can_access_north_faron") and has("boss5") and has("bow")) or (has("Shadow_Crystal") and has("EarlyToT"))
-end
-
-function can_access_mirror_chamber()
-  return has("boss4")
-end
-
-function can_access_castle_town()
-  return has("$can_access_lanayru_field")
-end
-
-function can_access_faron_field()
-  return has("$faron_twilight_cleared") and (has("FaronEscape") or has("boss1") or (has("Shadow_Crystal") and has("$eldin_twilight_cleared")))
-end
-
-function can_access_eldin_field()
-  return has("$eldin_twilight_cleared") and (has("$can_access_faron_field") or has("Shadow_Crystal"))
-end
-
-function can_access_lanayru_field()
-  return has("$lanayru_twilight_cleared") and ((has("$has_explosives") and has("$can_access_eldin_field")) or has("OpenGates") or has("Shadow_Crystal"))
-end
-
-function can_access_hidden_village()
-  return has("statue") and (has("$can_access_lanayru_field") or (has("$can_access_eldin_field") and has("$can_smash")))
-end
-
-function set_mdh_flag()
-  return has("SkipMDH") or has("boss3")
 end
