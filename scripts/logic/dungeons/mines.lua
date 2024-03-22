@@ -1,3 +1,6 @@
+--[[-------------------------------------------------------
+  Dungeon Progress
+---------------------------------------------------------]]
 function canPressMinesSwitch()
   return has("Iron_Boots")
 end
@@ -20,6 +23,9 @@ function canCompleteGoronMines()
           and canDefeatFyrus()
 end
 
+--[[-------------------------------------------------------
+  Bosses
+---------------------------------------------------------]]
 function canDefeatDangoro()
   return (hasSword() or has("Ball_and_Chain") or has("Shadow_Crystal"))
           and has("Iron_Boots")
@@ -30,3 +36,7 @@ function canDefeatFyrus()
           and has("Iron_Boots")
           and hasSword()
 end
+
+--[[-------------------------------------------------------
+  Individual Checks
+---------------------------------------------------------]]

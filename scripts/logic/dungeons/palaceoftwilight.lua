@@ -1,3 +1,6 @@
+--[[-------------------------------------------------------
+  Dungeon Progress
+---------------------------------------------------------]]
 function canAccessPoT()
   return canCompleteArbitersGrounds()
           and has("Shadow_Crystal") 
@@ -16,6 +19,9 @@ function canCompletePalaceofTwilight()
           and canDefeatZant()
 end
 
+--[[-------------------------------------------------------
+  Bosses and Unique Enemies
+---------------------------------------------------------]]
 function canDefeatZantHead()
   return has("Shadow_Crystal") or hasSword()
 end
@@ -32,3 +38,7 @@ function canDefeatZant()
           and has("Iron_Boots")
           and has("Zora_Armor")
 end
+
+--[[-------------------------------------------------------
+  Individual Checks
+---------------------------------------------------------]]

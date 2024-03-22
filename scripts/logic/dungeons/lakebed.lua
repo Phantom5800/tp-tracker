@@ -1,3 +1,6 @@
+--[[-------------------------------------------------------
+  Dungeon Progress
+---------------------------------------------------------]]
 function canAccessLakebed()
   return canLeaveForest() 
           and ((canSmash() and (hasSword() and has("Slingshot")) or has("skip-prologue-on")) 
@@ -14,6 +17,9 @@ function canCompleteLakebedTemple()
           and canDefeatMorpheel()
 end
 
+--[[-------------------------------------------------------
+  Bosses
+---------------------------------------------------------]]
 function canDefeatDekuToad()
   return hasSword()
           or has("Ball_and_Chain")
@@ -28,3 +34,7 @@ function canDefeatMorpheel()
           and hasSword()
           and has("Clawshot")
 end
+
+--[[-------------------------------------------------------
+  Individual Checks
+---------------------------------------------------------]]

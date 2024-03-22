@@ -1,3 +1,6 @@
+--[[-------------------------------------------------------
+  Dungeon Progress
+---------------------------------------------------------]]
 function canAccessArbiters()
   return (canSmash() or has("Gate_Keys")) 
           and ((hasSword() and has("Slingshot")) or has("skip-prologue-on")) 
@@ -20,6 +23,9 @@ function canCompleteArbitersGrounds()
                 or has("palace-open"))
 end
 
+--[[-------------------------------------------------------
+  Bosses
+---------------------------------------------------------]]
 function canDefeatDeathSword()
   return (hasSword() or has("Ball_and_Chain"))
           and (has("Boomerang")
@@ -31,3 +37,7 @@ end
 function canDefeatStallord()
   return has("Spinner") and hasSword()
 end
+
+--[[-------------------------------------------------------
+  Individual Checks
+---------------------------------------------------------]]

@@ -1,3 +1,6 @@
+--[[-------------------------------------------------------
+  Dungeon Progress
+---------------------------------------------------------]]
 function canAccessSnowpeakRuins()
   return canSmash() 
           and ((hasSword() and has("Slingshot")) or has("skip-prologue-on"))
@@ -15,6 +18,9 @@ function canCompleteSnowpeakRuins()
           and canDefeatBlizzeta()
 end
 
+--[[-------------------------------------------------------
+  Bosses
+---------------------------------------------------------]]
 function canDefeatDarkhammer()
   return hasSword()
           or has("Ball_and_Chain")
@@ -26,3 +32,7 @@ end
 function canDefeatBlizzeta()
   return has("Ball_and_Chain")
 end
+
+--[[-------------------------------------------------------
+  Individual Checks
+---------------------------------------------------------]]

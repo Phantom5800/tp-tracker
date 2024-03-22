@@ -1,3 +1,6 @@
+--[[-------------------------------------------------------
+  Dungeon Progress
+---------------------------------------------------------]]
 function canAccessToT()
   return canCompletePrologue() 
           and has("Shadow_Crystal") 
@@ -14,6 +17,9 @@ function canCompleteTempleofTime()
           and canDefeatArmogohma()
 end
 
+--[[-------------------------------------------------------
+  Bosses
+---------------------------------------------------------]]
 function canDefeatDarknut()
   return hasSword()
 end
@@ -22,3 +28,7 @@ function canDefeatArmogohma()
   return has("Progressive_Bow")
           and has("Progressive_Dominion_Rod_1")
 end
+
+--[[-------------------------------------------------------
+  Individual Checks
+---------------------------------------------------------]]
