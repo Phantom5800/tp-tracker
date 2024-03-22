@@ -57,7 +57,7 @@ function canDefeatBabyGohma()
           or has("Progressive_Bow")
           or has("Spinner")
           or has("Slingshot")
-          or (has("Clawshot"))
+          or has("Clawshot")
           or hasBombs()
 end
         
@@ -86,7 +86,7 @@ function canDefeatChu()
           or has("Progressive_Bow")
           or has("Spinner")
           or has("Shadow_Crystal")
-          or (has("Clawshot"))
+          or has("Clawshot")
           or hasBombs()
 end
         
@@ -110,7 +110,7 @@ end
 function canDefeatBombfish()
   return has("Iron_Boots")
           and (hasSword()
-            or (has("Clawshot"))
+            or has("Clawshot")
             or (hasShield() and has("Progressive_Hidden_Skill",2)))
 end
         
@@ -120,7 +120,7 @@ function canDefeatBombling()
           or (has("Progressive_Bow") and canGetArrows())
           or has("Spinner")
           or has("Shadow_Crystal")
-          or (has("Clawshot"))
+          or has("Clawshot")
 end
 
 function canDefeatBomskit()
@@ -178,7 +178,7 @@ function canDefeatDekuBaba()
           or has("Spinner")
           or has("Progressive_Hidden_Skill",2)
           or has("Slingshot")
-          or (has("Clawshot"))
+          or has("Clawshot")
           or hasBombs()
 end
         
@@ -397,7 +397,7 @@ function canDefeatShadowDekuBaba()
           or has("Spinner")
           or has("Progressive_Hidden_Skill", 2)
           or has("Slingshot")
-          or (has("Clawshot"))
+          or has("Clawshot")
           or hasBombs()
 end
         
@@ -523,7 +523,7 @@ function canDefeatWalltula()
           or has("Slingshot")
           or (has("Progressive_Bow") and canGetArrows())
           or has("Boomerang")
-          or (has("Clawshot"))
+          or has("Clawshot")
 end
         
 function canDefeatWhiteWolfos()
@@ -603,7 +603,7 @@ function canDefeatDeathSword()
   return (hasSword() or has("Ball_and_Chain"))
           and (has("Boomerang")
                 or has("Progressive_Bow")
-                or (has("Clawshot")))
+                or has("Clawshot"))
           and has("Shadow_Crystal")
 end
         
