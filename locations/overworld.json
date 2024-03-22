@@ -288,6 +288,16 @@
                       "Lantern, $canCompletePrologue"
                     ],
                     "item_count": 1
+                  },
+                  {
+                    "name": "Faron Mist Poe",
+                    "access_rules": [
+                      "Shadow_Crystal"
+                    ],
+                    "visibility_rules": ["poes-enabled"],
+                    "item_count": 1,
+                    "chest_unopened_img": "images/soul.png",
+                    "chest_opened_img": "images/soul-grey.png"
                   }
                 ],
                 "map_locations": 
@@ -296,32 +306,6 @@
                     "map": "Main",
                     "x": 616,
                     "y": 868
-                  }
-                ]
-              },
-              {
-                "name": "Faron Woods",
-                "access_rules":
-                [
-                  "$hasSword, Slingshot",
-                  "skip-prologue-on"
-                ],
-                "sections": [
-                  {
-                    "name": "Faron Mist Poe",
-                    "access_rules": [
-                      "Shadow_Crystal"
-                    ],
-                    "item_count": 1,
-                    "chest_unopened_img": "images/soul.png",
-                    "chest_opened_img": "images/soul-grey.png"
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "Poes",
-                    "x": 615,
-                    "y": 870
                   }
                 ]
               },
@@ -468,7 +452,29 @@
                       "$canDefeatBabaSerpent, $canKnockDownHangingBaba"
                     ],
                     "item_count": 1
-                  }
+                  },
+                  {
+                    "name": "Lost Woods Waterfall Poe",
+                    "visibility_rules": ["poes-enabled"],
+                    "access_rules": [
+                      "$canCompletePrologue, Shadow_Crystal"
+                    ],
+                    "item_count": 1,
+                    "chest_unopened_img": "images/soul.png",
+                    "chest_opened_img": "images/soul-grey.png"
+                  },
+                  {
+                    "name": "Lost Woods Boulder Poe",
+                    "item_count": 1,
+                    "visibility_rules": ["poes-enabled"],
+                    "access_rules": [
+                      "$canCompletePrologue, Shadow_Crystal, $canDefeatSkullKid, $canSmash",
+                      "$canCompletePrologue, Shadow_Crystal, early-tot-grove, $canSmash",
+                      "$canCompletePrologue, Shadow_Crystal, early-tot-open, $canSmash"
+                    ],
+                    "chest_unopened_img": "images/soul.png",
+                    "chest_opened_img": "images/soul-grey.png"
+                  }    
                 ],
                 "map_locations": [
                   {
@@ -479,15 +485,6 @@
                 ]
               }
             ]
-          },
-          {
-            "name": "Sacred Grove Master Sword",
-            "access_rules": [
-              "$canCompletePrologue, Shadow_Crystal, $canDefeatSkullKid",
-              "$canCompletePrologue, Shadow_Crystal, early-tot-grove",
-              "$canCompletePrologue, Shadow_Crystal, early-tot-open"
-            ]
-              
           },
           {
             "name": "Lost Woods/Sacred Grove",
@@ -501,46 +498,15 @@
                   "$canCompletePrologue, Shadow_Crystal, $canDefeatSkullKid",
                   "$canCompletePrologue, Shadow_Crystal, early-tot-grove",
                   "$canCompletePrologue, Shadow_Crystal, early-tot-open"
-                ]
+                ],
+                "visibility_rules": ["poes-enabled"]
               }
             ],
             "map_locations": [
               {
-                "map": "Poes",
+                "map": "Main",
                 "x": 525,
                 "y": 831
-              }
-            ]
-          },
-          {
-            "name": "Lost Woods",
-            "sections": [
-              {
-                "name": "Lost Woods Waterfall Poe",
-                "access_rules": [
-                  "$canCompletePrologue, Shadow_Crystal"
-                ],
-                "item_count": 1,
-                "chest_unopened_img": "images/soul.png",
-                "chest_opened_img": "images/soul-grey.png"
-              },
-              {
-                "name": "Lost Woods Boulder Poe",
-                "item_count": 1,
-                "access_rules": [
-                  "$canCompletePrologue, Shadow_Crystal, $canDefeatSkullKid, $canSmash",
-                  "$canCompletePrologue, Shadow_Crystal, early-tot-grove, $canSmash",
-                  "$canCompletePrologue, Shadow_Crystal, early-tot-open, $canSmash"
-                ],
-                "chest_unopened_img": "images/soul.png",
-                "chest_opened_img": "images/soul-grey.png"
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Poes",
-                "x": 504,
-                "y": 859
               }
             ]
           },
@@ -572,6 +538,16 @@
                     "item_count": 1,
                     "chest_unopened_img": "images/Golden_Bug.png",
                     "chest_opened_img": "images/Golden_Bug-grey.png"
+                  },
+                  {
+                    "name": "Sacred Grove Temple of Time Owl Statue Poe",
+                    "item_count": 1,
+                    "access_rules": [
+                      "Progressive_Dominion_Rod_1, Shadow_Crystal"
+                    ], 
+                    "visibility_rules": ["poes-enabled"],
+                    "chest_unopened_img": "images/soul.png",
+                    "chest_opened_img": "images/soul-grey.png"
                   }
                 ],       
                 "map_locations": [
@@ -579,27 +555,6 @@
                     "map": "Main",
                     "x": 540.96,
                     "y": 861
-                  }
-                ]
-              },
-              {
-                "name": "Sacred Grove Temple of Time",
-                "sections": [
-                  {
-                    "name": "Sacred Grove Temple of Time Owl Statue Poe",
-                    "item_count": 1,
-                    "access_rules": [
-                      "Progressive_Dominion_Rod_1, Shadow_Crystal"
-                    ], 
-                    "chest_unopened_img": "images/soul.png",
-                    "chest_opened_img": "images/soul-grey.png"
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "Poes",
-                    "x": 529,
-                    "y": 870
                   }
                 ]
               }
@@ -1716,30 +1671,6 @@
             ]
           },
           {
-            "name": "Upper Zoras River",
-            "access_rules": [
-              "$canSmash"
-            ],
-            "sections": [
-              {
-                "name": "Upper Zoras River Poe",
-                "access_rules": [
-                  "Shadow_Crystal"
-                ],
-                "item_count": 1,
-                "chest_unopened_img": "images/soul.png",
-                "chest_opened_img": "images/soul-grey.png"
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Poes",
-                "x": 768,
-                "y": 177
-              }
-            ]
-          },
-          {
             "name": "Fishing Hole",
             "access_rules": [
               "$canSmash"
@@ -1795,6 +1726,16 @@
                 "item_count": 1,
                 "chest_unopened_img": "images/HP.png",
                 "chest_opened_img": "images/HP_grey.png"
+              },
+              {
+                "name": "Upper Zoras River Poe",
+                "access_rules": [
+                  "Shadow_Crystal"
+                ],
+                "visibility_rules": ["poes-enabled"],
+                "item_count": 1,
+                "chest_unopened_img": "images/soul.png",
+                "chest_opened_img": "images/soul-grey.png"
               }
             ],
             "map_locations": [
@@ -3716,6 +3657,17 @@
                   "Shadow_Crystal, early-snowpeak-on, Ball_and_Chain"
                 ],
                 "item_count": 1
+              },
+              {
+                "name": "Snowpeak Above Freezard Grotto Poe",
+                "access_rules": [
+                  "Shadow_Crystal, Reekfish_Scent",
+                  "Shadow_Crystal, early-snowpeak-on"
+                ],
+                "visibility_rules": ["poes-enabled"],
+                "item_count": 1,
+                "chest_unopened_img": "images/soul.png",
+                "chest_opened_img": "images/soul-grey.png"
               }
             ],
             "map_locations": [
@@ -3735,6 +3687,7 @@
                   "Shadow_Crystal, Reekfish_Scent",
                   "Shadow_Crystal, early-snowpeak-on"
                 ],
+                "visibility_rules": ["poes-enabled"],
                 "item_count": 1,
                 "chest_unopened_img": "images/soul.png",
                 "chest_opened_img": "images/soul-grey.png"
@@ -3742,29 +3695,7 @@
             ],
             "map_locations": [
               {
-                "map": "Poes",
-                "x": 536,
-                "y": 117
-              }
-            ]
-          },
-          {
-            "name": "Snowpeak Climb",
-            "sections": [
-              {
-                "name": "Snowpeak Above Freezard Grotto Poe",
-                "access_rules": [
-                  "Shadow_Crystal, Reekfish_Scent",
-                  "Shadow_Crystal, early-snowpeak-on"
-                ],
-                "item_count": 1,
-                "chest_unopened_img": "images/soul.png",
-                "chest_opened_img": "images/soul-grey.png"
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Poes",
+                "map": "Main",
                 "x": 498,
                 "y": 131
               }
@@ -3779,6 +3710,7 @@
                   "Shadow_Crystal, Reekfish_Scent",
                   "Shadow_Crystal, early-snowpeak-on"
                 ],
+                "visibility_rules": ["poes-enabled"],
                 "item_count": 1,
                 "chest_unopened_img": "images/soul.png",
                 "chest_opened_img": "images/soul-grey.png"
@@ -3786,31 +3718,9 @@
             ],
             "map_locations": [
               {
-                "map": "Poes",
+                "map": "Main",
                 "x": 477,
                 "y": 112
-              }
-            ]
-          },
-          {
-            "name": "Snowpeak Climb",
-            "sections": [
-              {
-                "name": "Snowpeak Cave Ice Poe",
-                "access_rules": [
-                  "Shadow_Crystal, Reekfish_Scent",
-                  "Shadow_Crystal, early-snowpeak-on"
-                ],
-                "item_count": 1,
-                "chest_unopened_img": "images/soul.png",
-                "chest_opened_img": "images/soul-grey.png"
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Poes",
-                "x": 457,
-                "y": 143
               }
             ]
           },
@@ -3823,6 +3733,7 @@
                   "Shadow_Crystal, Reekfish_Scent",
                   "Shadow_Crystal, early-snowpeak-on"
                 ],
+                "visibility_rules": ["poes-enabled"],
                 "item_count": 1,
                 "chest_unopened_img": "images/soul.png",
                 "chest_opened_img": "images/soul-grey.png"
@@ -3830,7 +3741,7 @@
             ],
             "map_locations": [
               {
-                "map": "Poes",
+                "map": "Main",
                 "x": 261,
                 "y": 394
               }
@@ -3846,6 +3757,17 @@
                   "Shadow_Crystal, early-snowpeak-on, Ball_and_Chain, Lantern"
                 ],
                 "item_count": 1
+              },
+              {
+                "name": "Snowpeak Cave Ice Poe",
+                "access_rules": [
+                  "Shadow_Crystal, Reekfish_Scent",
+                  "Shadow_Crystal, early-snowpeak-on"
+                ],
+                "visibility_rules": ["poes-enabled"],
+                "item_count": 1,
+                "chest_unopened_img": "images/soul.png",
+                "chest_opened_img": "images/soul-grey.png"
               }
             ],
             "map_locations": [

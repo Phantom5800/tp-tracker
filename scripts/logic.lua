@@ -866,13 +866,6 @@ function canCompleteAllDungeons()
           and canCompletePalaceofTwilight()
 end
 
-
--- Old stuff
-function canAccessForest()
-  return has("$can_access_north_faron") 
-          and (has("FaronEscape") or has("$can_burn_webs"))
-end
-
 function canAccessMines()
   return has("Iron_Boots") 
           and canDefeatGoron() 
@@ -930,9 +923,4 @@ function canAccessPoT()
             or (has("palace-fused") and has("Progressive_Fused_Shadow_3"))
             or (has("palace-mirror") and has("Progressive_Mirror_Shard_3")) 
             or has("palace-open"))
-end
-
-function canAccessHyrule()
-  return (has("boss8") or has("EarlyHyruleCastle"))
-          and has("$can_access_castle_town")
 end

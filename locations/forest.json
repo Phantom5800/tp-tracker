@@ -257,6 +257,8 @@
                       "$canBurnWebs, small-keysy-enabled, Boomerang, $canDefeatOok",
                       "Clawshot, Boomerang, $canDefeatOok, $canBurnWebs"
                     ],
+                    "chest_unopened_img": "images/boomerang.png",
+                    "chest_opened_img": "images/boomerang-grey.png",
                     "item_count": 1
                   }
                 ],
