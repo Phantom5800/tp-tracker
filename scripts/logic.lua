@@ -25,13 +25,6 @@ function hasSword()
           or has("Progressive_Sword_4")
 end
 
-function canDefeatAeralfos()
-  return has("Clawshot")
-          and (hasSword() 
-                or has("Ball_and_Chain") 
-                or has("Shadow_Crystal"))
-end
-        
 function canDefeatArmos()
   return hasSword() 
           or has("Ball_and_Chain")
@@ -165,10 +158,6 @@ function canDefeatChuWorm()
             or has("Shadow_Crystal")
           ) and (hasBombs() 
             or has("Clawshot"))
-end
-        
-function canDefeatDarknut()
-  return hasSword()
 end
         
 function canDefeatDekuBaba()
@@ -544,23 +533,6 @@ function canDefeatYoungGohma()
           or hasBombs()
 end
         
-function canDefeatZantHead()
-  return has("Shadow_Crystal") or hasSword()
-end
-        
-function canDefeatOok()
-  return hasSword()
-          or has("Ball_and_Chain")
-          or (has("Progressive_Bow") and canGetArrows())
-          or has("Shadow_Crystal")
-          or hasBombs()
-end
-        
-function canDefeatDangoro()
-  return (hasSword() or has("Ball_and_Chain") or has("Shadow_Crystal"))
-          and has("Iron_Boots")
-end
-        
 function canDefeatCarrierKargarok()
   return has("Shadow_Crystal")
 end
@@ -568,15 +540,7 @@ end
 function canDefeatTwilitBloat()
   return has("Shadow_Crystal")
 end
-        
-function canDefeatDekuToad()
-  return hasSword()
-          or has("Ball_and_Chain")
-          or has("Progressive_Bow")
-          or has("Shadow_Crystal")
-          or hasBombs()
-end
-        
+
 function canDefeatSkullKid()
   return has("Progressive_Bow")
 end
@@ -598,77 +562,7 @@ function canDefeatKingBulblinCastle()
           or has("Shadow_Crystal")
           or has("Progressive_Bow_3")
 end
-        
-function canDefeatDeathSword()
-  return (hasSword() or has("Ball_and_Chain"))
-          and (has("Boomerang")
-                or has("Progressive_Bow")
-                or has("Clawshot"))
-          and has("Shadow_Crystal")
-end
-        
-function canDefeatDarkhammer()
-  return hasSword()
-          or has("Ball_and_Chain")
-          or has("Progressive_Bow")
-          or has("Shadow_Crystal")
-          or hasBombs()
-end
-        
-function canDefeatPhantomZant()
-  return has("Shadow_Crystal") or hasSword()
-end
-        
-function canDefeatDiababa()
-  return canLaunchBombs()
-          or (has("Boomerang")
-              and (hasSword()
-                    or has("Ball_and_Chain")
-                    or has("Shadow_Crystal")
-                    or hasBombs()))
-end
-        
-function canDefeatFyrus()
-  return has("Progressive_Bow")
-          and has("Iron_Boots")
-          and hasSword()
-end
-        
-function canDefeatMorpheel()
-  return has("Zora_Armor")
-          and has("Iron_Boots")
-          and hasSword()
-          and has("Clawshot")
-end
-        
-function canDefeatStallord()
-  return has("Spinner") and hasSword()
-end
-        
-function canDefeatBlizzeta()
-  return has("Ball_and_Chain")
-end
-        
-function canDefeatArmogohma()
-  return has("Progressive_Bow")
-          and has("Progressive_Dominion_Rod_1")
-end
-        
-function canDefeatArgorok()
-  return has("Double_Clawshot")
-          and has("Progressive_Sword_2")
-          and has("Iron_Boots")
-end
-        
-function canDefeatZant()
-  return has("Progressive_Sword_3")
-          and has("Boomerang")
-          and has("Clawshot")
-          and has("Ball_and_Chain")
-          and has("Iron_Boots")
-          and has("Zora_Armor")
-end
-        
+
 function canDefeatGanondorf()
   return has("Shadow_Crystal")
           and has("Progressive_Sword_3")
@@ -700,45 +594,13 @@ end
 function canLaunchBombs()
   return (has("Boomerang") or has("Progressive_Bow")) and hasBombs()
 end
-        
-function canCutHangingWeb()
-  return has("Clawshot")
-          or (has("Progressive_Bow") and canGetArrows())
-          or has("Boomerang")
-          or has("Ball_and_Chain")
-end
-        
+
 function canKnockDownHCPainting()
   return has("Progressive_Bow")
           or (hasSword() 
             and has("Progressive_Hidden_Skill", 6))
 end
-        
-function canBreakMonkeyCage()
-  return hasSword()
-          or has("Iron_Boots")
-          or has("Spinner")
-          or has("Ball_and_Chain")
-          or has("Shadow_Crystal")
-          or hasBombs()
-          or has("Clawshot")
-end
-        
-function canPressMinesSwitch()
-  return has("Iron_Boots")
-end
-        
-function canFreeAllMonkeys()
-  return canBreakMonkeyCage()
-          and (has("Lantern")
-            or hasBombs() 
-            or has("Iron_Boots"))
-          and canBurnWebs()
-          and has("Boomerang")
-          and canDefeatBokoblin()
-          and (has("Forest_Temple_Small_Key",4) or has("small-keysy-enabled"))
-end
-        
+
 function canKnockDownHangingBaba()
   return has("Progressive_Bow")
           or has("Clawshot")
@@ -771,90 +633,11 @@ end
 function canCompleteMDH()
   return canCompleteLakebedTemple() or has("skip-mdh-on")
 end
-        
+
 function canLeaveForest()
   return (canCompleteForestTemple() or has("skip-faron-on")) and canCompletePrologue()
 end
-        
-function canCompleteForestTemple()
-  return canBreakMonkeyCage() 
-          and has("Boomerang") 
-          and (has("Forest_Temple_Big_Key") or has("boss-keysy-enabled"))
-          and (canFreeAllMonkeys() or has("Clawshot")) 
-          and canDefeatDiababa()
-end
-        
-function canCompleteGoronMines()
-  return canAccessMines() 
-          and has("Iron_Boots") 
-          and canBreakWoodenDoor() 
-          and (has("Goron_Mines_Small_Key",3) or has("small-keysy-enabled"))
-          and has("Progressive_Bow") 
-          and canDefeatBulblin() 
-          and (has("Goron_Mines_Big_Key",3) or has("boss-keysy-enabled"))
-          and canDefeatFyrus()
-end
-        
-function canCompleteLakebedTemple()
-  return canAccessLakebed() 
-          and canLaunchBombs() 
-          and (has("Lakebed_Temple_Small_Key",3) or has("small-keysy-enabled"))
-          and (has("Lakebed_Temple_Big_Key") or has("boss-keysy-enabled"))
-          and canDefeatMorpheel()
-end
 
-function canCompleteArbitersGrounds()
-  return canAccessArbiters() 
-          and (has("Arbiters_Grounds_Small_Key",4) or has("small-keysy-enabled"))
-          and has("Lantern") 
-          and has("Shadow_Crystal") 
-          and has("Clawshot") 
-          and has("Spinner") 
-          and (has("Arbiters_Grounds_Big_Key") or has("boss-keysy-enabled"))
-          and ((has("palace-vanilla") and canCompleteCityinTheSky()) 
-                or (has("palace-fused") and has("Progressive_Fused_Shadow_3"))
-                or (has("palace-mirror") and has("Progressive_Mirror_Shard_3")) 
-                or has("palace-open"))
-end
-
-function canCompleteSnowpeakRuins()
-  return canAccessSnowpeakRuins() 
-          and ((has("Snowpeak_Ruins_Small_Key",4) and has("Ordon_Goat_Cheese")) or has("small-keysy-enabled"))
-          and  has("Ball_and_Chain") 
-          and hasBombs() 
-          and (has("Snowpeak_Ruins_Bedroom_Key") or has("boss-keysy-enabled"))
-          and canDefeatBlizzeta()
-end
-
-
-function canCompleteTempleofTime()
-  return canAccessToT() 
-          and has("Progressive_Dominion_Rod_1") 
-          and has("Progressive_Bow") 
-          and has("Spinner") 
-          and (has("Temple_of_Time_Small_Key",3) or has("small-keysy-enabled"))
-          and (has("Temple_of_Time_Big_Key") or has("boss-keysy-enabled"))
-          and canDefeatArmogohma()
-end
-        
-function canCompleteCityinTheSky()
-  return canAccessCiTS() 
-          and has("Double_Clawshot") 
-          and has("Shadow_Crystal") 
-          and has("Iron_Boots") 
-          and (has("City_in_The_Sky_Big_Key") or has("boss-keysy-enabled"))
-          and canDefeatArgorok()
-end
-        
-function canCompletePalaceofTwilight()
-  return canAccessPoT() 
-          and has("Progressive_Sword_4") 
-          and has("Shadow_Crystal") 
-          and (has("Palace_of_Twilight_Small_Key",7) or has("small-keysy-enabled"))
-          and (has("Palace_of_Twilight_Big_Key") or has("boss-keysy-enabled"))
-          and canDefeatZant()
-end
-        
 function canCompleteAllDungeons()
   return canCompleteForestTemple()
           and canCompleteGoronMines()
@@ -866,21 +649,6 @@ function canCompleteAllDungeons()
           and canCompletePalaceofTwilight()
 end
 
-function canAccessMines()
-  return has("Iron_Boots") 
-          and canDefeatGoron() 
-          and ((hasSword() and has("Slingshot")) or has("skip-prologue-on")) 
-          and canLeaveForest()
-end
-
-function canAccessLakebed()
-  return canLeaveForest() 
-          and ((canSmash() and (hasSword() and has("Slingshot")) or has("skip-prologue-on")) 
-                or (has("Gate_Keys") and (hasSword() and has("Slingshot")) or has("skip-prologue-on"))) 
-          and has("Zora_Armor") 
-          and (has("early-lakebed-on") or (has("Iron_Boots") and canUseWaterBombs()))
-end
-
 function canAccessLanayru()
   return canLeaveForest() 
           and ((canSmash() or has("Gate_Keys")) 
@@ -888,39 +656,12 @@ function canAccessLanayru()
                       or has("skip-prologue-on")))
 end
 
-function canAccessArbiters()
-  return (canSmash() or has("Gate_Keys")) 
-          and ((hasSword() and has("Slingshot")) or has("skip-prologue-on")) 
-          and has("Auru_Memo") 
-          and (has("early-arbiters-on") or has("Gerudo_Desert_Small_Key")) 
-          and canLeaveForest()
-end
 
-function canAccessSnowpeakRuins()
-  return canSmash() 
-          and ((hasSword() and has("Slingshot")) or has("skip-prologue-on"))
-          and canLeaveForest() 
-          and has("Shadow_Crystal") 
-          and (has("Reekfish_Scent") or has("early-snowpeak-on"))
-end
-
-function canAccessToT()
-  return canCompletePrologue() 
-          and has("Shadow_Crystal") 
-          and (canDefeatShadowBeast() and has("Progressive_Sword_3") or has("early-tot-open"))
-end
-
-function canAccessCiTS()
-  return canAccessLanayru() 
-          and has("Clawshot") 
-          and (has("Skybook",7) or has("early-city-on"))
-end
-
-function canAccessPoT()
-  return canCompleteArbitersGrounds()
-          and has("Shadow_Crystal") 
-          and ((has("palace-vanilla") and canCompleteCityinTheSky()) 
-            or (has("palace-fused") and has("Progressive_Fused_Shadow_3"))
-            or (has("palace-mirror") and has("Progressive_Mirror_Shard_3")) 
-            or has("palace-open"))
-end
+ScriptHost:LoadScript("scripts/logic/dungeons/forest.lua")
+ScriptHost:LoadScript("scripts/logic/dungeons/mines.lua")
+ScriptHost:LoadScript("scripts/logic/dungeons/lakebed.lua")
+ScriptHost:LoadScript("scripts/logic/dungeons/arbiters.lua")
+ScriptHost:LoadScript("scripts/logic/dungeons/snowpeak.lua")
+ScriptHost:LoadScript("scripts/logic/dungeons/templeoftime.lua")
+ScriptHost:LoadScript("scripts/logic/dungeons/cityinthesky.lua")
+ScriptHost:LoadScript("scripts/logic/dungeons/palaceoftwilight.lua")
