@@ -14,7 +14,7 @@ if has_map then
     Tracker:AddLocations("locations/forest.json")
     Tracker:AddLocations("locations/mines.json")
     Tracker:AddLayouts("layouts/options.json")
-    Tracker:AddLayouts("layouts/dungeon_grids_keysanity.json")
+    Tracker:AddLayouts("layouts/dungeon_item_grid.json")
 end
 
 
