@@ -1829,29 +1829,6 @@
                 ]
               },
               {
-                "name": "West Hyrule Field",
-                "sections": [
-                  {
-                    "name": "West Hyrule Field Female Butterfly",
-                    "access_rules": [
-                      "Clawshot",
-                      "Boomerang"
-                    ],
-                    "visibility_rules": ["golden-bugs-enabled"],
-                    "item_count": 1,
-                    "chest_unopened_img": "images/Golden_Bug.png",
-                    "chest_opened_img": "images/Golden_Bug-grey.png"
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "Main",
-                    "x": 546,
-                    "y": 481
-                  }
-                ]
-              },
-              {
                 "name": "North Hyrule Field",
                 "sections": [
                   {
@@ -2334,7 +2311,18 @@
                           "Clawshot, Shadow_Crystal"
                         ],
                         "item_count": 1
-                      }
+                      },
+                      {
+                        "name": "West Hyrule Field Female Butterfly",
+                        "access_rules": [
+                          "Clawshot",
+                          "Boomerang"
+                        ],
+                        "visibility_rules": ["golden-bugs-enabled"],
+                        "item_count": 1,
+                        "chest_unopened_img": "images/Golden_Bug.png",
+                        "chest_opened_img": "images/Golden_Bug-grey.png"
+                      }    
                     ],
                     "map_locations": [
                       {
