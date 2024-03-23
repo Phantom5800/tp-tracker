@@ -70,9 +70,9 @@ end
 ---------------------------------------------------------]]
 function ForestTemple_Dungeon_Reward()
   local boss_key = has("Forest_Temple_Big_Key") or has("boss-keysy-enabled")
-  local monkey_bridge = has("Clawshot") or canFreeAllMonkeys()
   if has("Boomerang") and boss_key and canDefeatDiababa() then
     -- glitchless access
+    local monkey_bridge = has("Clawshot") or canFreeAllMonkeys()
     if monkey_bridge then
       return true
     else -- boomerang LJA's
@@ -121,6 +121,7 @@ function ForestTemple_Gale_Boomerang()
       return has("Clawshot") and has("Boomerang") and canBurnWebs()
     end
   end
+  return false
 end
 
 function ForestTemple_North_Deku_Like_Chest()

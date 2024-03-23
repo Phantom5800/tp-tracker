@@ -4,7 +4,7 @@
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
     "access_rules": [
-      "$canAccessMines"
+      "$canAccessMines, $canGetThroughFirstMinesRoom"
     ],
     "children": [
       {
@@ -18,26 +18,39 @@
                 "name": "1F",
                 "sections": [
                   {
+                    "name": "1F",
+                    "sections": [
+                      {
+                        "name": "Entrance Chest",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "Goron Mines",
+                        "x": 327,
+                        "y": 463
+                      }
+                    ]
+                  },
+                  {
                     "name": "Gor Amato Small Chest",
                     "access_rules": [
-                      "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:1",
-                      "Iron_Boots, $canBreakWoodenDoor, small-keysy-enabled"
+                      "$GoronMines_Gor_Amato_Room"
                     ],
                     "item_count": 1
                   },
                   {
                     "name": "Gor Amato Chest",
                     "access_rules": [
-                      "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:1",
-                      "Iron_Boots, $canBreakWoodenDoor, small-keysy-enabled"
+                      "$GoronMines_Gor_Amato_Room"
                     ],
                     "item_count": 1
                   },
                   {
                     "name": "Gor Amato Key Shard",
                     "access_rules": [
-                      "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:1",
-                      "Iron_Boots, $canBreakWoodenDoor, small-keysy-enabled"
+                      "$GoronMines_Gor_Amato_Room"
                     ],
                     "item_count": 1
                   }
@@ -56,8 +69,7 @@
                   {
                     "name": "Magnet Maze Chest",
                     "access_rules": [
-                      "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:1",
-                      "Iron_Boots, $canBreakWoodenDoor, small-keysy-enabled"
+                      "$GoronMines_Gor_Amato_Room"
                     ],
                     "item_count": 1
                   }
@@ -75,9 +87,6 @@
                 "sections": [
                   {
                     "name": "Main Magnet Room Bottom Chest",
-                    "access_rules": [
-                      "Iron_Boots, $canBreakWoodenDoor"
-                    ],
                     "item_count": 1
                   }
                 ],
@@ -86,25 +95,6 @@
                     "map": "Goron Mines",
                     "x": 346,
                     "y": 354
-                  }
-                ]
-              },
-              {
-                "name": "1F",
-                "sections": [
-                  {
-                    "name": "Entrance Chest",
-                    "access_rules": [
-                      "Iron_Boots, $canBreakWoodenDoor"
-                    ],
-                    "item_count": 1
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "Goron Mines",
-                    "x": 327,
-                    "y": 463
                   }
                 ]
               }
@@ -119,16 +109,13 @@
           {
             "name": "2F",
             "children": [
-                        {
+              {
                 "name": "2F",
                 "sections": [
                   {
                     "name": "Fyrus Heart Container",
                     "access_rules": [
-                      "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:3, Progressive_Bow, $canDefeatBulblin, $canDefeatFyrus, Goron_Mines_Big_Key:3",
-                      "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:3, Progressive_Bow, $canDefeatBulblin, $canDefeatFyrus, boss-keysy-enabled",
-                      "Iron_Boots, $canBreakWoodenDoor, small-keysy-enabled, Progressive_Bow, $canDefeatBulblin, $canDefeatFyrus, Goron_Mines_Big_Key:3",
-                      "Iron_Boots, $canBreakWoodenDoor, small-keysy-enabled, Progressive_Bow, $canDefeatBulblin, $canDefeatFyrus, boss-keysy-enabled"
+                      "$GoronMines_Dungeon_Reward"
                     ],
                     "item_count": 1,
                     "chest_unopened_img": "images/HC.png",
@@ -138,10 +125,7 @@
                     "name": "Dungeon Reward",
                     "item_count": 1,
                     "access_rules": [
-                      "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:3, Progressive_Bow, $canDefeatBulblin, $canDefeatFyrus, Goron_Mines_Big_Key:3",
-                      "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:3, Progressive_Bow, $canDefeatBulblin, $canDefeatFyrus, boss-keysy-enabled",
-                      "Iron_Boots, $canBreakWoodenDoor, small-keysy-enabled, Progressive_Bow, $canDefeatBulblin, $canDefeatFyrus, Goron_Mines_Big_Key:3",
-                      "Iron_Boots, $canBreakWoodenDoor, small-keysy-enabled, Progressive_Bow, $canDefeatBulblin, $canDefeatFyrus, boss-keysy-enabled"
+                      "$GoronMines_Dungeon_Reward"
                     ]
                   }            
                 ],
@@ -159,10 +143,7 @@
                   {
                     "name": "Outside Beamos Chest",
                     "access_rules": [
-                      "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:2, Progressive_Bow",
-                      "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:2, $hasSword",
-                      "Iron_Boots, $canBreakWoodenDoor, small-keysy-enabled, Progressive_Bow",
-                      "Iron_Boots, $canBreakWoodenDoor, small-keysy-enabled, $hasSword"
+                      "$GoronMines_Outside_Beamos_Chest"
                     ],
                     "item_count": 1
                   }
@@ -181,10 +162,7 @@
                   {
                     "name": "Outside Underwater Chest",
                     "access_rules": [
-                      "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:2, Progressive_Bow, $canUseWaterBombs",
-                      "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:2, $hasSword",
-                      "Iron_Boots, $canBreakWoodenDoor, small-keysy-enabled, Progressive_Bow, $canUseWaterBombs",
-                      "Iron_Boots, $canBreakWoodenDoor, small-keysy-enabled, $hasSword"
+                      "$GoronMines_Outside_Beamos_Chest"
                     ],
                     "item_count": 1
                   }
@@ -203,10 +181,7 @@
                   {
                     "name": "Outside Clawshot Chest",
                     "access_rules": [
-                      "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:2, Progressive_Bow, Clawshot",
-                      "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:2, $hasSword, Clawshot",
-                      "Iron_Boots, $canBreakWoodenDoor, small-keysy-enabled, Progressive_Bow, Clawshot",
-                      "Iron_Boots, $canBreakWoodenDoor, small-keysy-enabled, $hasSword, Clawshot"
+                      "$GoronMines_Outside_Beamos_Chest, Clawshot"
                     ],
                     "item_count": 1
                   }
@@ -225,8 +200,7 @@
                   {
                     "name": "After Crystal Switch Room Magnet Wall Chest",
                     "access_rules": [
-                      "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:1",
-                      "Iron_Boots, $canBreakWoodenDoor, small-keysy-enabled"
+                      "$GoronMines_Crystal_Switch_Room"
                     ],
                     "item_count": 1
                   }
@@ -245,16 +219,14 @@
                   {
                     "name": "Crystal Switch Room Small Chest",
                     "access_rules": [
-                      "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:1",
-                      "Iron_Boots, $canBreakWoodenDoor, small-keysy-enabled"
+                      "$GoronMines_Crystal_Switch_Room"
                     ],
                     "item_count": 1
                   },
                   {
                     "name": "Crystal Switch Room Underwater Chest",
                     "access_rules": [
-                      "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:1",
-                      "Iron_Boots, $canBreakWoodenDoor, small-keysy-enabled"
+                      "$GoronMines_Crystal_Switch_Room"
                     ],
                     "item_count": 1
                   }
@@ -273,8 +245,7 @@
                   {
                     "name": "Main Magnet Room Top Chest",
                     "access_rules": [
-                      "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:3, Progressive_Bow, $canDefeatDangoro",
-                      "Iron_Boots, $canBreakWoodenDoor, small-keysy-enabled, Progressive_Bow, $canDefeatDangoro"
+                      "$GoronMines_After_Dangoro_Rooms"
                     ],
                     "item_count": 1
                   }
@@ -293,8 +264,7 @@
                   {
                     "name": "Beamos Room Chest",
                     "access_rules": [
-                      "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:3, Progressive_Bow, $canDefeatDangoro",
-                      "Iron_Boots, $canBreakWoodenDoor, small-keysy-enabled, Progressive_Bow, $canDefeatDangoro"
+                      "$GoronMines_After_Dangoro_Rooms"
                     ],
                     "item_count": 1
                   }
@@ -313,16 +283,14 @@
                   {
                     "name": "Gor Liggs Key Shard",
                     "access_rules": [
-                      "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:3, Progressive_Bow, $canDefeatDangoro",
-                      "Iron_Boots, $canBreakWoodenDoor, small-keysy-enabled, Progressive_Bow, $canDefeatDangoro"
+                      "$GoronMines_After_Dangoro_Rooms"
                     ],
                     "item_count": 1
                   },
                   {
                     "name": "Gor Liggs Chest",
                     "access_rules": [
-                      "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:3, Progressive_Bow, $canDefeatDangoro",
-                      "Iron_Boots, $canBreakWoodenDoor, small-keysy-enabled, Progressive_Bow, $canDefeatDangoro"
+                      "$GoronMines_After_Dangoro_Rooms"
                     ],
                     "item_count": 1
                   }
@@ -341,8 +309,7 @@
                   {
                     "name": "Dangoro Chest",
                     "access_rules": [
-                      "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:3, $canDefeatDangoro",
-                      "Iron_Boots, $canBreakWoodenDoor, small-keysy-enabled, $canDefeatDangoro"
+                      "$GoronMines_Dangoro_Chest"
                     ],
                     "item_count": 1
                   }
@@ -361,8 +328,7 @@
                   {
                     "name": "Chest Before Dangoro",
                     "access_rules": [
-                      "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:3",
-                      "Iron_Boots, $canBreakWoodenDoor, small-keysy-enabled"
+                      "$GoronMines_Gor_Ebizo_Room"
                     ],
                     "item_count": 1
                   }
@@ -381,20 +347,14 @@
                   {
                     "name": "Gor Ebizo Key Shard",
                     "access_rules": [
-                      "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:3, $hasSword",
-                      "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:3, Progressive_Bow",
-                      "Iron_Boots, $canBreakWoodenDoor, small-keysy-enabled, $hasSword",
-                      "Iron_Boots, $canBreakWoodenDoor, small-keysy-enabled, Progressive_Bow"
+                      "$GoronMines_Gor_Ebizo_Room"
                     ],
                     "item_count": 1
                   },
                   {
                     "name": "Gor Ebizo Chest",
                     "access_rules": [
-                      "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:3, $hasSword",
-                      "Iron_Boots, $canBreakWoodenDoor, Goron_Mines_Small_Key:3, Progressive_Bow",
-                      "Iron_Boots, $canBreakWoodenDoor, small-keysy-enabled, $hasSword",
-                      "Iron_Boots, $canBreakWoodenDoor, small-keysy-enabled, Progressive_Bow"
+                      "$GoronMines_Gor_Ebizo_Room"
                     ],
                     "item_count": 1
                   }
