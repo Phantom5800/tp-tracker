@@ -1,6 +1,6 @@
 [
   {
-    "name": "Temple of time",
+    "name": "Temple of Time",
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
     "access_rules": [
@@ -27,7 +27,7 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "Temple of time",
+                    "map": "Temple of Time",
                     "x": 354,
                     "y": 407
                   }
@@ -62,7 +62,7 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "Temple of time",
+                    "map": "Temple of Time",
                     "x": 310,
                     "y": 88
                   }
@@ -95,9 +95,31 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "Temple of time",
+                    "map": "Temple of Time",
                     "x": 899,
                     "y": 539
+                  }
+                ]
+              },
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "Poe Behind Gate",
+                    "access_rules": [
+                      "Shadow_Crystal, Progressive_Dominion_Rod"
+                    ],
+                    "visibility_rules": ["poes-enabled"],
+                    "item_count": 1,
+                    "chest_unopened_img": "images/soul.png",
+                    "chest_opened_img": "images/soul-grey.png"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Temple of Time",
+                    "x": 947,
+                    "y": 400
                   }
                 ]
               }
@@ -109,7 +131,7 @@
         "name": "3F",
         "color": "#18a50e",
         "access_rules": [
-          "Temple_of_Time_Small_Key:1, lantern"
+          "$Temple_of_Time_3F_Access"
         ],
         "children": [
           {
@@ -128,7 +150,7 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "Temple of time",
+                    "map": "Temple of Time",
                     "x": 1590,
                     "y": 470
                   }
@@ -140,14 +162,14 @@
                   {
                     "name": "First Staircase Armos Chest",
                     "access_rules": [
-                      ""
+                      "$canDefeatArmos"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Temple of time",
+                    "map": "Temple of Time",
                     "x": 1610,
                     "y": 457
                   }
@@ -161,7 +183,7 @@
         "name": "5F",
         "color": "#18a50e",
         "access_rules": [
-          "Temple_of_Time_Small_Key:1, lantern, spinner"
+          "$Temple_of_Time_5F_Access"
         ],
         "children": [
           {
@@ -173,14 +195,14 @@
                   {
                     "name": "Armos Antechamber North Chest",
                     "access_rules": [
-                      "Temple_of_Time_Small_Key:1"
+                      ""
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Temple of time",
+                    "map": "Temple of Time",
                     "x": 309,
                     "y": 1145
                   }
@@ -192,14 +214,14 @@
                   {
                     "name": "Armos Antechamber East Chest",
                     "access_rules": [
-                      "Temple_of_Time_Small_Key:1"
+                      "$canDefeatArmos"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Temple of time",
+                    "map": "Temple of Time",
                     "x": 278,
                     "y": 1089
                   }
@@ -211,14 +233,14 @@
                   {
                     "name": "Armos Antechamber Statue Chest",
                     "access_rules": [
-                      "Temple_of_Time_Small_Key:1, brokedominion"
+                      "[Progressive_Dominion_Rod]"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Temple of time",
+                    "map": "Temple of Time",
                     "x": 342,
                     "y": 1089
                   }
@@ -230,14 +252,14 @@
                   {
                     "name": "Moving Wall Beamos Room Chest",
                     "access_rules": [
-                      "bow"
+                      "Progressive_Bow"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Temple of time",
+                    "map": "Temple of Time",
                     "x": 248,
                     "y": 895
                   }
@@ -249,14 +271,14 @@
                   {
                     "name": "Moving Wall Dinalfos Room Chest",
                     "access_rules": [
-                      "bow, brokedominion"
+                      "Progressive_Bow, Progressive_Dominion_Rod"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Temple of time",
+                    "map": "Temple of Time",
                     "x": 160,
                     "y": 907
                   }
@@ -270,7 +292,7 @@
         "name": "6F",
         "color": "#18a50e",
         "access_rules": [
-          "Temple_of_Time_Small_Key:1, lantern, bow, spinner"
+          "$Temple_of_Time_6F_Access"
         ],
         "children": [
           {
@@ -289,7 +311,7 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "Temple of time",
+                    "map": "Temple of Time",
                     "x": 901,
                     "y": 960
                   }
@@ -303,7 +325,7 @@
         "name": "7F",
         "color": "#18a50e",
         "access_rules": [
-          "Temple_of_Time_Small_Key:1, lantern, bow, spinner"
+          "$Temple_of_Time_7F_Access"
         ],
         "children": [
           {
@@ -322,7 +344,7 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "Temple of time",
+                    "map": "Temple of Time",
                     "x": 1582,
                     "y": 1138
                   }
@@ -334,14 +356,14 @@
                   {
                     "name": "Scales Upper Chest",
                     "access_rules": [
-                      "cs"
+                      "Clawshot"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Temple of time",
+                    "map": "Temple of Time",
                     "x": 1512,
                     "y": 1032
                   }
@@ -351,16 +373,38 @@
                 "name": "7F",
                 "sections": [
                   {
+                    "name": "Poe Above Scales",
+                    "access_rules": [
+                      "Clawshot, Shadow_Crystal"
+                    ],
+                    "visibility_rules": ["poes-enabled"],
+                    "item_count": 1,
+                    "chest_unopened_img": "images/soul.png",
+                    "chest_opened_img": "images/soul-grey.png"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Temple of Time",
+                    "x": 1512,
+                    "y": 954
+                  }
+                ]
+              },
+              {
+                "name": "7F",
+                "sections": [
+                  {
                     "name": "Big Key Chest",
                     "access_rules": [
-                      "cs"
+                      "Clawshot"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Temple of time",
+                    "map": "Temple of Time",
                     "x": 1579,
                     "y": 990
                   }
@@ -372,14 +416,14 @@
                   {
                     "name": "Floor Switch Puzzle Room Upper Chest",
                     "access_rules": [
-                      "cs"
+                      "Clawshot"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Temple of time",
+                    "map": "Temple of Time",
                     "x": 1599,
                     "y": 990
                   }
@@ -393,7 +437,7 @@
         "name": "8F",
         "color": "#18a50e",
         "access_rules": [
-          "Temple_of_Time_Small_Key:1, lantern, bow, spinner"
+          "$Temple_of_Time_8F_Access"
         ],
         "children": [
           {
@@ -412,7 +456,7 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "Temple of time",
+                    "map": "Temple of Time",
                     "x": 2173,
                     "y": 979
                   }
@@ -424,14 +468,14 @@
                   {
                     "name": "Darknut Chest",
                     "access_rules": [
-                      "Temple_of_Time_Small_Key:3"
+                      "$Temple_of_Time_Darknut_Chest"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Temple of time",
+                    "map": "Temple of Time",
                     "x": 1998,
                     "y": 1003
                   }

@@ -37,6 +37,36 @@ function Temple_of_Time_2F_Access()
   return key
 end
 
+function Temple_of_Time_3F_Access()
+  local key = has("Temple_of_Time_Small_Key",1) or has("small-keysy-enabled")
+  return key
+end
+
+function Temple_of_Time_5F_Access()
+  local key = has("Temple_of_Time_Small_Key",2) or has("small-keysy-enabled")
+  return key and has("Spinner")
+end
+
+function Temple_of_Time_6F_Access()
+  local key = has("Temple_of_Time_Small_Key",2) or has("small-keysy-enabled")
+  return key and has("Spinner") and has("Progressive_Bow")
+end
+
+function Temple_of_Time_7F_Access()
+  local key = has("Temple_of_Time_Small_Key",2) or has("small-keysy-enabled")
+  return key and has("Spinner") and has("Progressive_Bow")
+end
+
+function Temple_of_Time_8F_Access()
+  local key = has("Temple_of_Time_Small_Key",2) or has("small-keysy-enabled")
+  return key and has("Spinner") and has("Progressive_Bow")
+end
+
+function Temple_of_Time_Darknut_Chest()
+  local key = has("Temple_of_Time_Small_Key",3) or has("small-keysy-enabled")
+  return key and canDefeatDarknut()
+end
+
 function Temple_of_Time_Dungeon_Reward()
   local key = has("Temple_of_Time_Big_Key") or has("boss-keysy-enabled")
   return key and has("Progressive_Bow") and has("Progressive_Dominion_Rod")

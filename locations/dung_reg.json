@@ -123,28 +123,6 @@
         "name": "Armogohma",
         "access_rules": ["$canCompleteTempleofTime"],
         "hosted_item": "Armogohma"
-      },
-      {
-        "name": "Poe Behind Gate",
-        "access_rules": [
-          "Temple_of_Time_Small_Key:1, Shadow_Crystal, Progressive_Dominion_Rod",
-          "small-keysy-enabled, Shadow_Crystal, Progressive_Dominion_Rod"
-        ],
-        "visibility_rules": ["poes-enabled"],
-        "item_count": 1,
-        "chest_unopened_img": "images/soul.png",
-        "chest_opened_img": "images/soul-grey.png"
-      },
-      {
-        "name": "Poe Above Scales",
-        "access_rules": [
-          "Temple_of_Time_Small_Key:2, Progressive_Bow, Spinner, $canDefeatLizalfos, Clawshot, Shadow_Crystal",
-          "small-keysy-enabled, Progressive_Bow, Spinner, $canDefeatLizalfos, Clawshot, Shadow_Crystal"
-        ],
-        "visibility_rules": ["poes-enabled"],
-        "item_count": 1,
-        "chest_unopened_img": "images/soul.png",
-        "chest_opened_img": "images/soul-grey.png"
       }
     ],
     "map_locations": [
