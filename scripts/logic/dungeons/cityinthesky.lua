@@ -1,3 +1,6 @@
+--[[-------------------------------------------------------
+  Dungeon Progress
+---------------------------------------------------------]]
 function canAccessCiTS()
   return canAccessLanayru() 
           and has("Clawshot") 
@@ -13,6 +16,9 @@ function canCompleteCityinTheSky()
           and canDefeatArgorok()
 end
 
+--[[-------------------------------------------------------
+  Bosses and Unique Enemies
+---------------------------------------------------------]]
 function canDefeatAeralfos()
   return has("Clawshot")
           and (hasSword() 
@@ -25,3 +31,7 @@ function canDefeatArgorok()
           and has("Progressive_Sword_2")
           and has("Iron_Boots")
 end
+
+--[[-------------------------------------------------------
+  Individual Checks
+---------------------------------------------------------]]
