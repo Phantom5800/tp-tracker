@@ -1,10 +1,10 @@
 [
   {
-    "name": "City in the sky",
+    "name": "City in the Sky",
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
     "access_rules": [
-      "sky6, cs"
+      "$canAccessCiTS"
     ],
     "children": [
       {
@@ -20,14 +20,14 @@
                   {
                     "name": "Aeralfos Chest",
                     "access_rules": [
-                      "City_in_The_Sky_Small_Key, spinner, boomerang, iron "
+                      "$City_in_the_Sky_Aeralfos_Chest"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "City in the sky",
+                    "map": "City in the Sky",
                     "x": 505,
                     "y": 229
                   }
@@ -50,14 +50,14 @@
                   {
                     "name": "West Wing Baba Balcony Chest",
                     "access_rules": [
-                      "City_in_The_Sky_Small_Key, dcs"
+                      "$City_in_the_Sky_West_Wing_Baba_Balcony_Chest"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "City in the sky",
+                    "map": "City in the Sky",
                     "x": 1290,
                     "y": 197
                   }
@@ -69,14 +69,14 @@
                   {
                     "name": "East Wing Lower Level Chest",
                     "access_rules": [
-                      "City_in_The_Sky_Small_Key, spinner, dcs"
+                      "$City_in_the_Sky_East_Wing_Lower_Level_Chest"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "City in the sky",
+                    "map": "City in the Sky",
                     "x": 1569,
                     "y": 245
                   }
@@ -99,14 +99,14 @@
                   {
                     "name": "Underwater West Chest",
                     "access_rules": [
-                      "iron"
+                      "Iron_Boots"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "City in the sky",
+                    "map": "City in the Sky",
                     "x": 2011,
                     "y": 474
                   }
@@ -118,14 +118,14 @@
                   {
                     "name": "Underwater East Chest",
                     "access_rules": [
-                      "iron"
+                      "Iron_Boots"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "City in the sky",
+                    "map": "City in the Sky",
                     "x": 2038,
                     "y": 474
                   }
@@ -137,14 +137,14 @@
                   {
                     "name": "West Wing First Chest",
                     "access_rules": [
-                      "dcs"
+                      "Double_Clawshot"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "City in the sky",
+                    "map": "City in the Sky",
                     "x": 1843,
                     "y": 232
                   }
@@ -156,14 +156,14 @@
                   {
                     "name": "West Wing Narrow Ledge Chest",
                     "access_rules": [
-                      "dcs"
+                      "Double_Clawshot"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "City in the sky",
+                    "map": "City in the Sky",
                     "x": 1854,
                     "y": 220
                   }
@@ -175,14 +175,14 @@
                   {
                     "name": "West Wing Tile Worm Chest",
                     "access_rules": [
-                      "dcs"
+                      "Double_Clawshot"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "City in the sky",
+                    "map": "City in the Sky",
                     "x": 1887,
                     "y": 195
                   }
@@ -194,14 +194,14 @@
                   {
                     "name": "Chest Behind North Fan",
                     "access_rules": [
-                      "dcs, iron"
+                      "Double_Clawshot, Iron_Boots"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "City in the sky",
+                    "map": "City in the Sky",
                     "x": 2023,
                     "y": 77
                   }
@@ -213,14 +213,14 @@
                   {
                     "name": "East Tile Worm Small Chest",
                     "access_rules": [
-                      "City_in_The_Sky_Small_Key, spinner"
+                      "$City_in_the_Sky_East_Tile_Worm_Small_Chest"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "City in the sky",
+                    "map": "City in the Sky",
                     "x": 2213,
                     "y": 263
                   }
@@ -232,14 +232,14 @@
                   {
                     "name": "East First Wing Chest After Fans",
                     "access_rules": [
-                      "City_in_The_Sky_Small_Key, spinner"
+                      "$City_in_the_Sky_East_First_Wing_Chest_After_Fans"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "City in the sky",
+                    "map": "City in the Sky",
                     "x": 2249,
                     "y": 240
                   }
@@ -262,14 +262,14 @@
                   {
                     "name": "Baba Tower Narrow Ledge Chest",
                     "access_rules": [
-                      "dcs"
+                      "Double_Clawshot"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "City in the sky",
+                    "map": "City in the Sky",
                     "x": 87,
                     "y": 734
                   }
@@ -281,14 +281,14 @@
                   {
                     "name": "Baba Tower Alcove Chest",
                     "access_rules": [
-                      "dcs"
+                      "Double_Clawshot"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "City in the sky",
+                    "map": "City in the Sky",
                     "x": 60,
                     "y": 765
                   }
@@ -300,14 +300,14 @@
                   {
                     "name": "West Garden Lower Chest",
                     "access_rules": [
-                      "dcs"
+                      "Double_Clawshot"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "City in the sky",
+                    "map": "City in the Sky",
                     "x": 94,
                     "y": 804
                   }
@@ -319,14 +319,24 @@
                   {
                     "name": "West Garden Lone Island Chest",
                     "access_rules": [
-                      "dcs"
+                      "Double_Clawshot"
                     ],
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Garden Island Poe",
+                    "access_rules": [
+                      "Shadow_Crystal, Double_Clawshot"
+                    ],
+                    "visibility_rules": ["poes-enabled"],
+                    "chest_unopened_img": "images/soul.png",
+                    "chest_opened_img": "images/soul-grey.png",
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "City in the sky",
+                    "map": "City in the Sky",
                     "x": 68,
                     "y": 886
                   }
@@ -338,14 +348,14 @@
                   {
                     "name": "East Wing After Dinalfos Ledge Chest",
                     "access_rules": [
-                      "City_in_The_Sky_Small_Key, boomerang, spinner"
+                      "$City_in_the_Sky_After_Dinalfos_Chests"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "City in the sky",
+                    "map": "City in the Sky",
                     "x": 425,
                     "y": 875
                   }
@@ -357,14 +367,14 @@
                   {
                     "name": "East Wing After Dinalfos Alcove Chest",
                     "access_rules": [
-                      "City_in_The_Sky_Small_Key, boomerang, spinner"
+                      "$City_in_the_Sky_After_Dinalfos_Chests"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "City in the sky",
+                    "map": "City in the Sky",
                     "x": 473,
                     "y": 881
                   }
@@ -377,6 +387,9 @@
       {
         "name": "3F",
         "color": "#18a50e",
+        "access_rules": [
+          "Double_Clawshot"
+        ],
         "children": [
           {
             "name": "3F",
@@ -386,15 +399,12 @@
                 "sections": [
                   {
                     "name": "Baba Tower Top Small Chest",
-                    "access_rules": [
-                      "dcs"
-                    ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "City in the sky",
+                    "map": "City in the Sky",
                     "x": 645,
                     "y": 742
                   }
@@ -405,15 +415,12 @@
                 "sections": [
                   {
                     "name": "West Garden Corner Chest",
-                    "access_rules": [
-                      "dcs"
-                    ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "City in the sky",
+                    "map": "City in the Sky",
                     "x": 641,
                     "y": 841
                   }
@@ -424,15 +431,12 @@
                 "sections": [
                   {
                     "name": "West Garden Ledge Chest",
-                    "access_rules": [
-                      "dcs"
-                    ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "City in the sky",
+                    "map": "City in the Sky",
                     "x": 695,
                     "y": 859
                   }
@@ -443,17 +447,36 @@
                 "sections": [
                   {
                     "name": "Chest Below Big Key Chest",
-                    "access_rules": [
-                      "dcs"
-                    ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "City in the sky",
+                    "map": "City in the Sky",
                     "x": 840,
                     "y": 813
+                  }
+                ]
+              },
+              {
+                "name": "3F",
+                "sections": [
+                  {
+                    "name": "Poe Above Central Fan",
+                    "item_count": 1,
+                    "visibility_rules": ["poes-enabled"],
+                    "access_rules": [
+                      "Shadow_Crystal"
+                    ],
+                    "chest_unopened_img": "images/soul-grey.png",
+                    "chest_opened_img": "images/soul.png"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "City in the Sky",
+                    "x": 825,
+                    "y": 781
                   }
                 ]
               }
@@ -464,6 +487,9 @@
       {
         "name": "4F",
         "color": "#18a50e",
+        "access_rules": [
+          "Double_Clawshot"
+        ],
         "children": [
           {
             "name": "4F",
@@ -473,15 +499,12 @@
                 "sections": [
                   {
                     "name": "Big Key Chest",
-                    "access_rules": [
-                      "dcs"
-                    ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "City in the sky",
+                    "map": "City in the Sky",
                     "x": 1417,
                     "y": 825
                   }
@@ -492,15 +515,12 @@
                 "sections": [
                   {
                     "name": "Central Outside Ledge Chest",
-                    "access_rules": [
-                      "dcs"
-                    ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "City in the sky",
+                    "map": "City in the Sky",
                     "x": 1432,
                     "y": 839
                   }
@@ -511,15 +531,12 @@
                 "sections": [
                   {
                     "name": "Central Outside Poe Island Chest",
-                    "access_rules": [
-                      "dcs"
-                    ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "City in the sky",
+                    "map": "City in the Sky",
                     "x": 1481,
                     "y": 823
                   }
@@ -535,23 +552,31 @@
         "children": [
           {
             "name": "5F",
+            "access_rules": [
+              "$City_in_the_Sky_Dungeon_Reward"
+            ],
             "children": [
               {
                 "name": "5F",
                 "sections": [
                   {
                     "name": "Argorok Heart Container",
-                    "access_rules": [
-                      "City_in_The_Sky_Big_Key, dcs, sword2, iron"
-                    ],
                     "item_count": 1,
                     "chest_unopened_img": "images/HC.png",
                     "chest_opened_img": "images/HC-grey.png"
+                  },
+                  {
+                    "name": "Dungeon Reward",
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Argorok",
+                    "hosted_item": "Argorok"
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "City in the sky",
+                    "map": "City in the Sky",
                     "x": 2024,
                     "y": 654
                   }

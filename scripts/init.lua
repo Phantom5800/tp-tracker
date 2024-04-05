@@ -17,6 +17,7 @@ if has_map then
     Tracker:AddLocations("locations/grounds.json")
     Tracker:AddLocations("locations/snowpeakruins.json")
     Tracker:AddLocations("locations/templeoftime.json")
+    Tracker:AddLocations("locations/cityinthesky.json")
     Tracker:AddLayouts("layouts/options.json")
     Tracker:AddLayouts("layouts/dungeon_item_grid.json")
 end

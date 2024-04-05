@@ -145,16 +145,6 @@
         "name": "Argorok",
         "access_rules": ["$canCompleteCityinTheSky"],
         "hosted_item": "Argorok"
-      },
-      {
-        "name": "Poe Above Central Fan",
-        "item_count": 1,
-        "visibility_rules": ["poes-enabled"],
-        "access_rules": [
-          "Double_Clawshot, $canDefeatBigBaba, Iron_Boots, Shadow_Crystal"
-        ],
-        "chest_unopened_img": "images/soul-grey.png",
-        "chest_opened_img": "images/soul.png"
       }
     ],
     "map_locations": [
