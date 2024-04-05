@@ -6,18 +6,6 @@
     "img": "images/overworld_map.png"
   },
   {
-    "name": "Poes",
-    "location_size": 20,
-    "location_border_thickness": 5,
-    "img": "images/overworld_map.png"
-  },
-  {
-    "name": "Golden Bugs",
-    "location_size": 20,
-    "location_border_thickness": 5,
-    "img": "images/overworld_map.png"
-  },
-  {
     "name": "Forest",
     "location_size": 10,
     "location_border_thickness": 2,
@@ -40,12 +28,6 @@
     "location_size": 20,
     "location_border_thickness": 5,
     "img": "images/groundsmap.png"
-  },
-  {
-    "name": "Golden Bugs",
-    "location_size": 20,
-    "location_border_thickness": 5,
-    "img": "images/overworld_map.png"
   },
   {
     "name": "Snowpeak",
