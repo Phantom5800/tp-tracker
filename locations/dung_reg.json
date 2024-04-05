@@ -79,50 +79,6 @@
         "name": "Stallord",
         "access_rules": ["$canCompleteArbitersGrounds"],
         "hosted_item": "Stallord"
-      },
-      {
-        "name": "Torch Room Poe",
-        "item_count": 1,
-        "visibility_rules": ["poes-enabled"],
-        "access_rules": [
-          "Arbiters_Grounds_Small_Key:1, Lantern, Shadow_Crystal",
-          "small-keysy-enabled, Lantern, Shadow_Crystal"
-        ],
-        "chest_unopened_img": "images/soul.png",
-        "chest_opened_img": "images/soul-grey.png"
-      },
-      {
-        "name": "East Turning Room Poe",
-        "item_count": 1,
-        "visibility_rules": ["poes-enabled"],
-        "access_rules": [
-          "Arbiters_Grounds_Small_Key:1, Lantern, Shadow_Crystal, Clawshot",
-          "small-keysy-enabled, Lantern, Shadow_Crystal, Clawshot"
-        ],
-        "chest_unopened_img": "images/soul.png",
-        "chest_opened_img": "images/soul-grey.png"
-      },
-      {
-        "name": "Hidden Wall Poe",
-        "item_count": 1,
-        "visibility_rules": ["poes-enabled"],
-        "access_rules": [
-          "Shadow_Crystal, $canDefeatRedeadKnight, Arbiters_Grounds_Small_Key:3",
-          "Shadow_Crystal, $canDefeatRedeadKnight, small-keysy-enabled"
-        ],
-        "chest_unopened_img": "images/soul.png",
-        "chest_opened_img": "images/soul-grey.png"
-      },
-      {
-        "name": "West Poe",
-        "item_count": 1,
-        "visibility_rules": ["poes-enabled"],
-        "access_rules": [
-          "Shadow_Crystal, $canSmash, Arbiters_Grounds_Small_Key:4",
-          "Shadow_Crystal, $canSmash, small-keysy-enabled"
-        ],
-        "chest_unopened_img": "images/soul.png",
-        "chest_opened_img": "images/soul-grey.png"
       }
     ],
     "map_locations": [
@@ -422,7 +378,7 @@
         ],
         "item_count": 1
       },
-      { 
+      {
         "name": "Zant Heart Container",
         "access_rules": [
           "Progressive_Sword_4, Shadow_Crystal, Palace_of_Twilight_Small_Key:7, Palace_of_Twilight_Big_Key, $canDefeatZant",

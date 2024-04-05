@@ -268,6 +268,50 @@
                 "name": "1F",
                 "sections": [
                   {
+                    "name": "Torch Room Poe",
+                    "item_count": 1,
+                    "visibility_rules": ["poes-enabled"],
+                    "access_rules": [
+                      "$Arbiters_Grounds_Torch_Room_Chests, Shadow_Crystal"
+                    ],
+                    "chest_unopened_img": "images/soul.png",
+                    "chest_opened_img": "images/soul-grey.png"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Arbiter's Grounds",
+                    "x": 1487,
+                    "y": 263
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
+                    "name": "East Turning Room Poe",
+                    "item_count": 1,
+                    "visibility_rules": ["poes-enabled"],
+                    "access_rules": [
+                      "$Arbiters_Grounds_East_Turning_Room_Poe"
+                    ],
+                    "chest_unopened_img": "images/soul.png",
+                    "chest_opened_img": "images/soul-grey.png"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Arbiter's Grounds",
+                    "x": 1560,
+                    "y": 173
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
+                  {
                     "name": "Torch Room West Chest",
                     "access_rules": [
                       "$Arbiters_Grounds_Torch_Room_Chests"
@@ -367,6 +411,50 @@
                     "map": "Arbiter's Grounds",
                     "x": 380,
                     "y": 876
+                  }
+                ]
+              },
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "Hidden Wall Poe",
+                    "item_count": 1,
+                    "visibility_rules": ["poes-enabled"],
+                    "access_rules": [
+                      "$Arbiters_Grounds_Hidden_Wall_Poe"
+                    ],
+                    "chest_unopened_img": "images/soul.png",
+                    "chest_opened_img": "images/soul-grey.png"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Arbiter's Grounds",
+                    "x": 405,
+                    "y": 928
+                  }
+                ]
+              },
+              {
+                "name": "2F",
+                "sections": [
+                  {
+                    "name": "West Poe",
+                    "item_count": 1,
+                    "visibility_rules": ["poes-enabled"],
+                    "access_rules": [
+                      "$Arbiters_Grounds_West_Poe"
+                    ],
+                    "chest_unopened_img": "images/soul.png",
+                    "chest_opened_img": "images/soul-grey.png"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Arbiter's Grounds",
+                    "x": 145,
+                    "y": 940
                   }
                 ]
               },

@@ -68,6 +68,11 @@ function Arbiters_Grounds_East_Lower_Turnable_Redead_Chest()
   return smkeys and has("Lantern")
 end
 
+function Arbiters_Grounds_East_Turning_Room_Poe()
+  local smkeys = has("Arbiters_Grounds_Small_Key",1) or has("small-keysy-enabled")
+  return smkeys and has("Lantern") and has("Clawshot") and has("Shadow_Crystal")
+end
+
 function Arbiters_Grounds_East_Upper_Turnable_Chest()
   local smkeys = has("Arbiters_Grounds_Small_Key",2) or has("small-keysy-enabled")
   return smkeys and has("Lantern")
@@ -81,6 +86,11 @@ end
 function Arbiters_Grounds_Ghoul_Rat_Room_Chest()
   local smkeys = has("Arbiters_Grounds_Small_Key",3) or has("small-keysy-enabled")
   return smkeys and has("Lantern")
+end
+
+function Arbiters_Grounds_Hidden_Wall_Poe()
+  local smkeys = has("Arbiters_Grounds_Small_Key",3) or has("small-keysy-enabled")
+  return smkeys and has("Lantern") and has("Shadow_Crystal") and canDefeatRedeadKnight()
 end
 
 function Arbiters_Grounds_North_Turning_Room_Chest()
@@ -112,6 +122,11 @@ function Arbiters_Grounds_West_Chandelier_Chest()
     return true,AccessibilityLevel.SequenceBreak
   end
   return false
+end
+
+function Arbiters_Grounds_West_Poe()
+  local smkeys = has("Arbiters_Grounds_Small_Key",4) or has("small-keysy-enabled")
+  return smkeys and has("Lantern") and has("Shadow_Crystal") and canSmash()
 end
 
 function Arbiters_Grounds_West_Small_Chest_Behind_Block()
