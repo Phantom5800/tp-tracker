@@ -556,19 +556,6 @@ function canDefeatKingBulblinDesert()
           or has("Progressive_Bow_3")
 end
 
-function canDefeatKingBulblinCastle()
-  return hasSword()
-          or has("Ball_and_Chain")
-          or has("Shadow_Crystal")
-          or has("Progressive_Bow_3")
-end
-
-function canDefeatGanondorf()
-  return has("Shadow_Crystal")
-          and has("Progressive_Sword_3")
-          and has("Progressive_Hidden_Skill", 1)
-end
-
 function canSmash()
   return has("Ball_and_Chain") or hasBombs()
 end
@@ -656,26 +643,6 @@ function canAccessLanayru()
                       or has("skip-prologue-on")))
 end
 
-function canDefeatFinalBoss()
-  if canDefeatGanondorf() then -- stop if can't beat ganon
-    local smkeys = has("Hyrule_Castle_Small_Key",3) or has("small-keysy-enabled")
-    local bosskey = has("Hyrule_Castle_Big_Key") or has("boss-keysy-enabled")
-    if smkeys and bosskey then -- check keys first
-      if canDefeatLizalfos() and canDefeatDarknut() and has("Boomerang") and has("Spinner") then
-        if (has("Lantern") and canDefeatDinalfos()) or canKnockDownHCPainting() then
-          if has("Double_Clawshot") then -- logically need both clawshots
-            return true
-          elseif has("Clawshot") then
-            return true,AccessibilityLevel.SequenceBreak -- double clawshot skip
-          end
-        end
-      end
-    end
-  end
-  return false
-end
-
-
 ScriptHost:LoadScript("scripts/logic/dungeons/forest.lua")
 ScriptHost:LoadScript("scripts/logic/dungeons/mines.lua")
 ScriptHost:LoadScript("scripts/logic/dungeons/lakebed.lua")
@@ -684,3 +651,4 @@ ScriptHost:LoadScript("scripts/logic/dungeons/snowpeak.lua")
 ScriptHost:LoadScript("scripts/logic/dungeons/templeoftime.lua")
 ScriptHost:LoadScript("scripts/logic/dungeons/cityinthesky.lua")
 ScriptHost:LoadScript("scripts/logic/dungeons/palaceoftwilight.lua")
+ScriptHost:LoadScript("scripts/logic/dungeons/hyrulecastle.lua")
