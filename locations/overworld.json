@@ -67,8 +67,7 @@
                 "chest_opened_img": "images/ordon-sword-grey.png",
                 "item_count": 1,
                 "access_rules": [
-                  "Faron_Vessel_of_Light",
-                  "skip-prologue-on"
+                  "Faron_Vessel_of_Light"
                 ]
               },
               {
