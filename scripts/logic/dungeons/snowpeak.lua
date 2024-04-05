@@ -78,6 +78,13 @@ function Snowpeak_Dungeon_Reward()
   return cheese and keys and bedroom_key and hasBombs() and has("Ball_and_Chain")
 end
 
+function Snowpeak_Ice_Room_Poe()
+  local cheese = has("Ordon_Goat_Cheese") or has("small-keysy-enabled")
+  local keys = has("Snowpeak_Ruins_Small_Key",3) or has("small-keysy-enabled")
+
+  return cheese and keys and has("Ball_and_Chain") and has("Shadow_Crystal")
+end
+
 function Snowpeak_Lobby_Armor_Chests()
   return has("Ball_and_Chain")
 end
