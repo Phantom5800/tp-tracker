@@ -7,7 +7,7 @@
       {
         "name": "Ordon_Province",
         "color": "#18a50e",
-        "children": 
+        "children":
         [
           {
             "name": "Ordon Village",
@@ -90,7 +90,7 @@
               {
                 "name": "Ordon Spring Golden Wolf",
                 "item_count": 1,
-                "access_rules": [ 
+                "access_rules": [
                   "$hasSword, Slingshot, $canLeaveForest, Shadow_Crystal",
                   "skip-prologue-on, $canLeaveForest, Shadow_Crystal"
                 ],
@@ -154,29 +154,29 @@
       {
         "name": "Faron Province",
         "color": "#18a50e",
-        "children": 
+        "children":
         [
           {
             "name": "Faron Woods",
             "color": "#18a50e",
-            "children": 
+            "children":
             [
               {
                 "name": "South Faron Woods",
-                "access_rules": 
+                "access_rules":
                 [
                   "$hasSword, Slingshot",
                   "skip-prologue-on"
                 ],
-                "children": 
+                "children":
                 [
                   {
                     "name": "Coro",
-                    "sections": 
+                    "sections":
                     [
                       {
                         "name": "Coro Bottle",
-                        "access_rules": 
+                        "access_rules":
                         [
                           "$canCompletePrologue"
                         ],
@@ -185,7 +185,7 @@
                         "chest_opened_img": "images/bottle-grey.png"
                       }
                     ],
-                    "map_locations": 
+                    "map_locations":
                     [
                       {
                         "map": "Main",
@@ -196,11 +196,11 @@
                   },
                   {
                     "name": "Mist - Owl Statue",
-                    "sections": 
+                    "sections":
                     [
                       {
                         "name": "Faron Woods Owl Statue Sky Character",
-                        "access_rules": 
+                        "access_rules":
                         [
                           "$canSmash, Progressive_Dominion_Rod_2, $canLeaveForest"
                         ],
@@ -209,14 +209,14 @@
                       },
                       {
                         "name": "Faron Woods Owl Statue Chest",
-                        "access_rules": 
+                        "access_rules":
                         [
                           "$canSmash, Progressive_Dominion_Rod_2, Shadow_Crystal, $canLeaveForest"
                         ],
                         "item_count": 1
                       }
                     ],
-                    "map_locations": 
+                    "map_locations":
                     [
                       {
                         "map": "Main",
@@ -229,23 +229,23 @@
               },
               {
                 "name": "South Faron Woods Cave",
-                "access_rules": 
+                "access_rules":
                 [
                   "$hasSword, Slingshot",
                   "skip-prologue-on"
                 ],
-                "children": 
+                "children":
                 [
                   {
                     "name": "South Faron Cave Small Chest",
-                    "sections": 
+                    "sections":
                     [
                       {
                         "name": "South Faron Cave Chest",
                         "item_count": 1
                       }
                     ],
-                    "map_locations": 
+                    "map_locations":
                     [
                       {
                         "map": "Main",
@@ -263,11 +263,11 @@
                   "$hasSword, Slingshot",
                   "skip-prologue-on"
                 ],
-                "sections": 
+                "sections":
                 [
                   {
                     "name": "Faron Mist South Chest",
-                    "access_rules": 
+                    "access_rules":
                     [
                       "Lantern, $canCompletePrologue"
                     ],
@@ -275,7 +275,7 @@
                   },
                   {
                     "name": "Faron Mist North Chest",
-                    "access_rules": 
+                    "access_rules":
                     [
                       "Lantern, $canCompletePrologue"
                     ],
@@ -283,7 +283,7 @@
                   },
                   {
                     "name": "Faron Mist Stump Chest",
-                    "access_rules": 
+                    "access_rules":
                     [
                       "Lantern, $canCompletePrologue"
                     ],
@@ -300,7 +300,7 @@
                     "chest_opened_img": "images/soul-grey.png"
                   }
                 ],
-                "map_locations": 
+                "map_locations":
                 [
                   {
                     "map": "Main",
@@ -311,16 +311,16 @@
               },
               {
                 "name": "Faron Mist Cave",
-                "access_rules": 
+                "access_rules":
                 [
                   "Lantern, $hasSword, Slingshot",
                   "Lantern, skip-prologue-on"
                 ],
-                "children": 
+                "children":
                 [
                   {
                     "name": "Faron Woods Mist Cave",
-                    "sections": 
+                    "sections":
                     [
                       {
                         "name": "Faron Mist Cave Open Chest",
@@ -328,14 +328,14 @@
                       },
                       {
                         "name": "Faron Mist Cave Lantern Chest",
-                        "access_rules": 
+                        "access_rules":
                         [
                           "Lantern"
                         ],
                         "item_count": 1
                       }
                     ],
-                    "map_locations": 
+                    "map_locations":
                     [
                       {
                         "map": "Main",
@@ -353,7 +353,7 @@
                   "$canCompletePrologue, Shadow_Crystal",
                   "$canCompletePrologue, Lantern"
                 ],
-                "sections": 
+                "sections":
                 [
                   {
                     "name": "North Faron Woods Deku Baba Chest",
@@ -366,7 +366,7 @@
                     "chest_opened_img": "images/GWolf-grey.png"
                   }
                 ],
-                "map_locations": 
+                "map_locations":
                 [
                   {
                     "map": "Main",
@@ -474,7 +474,7 @@
                     ],
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"
-                  }    
+                  }
                 ],
                 "map_locations": [
                   {
@@ -524,7 +524,7 @@
                   {
                     "name": "Sacred Grove Past Owl Statue Chest",
                     "access_rules": [
-                      "Progressive_Dominion_Rod_1"
+                      "Progressive_Dominion_Rod"
                     ],
                     "item_count": 1
                   },
@@ -543,13 +543,13 @@
                     "name": "Sacred Grove Temple of Time Owl Statue Poe",
                     "item_count": 1,
                     "access_rules": [
-                      "Progressive_Dominion_Rod_1, Shadow_Crystal"
-                    ], 
+                      "Progressive_Dominion_Rod, Shadow_Crystal"
+                    ],
                     "visibility_rules": ["poes-enabled"],
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"
                   }
-                ],       
+                ],
                 "map_locations": [
                   {
                     "map": "Main",
@@ -712,7 +712,7 @@
           "skip-prologue-on, $canLeaveForest"
         ],
         "color": "#18a50e",
-        "children": 
+        "children":
         [
           {
             "name": "Kakariko Gorge",
@@ -1294,7 +1294,7 @@
                     "item_count": 1,
                     "chest_unopened_img": "images/Golden_Bug.png",
                     "chest_opened_img": "images/Golden_Bug-grey.png"
-                  }    
+                  }
                 ],
                 "map_locations": [
                   {
@@ -1381,7 +1381,7 @@
               {
                 "name": "Skybook From Impaz",
                 "access_rules": [
-                  "Progressive_Bow, Progressive_Dominion_Rod_1"
+                  "Progressive_Bow, Progressive_Dominion_Rod"
                 ],
                 "item_count": 1
               },
@@ -1402,7 +1402,7 @@
               {
                 "name": "Hidden Village Poe",
                 "access_rules": [
-                  "Shadow_Crystal, Clawshot, Ilia_Charm, Progressive_Bow, Progressive_Dominion_Rod_1"
+                  "Shadow_Crystal, Clawshot, Ilia_Charm, Progressive_Bow, Progressive_Dominion_Rod"
                 ],
                 "visibility_rules": ["poes-enabled"],
                 "item_count": 1,
@@ -1438,7 +1438,7 @@
                 ],
                 "item_count": 1
               },
-              
+
               {
                 "name": "Eldin Stockcave Lantern Chest",
                 "access_rules": [
@@ -1466,7 +1466,7 @@
           "Gate_Keys, $hasSword, Slingshot, $canLeaveForest",
           "Gate_Keys, skip-prologue-on, $canLeaveForest"
         ],
-        "children": 
+        "children":
         [
           {
             "name": "Zoras Domain",
@@ -2158,7 +2158,7 @@
                         "item_count": 1,
                         "chest_unopened_img": "images/Golden_Bug.png",
                         "chest_opened_img": "images/Golden_Bug-grey.png"
-                      }    
+                      }
                     ],
                     "map_locations": [
                       {
@@ -2233,7 +2233,7 @@
                       "Shadow_Crystal, Poe_Soul:20"
                     ],
                     "visibility_rules": ["jovani-enabled"],
-                    "item_count": 1, 
+                    "item_count": 1,
                     "chest_unopened_img": "images/bottle-empty.png",
                     "chest_opened_img": "images/bottle-grey.png"
                   },
@@ -2681,7 +2681,7 @@
         ]
       },
       {
-        "name": "Desert Province",   
+        "name": "Desert Province",
         "access_rules": [
           "$canSmash, $hasSword, Slingshot, $canLeaveForest, Auru_Memo",
           "$canSmash, skip-prologue-on, $canLeaveForest, Auru_Memo",
@@ -2689,7 +2689,7 @@
           "Gate_Keys, skip-prologue-on, $canLeaveForest, Auru_Memo"
         ],
         "color": "#18a50e",
-        "children": 
+        "children":
         [
           {
             "name": "Gerudo Desert",

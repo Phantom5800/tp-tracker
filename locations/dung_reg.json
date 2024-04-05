@@ -114,8 +114,7 @@
   {
     "name": "Temple of Time",
     "access_rules": [
-      "$canCompletePrologue, Shadow_Crystal, $canDefeatShadowBeast, Progressive_Sword_3",
-      "$canCompletePrologue, Shadow_Crystal, early-tot-open"
+      "$canAccessToT"
     ],
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
@@ -128,8 +127,8 @@
       {
         "name": "Poe Behind Gate",
         "access_rules": [
-          "Temple_of_Time_Small_Key:1, Shadow_Crystal, Progressive_Dominion_Rod_1",
-          "small-keysy-enabled, Shadow_Crystal, Progressive_Dominion_Rod_1"
+          "Temple_of_Time_Small_Key:1, Shadow_Crystal, Progressive_Dominion_Rod",
+          "small-keysy-enabled, Shadow_Crystal, Progressive_Dominion_Rod"
         ],
         "visibility_rules": ["poes-enabled"],
         "item_count": 1,

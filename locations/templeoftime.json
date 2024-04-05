@@ -4,7 +4,7 @@
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
     "access_rules": [
-      "sword3"
+      "$canAccessToT"
     ],
     "children": [
       {
@@ -20,7 +20,7 @@
                   {
                     "name": "Lobby Lantern Chest",
                     "access_rules": [
-                      "lantern"
+                      "$Temple_of_Time_Lobby_Lantern_Chest"
                     ],
                     "item_count": 1
                   }
@@ -39,11 +39,25 @@
                   {
                     "name": "Armogohma Heart Container",
                     "access_rules": [
-                      "Temple_of_Time_Big_Key, brokedominion"
+                      "$Temple_of_Time_Dungeon_Reward"
                     ],
                     "item_count": 1,
                     "chest_unopened_img": "images/HC.png",
                     "chest_opened_img": "images/HC-grey.png"
+                  },
+                  {
+                    "name": "Dungeon Reward",
+                    "access_rules": [
+                      "$Temple_of_Time_Dungeon_Reward"
+                    ],
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Armogohma",
+                    "access_rules": [
+                      "$Temple_of_Time_Dungeon_Reward"
+                    ],
+                    "hosted_item": "Armogohma"
                   }
                 ],
                 "map_locations": [
@@ -65,7 +79,7 @@
           {
             "name": "2F",
             "access_rules": [
-              "Temple_of_Time_Small_Key:1, lantern"
+              "$Temple_of_Time_2F_Access"
             ],
             "children": [
               {
