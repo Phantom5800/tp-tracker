@@ -645,6 +645,7 @@
                     "access_rules": [
                       "Shadow_Crystal, $canCompleteMDH"
                     ],
+                    "visibility_rules": ["poes-enabled"],
                     "item_count": 1,
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"
@@ -652,7 +653,7 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "Poes",
+                    "map": "Main",
                     "x": 671,
                     "y": 733
                   }
@@ -767,6 +768,22 @@
                 "item_count": 1,
                 "chest_unopened_img": "images/Golden_Bug.png",
                 "chest_opened_img": "images/Golden_Bug-grey.png"
+              },
+              {
+                "name": "Kakariko Graveyard Open Poe",
+                "item_count": 1,
+                "access_rules": [
+                  "Shadow_Crystal"
+                ],
+                "visibility_rules": ["poes-enabled"]
+              },
+              {
+                "name": "Kakariko Graveyard Grave Poe",
+                "item_count": 1,
+                "access_rules": [
+                  "Shadow_Crystal"
+                ],
+                "visibility_rules": ["poes-enabled"]
               }
             ],
             "map_locations": [
@@ -875,6 +892,7 @@
                 "access_rules": [
                   "Shadow_Crystal, $canCompleteMDH"
                 ],
+                "visibility_rules": ["poes-enabled"],
                 "item_count": 1,
                 "chest_unopened_img": "images/soul.png",
                 "chest_opened_img": "images/soul-grey.png"
@@ -882,7 +900,7 @@
             ],
             "map_locations": [
               {
-                "map": "Poes",
+                "map": "Main",
                 "x": 770,
                 "y": 660
               }
@@ -914,24 +932,13 @@
                   "$canBurnWebs, Lantern"
                 ],
                 "item_count": 1
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Main",
-                "x": 790.92,
-                "y": 716
-              }
-            ]
-          },
-          {
-            "name": "Eldin Lantern Cave",
-            "sections": [
+              },
               {
                 "name": "Eldin Lantern Cave Poe",
                 "access_rules": [
                   "Shadow_Crystal, $canSmash"
                 ],
+                "visibility_rules": ["poes-enabled"],
                 "item_count": 1,
                 "chest_unopened_img": "images/soul.png",
                 "chest_opened_img": "images/soul-grey.png"
@@ -939,9 +946,9 @@
             ],
             "map_locations": [
               {
-                "map": "Poes",
-                "x": 790,
-                "y": 715
+                "map": "Main",
+                "x": 790.92,
+                "y": 716
               }
             ]
           },
@@ -1093,6 +1100,7 @@
                 "access_rules": [
                   "Shadow_Crystal"
                 ],
+                "visibility_rules": ["poes-enabled"],
                 "item_count": 1,
                 "chest_unopened_img": "images/soul.png",
                 "chest_opened_img": "images/soul-grey.png"
@@ -1100,7 +1108,7 @@
             ],
             "map_locations": [
               {
-                "map": "Poes",
+                "map": "Main",
                 "x": 982,
                 "y": 647
               }
@@ -1114,6 +1122,7 @@
                 "access_rules": [
                   "Shadow_Crystal"
                 ],
+                "visibility_rules": ["poes-enabled"],
                 "item_count": 1,
                 "chest_unopened_img": "images/soul.png",
                 "chest_opened_img": "images/soul-grey.png"
@@ -1121,37 +1130,9 @@
             ],
             "map_locations": [
               {
-                "map": "Poes",
+                "map": "Main",
                 "x": 970,
                 "y": 626
-              }
-            ]
-          },
-          {
-            "name": "Kakariko Graveyard",
-            "chest_unopened_img": "images/soul.png",
-            "chest_opened_img": "images/soul-grey.png",
-            "sections": [
-              {
-                "name": "Kakariko Graveyard Open Poe",
-                "item_count": 1,
-                "access_rules": [
-                  "Shadow_Crystal"
-                ]
-              },
-              {
-                "name": "Kakariko Graveyard Grave Poe",
-                "item_count": 1,
-                "access_rules": [
-                  "Shadow_Crystal"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Poes",
-                "x": 1010,
-                "y": 680
               }
             ]
           },
@@ -1188,6 +1169,7 @@
                     "access_rules": [
                       "$canCompleteGoronMines, Shadow_Crystal"
                     ],
+                    "visibility_rules": ["poes-enabled"],
                     "item_count": 1,
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"
@@ -1195,7 +1177,7 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "Poes",
+                    "map": "Main",
                     "x": 1030.92,
                     "y": 550
                   }
@@ -1332,6 +1314,16 @@
                       "Gate_Keys"
                     ],
                     "item_count": 1
+                  },
+                  {
+                    "name": "East Castle Town Bridge Poe",
+                    "access_rules": [
+                      "Shadow_Crystal"
+                    ],
+                    "visibility_rules": ["poes-enabled"],
+                    "item_count": 1,
+                    "chest_unopened_img": "images/soul.png",
+                    "chest_opened_img": "images/soul-grey.png"
                   }
                 ],
                 "map_locations": [
@@ -1406,27 +1398,13 @@
                   "Progressive_Bow, Ilia_Charm"
                 ],
                 "item_count": 1
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Main",
-                "x": 852,
-                "y": 301
-              }
-            ]
-          },
-          {
-            "name": "Hidden Village",
-            "access_rules": [
-              "Wooden_Statue"
-            ],
-            "sections": [
+              },
               {
                 "name": "Hidden Village Poe",
                 "access_rules": [
                   "Shadow_Crystal, Clawshot, Ilia_Charm, Progressive_Bow, Progressive_Dominion_Rod_1"
                 ],
+                "visibility_rules": ["poes-enabled"],
                 "item_count": 1,
                 "chest_unopened_img": "images/soul.png",
                 "chest_opened_img": "images/soul-grey.png"
@@ -1434,9 +1412,9 @@
             ],
             "map_locations": [
               {
-                "map": "Poes",
-                "x": 845,
-                "y": 300
+                "map": "Main",
+                "x": 852,
+                "y": 301
               }
             ]
           },
@@ -1525,6 +1503,23 @@
                   {
                     "name": "Zoras Domain Chest By Mother and Child Isles",
                     "item_count": 1
+                  },
+                  {
+                    "name": "Zoras Domain Male Dragonfly",
+                    "visibility_rules": ["golden-bugs-enabled"],
+                    "item_count": 1,
+                    "chest_unopened_img": "images/Golden_Bug.png",
+                    "chest_opened_img": "images/Golden_Bug-grey.png"
+                  },
+                  {
+                    "name": "Zoras Domain Mother and Child Isle Poe",
+                    "access_rules": [
+                      "Shadow_Crystal"
+                    ],
+                    "visibility_rules": ["poes-enabled"],
+                    "item_count": 1,
+                    "chest_unopened_img": "images/soul.png",
+                    "chest_opened_img": "images/soul-grey.png"
                   }
                 ],
                 "map_locations": [
@@ -1576,56 +1571,17 @@
                     "access_rules": [
                       "Shadow_Crystal"
                     ],
+                    "visibility_rules": ["poes-enabled"],
                     "item_count": 1,
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "Poes",
-                    "x": 654,
-                    "y": 119
-                  }
-                ]
-              },
-              {
-                "name": "Zoras Domain",
-                "sections": [
-                  {
-                    "name": "Zoras Domain Mother and Child Isle Poe",
-                    "access_rules": [
-                      "Shadow_Crystal"
-                    ],
-                    "item_count": 1,
-                    "chest_unopened_img": "images/soul.png",
-                    "chest_opened_img": "images/soul-grey.png"
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "Poes",
-                    "x": 663,
-                    "y": 142
-                  }
-                ]
-              },
-              {
-                "name": "Zoras Domain",
-                "sections": [
-                  {
-                    "name": "Zoras Domain Male Dragonfly",
-                    "visibility_rules": ["golden-bugs-enabled"],
-                    "item_count": 1,
-                    "chest_unopened_img": "images/Golden_Bug.png",
-                    "chest_opened_img": "images/Golden_Bug-grey.png"
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "Main",
-                    "x": 666,
-                    "y": 143
+                    "x": 654,
+                    "y": 119
                   }
                 ]
               }
@@ -1842,6 +1798,7 @@
                     "access_rules": [
                       "Shadow_Crystal, $canCompleteMDH"
                     ],
+                    "visibility_rules": ["poes-enabled"],
                     "item_count": 1,
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"
@@ -1849,7 +1806,7 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "Poes",
+                    "map": "Main",
                     "x": 651,
                     "y": 336
                   }
@@ -1859,27 +1816,19 @@
                 "name": "Lanayru Field",
                 "sections": [
                   {
-                    "name": "Lanayru Field Poe Grotto Left Poe",
+                    "name": "Lanayru Field Poe Grotto Poes",
                     "access_rules": [
                       "Shadow_Crystal"
                     ],
-                    "item_count": 1,
-                    "chest_unopened_img": "images/soul.png",
-                    "chest_opened_img": "images/soul-grey.png"
-                  },
-                  {
-                    "name": "Lanayru Field Poe Grotto Right Poe",
-                    "access_rules": [
-                      "Shadow_Crystal"
-                    ],
-                    "item_count": 1,
+                    "visibility_rules": ["poes-enabled"],
+                    "item_count": 2,
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Poes",
+                    "map": "Main",
                     "x": 596,
                     "y": 355
                   }
@@ -1931,24 +1880,13 @@
                       "$canLaunchBombs, Shadow_Crystal, Clawshot"
                     ],
                     "item_count": 1
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "Main",
-                    "x": 533,
-                    "y": 699
-                  }
-                ]
-              },
-              {
-                "name": "Lake Hylia Bridge",
-                "sections": [
+                  },
                   {
                     "name": "Lake Hylia Bridge Cliff Poe",
                     "access_rules": [
                       "Shadow_Crystal, $canLaunchBombs, Clawshot"
                     ],
+                    "visibility_rules": ["poes-enabled"],
                     "item_count": 1,
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"
@@ -1956,9 +1894,9 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "Poes",
+                    "map": "Main",
                     "x": 533,
-                    "y": 700
+                    "y": 699
                   }
                 ]
               },
@@ -2006,6 +1944,16 @@
                       "Progressive_Dominion_Rod_2"
                     ],
                     "item_count": 1
+                  },
+                  {
+                    "name": "Hyrule Field Ampitheater Poe",
+                    "access_rules": [
+                      "Shadow_Crystal"
+                    ],
+                    "visibility_rules": ["poes-enabled"],
+                    "item_count": 1,
+                    "chest_unopened_img": "images/soul.png",
+                    "chest_opened_img": "images/soul-grey.png"
                   }
                 ],
                 "map_locations": [
@@ -2044,6 +1992,16 @@
                     "item_count": 1
                   },
                   {
+                    "name": "Outside South Castle Town Poe",
+                    "access_rules": [
+                      "Shadow_Crystal"
+                    ],
+                    "visibility_rules": ["poes-enabled"],
+                    "item_count": 1,
+                    "chest_unopened_img": "images/soul.png",
+                    "chest_opened_img": "images/soul-grey.png"
+                  },
+                  {
                     "name": "Wooden Statue",
                     "access_rules": [
                       "Invoice"
@@ -2063,27 +2021,6 @@
                     "map": "Main",
                     "x": 640,
                     "y": 570
-                  }
-                ]
-              },
-              {
-                "name": "Outside South Castle Town",
-                "sections": [
-                  {
-                    "name": "Outside South Castle Town Poe",
-                    "access_rules": [
-                      "Shadow_Crystal"
-                    ],
-                    "item_count": 1,
-                    "chest_unopened_img": "images/soul.png",
-                    "chest_opened_img": "images/soul-grey.png"
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "Poes",
-                    "x": 630,
-                    "y": 558
                   }
                 ]
               },
@@ -2129,48 +2066,6 @@
                     "map": "Main",
                     "x": 660,
                     "y": 580
-                  }
-                ]
-              },
-              {
-                "name": "Outside Castle Town East",
-                "sections": [
-                  {
-                    "name": "East Castle Town Bridge Poe",
-                    "access_rules": [
-                      "Shadow_Crystal"
-                    ],
-                    "item_count": 1,
-                    "chest_unopened_img": "images/soul.png",
-                    "chest_opened_img": "images/soul-grey.png"
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "Poes",
-                    "x": 700,
-                    "y": 510
-                  }
-                ]
-              },
-              {
-                "name": "West Hyrule Field",
-                "sections": [
-                  {
-                    "name": "Hyrule Field Ampitheater Poe",
-                    "access_rules": [
-                      "Shadow_Crystal"
-                    ],
-                    "item_count": 1,
-                    "chest_unopened_img": "images/soul.png",
-                    "chest_opened_img": "images/soul-grey.png"
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "Poes",
-                    "x": 540,
-                    "y": 535
                   }
                 ]
               },
@@ -2351,6 +2246,16 @@
                     "item_count": 1
                   },
                   {
+                    "name": "Jovani House Poe",
+                    "access_rules": [
+                      "Shadow_Crystal"
+                    ],
+                    "visibility_rules": ["poes-enabled"],
+                    "item_count": 1,
+                    "chest_unopened_img": "images/soul.png",
+                    "chest_opened_img": "images/soul-grey.png"
+                  },
+                  {
                     "name": "Telma Invoice",
                     "access_rules": [
                       "Renado_Letter"
@@ -2378,27 +2283,6 @@
                     "map": "Main",
                     "x": 640,
                     "y": 515
-                  }
-                ]
-              },
-              {
-                "name": "Hyrule Castle Town",
-                "sections": [
-                  {
-                    "name": "Jovani House Poe",
-                    "access_rules": [
-                      "Shadow_Crystal"
-                    ],
-                    "item_count": 1,
-                    "chest_unopened_img": "images/soul.png",
-                    "chest_opened_img": "images/soul-grey.png"
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "Poes",
-                    "x": 640,
-                    "y": 510
                   }
                 ]
               },
@@ -2453,6 +2337,16 @@
                       {
                         "name": "Auru Gift To Fyer",
                         "item_count": 1
+                      },
+                      {
+                        "name": "Lake Hylia Tower Poe",
+                        "access_rules": [
+                          "Shadow_Crystal"
+                        ],
+                        "visibility_rules": ["poes-enabled"],
+                        "item_count": 1,
+                        "chest_unopened_img": "images/soul.png",
+                        "chest_opened_img": "images/soul-grey.png"
                       }
                     ],
                     "map_locations": [
@@ -2520,6 +2414,16 @@
                       {
                         "name": "Flight By Fowl Fifth Platform Chest",
                         "item_count": 1
+                      },
+                      {
+                        "name": "Isle of Riches Poe",
+                        "access_rules": [
+                          "Shadow_Crystal"
+                        ],
+                        "visibility_rules": ["poes-enabled"],
+                        "item_count": 1,
+                        "chest_unopened_img": "images/soul.png",
+                        "chest_opened_img": "images/soul-grey.png"
                       }
                     ],
                     "map_locations": [
@@ -2540,6 +2444,16 @@
                           "Shadow_Crystal, $canDefeatShellBlade"
                         ],
                         "item_count": 1
+                      },
+                      {
+                        "name": "Flight By Fowl Ledge Poe",
+                        "access_rules": [
+                          "Shadow_Crystal"
+                        ],
+                        "visibility_rules": ["poes-enabled"],
+                        "item_count": 1,
+                        "chest_unopened_img": "images/soul.png",
+                        "chest_opened_img": "images/soul-grey.png"
                       }
                     ],
                     "map_locations": [
@@ -2614,113 +2528,98 @@
                   {
                     "name": "Lake Hylia Lantern Cave",
                     "access_rules": [
-                      "$canSmash"
+                      "$canSmash, [Lantern]"
                     ],
                     "sections": [
                       {
                         "name": "Lake Lantern Cave First Chest",
-                        "access_rules": [
-                          "$canSmash, Lantern"
-                        ],
                         "item_count": 1
                       },
                       {
                         "name": "Lake Lantern Cave Second Chest",
-                        "access_rules": [
-                          "$canSmash, Lantern"
-                        ],
                         "item_count": 1
                       },
                       {
                         "name": "Lake Lantern Cave Third Chest",
-                        "access_rules": [
-                          "$canSmash, Lantern"
-                        ],
                         "item_count": 1
                       },
                       {
                         "name": "Lake Lantern Cave Fourth Chest",
-                        "access_rules": [
-                          "$canSmash, Lantern"
-                        ],
                         "item_count": 1
                       },
                       {
                         "name": "Lake Lantern Cave Fifth Chest",
-                        "access_rules": [
-                          "$canSmash, Lantern"
-                        ],
                         "item_count": 1
                       },
                       {
                         "name": "Lake Lantern Cave Sixth Chest",
                         "access_rules": [
-                          "$canSmash, Lantern"
+                          "Lantern"
                         ],
                         "item_count": 1
                       },
                       {
                         "name": "Lake Lantern Cave Seventh Chest",
-                        "access_rules": [
-                          "$canSmash, Lantern"
-                        ],
                         "item_count": 1
                       },
                       {
                         "name": "Lake Lantern Cave Eighth Chest",
-                        "access_rules": [
-                          "$canSmash, Lantern"
-                        ],
                         "item_count": 1
                       },
                       {
                         "name": "Lake Lantern Cave Ninth Chest",
-                        "access_rules": [
-                          "$canSmash, Lantern"
-                        ],
                         "item_count": 1
                       },
                       {
                         "name": "Lake Lantern Cave Tenth Chest",
-                        "access_rules": [
-                          "$canSmash, Lantern"
-                        ],
                         "item_count": 1
                       },
                       {
                         "name": "Lake Lantern Cave Eleventh Chest",
-                        "access_rules": [
-                          "$canSmash, Lantern"
-                        ],
                         "item_count": 1
                       },
                       {
                         "name": "Lake Lantern Cave Twelfth Chest",
-                        "access_rules": [
-                          "$canSmash, Lantern"
-                        ],
                         "item_count": 1
                       },
                       {
                         "name": "Lake Lantern Cave Thirteenth Chest",
-                        "access_rules": [
-                          "$canSmash, Lantern"
-                        ],
                         "item_count": 1
                       },
                       {
                         "name": "Lake Lantern Cave Fourteenth Chest",
-                        "access_rules": [
-                          "$canSmash, Lantern"
-                        ],
                         "item_count": 1
                       },
                       {
                         "name": "Lake Lantern Cave End Lantern Chest",
                         "access_rules": [
-                          "$canSmash, Lantern"
+                          "Lantern"
                         ],
                         "item_count": 1
+                      },
+                      {
+                        "name": "Lake Lantern Cave First Poe",
+                        "item_count": 1,
+                        "access_rules": [
+                          "Shadow_Crystal, $canSmash, Lantern"
+                        ],
+                        "visibility_rules": ["poes-enabled"]
+                      },
+                      {
+                        "name": "Lake Lantern Cave Second Poe",
+                        "item_count": 1,
+                        "access_rules": [
+                          "Shadow_Crystal, $canSmash, Lantern"
+                        ],
+                        "visibility_rules": ["poes-enabled"]
+                      },
+                      {
+                        "name": "Lake Lantern Cave Final Poe",
+                        "item_count": 1,
+                        "access_rules": [
+                          "Shadow_Crystal, $canSmash, Lantern"
+                        ],
+                        "visibility_rules": ["poes-enabled"]
                       }
                     ],
                     "map_locations": [
@@ -2732,41 +2631,6 @@
                     ]
                   },
                   {
-                    "name": "Lake Hylia Lantern Cave",
-                    "chest_unopened_img": "images/soul.png",
-                    "chest_opened_img": "images/soul-grey.png",
-                    "sections": [
-                      {
-                        "name": "Lake Lantern Cave First Poe",
-                        "item_count": 1,
-                        "access_rules": [
-                          "Shadow_Crystal, $canSmash, Lantern"
-                        ]
-                      },
-                      {
-                        "name": "Lake Lantern Cave Second Poe",
-                        "item_count": 1,
-                        "access_rules": [
-                          "Shadow_Crystal, $canSmash, Lantern"
-                        ]
-                      },
-                      {
-                        "name": "Lake Lantern Cave Final Poe",
-                        "item_count": 1,
-                        "access_rules": [
-                          "Shadow_Crystal, $canSmash, Lantern"
-                        ]
-                      }
-                    ],
-                    "map_locations": [
-                      {
-                        "map": "Poes",
-                        "x": 462,
-                        "y": 685
-                      }
-                    ]
-                  },
-                  {
                     "name": "Lake Hylia",
                     "sections": [
                       {
@@ -2774,6 +2638,7 @@
                         "access_rules": [
                           "Shadow_Crystal"
                         ],
+                        "visibility_rules": ["poes-enabled"],
                         "item_count": 1,
                         "chest_unopened_img": "images/soul.png",
                         "chest_opened_img": "images/soul-grey.png"
@@ -2781,7 +2646,7 @@
                     ],
                     "map_locations": [
                       {
-                        "map": "Poes",
+                        "map": "Main",
                         "x": 559,
                         "y": 633
                       }
@@ -2795,6 +2660,7 @@
                         "access_rules": [
                           "Shadow_Crystal"
                         ],
+                        "visibility_rules": ["poes-enabled"],
                         "item_count": 1,
                         "chest_unopened_img": "images/soul.png",
                         "chest_opened_img": "images/soul-grey.png"
@@ -2802,72 +2668,9 @@
                     ],
                     "map_locations": [
                       {
-                        "map": "Poes",
+                        "map": "Main",
                         "x": 481,
                         "y": 684
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Lake Hylia",
-                    "sections": [
-                      {
-                        "name": "Lake Hylia Tower Poe",
-                        "access_rules": [
-                          "Shadow_Crystal"
-                        ],
-                        "item_count": 1,
-                        "chest_unopened_img": "images/soul.png",
-                        "chest_opened_img": "images/soul-grey.png"
-                      }
-                    ],
-                    "map_locations": [
-                      {
-                        "map": "Poes",
-                        "x": 409,
-                        "y": 664
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Lake Hylia",
-                    "sections": [
-                      {
-                        "name": "Isle of Riches Poe",
-                        "access_rules": [
-                          "Shadow_Crystal"
-                        ],
-                        "item_count": 1,
-                        "chest_unopened_img": "images/soul.png",
-                        "chest_opened_img": "images/soul-grey.png"
-                      }
-                    ],
-                    "map_locations": [
-                      {
-                        "map": "Poes",
-                        "x": 469,
-                        "y": 614
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Lake Hylia",
-                    "sections": [
-                      {
-                        "name": "Flight By Fowl Ledge Poe",
-                        "access_rules": [
-                          "Shadow_Crystal"
-                        ],
-                        "item_count": 1,
-                        "chest_unopened_img": "images/soul.png",
-                        "chest_opened_img": "images/soul-grey.png"
-                      }
-                    ],
-                    "map_locations": [
-                      {
-                        "map": "Poes",
-                        "x": 437,
-                        "y": 584
                       }
                     ]
                   }
@@ -3072,6 +2875,30 @@
                       "Clawshot, Shadow_Crystal, $canSmash, Lantern"
                     ],
                     "item_count": 1
+                  },
+                  {
+                    "name": "Gerudo Desert North Peahat Poe",
+                    "item_count": 1,
+                    "access_rules": [
+                      "Clawshot, Shadow_Crystal"
+                    ],
+                    "visibility_rules": ["poes-enabled"]
+                  },
+                  {
+                    "name": "Gerudo Desert Rock Grotto First Poe",
+                    "item_count": 1,
+                    "access_rules": [
+                      "Clawshot, Shadow_Crystal, $canSmash"
+                    ],
+                    "visibility_rules": ["poes-enabled"]
+                  },
+                  {
+                    "name": "Gerudo Desert Rock Grotto Second Poe",
+                    "item_count": 1,
+                    "access_rules": [
+                      "Clawshot, Shadow_Crystal, $canSmash"
+                    ],
+                    "visibility_rules": ["poes-enabled"]
                   }
                 ],
                 "map_locations": [
@@ -3181,6 +3008,16 @@
                     "chest_unopened_img": "images/GWolf.png",
                     "chest_opened_img": "images/GWolf-grey.png",
                     "item_count": 1
+                  },
+                  {
+                    "name": "Outside Bulblin Camp Poe",
+                    "access_rules": [
+                      "Shadow_Crystal"
+                    ],
+                    "visibility_rules": ["poes-enabled"],
+                    "item_count": 1,
+                    "chest_unopened_img": "images/soul.png",
+                    "chest_opened_img": "images/soul-grey.png"
                   }
                 ],
                 "map_locations": [
@@ -3223,6 +3060,17 @@
                       "Lantern, early-arbiters-on"
                     ],
                     "item_count": 1
+                  },
+                  {
+                    "name": "Bulblin Camp Poe",
+                    "access_rules": [
+                      "Shadow_Crystal, $canDefeatKingBulblinDesert, Gerudo_Desert_Small_Key",
+                      "Shadow_Crystal, early-arbiters-on"
+                    ],
+                    "visibility_rules": ["poes-enabled"],
+                    "item_count": 1,
+                    "chest_unopened_img": "images/soul.png",
+                    "chest_opened_img": "images/soul-grey.png"
                   }
                 ],
                 "map_locations": [
@@ -3235,42 +3083,31 @@
               },
               {
                 "name": "Cave of Ordeals",
-                "chest_unopened_img": "images/soul.png",
-                "chest_opened_img": "images/soul-grey.png",
                 "sections": [
                   {
                     "name": "Cave of Ordeals Floor 17 Poe",
                     "item_count": 1,
                     "access_rules": [
                       "Spinner, Shadow_Crystal"
-                    ]
+                    ],
+                    "visibility_rules": ["poes-enabled"]
                   },
                   {
                     "name": "Cave of Ordeals Floor 33 Poe",
                     "item_count": 1,
                     "access_rules": [
                       "Spinner, Shadow_Crystal, Progressive_Dominion_Rod_2, Ball_and_Chain"
-                    ]
+                    ],
+                    "visibility_rules": ["poes-enabled"]
                   },
                   {
                     "name": "Cave of Ordeals Floor 44 Poe",
                     "item_count": 1,
                     "access_rules": [
                       "Spinner, Shadow_Crystal, Progressive_Dominion_Rod_2, Double_Clawshot, Ball_and_Chain"
-                    ]
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "Poes",
-                    "x": 171,
-                    "y": 755
-                  }
-                ]
-              },
-              {
-                "name": "Cave of Ordeals",
-                "sections": [
+                    ],
+                    "visibility_rules": ["poes-enabled"]
+                  },
                   {
                     "name": "Cave of Ordeals Great Fairy Reward",
                     "item_count": 1,
@@ -3295,6 +3132,7 @@
                     "access_rules": [
                       "Shadow_Crystal"
                     ],
+                    "visibility_rules": ["poes-enabled"],
                     "item_count": 1,
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"
@@ -3302,7 +3140,7 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "Poes",
+                    "map": "Main",
                     "x": 405,
                     "y": 755
                   }
@@ -3316,6 +3154,7 @@
                     "access_rules": [
                       "Clawshot, Shadow_Crystal"
                     ],
+                    "visibility_rules": ["poes-enabled"],
                     "item_count": 1,
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"
@@ -3323,87 +3162,9 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "Poes",
+                    "map": "Main",
                     "x": 170,
                     "y": 735
-                  }
-                ]
-              },
-              {
-                "name": "Gerudo Desert",
-                "chest_unopened_img": "images/soul.png",
-                "chest_opened_img": "images/soul-grey.png",
-                "sections": [
-                  {
-                    "name": "Gerudo Desert North Peahat Poe",
-                    "item_count": 1,
-                    "access_rules": [
-                      "Clawshot, Shadow_Crystal"
-                    ]
-                  },
-                  {
-                    "name": "Gerudo Desert Rock Grotto First Poe",
-                    "item_count": 1,
-                    "access_rules": [
-                      "Clawshot, Shadow_Crystal, $canSmash"
-                    ]
-                  },
-                  {
-                    "name": "Gerudo Desert Rock Grotto Second Poe",
-                    "item_count": 1,
-                    "access_rules": [
-                      "Clawshot, Shadow_Crystal, $canSmash"
-                    ]
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "Poes",
-                    "x": 250,
-                    "y": 636
-                  }
-                ]
-              },
-              {
-                "name": "Gerudo Desert",
-                "sections": [
-                  {
-                    "name": "Outside Bulblin Camp Poe",
-                    "access_rules": [
-                      "Shadow_Crystal"
-                    ],
-                    "item_count": 1,
-                    "chest_unopened_img": "images/soul.png",
-                    "chest_opened_img": "images/soul-grey.png"
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "Poes",
-                    "x": 160,
-                    "y": 590
-                  }
-                ]
-              },
-              {
-                "name": "Bulblin Camp",
-                "sections": [
-                  {
-                    "name": "Bulblin Camp Poe",
-                    "access_rules": [
-                      "Shadow_Crystal, $canDefeatKingBulblinDesert, Gerudo_Desert_Small_Key",
-                      "Shadow_Crystal, early-arbiters-on"
-                    ],
-                    "item_count": 1,
-                    "chest_unopened_img": "images/soul.png",
-                    "chest_opened_img": "images/soul-grey.png"
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "Poes",
-                    "x": 180,
-                    "y": 565
                   }
                 ]
               },
@@ -3416,6 +3177,7 @@
                       "Shadow_Crystal, $canDefeatKingBulblinDesert, Gerudo_Desert_Small_Key",
                       "Shadow_Crystal, early-arbiters-on"
                     ],
+                    "visibility_rules": ["poes-enabled"],
                     "item_count": 1,
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"
@@ -3423,7 +3185,7 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "Poes",
+                    "map": "Main",
                     "x": 180,
                     "y": 545
                   }

@@ -70,16 +70,6 @@
                   }
                 },
                 {
-                  "title": "Poes",
-                  "icon": "images/soul.png",
-                  "content": {
-                    "type": "map",
-                    "maps": [
-                      "Poes"
-                    ]
-                  }
-                },
-                {
                   "title": "Forest",
                   "icon": "images/boomerang.png",
                   "content": {
