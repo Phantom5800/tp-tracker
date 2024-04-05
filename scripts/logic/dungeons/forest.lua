@@ -79,6 +79,7 @@ function ForestTemple_Dungeon_Reward()
       return true,AccessibilityLevel.SequenceBreak
     end
   end
+  return false
 end
 
 function ForestTemple_Big_Baba_Key()

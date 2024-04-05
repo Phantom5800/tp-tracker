@@ -293,7 +293,8 @@
     "type": "toggle",
     "loop": true,
     "img": "images/m-dragonfly.png",
-    "codes": "agitha-enabled"
+    "codes": "agitha-enabled",
+    "initial_active_state": true
   },
   {
     "name": "Poe Souls",
@@ -307,7 +308,8 @@
     "type": "toggle",
     "loop": true,
     "img": "images/soul.png",
-    "codes": "jovani-enabled"
+    "codes": "jovani-enabled",
+    "initial_active_state": true
   },
   {
     "name": "Howling Stone Wolves",

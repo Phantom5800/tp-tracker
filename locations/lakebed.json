@@ -1,40 +1,42 @@
 [
   {
-    "name": "Lakebed",
+    "name": "Lakebed Temple",
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
     "access_rules": [
-      "Zoratunic, $has_explosives, iron"
+      "$canAccessLakebed"
     ],
     "children": [
       {
         "name": "B2",
         "color": "#18a50e",
         "access_rules": [
-          "bow",
-          "boomerang"
+          "$canGetThroughStalactiteRoom"
         ],
         "children": [
           {
             "name": "B2",
+            "access_rules": [
+              "$canCompleteLakebedTemple"
+            ],
             "children": [
               {
                 "name": "B2",
                 "sections": [
                   {
                     "name": "Morpheel Heart Container",
-                    "access_rules": [
-                      "Lakebed_Temple_Big_Key, sword1, cs",
-                      "Lakebed_Temple_Big_Key, sword1, cs"
-                    ],
                     "item_count": 1,
                     "chest_unopened_img": "images/HC.png",
                     "chest_opened_img": "images/HC-grey.png"
+                  },
+                  {
+                    "name": "Dungeon Reward",
+                    "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Lakebed",
+                    "map": "Lakebed Temple",
                     "x": 308,
                     "y": 204
                   }
@@ -48,8 +50,7 @@
         "name": "B1",
         "color": "#18a50e",
         "access_rules": [
-          "bow",
-          "boomerang"
+          "$canGetThroughStalactiteRoom"
         ],
         "children": [
           {
@@ -61,14 +62,14 @@
                   {
                     "name": "Big Key Chest",
                     "access_rules": [
-                      "Lakebed_Temple_Small_Key:3, cs"
+                      "$Lakebed_Big_Key_Chest"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Lakebed",
+                    "map": "Lakebed Temple",
                     "x": 708,
                     "y": 240
                   }
@@ -80,15 +81,14 @@
                   {
                     "name": "Central Room Spire Chest",
                     "access_rules": [
-                      "Lakebed_Temple_Small_Key:3, bow",
-                      "Lakebed_Temple_Small_Key:3, boomerang"
+                      "$Lakebed_Central_Room_Spire_Chest"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Lakebed",
+                    "map": "Lakebed Temple",
                     "x": 898,
                     "y": 198
                   }
@@ -100,14 +100,14 @@
                   {
                     "name": "East Lower Waterwheel Bridge Chest",
                     "access_rules": [
-                      "Lakebed_Temple_Small_Key:3, cs"
+                      "$Lakebed_East_Lower_Waterwheel_Bridge_Chest"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Lakebed",
+                    "map": "Lakebed Temple",
                     "x": 1027,
                     "y": 262
                   }
@@ -119,14 +119,14 @@
                   {
                     "name": "East Lower Waterwheel Stalactite Chest",
                     "access_rules": [
-                      ""
+                      "$Lakebed_East_Lower_Waterwheel_Stalactite_Chest"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Lakebed",
+                    "map": "Lakebed Temple",
                     "x": 1043,
                     "y": 226
                   }
@@ -138,14 +138,14 @@
                   {
                     "name": "Before Deku Toad Underwater Left Chest",
                     "access_rules": [
-                      "Lakebed_Temple_Small_Key:3"
+                      "$Lakebed_Before_Deku_Toad_Underwater_Chests"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Lakebed",
+                    "map": "Lakebed Temple",
                     "x": 1048,
                     "y": 178
                   }
@@ -157,14 +157,14 @@
                   {
                     "name": "Before Deku Toad Underwater Right Chest",
                     "access_rules": [
-                      "Lakebed_Temple_Small_Key:3"
+                      "$Lakebed_Before_Deku_Toad_Underwater_Chests"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Lakebed",
+                    "map": "Lakebed Temple",
                     "x": 1055,
                     "y": 153
                   }
@@ -178,8 +178,7 @@
         "name": "1F",
         "color": "#18a50e",
         "access_rules": [
-          "bow",
-          "boomerang"
+          "$canGetThroughStalactiteRoom"
         ],
         "children": [
           {
@@ -191,14 +190,14 @@
                   {
                     "name": "Underwater Maze Small Chest",
                     "access_rules": [
-                      "Lakebed_Temple_Small_Key:3, cs"
+                      "$Lakebed_Underwater_Maze_Small_Chest"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Lakebed",
+                    "map": "Lakebed Temple",
                     "x": 1277,
                     "y": 214
                   }
@@ -210,14 +209,14 @@
                   {
                     "name": "West Lower Small Chest",
                     "access_rules": [
-                      "Lakebed_Temple_Small_Key:3, cs"
+                      "$Lakebed_West_Lower_Small_Chest"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Lakebed",
+                    "map": "Lakebed Temple",
                     "x": 1374,
                     "y": 192
                   }
@@ -228,16 +227,12 @@
                 "sections": [
                   {
                     "name": "Central Room Chest",
-                    "access_rules": [
-                      "bow",
-                      "boomerang"
-                    ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Lakebed",
+                    "map": "Lakebed Temple",
                     "x": 1512,
                     "y": 185
                   }
@@ -248,16 +243,12 @@
                 "sections": [
                   {
                     "name": "Central Room Small Chest",
-                    "access_rules": [
-                      "bow",
-                      "boomerang"
-                    ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Lakebed",
+                    "map": "Lakebed Temple",
                     "x": 1511,
                     "y": 229
                   }
@@ -269,15 +260,14 @@
                   {
                     "name": "Before Deku Toad Alcove Chest",
                     "access_rules": [
-                      "Lakebed_Temple_Small_Key:3",
-                      "Lakebed_Temple_Small_Key:2, cs"
+                      "$Lakebed_Before_Deku_Toad_Alcove_Chest"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Lakebed",
+                    "map": "Lakebed Temple",
                     "x": 1642,
                     "y": 178
                   }
@@ -289,14 +279,14 @@
                   {
                     "name": "Deku Toad Chest",
                     "access_rules": [
-                      "Lakebed_Temple_Small_Key:3"
+                      "$Lakebed_Deku_Toad_Chest"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Lakebed",
+                    "map": "Lakebed Temple",
                     "x": 1616,
                     "y": 110
                   }
@@ -312,6 +302,47 @@
         "children": [
           {
             "name": "2F",
+            "sections": [
+              {
+                "name": "Lobby Left Chest",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Lakebed Temple",
+                "x": 290,
+                "y": 971
+              }
+            ]
+          },
+          {
+            "name": "2F",
+            "sections": [
+              {
+                "name": "Lobby Rear Chest",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Lakebed Temple",
+                "x": 308,
+                "y": 986
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "2F",
+        "color": "#18a50e",
+        "access_rules": [
+          "$canGetThroughStalactiteRoom"
+        ],
+        "children": [
+          {
+            "name": "2F",
             "children": [
               {
                 "name": "2F",
@@ -319,15 +350,14 @@
                   {
                     "name": "West Second Floor Southwest Underwater Chest",
                     "access_rules": [
-                      "Lakebed_Temple_Small_Key:3, cs, bow",
-                      "Lakebed_Temple_Small_Key:3, cs, boomerang"
+                      "$Lakebed_West_Second_Floor_Underwater_Chest"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Lakebed",
+                    "map": "Lakebed Temple",
                     "x": 144,
                     "y": 828
                   }
@@ -339,15 +369,14 @@
                   {
                     "name": "West Second Floor Southeast Chest",
                     "access_rules": [
-                      "Lakebed_Temple_Small_Key:3, cs, bow",
-                      "Lakebed_Temple_Small_Key:3, cs, boomerang"
+                      "$Lakebed_West_Second_Floor_Chests"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Lakebed",
+                    "map": "Lakebed Temple",
                     "x": 186,
                     "y": 826
                   }
@@ -359,15 +388,14 @@
                   {
                     "name": "West Second Floor Central Small Chest",
                     "access_rules": [
-                      "Lakebed_Temple_Small_Key:3, cs, bow",
-                      "Lakebed_Temple_Small_Key:3, cs, boomerang"
+                      "$Lakebed_West_Second_Floor_Chests"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Lakebed",
+                    "map": "Lakebed Temple",
                     "x": 191,
                     "y": 775
                   }
@@ -379,15 +407,14 @@
                   {
                     "name": "West Second Floor Northeast Chest",
                     "access_rules": [
-                      "Lakebed_Temple_Small_Key:3, cs, bow",
-                      "Lakebed_Temple_Small_Key:3, cs, boomerang"
+                      "$Lakebed_West_Second_Floor_Chests"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Lakebed",
+                    "map": "Lakebed Temple",
                     "x": 202,
                     "y": 763
                   }
@@ -399,15 +426,14 @@
                   {
                     "name": "Chandelier chest",
                     "access_rules": [
-                      "bow, cs",
-                      "boomerang, cs"
+                      "$Lakebed_Chandelier_Chest"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Lakebed",
+                    "map": "Lakebed Temple",
                     "x": 308,
                     "y": 798
                   }
@@ -419,55 +445,16 @@
                   {
                     "name": "Stalactite Room Small Chest",
                     "access_rules": [
-                      "bow",
-                      "boomerang"
+                      "$Lakebed_Stalactite_Room_Small_Chest"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Lakebed",
+                    "map": "Lakebed Temple",
                     "x": 323,
                     "y": 886
-                  }
-                ]
-              },
-              {
-                "name": "2F",
-                "sections": [
-                  {
-                    "name": "Lobby Left Chest",
-                    "access_rules": [
-                      ""
-                    ],
-                    "item_count": 1
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "Lakebed",
-                    "x": 290,
-                    "y": 971
-                  }
-                ]
-              },
-              {
-                "name": "2F",
-                "sections": [
-                  {
-                    "name": "Lobby Rear Chest",
-                    "access_rules": [
-                      ""
-                    ],
-                    "item_count": 1
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "Lakebed",
-                    "x": 308,
-                    "y": 986
                   }
                 ]
               },
@@ -485,7 +472,7 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "Lakebed",
+                    "map": "Lakebed Temple",
                     "x": 408,
                     "y": 816
                   }
@@ -505,7 +492,7 @@
                 ],
                 "map_locations": [
                   {
-                    "map": "Lakebed",
+                    "map": "Lakebed Temple",
                     "x": 440,
                     "y": 830
                   }
@@ -519,8 +506,7 @@
         "name": "4F",
         "color": "#18a50e",
         "access_rules": [
-          "bow, Lakebed_Temple_Small_Key:3",
-          "boomerang, Lakebed_Temple_Small_Key:3"
+          "$canGetThroughStalactiteRoom, $Lakebed_Water_Supply_Rooms"
         ],
         "children": [
           {
@@ -532,14 +518,14 @@
                   {
                     "name": "West Water Supply Small Chest",
                     "access_rules": [
-                      "cs"
+                      "$Lakebed_West_Water_Supply_Chests"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Lakebed",
+                    "map": "Lakebed Temple",
                     "x": 1224,
                     "y": 794
                   }
@@ -551,14 +537,14 @@
                   {
                     "name": "West Water Supply Chest",
                     "access_rules": [
-                      "cs"
+                      "$Lakebed_West_Water_Supply_Chests"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Lakebed",
+                    "map": "Lakebed Temple",
                     "x": 1260,
                     "y": 803
                   }
@@ -569,15 +555,12 @@
                 "sections": [
                   {
                     "name": "East Water Supply Small Chest",
-                    "access_rules": [
-                      ""
-                    ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Lakebed",
+                    "map": "Lakebed Temple",
                     "x": 1696,
                     "y": 794
                   }
@@ -589,14 +572,14 @@
                   {
                     "name": "East Water Supply Clawshot Chest",
                     "access_rules": [
-                      "cs"
+                      "$Lakebed_East_Water_Supply_Clawshot_Chest"
                     ],
                     "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
-                    "map": "Lakebed",
+                    "map": "Lakebed Temple",
                     "x": 1733,
                     "y": 804
                   }
