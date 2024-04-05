@@ -656,6 +656,25 @@ function canAccessLanayru()
                       or has("skip-prologue-on")))
 end
 
+function canDefeatFinalBoss()  
+  if canDefeatGanondorf() then -- stop if can't beat ganon
+    local smkeys = has("Hyrule_Castle_Small_Key",3) or has("small-keysy-enabled")
+    local bosskey = has("Hyrule_Castle_Big_Key") or has("boss-keysy-enabled")
+    if smkeys and bosskey then -- check keys first
+      if canDefeatLizalfos() and canDefeatDarknut() and has("Boomerang") and has("Spinner") then
+        if (has("Lantern") and canDefeatDinalfos()) or canKnockDownHCPainting() then
+          if has("Double_Clawshot") then -- logically need both clawshots
+            return true
+          elseif has("Clawshot") then
+            return true,AccessibilityLevel.SequenceBreak -- double clawshot skip
+          end
+        end
+      end
+    end
+  end
+  return false
+end
+
 
 ScriptHost:LoadScript("scripts/logic/dungeons/forest.lua")
 ScriptHost:LoadScript("scripts/logic/dungeons/mines.lua")
