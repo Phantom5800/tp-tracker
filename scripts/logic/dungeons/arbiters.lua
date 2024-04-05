@@ -48,7 +48,14 @@ end
 
 function Arbiters_Grounds_Death_Sword_Chest()
   local smkeys = has("Arbiters_Grounds_Small_Key",5) or has("small-keysy-enabled")
-  return smkeys and has("Lantern") and canSmash() and canDefeatDeathSword()
+  if smkeys and has("Lantern") and canSmash() then -- can reach death sword logically
+    if canDefeatDeathSword() then
+      return true
+    elseif has("Shadow_Crystal") then
+      return true,AccessibilityLevel.SequenceBreak -- death sword skip
+    end
+  end
+  return false
 end
 
 function Arbiters_Grounds_Dungeon_Reward()

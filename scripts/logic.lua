@@ -9,41 +9,41 @@ function has(item, amount)
 end
 
 function hasDamagingItem()
-  return hasSword() 
-          or has("Ball_and_Chain") 
-          or has("Progressive_Bow") 
-          or has("Bomb_Bag", 1) 
-          or has("Iron_Boots") 
-          or has("Shadow_Crystal") 
+  return hasSword()
+          or has("Ball_and_Chain")
+          or has("Progressive_Bow")
+          or has("Bomb_Bag", 1)
+          or has("Iron_Boots")
+          or has("Shadow_Crystal")
           or has("Spinner")
 end
 
 function hasSword()
-  return has("Progressive_Sword_1") 
-          or has("Progressive_Sword_2") 
-          or has("Progressive_Sword_3") 
+  return has("Progressive_Sword_1")
+          or has("Progressive_Sword_2")
+          or has("Progressive_Sword_3")
           or has("Progressive_Sword_4")
 end
 
 function canDefeatArmos()
-  return hasSword() 
+  return hasSword()
           or has("Ball_and_Chain")
           or has("Progressive_Bow")
-          or has("Shadow_Crystal") 
+          or has("Shadow_Crystal")
           or has("Clawshot")
-          or hasBombs() 
+          or hasBombs()
           or has("Spinner")
 end
-        
+
 function canDefeatBabaSerpent()
-  return hasSword() 
+  return hasSword()
           or has("Ball_and_Chain")
           or has("Progressive_Bow")
-          or has("Spinner") 
+          or has("Spinner")
           or has("Shadow_Crystal")
           or hasBombs()
 end
-        
+
 function canDefeatBabyGohma()
   return hasSword()
           or has("Ball_and_Chain")
@@ -53,11 +53,11 @@ function canDefeatBabyGohma()
           or has("Clawshot")
           or hasBombs()
 end
-        
+
 function canDefeatBari()
   return canUseWaterBombs() or has("Clawshot")
 end
-        
+
 function canDefeatBeamos()
   return has("Ball_and_Chain")
           or has("Progressive_Bow")
@@ -72,7 +72,7 @@ function canDefeatBigBaba()
           or has("Spinner")
           or hasBombs()
 end
-        
+
 function canDefeatChu()
   return hasSword()
           or has("Ball_and_Chain")
@@ -82,7 +82,7 @@ function canDefeatChu()
           or has("Clawshot")
           or hasBombs()
 end
-        
+
 function canDefeatBokoblin()
   return hasSword()
           or has("Ball_and_Chain")
@@ -106,7 +106,7 @@ function canDefeatBombfish()
             or has("Clawshot")
             or (hasShield() and has("Progressive_Hidden_Skill",2)))
 end
-        
+
 function canDefeatBombling()
   return hasSword()
           or has("Ball_and_Chain")
@@ -124,7 +124,7 @@ function canDefeatBomskit()
           or has("Shadow_Crystal")
           or hasBombs()
 end
-        
+
 function canDefeatBubble()
   return hasSword()
           or has("Ball_and_Chain")
@@ -132,7 +132,7 @@ function canDefeatBubble()
           or has("Spinner")
           or has("Shadow_Crystal")
 end
-        
+
 function canDefeatBulblin()
   return hasSword()
           or has("Ball_and_Chain")
@@ -141,7 +141,7 @@ function canDefeatBulblin()
           or has("Shadow_Crystal")
           or hasBombs()
 end
-        
+
 function canDefeatChilfos()
   return hasSword()
           or has("Ball_and_Chain")
@@ -149,17 +149,17 @@ function canDefeatChilfos()
           or has("Spinner")
           or hasBombs()
 end
-        
+
 function canDefeatChuWorm()
   return (hasSword()
             or has("Ball_and_Chain")
             or has("Progressive_Bow")
             or has("Spinner")
             or has("Shadow_Crystal")
-          ) and (hasBombs() 
+          ) and (hasBombs()
             or has("Clawshot"))
 end
-        
+
 function canDefeatDekuBaba()
   return hasSword()
           or has("Ball_and_Chain")
@@ -170,11 +170,11 @@ function canDefeatDekuBaba()
           or has("Clawshot")
           or hasBombs()
 end
-        
+
 function canDefeatDekuLike()
   return hasBombs()
 end
-        
+
 function canDefeatDodongo()
   return hasSword()
           or has("Ball_and_Chain")
@@ -183,11 +183,11 @@ function canDefeatDodongo()
           or has("Shadow_Crystal")
           or hasBombs()
 end
-        
+
 function canDefeatDinalfos()
   return hasSword() or has("Ball_and_Chain") or has("Shadow_Crystal")
 end
-        
+
 function canDefeatFireBubble()
   return hasSword()
           or has("Ball_and_Chain")
@@ -195,7 +195,7 @@ function canDefeatFireBubble()
           or has("Spinner")
           or has("Shadow_Crystal")
 end
-        
+
 function canDefeatFireKeese()
   return hasSword()
           or has("Ball_and_Chain")
@@ -204,18 +204,18 @@ function canDefeatFireKeese()
           or has("Slingshot")
           or has("Shadow_Crystal")
 end
-        
+
 function canDefeatFireToadpoli()
   return hasSword()
           or has("Ball_and_Chain")
           or has("Progressive_Bow")
           or (has("Hylian_Shield") and has("Progressive_Hidden_Skill", 2))
 end
-        
+
 function canDefeatFreezard()
   return has("Ball_and_Chain")
 end
-        
+
 function canDefeatGoron()
   return hasSword()
           or has("Ball_and_Chain")
@@ -226,11 +226,11 @@ function canDefeatGoron()
           or has("Clawshot")
           or hasBombs()
 end
-        
+
 function canDefeatGhoulRat()
   return has("Shadow_Crystal")
 end
-        
+
 function canDefeatGuay()
   return hasSword()
           or has("Ball_and_Chain")
@@ -238,7 +238,7 @@ function canDefeatGuay()
           or has("Shadow_Crystal")
           or has("Slingshot")
 end
-        
+
 function canDefeatHelmasaur()
   return hasSword()
           or has("Ball_and_Chain")
@@ -247,7 +247,7 @@ function canDefeatHelmasaur()
           or has("Shadow_Crystal")
           or hasBombs()
 end
-        
+
 function canDefeatHelmasaurus()
   return hasSword()
           or has("Ball_and_Chain")
@@ -256,7 +256,7 @@ function canDefeatHelmasaurus()
           or has("Shadow_Crystal")
           or hasBombs()
 end
-        
+
 function canDefeatIceBubble()
   return hasSword()
           or has("Ball_and_Chain")
@@ -264,7 +264,7 @@ function canDefeatIceBubble()
           or has("Spinner")
           or has("Shadow_Crystal")
 end
-        
+
 function canDefeatIceKeese()
   return hasSword()
           or has("Ball_and_Chain")
@@ -273,11 +273,11 @@ function canDefeatIceKeese()
           or has("Slingshot")
           or has("Shadow_Crystal")
 end
-        
+
 function canDefeatPoe()
   return has("Shadow_Crystal")
 end
-        
+
 function canDefeatKargarok()
   return hasSword()
           or has("Ball_and_Chain")
@@ -285,7 +285,7 @@ function canDefeatKargarok()
           or has("Spinner")
           or has("Shadow_Crystal")
 end
-        
+
 function canDefeatKeese()
   return hasSword()
           or has("Ball_and_Chain")
@@ -294,7 +294,7 @@ function canDefeatKeese()
           or has("Slingshot")
           or has("Shadow_Crystal")
 end
-        
+
 function canDefeatLeever()
   return hasSword()
           or has("Ball_and_Chain")
@@ -303,7 +303,7 @@ function canDefeatLeever()
           or has("Shadow_Crystal")
           or hasBombs()
 end
-        
+
 function canDefeatLizalfos()
   return hasSword()
           or has("Ball_and_Chain")
@@ -311,7 +311,7 @@ function canDefeatLizalfos()
           or has("Shadow_Crystal")
           or hasBombs()
 end
-        
+
 function canDefeatMiniFreezard()
   return hasSword()
           or has("Ball_and_Chain")
@@ -320,7 +320,7 @@ function canDefeatMiniFreezard()
           or has("Shadow_Crystal")
           or hasBombs()
 end
-        
+
 function canDefeatMoldorm()
   return hasSword()
           or has("Ball_and_Chain")
@@ -329,7 +329,7 @@ function canDefeatMoldorm()
           or has("Shadow_Crystal")
           or hasBombs()
 end
-        
+
 function canDefeatPoisonMite()
   return hasSword()
           or has("Ball_and_Chain")
@@ -338,7 +338,7 @@ function canDefeatPoisonMite()
           or has("Spinner")
           or has("Shadow_Crystal")
 end
-        
+
 function canDefeatPuppet()
   return hasSword()
           or has("Ball_and_Chain")
@@ -347,7 +347,7 @@ function canDefeatPuppet()
           or has("Shadow_Crystal")
           or hasBombs()
 end
-        
+
 function canDefeatRat()
   return hasSword()
           or has("Ball_and_Chain")
@@ -357,7 +357,7 @@ function canDefeatRat()
           or has("Shadow_Crystal")
           or hasBombs()
 end
-        
+
 function canDefeatRedeadKnight()
   return hasSword()
           or has("Ball_and_Chain")
@@ -365,11 +365,11 @@ function canDefeatRedeadKnight()
           or has("Shadow_Crystal")
           or hasBombs()
 end
-        
+
 function canDefeatShadowBeast()
   return hasSword() or (has("Shadow_Crystal") and canCompleteMDH())
 end
-        
+
 function canDefeatShadowBulblin()
   return hasSword()
           or has("Ball_and_Chain")
@@ -378,7 +378,7 @@ function canDefeatShadowBulblin()
           or has("Shadow_Crystal")
           or hasBombs()
 end
-        
+
 function canDefeatShadowDekuBaba()
   return hasSword()
           or has("Ball_and_Chain")
@@ -389,11 +389,11 @@ function canDefeatShadowDekuBaba()
           or has("Clawshot")
           or hasBombs()
 end
-        
+
 function canDefeatShadowInsect()
   return has("Shadow_Crystal")
 end
-        
+
 function canDefeatShadowKargarok()
   return hasSword()
           or has("Ball_and_Chain")
@@ -402,7 +402,7 @@ function canDefeatShadowKargarok()
           or has("Shadow_Crystal")
           or hasBombs()
 end
-        
+
 function canDefeatShadowKeese()
   return hasSword()
           or has("Ball_and_Chain")
@@ -411,7 +411,7 @@ function canDefeatShadowKeese()
           or has("Slingshot")
           or has("Shadow_Crystal")
 end
-        
+
 function canDefeatShadowVermin()
   return hasSword()
           or has("Ball_and_Chain")
@@ -420,12 +420,12 @@ function canDefeatShadowVermin()
           or has("Shadow_Crystal")
           or hasBombs()
 end
-        
+
 function canDefeatShellBlade()
   return canUseWaterBombs()
           or (hasSword()and has("Iron_Boots"))
 end
-        
+
 function canDefeatSkullfish()
   return hasSword()
           or has("Ball_and_Chain")
@@ -433,7 +433,7 @@ function canDefeatSkullfish()
           or has("Spinner")
           or has("Shadow_Crystal")
 end
-        
+
 function canDefeatSkulltula()
   return hasSword()
           or has("Ball_and_Chain")
@@ -442,11 +442,11 @@ function canDefeatSkulltula()
           or has("Shadow_Crystal")
           or hasBombs()
 end
-        
+
 function canDefeatStalfos()
   return canSmash()
 end
-        
+
 function canDefeatStalhound()
   return hasSword()
           or has("Ball_and_Chain")
@@ -455,7 +455,7 @@ function canDefeatStalhound()
           or has("Shadow_Crystal")
           or hasBombs()
 end
-        
+
 function canDefeatStalchild()
   return hasSword()
           or has("Ball_and_Chain")
@@ -464,7 +464,7 @@ function canDefeatStalchild()
           or has("Shadow_Crystal")
           or hasBombs()
 end
-        
+
 function canDefeatTektite()
   return hasSword()
           or has("Ball_and_Chain")
@@ -473,7 +473,7 @@ function canDefeatTektite()
           or has("Shadow_Crystal")
           or hasBombs()
 end
-        
+
 function canDefeatTileWorm()
   return (hasSword()
           or has("Ball_and_Chain")
@@ -483,7 +483,7 @@ function canDefeatTileWorm()
           or hasBombs()
         ) and has("Boomerang")
 end
-        
+
 function canDefeatToado()
   return hasSword()
           or has("Ball_and_Chain")
@@ -491,14 +491,14 @@ function canDefeatToado()
           or has("Spinner")
           or has("Shadow_Crystal")
 end
-        
+
 function canDefeatWaterToadpoli()
   return hasSword()
           or has("Ball_and_Chain")
           or has("Progressive_Bow")
           or (hasShield() and has("Progressive_Hidden_Skill", 2))
 end
-        
+
 function canDefeatTorchSlug()
   return hasSword()
           or has("Ball_and_Chain")
@@ -506,7 +506,7 @@ function canDefeatTorchSlug()
           or has("Shadow_Crystal")
           or hasBombs()
 end
-        
+
 function canDefeatWalltula()
   return has("Ball_and_Chain")
           or has("Slingshot")
@@ -514,7 +514,7 @@ function canDefeatWalltula()
           or has("Boomerang")
           or has("Clawshot")
 end
-        
+
 function canDefeatWhiteWolfos()
   return hasSword()
           or has("Ball_and_Chain")
@@ -523,7 +523,7 @@ function canDefeatWhiteWolfos()
           or has("Shadow_Crystal")
           or hasBombs()
 end
-        
+
 function canDefeatYoungGohma()
   return hasSword()
           or has("Ball_and_Chain")
@@ -532,11 +532,11 @@ function canDefeatYoungGohma()
           or has("Shadow_Crystal")
           or hasBombs()
 end
-        
+
 function canDefeatCarrierKargarok()
   return has("Shadow_Crystal")
 end
-        
+
 function canDefeatTwilitBloat()
   return has("Shadow_Crystal")
 end
@@ -555,7 +555,7 @@ function canDefeatKingBulblinDesert()
           or has("Shadow_Crystal")
           or has("Progressive_Bow_3")
 end
-        
+
 function canDefeatKingBulblinCastle()
   return hasSword()
           or has("Ball_and_Chain")
@@ -568,17 +568,17 @@ function canDefeatGanondorf()
           and has("Progressive_Sword_3")
           and has("Progressive_Hidden_Skill", 1)
 end
-        
+
 function canSmash()
   return has("Ball_and_Chain") or hasBombs()
 end
-        
+
 function canBurnWebs()
-  return has("Lantern") 
-          or hasBombs() 
+  return has("Lantern")
+          or hasBombs()
           or has("Ball_and_Chain")
 end
-        
+
 function hasRangedItem()
   return has("Ball_and_Chain")
           or has("Slingshot")
@@ -586,18 +586,18 @@ function hasRangedItem()
           or has("Clawshot")
           or has("Boomerang")
 end
-        
+
 function hasShield()
   return has("Hylian_Shield")
 end
-        
+
 function canLaunchBombs()
   return (has("Boomerang") or has("Progressive_Bow")) and hasBombs()
 end
 
 function canKnockDownHCPainting()
   return has("Progressive_Bow")
-          or (hasSword() 
+          or (hasSword()
             and has("Progressive_Hidden_Skill", 6))
 end
 
@@ -606,15 +606,15 @@ function canKnockDownHangingBaba()
           or has("Clawshot")
           or has("Boomerang")
 end
-        
+
 function canBreakWoodenDoor()
   return has("Shadow_Crystal") or hasSword() or canSmash()
 end
-        
+
 function hasBombs()
   return has("Bomb_Bag", 1)
 end
-        
+
 function canUseWaterBombs()
   return has("Bomb_Bag", 1)
 end
@@ -622,14 +622,14 @@ end
 function canGetArrows()
   return canLeaveForest() or (canCompletePrologue() and has("Shadow_Crystal"))
 end
-        
+
 function canCompletePrologue()
   return (hasSword()
             and has("Slingshot")
             and has("Faron_Woods_Small_Key",2))
           or has("skip-prologue-on")
 end
-        
+
 function canCompleteMDH()
   return canCompleteLakebedTemple() or has("skip-mdh-on")
 end
@@ -641,7 +641,7 @@ end
 function canCompleteAllDungeons()
   return canCompleteForestTemple()
           and canCompleteGoronMines()
-          and canCompleteLakebedTemple()
+          and canAccessLakebed() and canGetThroughStalactiteRoom() and canCompleteLakebedTemple() -- lakebed logic is split up more to account for boss key skip
           and canCompleteArbitersGrounds()
           and canCompleteSnowpeakRuins()
           and canCompleteTempleofTime()
@@ -650,13 +650,13 @@ function canCompleteAllDungeons()
 end
 
 function canAccessLanayru()
-  return canLeaveForest() 
-          and ((canSmash() or has("Gate_Keys")) 
-                and ((hasSword() and has("Slingshot")) 
+  return canLeaveForest()
+          and ((canSmash() or has("Gate_Keys"))
+                and ((hasSword() and has("Slingshot"))
                       or has("skip-prologue-on")))
 end
 
-function canDefeatFinalBoss()  
+function canDefeatFinalBoss()
   if canDefeatGanondorf() then -- stop if can't beat ganon
     local smkeys = has("Hyrule_Castle_Small_Key",3) or has("small-keysy-enabled")
     local bosskey = has("Hyrule_Castle_Big_Key") or has("boss-keysy-enabled")

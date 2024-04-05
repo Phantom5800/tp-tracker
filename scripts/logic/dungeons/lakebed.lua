@@ -2,10 +2,10 @@
   Dungeon Progress
 ---------------------------------------------------------]]
 function canAccessLakebed()
-  return canLeaveForest() 
-          and ((canSmash() and (hasSword() and has("Slingshot")) or has("skip-prologue-on")) 
-                or (has("Gate_Keys") and (hasSword() and has("Slingshot")) or has("skip-prologue-on"))) 
-          and has("Zora_Armor") 
+  return canLeaveForest()
+          and ((canSmash() and (hasSword() and has("Slingshot")) or has("skip-prologue-on"))
+                or (has("Gate_Keys") and (hasSword() and has("Slingshot")) or has("skip-prologue-on")))
+          and has("Zora_Armor")
           and (has("early-lakebed-on") or (has("Iron_Boots") and canUseWaterBombs()))
 end
 
@@ -19,10 +19,14 @@ function canGetThroughStalactiteRoom()
 end
 
 function canCompleteLakebedTemple()
-  return canAccessLakebed() 
-          and canLaunchBombs() 
-          and (has("Lakebed_Temple_Big_Key") or has("boss-keysy-enabled"))
-          and canDefeatMorpheel()
+  if canDefeatMorpheel() then
+    if has("Lakebed_Temple_Big_Key") or has("boss-keysy-enabled") then
+      return true
+    elseif hasSword() then -- boss key skip is possible
+      return true,AccessibilityLevel.SequenceBreak
+    end
+  end
+  return false
 end
 
 --[[-------------------------------------------------------
@@ -59,17 +63,17 @@ function Lakebed_Before_Deku_Toad_Alcove_Chest()
 end
 
 function Lakebed_Before_Deku_Toad_Underwater_Chests()
-  return (has("Lakebed_Temple_Small_Key", 3) or has("small-keysy-enabled")) 
+  return (has("Lakebed_Temple_Small_Key", 3) or has("small-keysy-enabled"))
           and has("Iron_Boots")
 end
 
 function Lakebed_Big_Key_Chest()
-  return (has("Lakebed_Temple_Small_Key", 3) or has("small-keysy-enabled")) 
+  return (has("Lakebed_Temple_Small_Key", 3) or has("small-keysy-enabled"))
           and has("Clawshot")
 end
 
 function Lakebed_Central_Room_Spire_Chest()
-  return (has("Lakebed_Temple_Small_Key", 3) or has("small-keysy-enabled")) 
+  return (has("Lakebed_Temple_Small_Key", 3) or has("small-keysy-enabled"))
           and has("Iron_Boots")
 end
 
@@ -78,14 +82,14 @@ function Lakebed_Chandelier_Chest()
 end
 
 function Lakebed_Deku_Toad_Chest()
-  return (has("Lakebed_Temple_Small_Key", 3) or has("small-keysy-enabled")) 
-          and has("Iron_Boots") 
+  return (has("Lakebed_Temple_Small_Key", 3) or has("small-keysy-enabled"))
+          and has("Iron_Boots")
           and hasBombs()
           and canDefeatDekuToad()
 end
 
 function Lakebed_East_Lower_Waterwheel_Bridge_Chest()
-  return (has("Lakebed_Temple_Small_Key", 3) or has("small-keysy-enabled")) 
+  return (has("Lakebed_Temple_Small_Key", 3) or has("small-keysy-enabled"))
           and has("Clawshot")
 end
 
@@ -106,17 +110,17 @@ function Lakebed_Water_Supply_Rooms()
 end
 
 function Lakebed_West_Lower_Small_Chest()
-  return (has("Lakebed_Temple_Small_Key", 3) or has("small-keysy-enabled")) 
+  return (has("Lakebed_Temple_Small_Key", 3) or has("small-keysy-enabled"))
           and has("Clawshot")
 end
 
 function Lakebed_West_Second_Floor_Chests()
-  return (has("Lakebed_Temple_Small_Key", 3) or has("small-keysy-enabled")) 
+  return (has("Lakebed_Temple_Small_Key", 3) or has("small-keysy-enabled"))
           and has("Clawshot")
 end
 
 function Lakebed_West_Second_Floor_Underwater_Chest()
-  return Lakebed_West_Second_Floor_Chests() 
+  return Lakebed_West_Second_Floor_Chests()
           and has("Iron_Boots")
 end
 
@@ -126,7 +130,7 @@ end
 
 function Lakebed_Underwater_Maze_Small_Chest()
   return (has("Lakebed_Temple_Small_Key", 3) or has("small-keysy-enabled"))
-          and has("Iron_Boots") 
-          and hasBombs() 
+          and has("Iron_Boots")
+          and hasBombs()
           and has("Clawshot")
 end
