@@ -127,7 +127,14 @@
                     "access_rules": [
                       "$GoronMines_Dungeon_Reward"
                     ]
-                  }            
+                  },
+                  {
+                    "name": "Fyrus",
+                    "access_rules": [
+                      "$GoronMines_Dungeon_Reward"
+                    ],
+                    "hosted_item": "Fyrus"
+                  }
                 ],
                 "map_locations": [
                   {

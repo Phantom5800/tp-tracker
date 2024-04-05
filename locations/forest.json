@@ -66,6 +66,13 @@
                       "$ForestTemple_Dungeon_Reward"
                     ],
                     "item_count": 1
+                  },
+                  {
+                    "name": "Diababa",
+                    "access_rules": [
+                      "$ForestTemple_Dungeon_Reward"
+                    ],
+                    "hosted_item": "Diababa"
                   }
                 ],
                 "map_locations": [

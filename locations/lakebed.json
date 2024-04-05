@@ -32,6 +32,13 @@
                   {
                     "name": "Dungeon Reward",
                     "item_count": 1
+                  },
+                  {
+                    "name": "Morpheel",
+                    "access_rules": [
+                      "$GoronMines_Dungeon_Reward"
+                    ],
+                    "hosted_item": "Morpheel"
                   }
                 ],
                 "map_locations": [
