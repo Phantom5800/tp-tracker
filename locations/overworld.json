@@ -1033,7 +1033,7 @@
               {
                 "name": "Talo Sharpshooting",
                 "access_rules": [
-                  "Progressive_Bow, $canCompleteGoronMines"
+                  "Progressive_Bow, Fyrus"
                 ],
                 "item_count": 1
               },
@@ -1044,7 +1044,7 @@
               {
                 "name": "Kakariko Village Malo Mart Hawkeye",
                 "access_rules": [
-                  "Progressive_Bow, $canCompleteGoronMines"
+                  "Progressive_Bow, Fyrus"
                 ],
                 "item_count": 1
               },
