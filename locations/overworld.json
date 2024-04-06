@@ -1074,7 +1074,8 @@
                 "access_rules": [
                   "Armogohma"
                 ],
-                "item_count": 1
+                "hosted_item": "Renado_Letter"
+                //"item_count": 1
               },
               {
                 "name": "Ilia Memory Reward",
@@ -2006,7 +2007,8 @@
                     "access_rules": [
                       "Invoice"
                     ],
-                    "item_count": 1
+                    "hosted_item": "Wooden_Statue"
+                    //"item_count": 1
                   },
                   {
                     "name": "Outside South Castle Town Female Ladybug",
@@ -2260,7 +2262,8 @@
                     "access_rules": [
                       "Renado_Letter"
                     ],
-                    "item_count": 1
+                    "hosted_item": "Invoice"
+                    //"item_count": 1
                   },
                   {
                     "name": "North Castle Town Golden Wolf",
