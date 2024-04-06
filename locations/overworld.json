@@ -1029,6 +1029,7 @@
                 "access_rules": [
                   "Progressive_Bow, Fyrus"
                 ],
+                "visibility_rules": ["GoronMines"],
                 "item_count": 1
               },
               {
@@ -1040,6 +1041,7 @@
                 "access_rules": [
                   "Progressive_Bow, Fyrus"
                 ],
+                "visibility_rules": ["GoronMines"],
                 "item_count": 1
               },
               {
@@ -1068,6 +1070,7 @@
                 "access_rules": [
                   "Armogohma"
                 ],
+                "visibility_rules": ["TempleOfTime"],
                 "hosted_item": "Renado_Letter"
                 //"item_count": 1
               },
@@ -1076,6 +1079,7 @@
                 "access_rules": [
                   "Ilia_Charm"
                 ],
+                "visibility_rules": ["TempleOfTime"],
                 "item_count": 1
               }
             ],
@@ -1145,6 +1149,7 @@
                       "Clawshot, Iron_Boots",
                       "Clawshot, Shadow_Crystal"
                     ],
+                    "visibility_rules": ["GoronMines"],
                     "item_count": 1
                   }
                 ],
@@ -1164,7 +1169,7 @@
                     "access_rules": [
                       "Fyrus, Shadow_Crystal"
                     ],
-                    "visibility_rules": ["poes-enabled"],
+                    "visibility_rules": ["poes-enabled,GoronMines"],
                     "item_count": 1,
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"
@@ -2002,6 +2007,7 @@
                     "access_rules": [
                       "Invoice"
                     ],
+                    "visibility_rules": ["TempleOfTime"],
                     "hosted_item": "Wooden_Statue"
                     //"item_count": 1
                   },
