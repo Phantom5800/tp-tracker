@@ -1,10 +1,23 @@
+function tracker_on_pack_ready()
+  Cache_reset = true
+end
+
+function tracker_on_accessibility_updating()
+  if Cache_reset then
+    print("[Tracker] Cache Reset")
+    has_item_data = {}
+  end
+end
+
 function has(item, amount)
-  local count = Tracker:ProviderCountForCode(item)
+  if has_item_data[item] == nil then
+    has_item_data[item] = Tracker:ProviderCountForCode(item)
+  end
   amount = tonumber(amount)
   if not amount then
-    return count > 0
+    return has_item_data[item] > 0
   else
-    return count >= amount
+    return has_item_data[item] >= amount
   end
 end
 

@@ -1,12 +1,17 @@
 local variant = Tracker.ActiveVariantUID
 local has_map = true
 
+-- data cache
+has_item_data = {}
+Cache_reset = false
+
 Tracker:AddItems("items/common.json")
 Tracker:AddItems("items/dungeon_items.json")
 Tracker:AddItems("items/options.json")
 
 ScriptHost:LoadScript("scripts/logic.lua")
 
+-- load map if necessary
 if has_map then
     Tracker:AddMaps("maps/maps.json")
     Tracker:AddLocations("locations/overworld.json")
@@ -23,7 +28,7 @@ if has_map then
     Tracker:AddLayouts("layouts/dungeon_item_grid.json")
 end
 
-
+-- load generic tracker
 Tracker:AddLayouts("layouts/item_grids.json")
 Tracker:AddLayouts("layouts/layouts.json")
 Tracker:AddLayouts("layouts/capture.json")
