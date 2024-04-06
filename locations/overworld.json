@@ -2537,94 +2537,26 @@
                     ],
                     "sections": [
                       {
-                        "name": "Lake Lantern Cave First Chest",
-                        "item_count": 1
+                        "name": "Lake Lantern Cave Standing Chests",
+                        "clear_as_group": false,
+                        "item_count": 13
                       },
                       {
-                        "name": "Lake Lantern Cave Second Chest",
-                        "item_count": 1
-                      },
-                      {
-                        "name": "Lake Lantern Cave Third Chest",
-                        "item_count": 1
-                      },
-                      {
-                        "name": "Lake Lantern Cave Fourth Chest",
-                        "item_count": 1
-                      },
-                      {
-                        "name": "Lake Lantern Cave Fifth Chest",
-                        "item_count": 1
-                      },
-                      {
-                        "name": "Lake Lantern Cave Sixth Chest",
+                        "name": "Lake Lantern Cave Lantern Chests",
                         "access_rules": [
                           "Lantern"
                         ],
-                        "item_count": 1
+                        "clear_as_group": false,
+                        "item_count": 2
                       },
                       {
-                        "name": "Lake Lantern Cave Seventh Chest",
-                        "item_count": 1
-                      },
-                      {
-                        "name": "Lake Lantern Cave Eighth Chest",
-                        "item_count": 1
-                      },
-                      {
-                        "name": "Lake Lantern Cave Ninth Chest",
-                        "item_count": 1
-                      },
-                      {
-                        "name": "Lake Lantern Cave Tenth Chest",
-                        "item_count": 1
-                      },
-                      {
-                        "name": "Lake Lantern Cave Eleventh Chest",
-                        "item_count": 1
-                      },
-                      {
-                        "name": "Lake Lantern Cave Twelfth Chest",
-                        "item_count": 1
-                      },
-                      {
-                        "name": "Lake Lantern Cave Thirteenth Chest",
-                        "item_count": 1
-                      },
-                      {
-                        "name": "Lake Lantern Cave Fourteenth Chest",
-                        "item_count": 1
-                      },
-                      {
-                        "name": "Lake Lantern Cave End Lantern Chest",
-                        "access_rules": [
-                          "Lantern"
-                        ],
-                        "item_count": 1
-                      },
-                      {
-                        "name": "Lake Lantern Cave First Poe",
-                        "item_count": 1,
+                        "name": "Lake Lantern Cave Poes",
                         "access_rules": [
                           "Shadow_Crystal, $canSmash, Lantern"
                         ],
-                        "visibility_rules": ["poes-enabled"]
-                      },
-                      {
-                        "name": "Lake Lantern Cave Second Poe",
-                        "item_count": 1,
-                        "access_rules": [
-                          "Shadow_Crystal, $canSmash, Lantern"
-                        ],
-                        "visibility_rules": ["poes-enabled"]
-                      },
-                      {
-                        "name": "Lake Lantern Cave Final Poe",
-                        "item_count": 1,
-                        "access_rules": [
-                          "Shadow_Crystal, $canSmash, Lantern"
-                        ],
-                        "visibility_rules": ["poes-enabled"]
+                        "visibility_rules": ["poes-enabled"],
+                        "clear_as_group": false,
+                        "item_count": 3
                       }
                     ],
                     "map_locations": [
