@@ -17,30 +17,20 @@
             "access_rules": [
               ""
             ],
-            "children": [
+            "sections": [
               {
-                "name": "1F",
-                "children": [
-                  {
-                    "name": "1F",
-                    "sections": [
-                      {
-                        "name": "Entrance Vines Chest",
-                        "access_rules": [
-                          "$ForestTemple_Entrance_Vines_Chest"
-                        ],
-                        "item_count": 1
-                      }
-                    ],
-                    "map_locations": [
-                      {
-                        "map": "Forest",
-                        "x": 306,
-                        "y": 491
-                      }
-                    ]
-                  }
-                ]
+                "name": "Entrance Vines Chest",
+                "access_rules": [
+                  "$ForestTemple_Entrance_Vines_Chest"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Forest",
+                "x": 306,
+                "y": 491
               }
             ]
           },
