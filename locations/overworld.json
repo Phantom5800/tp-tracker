@@ -2210,6 +2210,7 @@
                     "access_rules": [
                       "Invoice"
                     ],
+                    "visibility_rules": ["TempleOfTime"],
                     "item_count": 1
                   },
                   {
