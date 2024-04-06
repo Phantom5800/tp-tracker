@@ -232,7 +232,7 @@
                   {
                     "name": "West Chandelier Chest",
                     "access_rules": [
-                      "Arbiters_Grounds_West_Chandelier_Chest"
+                      "$Arbiters_Grounds_West_Chandelier_Chest"
                     ],
                     "item_count": 1
                   }
