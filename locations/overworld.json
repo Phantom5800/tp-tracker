@@ -204,7 +204,6 @@
                         [
                           "$canSmash, Progressive_Dominion_Rod_2, $canLeaveForest"
                         ],
-                        "visibility_rules": ["early-city-off"],
                         "item_count": 1
                       },
                       {
@@ -978,7 +977,6 @@
                 "access_rules": [
                   "Progressive_Dominion_Rod_2"
                 ],
-                "visibility_rules": ["early-city-off"],
                 "item_count": 1
               },
               {
@@ -1263,7 +1261,6 @@
                     "access_rules": [
                       "Progressive_Dominion_Rod_2"
                     ],
-                    "visibility_rules": ["early-city-off"],
                     "item_count": 1
                   }
                 ],
@@ -1910,7 +1907,6 @@
                     "access_rules": [
                       "Progressive_Dominion_Rod_2, Clawshot"
                     ],
-                    "visibility_rules": ["early-city-off"],
                     "item_count": 1
                   },
                   {
@@ -1937,7 +1933,6 @@
                     "access_rules": [
                       "Progressive_Dominion_Rod_2"
                     ],
-                    "visibility_rules": ["early-city-off"],
                     "item_count": 1
                   },
                   {
@@ -2777,7 +2772,6 @@
                     "access_rules": [
                       "Progressive_Dominion_Rod_2"
                     ],
-                    "visibility_rules": ["early-city-off"],
                     "item_count": 1
                   },
                   {
