@@ -513,50 +513,44 @@
           {
             "name": "Sacred Grove Temple of Time",
             "access_rules": [
-              "$canCompletePrologue, Shadow_Crystal, $canDefeatShadowBeast, Progressive_Sword_3",
-              "$canCompletePrologue, Shadow_Crystal, early-tot-grove",
-              "$canCompletePrologue, Shadow_Crystal, early-tot-open"
+              "$canAccessToT"
             ],
-            "children": [
+            "visibility_rules": ["TempleOfTime"],
+            "sections":[
               {
                 "name": "Sacred Grove Past Owl Statue Chest",
-                "sections":[
-                  {
-                    "name": "Sacred Grove Past Owl Statue Chest",
-                    "access_rules": [
-                      "Progressive_Dominion_Rod"
-                    ],
-                    "item_count": 1
-                  },
-                  {
-                    "name": "Sacred Grove Female Snail",
-                    "access_rules": [
-                      "Clawshot",
-                      "Boomerang"
-                    ],
-                    "visibility_rules": ["golden-bugs-enabled"],
-                    "item_count": 1,
-                    "chest_unopened_img": "images/Golden_Bug.png",
-                    "chest_opened_img": "images/Golden_Bug-grey.png"
-                  },
-                  {
-                    "name": "Sacred Grove Temple of Time Owl Statue Poe",
-                    "item_count": 1,
-                    "access_rules": [
-                      "Progressive_Dominion_Rod, Shadow_Crystal"
-                    ],
-                    "visibility_rules": ["poes-enabled"],
-                    "chest_unopened_img": "images/soul.png",
-                    "chest_opened_img": "images/soul-grey.png"
-                  }
+                "access_rules": [
+                  "Progressive_Dominion_Rod"
                 ],
-                "map_locations": [
-                  {
-                    "map": "Main",
-                    "x": 540.96,
-                    "y": 861
-                  }
-                ]
+                "item_count": 1
+              },
+              {
+                "name": "Sacred Grove Female Snail",
+                "access_rules": [
+                  "Clawshot",
+                  "Boomerang"
+                ],
+                "visibility_rules": ["golden-bugs-enabled"],
+                "item_count": 1,
+                "chest_unopened_img": "images/Golden_Bug.png",
+                "chest_opened_img": "images/Golden_Bug-grey.png"
+              },
+              {
+                "name": "Sacred Grove Temple of Time Owl Statue Poe",
+                "item_count": 1,
+                "access_rules": [
+                  "Progressive_Dominion_Rod, Shadow_Crystal"
+                ],
+                "visibility_rules": ["poes-enabled"],
+                "chest_unopened_img": "images/soul.png",
+                "chest_opened_img": "images/soul-grey.png"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Main",
+                "x": 540.96,
+                "y": 861
               }
             ]
           },
