@@ -1072,7 +1072,7 @@
               {
                 "name": "Renados Letter",
                 "access_rules": [
-                  "$canCompleteTempleofTime"
+                  "Armogohma"
                 ],
                 "item_count": 1
               },
