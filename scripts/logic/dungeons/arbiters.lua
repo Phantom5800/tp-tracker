@@ -17,10 +17,6 @@ function canCompleteArbitersGrounds()
           and has("Clawshot")
           and has("Spinner")
           and (has("Arbiters_Grounds_Big_Key") or has("boss-keysy-enabled"))
-          and ((has("palace-vanilla") and canCompleteCityinTheSky())
-                or (has("palace-fused") and has("Progressive_Fused_Shadow_3"))
-                or (has("palace-mirror") and has("Progressive_Mirror_Shard_3"))
-                or has("palace-open"))
 end
 
 --[[-------------------------------------------------------
