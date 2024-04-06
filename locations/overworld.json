@@ -1391,7 +1391,8 @@
                 "access_rules": [
                   "Progressive_Bow"
                 ],
-                "item_count": 1
+                "hosted_item": "Ilia_Charm"
+                //"item_count": 1
               },
               {
                 "name": "Cats Hide and Seek Minigame",
