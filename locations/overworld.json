@@ -2219,7 +2219,7 @@
                   {
                     "name": "STAR Prize 1",
                     "access_rules": [
-                      "Clawshot"
+                      "[Clawshot]"
                     ],
                     "item_count": 1
                   },

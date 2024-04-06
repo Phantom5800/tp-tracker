@@ -39,7 +39,11 @@ end
 ---------------------------------------------------------]]
 function Arbiters_Grounds_Big_Key_Chest()
   local smkeys = has("Arbiters_Grounds_Small_Key",5) or has("small-keysy-enabled")
-  return smkeys and has("Lantern") and has("Clawshot") and canSmash() and has("Spinner")
+  if smkeys and has("Lantern") and has("Clawshot") and canSmash() and has("Spinner") then
+    return true
+    -- insert big key early here
+  end
+  return false
 end
 
 function Arbiters_Grounds_Death_Sword_Chest()
