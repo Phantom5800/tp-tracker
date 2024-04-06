@@ -1147,7 +1147,7 @@
                   {
                     "name": "Death Mountain Alcove Chest",
                     "access_rules": [
-                      "$canCompleteGoronMines",
+                      "Fyrus",
                       "Clawshot, Iron_Boots",
                       "Clawshot, Shadow_Crystal"
                     ],
