@@ -757,6 +757,13 @@
                 "item_count": 1
               },
               {
+                "name": "Kakariko Graveyard Lantern Chest",
+                "access_rules": [
+                  "Lantern"
+                ],
+                "item_count": 1
+              },
+              {
                 "name": "Kakariko Graveyard Golden Wolf",
                 "access_rules": [
                   "$canAccessLanayru, Shadow_Crystal, $canAccessSnowpeakRuins"
@@ -764,6 +771,13 @@
                 "visibility_rules": ["howling-stones-enabled"],
                 "chest_unopened_img": "images/GWolf.png",
                 "chest_opened_img": "images/GWolf-grey.png",
+                "item_count": 1
+              },
+              {
+                "name": "Gift From Ralis",
+                "access_rules": [
+                  "Gate_Keys, Ashei_Sketch"
+                ],
                 "item_count": 1
               },
               {
@@ -940,7 +954,7 @@
               {
                 "name": "Eldin Lantern Cave Poe",
                 "access_rules": [
-                  "Shadow_Crystal, $canSmash"
+                  "Shadow_Crystal, $canBurnWebs"
                 ],
                 "visibility_rules": ["poes-enabled"],
                 "item_count": 1,
@@ -1007,24 +1021,6 @@
                 "chest_opened_img": "images/HP_grey.png"
               },
               {
-                "name": "Kakariko Graveyard Lantern Chest",
-                "access_rules": [
-                  "Lantern"
-                ],
-                "item_count": 1
-              },
-              {
-                "name": "Kakariko Village Watchtower Chest",
-                "item_count": 1
-              },
-              {
-                "name": "Kakariko Village Watchtower Alcove Chest",
-                "access_rules": [
-                  "$canSmash"
-                ],
-                "item_count": 1
-              },
-              {
                 "name": "Talo Sharpshooting",
                 "access_rules": [
                   "Progressive_Bow, Fyrus"
@@ -1057,13 +1053,6 @@
                 "item_count": 1,
                 "chest_unopened_img": "images/Golden_Bug.png",
                 "chest_opened_img": "images/Golden_Bug-grey.png"
-              },
-              {
-                "name": "Gift From Ralis",
-                "access_rules": [
-                  "Gate_Keys, Ashei_Sketch"
-                ],
-                "item_count": 1
               },
               {
                 "name": "Renados Letter",
@@ -1116,6 +1105,18 @@
           {
             "name": "Kakariko Village",
             "sections": [
+              {
+                "name": "Kakariko Village Watchtower Chest",
+                "item_count": 1
+              },
+              {
+                "name": "Kakariko Village Watchtower Alcove Chest",
+                "access_rules": [
+                  "$canSmash",
+                  "Shadow_Crystal, [$canSmash]"
+                ],
+                "item_count": 1
+              },
               {
                 "name": "Kakariko Village Watchtower Poe",
                 "access_rules": [
@@ -2678,6 +2679,16 @@
                       "Shadow_Crystal"
                     ],
                     "item_count": 1
+                  },
+                  {
+                    "name": "Gerudo Desert East Poe",
+                    "access_rules": [
+                      "Shadow_Crystal"
+                    ],
+                    "visibility_rules": ["poes-enabled"],
+                    "item_count": 1,
+                    "chest_unopened_img": "images/soul.png",
+                    "chest_opened_img": "images/soul-grey.png"
                   }
                 ],
                 "map_locations": [
@@ -2992,14 +3003,6 @@
                     "item_count": 1
                   },
                   {
-                    "name": "Outside Arbiters Grounds Lantern Chest",
-                    "access_rules": [
-                      "Lantern, $canDefeatKingBulblinDesert, Gerudo_Desert_Small_Key",
-                      "Lantern, early-arbiters-on"
-                    ],
-                    "item_count": 1
-                  },
-                  {
                     "name": "Bulblin Camp Poe",
                     "access_rules": [
                       "Shadow_Crystal, $canDefeatKingBulblinDesert, Gerudo_Desert_Small_Key",
@@ -3066,28 +3069,6 @@
                 "name": "Gerudo Desert",
                 "sections": [
                   {
-                    "name": "Gerudo Desert East Poe",
-                    "access_rules": [
-                      "Shadow_Crystal"
-                    ],
-                    "visibility_rules": ["poes-enabled"],
-                    "item_count": 1,
-                    "chest_unopened_img": "images/soul.png",
-                    "chest_opened_img": "images/soul-grey.png"
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "Main",
-                    "x": 405,
-                    "y": 755
-                  }
-                ]
-              },
-              {
-                "name": "Gerudo Desert",
-                "sections": [
-                  {
                     "name": "Gerudo Desert Poe Above Cave of Ordeals",
                     "access_rules": [
                       "Clawshot, Shadow_Crystal"
@@ -3109,6 +3090,14 @@
               {
                 "name": "Bulblin Camp",
                 "sections": [
+                  {
+                    "name": "Outside Arbiters Grounds Lantern Chest",
+                    "access_rules": [
+                      "Lantern, $canDefeatKingBulblinDesert, Gerudo_Desert_Small_Key",
+                      "Lantern, early-arbiters-on"
+                    ],
+                    "item_count": 1
+                  },
                   {
                     "name": "Outside Arbiters Grounds Poe",
                     "access_rules": [

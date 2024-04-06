@@ -14,7 +14,7 @@ end
 function canFreeAllMonkeys()
   return canBreakMonkeyCage()
           and (has("Lantern")
-              or hasBombs() 
+              or hasBombs()
               or has("Iron_Boots"))
           and canBurnWebs()
           and has("Boomerang")
@@ -38,10 +38,10 @@ function canAccessForestTempleHubRoom()
 end
 
 function canCompleteForestTemple()
-  return canBreakMonkeyCage() 
-          and has("Boomerang") 
+  return canBreakMonkeyCage()
+          and has("Boomerang")
           and (has("Forest_Temple_Big_Key") or has("boss-keysy-enabled"))
-          and (canFreeAllMonkeys() or has("Clawshot")) 
+          and (canFreeAllMonkeys() or has("Clawshot"))
           and canDefeatDiababa()
 end
 
@@ -63,7 +63,7 @@ function canDefeatDiababa()
                     or has("Ball_and_Chain")
                     or has("Shadow_Crystal")
                     or hasBombs()))
-end  
+end
 
 --[[-------------------------------------------------------
   Individual Checks
@@ -126,7 +126,7 @@ function ForestTemple_Gale_Boomerang()
 end
 
 function ForestTemple_North_Deku_Like_Chest()
-  return has("Boomerang")
+  return canBurnWebs() and has("Boomerang")
 end
 
 function ForestTemple_Second_Monkey_Under_Bridge_Chest()
