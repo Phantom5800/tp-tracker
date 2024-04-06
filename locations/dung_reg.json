@@ -4,9 +4,9 @@
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
     "access_rules": [
-      "$canCompletePrologue, Shadow_Crystal",
-      "$canCompletePrologue, Lantern"
+      "$canAccessForestTemple"
     ],
+    "visibility_rules": ["Forest"],
     "sections": [
       {
         "name": "Diababa",
@@ -27,6 +27,7 @@
     "access_rules": [
       "$canAccessMines"
     ],
+    "visibility_rules": ["GoronMines"],
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
     "sections": [
@@ -49,6 +50,7 @@
     "access_rules": [
       "$canAccessLakebed"
     ],
+    "visibility_rules": ["Lakebed"],
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
     "sections": [
@@ -72,6 +74,7 @@
     "access_rules": [
       "$canAccessArbiters"
     ],
+    "visibility_rules": ["Arbiters"],
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
     "sections": [
@@ -94,6 +97,7 @@
     "access_rules": [
       "$canAccessSnowpeakRuins"
     ],
+    "visibility_rules": ["Snowpeak"],
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
     "sections": [
@@ -116,6 +120,7 @@
     "access_rules": [
       "$canAccessToT"
     ],
+    "visibility_rules": ["TempleOfTime"],
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
     "sections": [
@@ -138,6 +143,7 @@
     "access_rules": [
       "$canAccessCiTS"
     ],
+    "visibility_rules": ["CityInTheSky"],
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
     "sections": [
@@ -162,6 +168,7 @@
     "access_rules": [
       "$canAccessPoT"
     ],
+    "visibility_rules": ["PalaceOfTwilight"],
     "sections": [
       {
         "name": "Zant",
@@ -340,12 +347,9 @@
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
     "access_rules": [
-      "$canAccessLanayru, $canCompleteMDH, castle-vanilla, $canCompletePalaceofTwilight",
-      "$canAccessLanayru, $canCompleteMDH, castle-fused, Progressive_Fused_Shadow_3",
-      "$canAccessLanayru, $canCompleteMDH, castle-mirror, Progressive_Mirror_Shard_3",
-      "$canAccessLanayru, $canCompleteMDH, castle-all,Diababa,Fyrus,Morpheel,Stallord,Blizzeta,Armogohma,Argorok,Zant",
-      "$canAccessLanayru, $canCompleteMDH, castle-open"
+      "$canAccessHyruleCastle"
     ],
+    "visibility_rules": ["HyruleCastle"],
     "sections": [
       {
         "name": "Ganondorf",

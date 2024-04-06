@@ -2275,6 +2275,7 @@
                   {
                     "name": "Agitha Bug Rewards",
                     "visibility_rules": ["agitha-enabled"],
+                    "clear_as_group": false,
                     "item_count": 24
                   }
                 ],
