@@ -763,6 +763,16 @@
                 "item_count": 1
               },
               {
+                "name": "Kakariko Graveyard Golden Wolf",
+                "access_rules": [
+                  "$canAccessLanayru, Shadow_Crystal, $canAccessSnowpeakRuins"
+                ],
+                "visibility_rules": ["howling-stones-enabled"],
+                "chest_unopened_img": "images/GWolf.png",
+                "chest_opened_img": "images/GWolf-grey.png",
+                "item_count": 1
+              },
+              {
                 "name": "Kakariko Graveyard Male Ant",
                 "visibility_rules": ["golden-bugs-enabled"],
                 "item_count": 1,
@@ -1007,16 +1017,6 @@
                 "access_rules": [
                   "Lantern"
                 ],
-                "item_count": 1
-              },
-              {
-                "name": "Kakariko Graveyard Golden Wolf",
-                "access_rules": [
-                  "$canAccessLanayru, Shadow_Crystal, $canAccessSnowpeakRuins"
-                ],
-                "visibility_rules": ["howling-stones-enabled"],
-                "chest_unopened_img": "images/GWolf.png",
-                "chest_opened_img": "images/GWolf-grey.png",
                 "item_count": 1
               },
               {
