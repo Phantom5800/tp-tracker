@@ -1168,7 +1168,7 @@
                   {
                     "name": "Death Mountain Trail Poe",
                     "access_rules": [
-                      "$canCompleteGoronMines, Shadow_Crystal"
+                      "Fyrus, Shadow_Crystal"
                     ],
                     "visibility_rules": ["poes-enabled"],
                     "item_count": 1,
