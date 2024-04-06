@@ -18,21 +18,21 @@
                 "name": "1F",
                 "sections": [
                   {
-                    "name": "1F",
-                    "sections": [
-                      {
-                        "name": "Entrance Chest",
-                        "item_count": 1
-                      }
-                    ],
-                    "map_locations": [
-                      {
-                        "map": "Goron Mines",
-                        "x": 327,
-                        "y": 463
-                      }
-                    ]
-                  },
+                    "name": "Entrance Chest",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Goron Mines",
+                    "x": 327,
+                    "y": 463
+                  }
+                ]
+              },
+              {
+                "name": "1F",
+                "sections": [
                   {
                     "name": "Gor Amato Small Chest",
                     "access_rules": [
@@ -377,8 +377,8 @@
             ]
           }
         ]
-      }          
-    ]        
+      }
+    ]
   }
 ]
 
