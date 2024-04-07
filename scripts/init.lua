@@ -1,9 +1,9 @@
 local variant = Tracker.ActiveVariantUID
-local has_map = true
+local has_map = string.find(Tracker.ActiveVariantUID, "map")
 
 -- data cache
 has_item_data = {}
-Cache_reset = false
+cache_reset = false
 
 Tracker:AddItems("items/common.json")
 Tracker:AddItems("items/dungeon_items.json")

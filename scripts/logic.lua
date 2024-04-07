@@ -1,9 +1,9 @@
 function tracker_on_pack_ready()
-  Cache_reset = true
+  cache_reset = true
 end
 
 function tracker_on_accessibility_updating()
-  if Cache_reset then
+  if cache_reset then
     print("[Tracker] Cache Reset")
     has_item_data = {}
   end
