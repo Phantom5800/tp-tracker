@@ -5,7 +5,7 @@
     "chest_opened_img": "images/chest_open.png",
     "children": [
       {
-        "name": "Ordon_Province",
+        "name": "Faron_Province",
         "color": "#18a50e",
         "children":
         [
@@ -178,7 +178,7 @@
                         "name": "Coro Bottle",
                         "access_rules":
                         [
-                          "$canCompletePrologue"
+                          "$Faron_Woods_Coro_Bottle"
                         ],
                         "item_count": 1,
                         "chest_unopened_img": "images/bottle-empty.png",
@@ -202,7 +202,7 @@
                         "name": "Faron Woods Owl Statue Sky Character",
                         "access_rules":
                         [
-                          "$canSmash, Progressive_Dominion_Rod_2, $canLeaveForest"
+                          "$Faron_Woods_Owl_Statue_Sky_Character"
                         ],
                         "item_count": 1
                       },
@@ -210,7 +210,7 @@
                         "name": "Faron Woods Owl Statue Chest",
                         "access_rules":
                         [
-                          "$canSmash, Progressive_Dominion_Rod_2, Shadow_Crystal, $canLeaveForest"
+                          "$Faron_Woods_Owl_Statue_Chest"
                         ],
                         "item_count": 1
                       }
@@ -556,8 +556,7 @@
           {
             "name": "Faron Field",
             "access_rules": [
-              "$hasSword, Slingshot, $canLeaveForest",
-              "skip-prologue-on, $canLeaveForest"
+              "$Faron_Field_Room_Access"
             ],
             "color": "#18a50e",
             "children": [
@@ -567,7 +566,7 @@
                   {
                     "name": "Faron Field Bridge Chest",
                     "access_rules": [
-                      "Clawshot"
+                      "$Faron_Field_Bridge_Chest"
                     ],
                     "item_count": 1
                   }
@@ -586,8 +585,7 @@
                   {
                     "name": "Faron Field Tree Heart Piece",
                     "access_rules": [
-                      "Boomerang",
-                      "Clawshot"
+                      "$Faron_Field_Tree_Heart_Piece"
                     ],
                     "item_count": 1,
                     "chest_unopened_img": "images/HP.png",
@@ -605,8 +603,7 @@
               {
                 "name": "Faron Field Corner Grotto",
                 "access_rules": [
-                  "$hasSword, Slingshot, $canLeaveForest, Shadow_Crystal",
-                  "skip-prologue-on, $canLeaveForest, Shadow_Crystal"
+                  "$Faron_Field_Corner_Grotto"
                 ],
                 "sections": [
                   {

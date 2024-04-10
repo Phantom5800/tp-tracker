@@ -1,5 +1,6 @@
 local variant = Tracker.ActiveVariantUID
 local has_map = string.find(Tracker.ActiveVariantUID, "map")
+local show_glitch_logic = true
 
 -- data cache
 has_item_data = {}
@@ -9,11 +10,12 @@ Tracker:AddItems("items/common.json")
 Tracker:AddItems("items/dungeon_items.json")
 Tracker:AddItems("items/options.json")
 
-ScriptHost:LoadScript("scripts/logic.lua")
-
 -- load map if necessary
 if has_map then
+    ScriptHost:LoadScript("scripts/logic.lua")
+
     Tracker:AddMaps("maps/maps.json")
+
     Tracker:AddLocations("locations/overworld.json")
     Tracker:AddLocations("locations/dung_reg.json")
     Tracker:AddLocations("locations/forest.json")
@@ -24,6 +26,7 @@ if has_map then
     Tracker:AddLocations("locations/templeoftime.json")
     Tracker:AddLocations("locations/cityinthesky.json")
     Tracker:AddLocations("locations/hyrulecastle.json")
+
     Tracker:AddLayouts("layouts/options.json")
     Tracker:AddLayouts("layouts/dungeon_item_grid.json")
 end

@@ -21,6 +21,17 @@ function has(item, amount)
   end
 end
 
+function hasOneHandedItem()
+  return hasSword()
+          or has("Bottle")
+          or has("Boomerang")
+          or has("Clawshot")
+          or has("Lantern")
+          or has("Progressive_Bow")
+          or has("Slingshot")
+          or has("Progressive_Dominion_Rod")
+end
+
 function hasDamagingItem()
   return hasSword()
           or has("Ball_and_Chain")
@@ -638,6 +649,14 @@ function canLeaveForest()
   return (canCompleteForestTemple() or has("skip-faron-on")) and canCompletePrologue()
 end
 
+function canLeaveForestGlitched()
+  return canCompletePrologue()
+          and (has("skip-faron-on")
+                or canCompleteForestTemple()
+                or canDoLJA()
+                or canDoMapGlitch())
+end
+
 function canCompleteAllDungeons()
   return canCompleteForestTemple()
           and canCompleteGoronMines()
@@ -656,6 +675,10 @@ function canAccessLanayru()
                       or has("skip-prologue-on")))
 end
 
+-- overworld logic
+ScriptHost:LoadScript("scripts/logic/overworld/faronprovince.lua")
+
+-- dungeon logic
 ScriptHost:LoadScript("scripts/logic/dungeons/forest.lua")
 ScriptHost:LoadScript("scripts/logic/dungeons/mines.lua")
 ScriptHost:LoadScript("scripts/logic/dungeons/lakebed.lua")
