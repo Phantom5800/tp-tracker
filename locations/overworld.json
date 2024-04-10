@@ -5,7 +5,7 @@
     "chest_opened_img": "images/chest_open.png",
     "children": [
       {
-        "name": "Faron_Province",
+        "name": "Ordon Province",
         "color": "#18a50e",
         "children":
         [
@@ -154,6 +154,11 @@
       {
         "name": "Faron Province",
         "color": "#18a50e",
+        "access_rules":
+        [
+          "$hasSword, Slingshot",
+          "skip-prologue-on"
+        ],
         "children":
         [
           {
@@ -163,11 +168,6 @@
             [
               {
                 "name": "South Faron Woods",
-                "access_rules":
-                [
-                  "$hasSword, Slingshot",
-                  "skip-prologue-on"
-                ],
                 "children":
                 [
                   {
@@ -228,11 +228,6 @@
               },
               {
                 "name": "South Faron Woods Cave",
-                "access_rules":
-                [
-                  "$hasSword, Slingshot",
-                  "skip-prologue-on"
-                ],
                 "children":
                 [
                   {
@@ -257,18 +252,13 @@
               },
               {
                 "name": "Faron Mist Area",
-                "access_rules":
-                [
-                  "$hasSword, Slingshot",
-                  "skip-prologue-on"
-                ],
                 "sections":
                 [
                   {
                     "name": "Faron Mist South Chest",
                     "access_rules":
                     [
-                      "Lantern, $canCompletePrologue"
+                      "$Faron_Mist_South_Chest"
                     ],
                     "item_count": 1
                   },
@@ -276,7 +266,7 @@
                     "name": "Faron Mist North Chest",
                     "access_rules":
                     [
-                      "Lantern, $canCompletePrologue"
+                      "$Faron_Mist_North_Chest"
                     ],
                     "item_count": 1
                   },
@@ -284,14 +274,14 @@
                     "name": "Faron Mist Stump Chest",
                     "access_rules":
                     [
-                      "Lantern, $canCompletePrologue"
+                      "$Faron_Mist_Stump_Chest"
                     ],
                     "item_count": 1
                   },
                   {
                     "name": "Faron Mist Poe",
                     "access_rules": [
-                      "Shadow_Crystal"
+                      "$Faron_Mist_Poe"
                     ],
                     "visibility_rules": ["poes-enabled"],
                     "item_count": 1,
@@ -312,8 +302,7 @@
                 "name": "Faron Mist Cave",
                 "access_rules":
                 [
-                  "Lantern, $hasSword, Slingshot",
-                  "Lantern, skip-prologue-on"
+                  "$Faron_Mist_Cave_Access"
                 ],
                 "children":
                 [
@@ -633,7 +622,7 @@
                   {
                     "name": "Faron Field Poe",
                     "access_rules": [
-                      "Shadow_Crystal, $canCompleteMDH"
+                      "$Faron_Field_Poe"
                     ],
                     "visibility_rules": ["poes-enabled"],
                     "item_count": 1,
@@ -672,10 +661,9 @@
                 "name": "Faron Field",
                 "sections": [
                   {
-                    "name": "Faron Field Female Bettle",
+                    "name": "Faron Field Female Beetle",
                     "access_rules": [
-                      "Boomerang",
-                      "Clawshot"
+                      "$Faron_Field_Female_Beetle"
                     ],
                     "visibility_rules": ["golden-bugs-enabled"],
                     "item_count": 1,

@@ -21,6 +21,13 @@ function has(item, amount)
   end
 end
 
+function countof(item)
+  if has_item_data[item] == nil then
+    has_item_data[item] = Tracker:ProviderCountForCode(item)
+  end
+  return has_item_data[item]
+end
+
 function hasOneHandedItem()
   return hasSword()
           or has("Bottle")
@@ -674,6 +681,8 @@ function canAccessLanayru()
                 and ((hasSword() and has("Slingshot"))
                       or has("skip-prologue-on")))
 end
+
+ScriptHOst:LoadScript("scripts/glitchlogic.lua")
 
 -- overworld logic
 ScriptHost:LoadScript("scripts/logic/overworld/faronprovince.lua")
