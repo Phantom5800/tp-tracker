@@ -230,6 +230,60 @@
     "max_quantity": 3
   },
   {
+    "name": "Forest Temple",
+    "type": "toggle",
+    "img": "images/forest-1.png",
+    "codes": "Forest"
+  },
+  {
+    "name": "Goron Mines",
+    "type": "toggle",
+    "img": "images/mines-1.png",
+    "codes": "GoronMines"
+  },
+  {
+    "name": "Lakebed Temple",
+    "type": "toggle",
+    "img": "images/lakebed-1.png",
+    "codes": "Lakebed"
+  },
+  {
+    "name": "Arbiters Grounds",
+    "type": "toggle",
+    "img": "images/arbiters-1.png",
+    "codes": "Arbiters"
+  },
+  {
+    "name": "Snowpeak Ruins",
+    "type": "toggle",
+    "img": "images/snowpeak-1.png",
+    "codes": "Snowpeak"
+  },
+  {
+    "name": "Temple of Time",
+    "type": "toggle",
+    "img": "images/time-1.png",
+    "codes": "TempleOfTime"
+  },
+  {
+    "name": "City in the Sky",
+    "type": "toggle",
+    "img": "images/city-1.png",
+    "codes": "CityInTheSky"
+  },
+  {
+    "name": "Palace of Twilight",
+    "type": "toggle",
+    "img": "images/palace-1.png",
+    "codes": "PalaceOfTwilight"
+  },
+  {
+    "name": "Hyrule Castle",
+    "type": "toggle",
+    "img": "images/hyrule-1.png",
+    "codes": "HyruleCastle"
+  },
+  {
     "name": "Diababa",
     "type": "toggle",
     "img": "images/Boss1.png",

@@ -3282,6 +3282,7 @@
                   "Shadow_Crystal, Reekfish_Scent, $canCompleteSnowpeakRuins, $canDefeatShadowBeast",
                   "Shadow_Crystal, early-snowpeak-on, $canCompleteSnowpeakRuins, $canDefeatShadowBeast"
                 ],
+                "visibility_rules": ["Snowpeak"],
                 "item_count": 1
               }
             ],
