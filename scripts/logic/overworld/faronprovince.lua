@@ -11,7 +11,7 @@ function Faron_Field_Female_Beetle()
 end
 
 function Faron_Field_Poe()
-  if has("Shadow_Crystal") and canCompleteMDH()
+  if has("Shadow_Crystal") and canCompleteMDH() then
     return true
   end
   return false

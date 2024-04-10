@@ -18,14 +18,14 @@ local item_wheel_items = {
 function getItemWheelSlotCount()
   local count = 0
   for k,v in pairs(item_wheel_items) do
-    count += countof(v)
+    count = count + countof(v)
   end
   return count
 end
 
 function canDoAirRefill()
   return canUseWaterBombs()
-          and (hasSword() || has("Clawshot"))
+          and (hasSword() or has("Clawshot"))
           and (has("Magic_Armor") or (has("Iron_Boots") and getItemWheelSlotCount() >= 3))
 end
 

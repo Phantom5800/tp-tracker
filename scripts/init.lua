@@ -1,6 +1,6 @@
 local variant = Tracker.ActiveVariantUID
 local has_map = string.find(Tracker.ActiveVariantUID, "map")
-local show_glitch_logic = true
+show_glitch_logic = true
 
 -- data cache
 has_item_data = {}

@@ -682,7 +682,7 @@ function canAccessLanayru()
                       or has("skip-prologue-on")))
 end
 
-ScriptHOst:LoadScript("scripts/glitchlogic.lua")
+ScriptHost:LoadScript("scripts/glitchlogic.lua")
 
 -- overworld logic
 ScriptHost:LoadScript("scripts/logic/overworld/faronprovince.lua")
