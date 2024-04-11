@@ -1379,7 +1379,7 @@
               {
                 "name": "Cats Hide and Seek Minigame",
                 "access_rules": [
-                  "Progressive_Bow, Ilia_Charm"
+                  "Progressive_Bow, Ilia_Charm, Shadow_Crystal, Clawshot, Progressive_Dominion_Rod"
                 ],
                 "item_count": 1
               },
@@ -3265,8 +3265,8 @@
               {
                 "name": "Snowboard Racing Prize",
                 "access_rules": [
-                  "Shadow_Crystal, Reekfish_Scent, $canCompleteSnowpeakRuins, $canDefeatShadowBeast",
-                  "Shadow_Crystal, early-snowpeak-on, $canCompleteSnowpeakRuins, $canDefeatShadowBeast"
+                  "Blizzeta, Shadow_Crystal, Reekfish_Scent, $canCompleteSnowpeakRuins, $canDefeatShadowBeast",
+                  "Blizzeta, Shadow_Crystal, early-snowpeak-on, $canCompleteSnowpeakRuins, $canDefeatShadowBeast"
                 ],
                 "visibility_rules": ["Snowpeak"],
                 "item_count": 1
