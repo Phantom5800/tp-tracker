@@ -1052,7 +1052,8 @@
                   "Ilia_Charm"
                 ],
                 "visibility_rules": ["TempleOfTime"],
-                "item_count": 1
+                "hosted_item": "Horse_Call"
+                //"item_count": 1
               }
             ],
             "map_locations": [
