@@ -30,7 +30,14 @@ function canCutHangingWeb()
 end
 
 function canAccessForestTemple()
-  return canCompletePrologue() and (has("Shadow_Crystal") or has("Lantern"))
+  if canCompletePrologue() and (has("Shadow_Crystal") or has("Lantern")) then
+    if has("Forest") then
+      return true
+    else
+      return true,AccessibilityLevel.SequenceBreak
+    end
+  end
+  return false
 end
 
 function canAccessForestTempleHubRoom()
@@ -42,7 +49,7 @@ function canCompleteForestTemple()
           and has("Boomerang")
           and (has("Forest_Temple_Big_Key") or has("boss-keysy-enabled"))
           and (canFreeAllMonkeys() or has("Clawshot"))
-          and canDefeatDiababa()
+          and canDefeatDiababa(),accessLevel
 end
 
 --[[-------------------------------------------------------

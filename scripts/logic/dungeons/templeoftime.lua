@@ -2,9 +2,16 @@
   Dungeon Progress
 ---------------------------------------------------------]]
 function canAccessToT()
-  return canCompletePrologue()
+  if canCompletePrologue()
           and has("Shadow_Crystal")
-          and (canDefeatShadowBeast() and has("Progressive_Sword_3") or has("early-tot-open"))
+          and (canDefeatShadowBeast() and has("Progressive_Sword_3") or has("early-tot-open")) then
+    if has("TempleOfTime") then
+      return true
+    else
+      return true,AccessibilityLevel.SequenceBreak
+    end
+  end
+  return false
 end
 
 function canCompleteTempleofTime()

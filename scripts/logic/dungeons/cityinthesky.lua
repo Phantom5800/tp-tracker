@@ -2,9 +2,16 @@
   Dungeon Progress
 ---------------------------------------------------------]]
 function canAccessCiTS()
-  return canAccessLanayru()
+  if canAccessLanayru()
           and has("Clawshot")
-          and (has("Skybook",7) or has("early-city-on"))
+          and (has("Skybook",7) or has("early-city-on")) then
+    if has("CityInTheSky") then
+      return true
+    else
+      return true,AccessibilityLevel.SequenceBreak
+    end
+  end
+  return false
 end
 
 function canCompleteCityinTheSky()

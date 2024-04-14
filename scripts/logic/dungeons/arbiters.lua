@@ -2,11 +2,18 @@
   Dungeon Progress
 ---------------------------------------------------------]]
 function canAccessArbiters()
-  return (canSmash() or has("Gate_Keys"))
+  if (canSmash() or has("Gate_Keys"))
           and ((hasSword() and has("Slingshot")) or has("skip-prologue-on"))
           and has("Auru_Memo")
           and (has("early-arbiters-on") or has("Gerudo_Desert_Small_Key"))
-          and canLeaveForest()
+          and canLeaveForest() then
+    if has("Arbiters") then
+      return true
+    else
+      return true,AccessibilityLevel.SequenceBreak
+    end
+  end
+  return false
 end
 
 function canCompleteArbitersGrounds()

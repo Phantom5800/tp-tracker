@@ -2,11 +2,18 @@
   Dungeon Progress
 ---------------------------------------------------------]]
 function canAccessLakebed()
-  return canLeaveForest()
+  if canLeaveForest()
           and ((canSmash() and (hasSword() and has("Slingshot")) or has("skip-prologue-on"))
                 or (has("Gate_Keys") and (hasSword() and has("Slingshot")) or has("skip-prologue-on")))
           and has("Zora_Armor")
-          and (has("early-lakebed-on") or (has("Iron_Boots") and canUseWaterBombs()))
+          and (has("early-lakebed-on") or (has("Iron_Boots") and canUseWaterBombs())) then
+    if has("Lakebed") then
+      return true
+    else
+      return true,AccessibilityLevel.SequenceBreak
+    end
+  end
+  return false
 end
 
 function canGetThroughStalactiteRoom()

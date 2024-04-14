@@ -6,10 +6,17 @@ function canPressMinesSwitch()
 end
 
 function canAccessMines()
-  return has("Iron_Boots") 
-          and canDefeatGoron() 
-          and ((hasSword() and has("Slingshot")) or has("skip-prologue-on")) 
-          and canLeaveForest()
+  if has("Iron_Boots")
+      and canDefeatGoron()
+      and ((hasSword() and has("Slingshot")) or has("skip-prologue-on"))
+      and canLeaveForest() then
+    if has("GoronMines") then
+      return true
+    else
+      return true,AccessibilityLevel.SequenceBreak
+    end
+  end
+  return false
 end
 
 function canGetThroughFirstMinesRoom()
@@ -17,14 +24,13 @@ function canGetThroughFirstMinesRoom()
 end
 
 function canCompleteGoronMines()
-  return canAccessMines() 
-          and has("Iron_Boots") 
-          and canBreakWoodenDoor() 
+  return has("Iron_Boots")
+          and canBreakWoodenDoor()
           and (has("Goron_Mines_Small_Key",3) or has("small-keysy-enabled"))
-          and has("Progressive_Bow") 
-          and canDefeatBulblin() 
+          and has("Progressive_Bow")
+          and canDefeatBulblin()
           and (has("Goron_Mines_Big_Key",3) or has("boss-keysy-enabled"))
-          and canDefeatFyrus()
+          and canDefeatFyrus(),accessLevel
 end
 
 --[[-------------------------------------------------------

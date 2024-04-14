@@ -2,11 +2,18 @@
   Dungeon Progress
 ---------------------------------------------------------]]
 function canAccessSnowpeakRuins()
-  return canSmash()
+  if canSmash()
           and ((hasSword() and has("Slingshot")) or has("skip-prologue-on"))
           and canLeaveForest()
           and has("Shadow_Crystal")
-          and (has("Reekfish_Scent") or has("early-snowpeak-on"))
+          and (has("Reekfish_Scent") or has("early-snowpeak-on")) then
+    if has("Snowpeak") then
+      return true
+    else
+      return true,AccessibilityLevel.SequenceBreak
+    end
+  end
+  return false
 end
 
 function canCompleteSnowpeakRuins()
