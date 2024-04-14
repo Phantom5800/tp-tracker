@@ -1,10 +1,14 @@
 --[[-------------------------------------------------------
   Dungeon Progress
 ---------------------------------------------------------]]
-function canAccessToT()
-  if canCompletePrologue()
+function canAccessOutsideToT()
+  return canCompletePrologue()
           and has("Shadow_Crystal")
-          and (canDefeatShadowBeast() and has("Progressive_Sword_3") or has("early-tot-open")) then
+          and (canDefeatShadowBeast() and has("Progressive_Sword_3") or has("early-tot-open"))
+end
+
+function canAccessToT()
+  if canAccessOutsideToT() then
     if has("TempleOfTime") then
       return true
     else

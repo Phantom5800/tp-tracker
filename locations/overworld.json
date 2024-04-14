@@ -497,9 +497,8 @@
           {
             "name": "Sacred Grove Temple of Time",
             "access_rules": [
-              "$canAccessToT"
+              "$canAccessOutsideToT"
             ],
-            "visibility_rules": ["TempleOfTime"],
             "sections":[
               {
                 "name": "Sacred Grove Past Owl Statue Chest",
