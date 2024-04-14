@@ -20,16 +20,12 @@
               },
               {
                 "name": "Wooden Sword Chest",
-                "item_count": 1,
-                "access_rules": [
-                  "Progressive_Fishing_Rod_1",
-                  "skip-prologue-on"
-                ]
+                "item_count": 1
               },
               {
                 "name": "Links Basement Chest",
                 "access_rules": [
-                  "Lantern"
+                  "$Ordon_Village_Links_Basement_Chest"
                 ],
                 "item_count": 1
               },
@@ -44,7 +40,7 @@
                 "name": "Ordon Cat Rescue",
                 "short_name": "Bottle 1",
                 "access_rules": [
-                  "Progressive_Fishing_Rod_1"
+                  "$Ordon_Village_Cat_Rescue"
                 ],
                 "chest_unopened_img": "images/bottle-empty.png",
                 "chest_opened_img": "images/bottle-grey.png",
@@ -57,7 +53,7 @@
                 "chest_opened_img": "images/ordon-shield-grey.png",
                 "item_count": 1,
                 "access_rules": [
-                  "$canCompletePrologue, Shadow_Crystal"
+                  "$Ordon_Village_Ordon_Shield"
                 ]
               },
               {
@@ -67,7 +63,7 @@
                 "chest_opened_img": "images/ordon-sword-grey.png",
                 "item_count": 1,
                 "access_rules": [
-                  "$canCompletePrologue"
+                  "$Ordon_Village_Ordon_Sword"
                 ]
               },
               {

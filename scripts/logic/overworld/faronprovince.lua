@@ -132,6 +132,25 @@ end
 --[[-------------------------------------------------------
   Ordon Village
 ---------------------------------------------------------]]
+function Ordon_Village_Cat_Rescue()
+  return has("Progressive_Fishing_Rod_1")
+end
+
+function Ordon_Village_Links_Basement_Chest()
+  return has("Lantern")
+end
+
+function Ordon_Village_Ordon_Shield()
+  if canCompletePrologue() or (has("Faron_Vessel_of_Light") and has("Shadow_Crystal")) then
+    -- TODO(?): if bonks do damage and ohko is enabled, this is technically false without a fairy bottle
+    return true
+  end
+  return false
+end
+
+function Ordon_Village_Ordon_Sword()
+  return canCompletePrologue() or has("Faron_Vessel_of_Light")
+end
 
 --[[-------------------------------------------------------
   Sacred Grove
