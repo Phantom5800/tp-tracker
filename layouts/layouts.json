@@ -37,9 +37,9 @@
                   "header": "Pinned Locations",
                   "content": {
                     "type": "scroll",
+                    "horizontal_scrollbar_visibility": "disabled",
                     "content": {
                       "type": "recentpins",
-                      "max_width": "600",
                       "style": "wrap",
                       "h_alignment": "stretch",
                       "v_alignment": "stretch",
@@ -49,7 +49,7 @@
                   }
                 }
               ]
-            }    
+            }
           ]
         },
         {
