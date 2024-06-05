@@ -476,6 +476,15 @@
             "chest_opened_img": "images/soul-grey.png",
             "sections": [
               {
+                "name": "Master Sword and Shadow Crystal",
+                "item_count": 2,
+                "access_rules": [
+                  "$canCompletePrologue, $canDefeatSkullKid",
+                  "$canCompletePrologue, early-tot-grove",
+                  "$canCompletePrologue, early-tot-open"
+                ]
+              },
+              {
                 "name": "Sacred Grove Master Sword Poe",
                 "item_count": 1,
                 "access_rules": [

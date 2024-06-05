@@ -34,6 +34,25 @@
             ]
           ]
         }
+      },
+      {
+        "title": "Glitch Logic",
+        "content": {
+          "type": "itemgrid",
+          "item_margin": "1,2",
+          "item_size": 45,
+          "rows": [
+            [
+
+            ],
+            [
+
+            ],
+            [
+
+            ]
+          ]
+        }
       }
     ]
   }
