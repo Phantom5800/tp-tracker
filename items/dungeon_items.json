@@ -94,8 +94,12 @@
         "codes": "Progressive_Mirror_Shard_2"
       },
       {
-        "img": "images/shard4.png",
+        "img": "images/shard3.png",
         "codes": "Progressive_Mirror_Shard_3"
+      },
+      {
+        "img": "images/shard4.png",
+        "codes": "Progressive_Mirror_Shard_4"
       }
     ]
   },

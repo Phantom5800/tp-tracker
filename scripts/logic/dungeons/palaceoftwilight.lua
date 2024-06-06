@@ -6,7 +6,7 @@ function canAccessPoT()
           and has("Shadow_Crystal")
           and ((has("palace-vanilla") and canCompleteCityinTheSky())
             or (has("palace-fused") and has("Progressive_Fused_Shadow_3"))
-            or (has("palace-mirror") and has("Progressive_Mirror_Shard_3"))
+            or (has("palace-mirror") and has("Progressive_Mirror_Shard_4"))
             or has("palace-open")) then
     if has("PalaceOfTwilight") then
       return true

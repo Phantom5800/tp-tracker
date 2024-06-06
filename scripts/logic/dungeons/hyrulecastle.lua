@@ -7,7 +7,7 @@ function canAccessHyruleCastle()
     elseif has("castle-fused") then
         return has("Progressive_Fused_Shadow_3")
     elseif has("castle-mirror") then
-        return has("Progressive_Mirror_Shard_3")
+        return has("Progressive_Mirror_Shard_4")
     elseif has("castle-ad") then
         return has("Diababa")
                 and has("Fyrus")
