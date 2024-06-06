@@ -516,6 +516,13 @@
                     "chest_opened_img": "images/HC-grey.png"
                   },
                   {
+                    "name": "Arbiter's Grounds Dungeon Reward",
+                    "access_rules": [
+                      "$Arbiters_Grounds_Dungeon_Reward"
+                    ],
+                    "item_count": 1
+                  },
+                  {
                     "name": "Stallord",
                     "access_rules": [
                       "$Arbiters_Grounds_Dungeon_Reward"
