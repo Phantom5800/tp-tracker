@@ -472,8 +472,6 @@
           },
           {
             "name": "Lost Woods/Sacred Grove",
-            "chest_unopened_img": "images/soul.png",
-            "chest_opened_img": "images/soul-grey.png",
             "sections": [
               {
                 "name": "Master Sword and Shadow Crystal",
@@ -486,7 +484,9 @@
               },
               {
                 "name": "Sacred Grove Master Sword Poe",
-                "item_count": 1,
+                "chest_unopened_img": "images/soul.png",
+                "chest_opened_img": "images/soul-grey.png",
+                  "item_count": 1,
                 "access_rules": [
                   "$canCompletePrologue, Shadow_Crystal, $canDefeatSkullKid",
                   "$canCompletePrologue, Shadow_Crystal, early-tot-grove",
