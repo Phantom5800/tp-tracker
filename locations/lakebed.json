@@ -468,8 +468,7 @@
                   {
                     "name": "East Second Floor Southwest Chest",
                     "access_rules": [
-                      "bow",
-                      "boomerang"
+                      "$Lakebed_East_Second_Floor_Chests"
                     ],
                     "item_count": 1
                   }
@@ -488,8 +487,7 @@
                   {
                     "name": "East Second Floor Southeast Chest",
                     "access_rules": [
-                      "bow",
-                      "boomerang"
+                      "$Lakebed_East_Second_Floor_Chests"
                     ],
                     "item_count": 1
                   }
