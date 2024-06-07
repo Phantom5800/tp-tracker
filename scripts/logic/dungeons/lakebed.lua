@@ -96,7 +96,7 @@ function Lakebed_Deku_Toad_Chest()
 end
 
 function Lakebed_East_Lower_Waterwheel_Bridge_Chest()
-  return (has("Lakebed_Temple_Small_Key", 3) or has("small-keysy-enabled"))
+  return (has("Lakebed_Temple_Small_Key", 2) or has("small-keysy-enabled"))
           and has("Clawshot")
 end
 
