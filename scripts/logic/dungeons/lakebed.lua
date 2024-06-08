@@ -2,15 +2,17 @@
   Dungeon Progress
 ---------------------------------------------------------]]
 function canAccessLakebed()
-  if canLeaveForest()
-          and ((canSmash() and (hasSword() and has("Slingshot")) or has("skip-prologue-on"))
-                or (has("Gate_Keys") and (hasSword() and has("Slingshot")) or has("skip-prologue-on")))
-          and has("Zora_Armor")
-          and (has("early-lakebed-on") or (has("Iron_Boots") and canUseWaterBombs())) then
+  local lanayru_through_eldin = (canSmash() and (hasSword() and has("Slingshot")) or has("skip-prologue-on")
+  local lanayru_through_faron = has("Gate_Keys") and (hasSword() and has("Slingshot")) or has("skip-prologue-on"))
+  if (canLeaveForest() and lanayru_through_eldin or lanayru_through_faron) then
+    local glitchless_lakebed_entry = has("Zora_Armor") and (has("early-lakebed-on") or (has("Iron_Boots") and canUseWaterBombs()))
+    local glitched_lakebed_entry = has("Zora_Armor") -- pillar clip with zora armor
     if has("Lakebed") then
-      return true
-    else
-      return true,AccessibilityLevel.SequenceBreak
+      if glitchless_lakebed_entry then
+        return true
+      elseif showGlitchLogic() and glitched_lakebed_entry then
+        return true,AccessibilityLevel.SequenceBreak
+      end
     end
   end
   return false
@@ -19,7 +21,7 @@ end
 function canGetThroughStalactiteRoom()
   if canLaunchBombs() then
     return true
-  elseif has("Boomerang") then
+  elseif showGlitchLogic() and canDoLJA() then
     return true,AccessibilityLevel.SequenceBreak
   end
   return false
@@ -29,7 +31,7 @@ function canCompleteLakebedTemple()
   if canDefeatMorpheel() then
     if has("Lakebed_Temple_Big_Key") or has("boss-keysy-enabled") then
       return true
-    elseif hasSword() then -- boss key skip is possible
+    elseif showGlitchLogic() and hasSword() then -- boss key skip is possible
       return true,AccessibilityLevel.SequenceBreak
     end
   end
@@ -62,7 +64,7 @@ function Lakebed_Before_Deku_Toad_Alcove_Chest()
     return true
   elseif (has("Lakebed_Temple_Small_Key", 2) or has("small-keysy-enabled")) and has("Clawshot") then
     return true
-  elseif has("Boomerang") then
+  elseif showGlitchLogic() and canDoLJA() then
     return true,AccessibilityLevel.SequenceBreak
   else
     return false
