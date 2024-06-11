@@ -839,10 +839,10 @@
             ]
           },
           {
-            "name": "Eldin Field",
+            "name": "North Eldin",
             "sections": [
               {
-                "name": "Bridge of Eldin Female Phasmid",
+                "name": "North Eldin Female Phasmid",
                 "access_rules": [
                   "Clawshot",
                   "Boomerang"
@@ -1246,7 +1246,7 @@
                 "name": "Bridge of Eldin",
                 "sections": [
                   {
-                    "name": "Bridge of Eldin Owl Statue Sky Character",
+                    "name": "North Eldin Owl Statue Sky Character",
                     "access_rules": [
                       "Progressive_Dominion_Rod_2"
                     ],
@@ -1265,14 +1265,14 @@
                 "name": "Bridge of Eldin",
                 "sections": [
                   {
-                    "name": "Bridge of Eldin Owl Statue Chest",
+                    "name": "Eldin Field Owl Statue Chest",
                     "access_rules": [
                       "Progressive_Dominion_Rod_2"
                     ],
                     "item_count": 1
                   },
                   {
-                    "name": "Bridge of Eldin Male Phasmid",
+                    "name": "Eldin Field Male Phasmid",
                     "access_rules": [
                       "Boomerang",
                       "Clawshot"
@@ -1322,10 +1322,10 @@
                 ]
               },
               {
-                "name": "Eldin Field Stalfos Grotto",
+                "name": "North Eldin Stalfos Grotto",
                 "sections": [
                   {
-                    "name": "Eldin Field Stalfos Grotto Left Small Chest",
+                    "name": "North Eldin Stalfos Grotto Left Small Chest",
                     "access_rules": [
                       "Spinner, Shadow_Crystal, $canSmash",
                       "Spinner, Shadow_Crystal, Gate_Keys"
@@ -1333,7 +1333,7 @@
                     "item_count": 1
                   },
                   {
-                    "name": "Eldin Field Stalfos Grotto Right Small Chest",
+                    "name": "North Eldin Stalfos Grotto Right Small Chest",
                     "access_rules": [
                       "Spinner, Shadow_Crystal, $canSmash",
                       "Spinner, Shadow_Crystal, Gate_Keys"
@@ -1341,7 +1341,7 @@
                     "item_count": 1
                   },
                   {
-                    "name": "Eldin Field Stalfos Grotto Stalfos Chest",
+                    "name": "North Eldin Stalfos Grotto Stalfos Chest",
                     "access_rules": [
                       "Spinner, Shadow_Crystal, $canSmash, $canDefeatStalfos",
                       "Spinner, Shadow_Crystal, Gate_Keys, $canDefeatStalfos"
@@ -1407,20 +1407,20 @@
             ]
           },
           {
-            "name": "Eldin Stockcave",
+            "name": "North Eldin Stockcave",
             "access_rules": [
               "Clawshot"
             ],
             "sections": [
               {
-                "name": "Eldin Stockcave Upper Chest",
+                "name": "North Eldin Stockcave Upper Chest",
                 "access_rules": [
                   "Iron_Boots"
                 ],
                 "item_count": 1
               },
               {
-                "name": "Eldin Stockcave Lowest Chest",
+                "name": "North Eldin Stockcave Lowest Chest",
                 "access_rules": [
                   "Iron_Boots"
                 ],
@@ -1428,7 +1428,7 @@
               },
 
               {
-                "name": "Eldin Stockcave Lantern Chest",
+                "name": "North Eldin Stockcave Lantern Chest",
                 "access_rules": [
                   "Iron_Boots, Lantern"
                 ],
