@@ -305,7 +305,7 @@
                   {
                     "name": "Lobby Poe",
                     "item_count": 1,
-                    "visibility_rules": ["poes-enabled"],
+                    "visibility_rules": ["poes-dungeons", "poes-all"],
                     "access_rules": [
                       "Shadow_Crystal"
                     ],
@@ -327,7 +327,7 @@
                   {
                     "name": "Lobby Armor Poe",
                     "item_count": 1,
-                    "visibility_rules": ["poes-enabled"],
+                    "visibility_rules": ["poes-dungeons", "poes-all"],
                     "access_rules": [
                       "Ball_and_Chain, Shadow_Crystal"
                     ],
@@ -436,7 +436,7 @@
                   {
                     "name": "Ice Room Poe",
                     "item_count": 1,
-                    "visibility_rules": ["poes-enabled"],
+                    "visibility_rules": ["poes-dungeons", "poes-all"],
                     "access_rules": [
                       "$Snowpeak_Ice_Room_Poe"
                     ],

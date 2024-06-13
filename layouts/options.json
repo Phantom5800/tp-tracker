@@ -5,58 +5,120 @@
       {
         "title": "Randomizer Options",
         "content": {
-          "type": "itemgrid",
-          "item_margin": "1,2",
-          "item_size": 45,
-          "rows": [
-            [
-              "skip-faron-off",
-              "skip-mdh-off",
-              "skip-prologue-off",
-              "increase-wallet-off",
-              "palace-vanilla",
-              "castle-vanilla"
-            ],
-            [
-              "early-mines-off",
-              "early-lakebed-off",
-              "early-arbiters-off",
-              "early-snowpeak-off",
-              "early-tot-off",
-              "early-city-off"
-            ],
-            [
-              "golden-bugs-enabled",
-              "poes-enabled",
-              "howling-stones-enabled",
-              "small-keysy-enabled",
-              "boss-keysy-enabled"
-            ]
+          "type": "dock",
+          "content": [
+            {
+              "type": "group",
+              "header": "Story",
+              "dock": "top",
+              "background": "#434343",
+              "content": {
+                "type": "itemgrid",
+                "item_margin": "0,5",
+                "item_width": 300,
+                "rows": [
+                  [
+                    "skip-faron-off",
+                    "skip-mdh-off"
+                  ],
+                  [
+                    "skip-prologue-off",
+                    ""
+                  ]
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "header": "Dungeons",
+              "dock": "top",
+              "background": "#434343",
+              "content": {
+                "type": "itemgrid",
+                "item_margin": "0,5",
+                "item_width": 300,
+                "rows": [
+                  [
+                    "palace-vanilla",
+                    "castle-vanilla"
+                  ],
+                  [
+                    "early-mines-off",
+                    "early-lakebed-off"
+                  ],
+                  [
+                    "early-arbiters-off",
+                    "early-snowpeak-off"
+                  ],
+                  [
+                    "early-tot-off",
+                    "early-city-off"
+                  ],
+                  [
+                    "small-keysy-off",
+                    "boss-keysy-off"
+                  ]
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "header": "Item Pool",
+              "dock": "top",
+              "background": "#434343",
+              "content": {
+                "type": "itemgrid",
+                "item_margin": "0,5",
+                "item_width": 300,
+                "rows": [
+                  [
+                    "golden-bugs-off",
+                    "poes-off"
+                  ],
+                  [
+                    "golden-wolves-off",
+                    ""
+                  ]
+                ]
+              }
+            }
           ]
         }
       },
       {
         "title": "Glitch Logic",
         "content": {
-          "type": "itemgrid",
-          "item_margin": "1,2",
-          "item_width": 300,
-          "rows": [
-            [
-              "air-refill-off",
-              "b&c-items-off"
-            ],
-            [
-              "lja-off",
-              "magic-armor-off"
-            ],
-            [
-              "map-glitch-off",
-              "moon-boots-off"
-            ],
-            [
-              "wolf-jumps-off"
-            ]
+          "type": "dock",
+          "content": [
+            {
+              "type": "group",
+              "header": "All Glitches",
+              "dock": "top",
+              "background": "#434343",
+              "content": {
+                "type": "itemgrid",
+                "item_margin": "0,5",
+                "item_width": 300,
+                "rows": [
+                  [
+                    "air-refill-off",
+                    "b&c-items-off"
+                  ],
+                  [
+                    "lja-off",
+                    "magic-armor-off"
+                  ],
+                  [
+                    "map-glitch-off",
+                    "moon-boots-off"
+                  ],
+                  [
+                    "wolf-jumps-off",
+                    "wolf-superjumps-off"
+                  ]
+                ]
+              }
+            }
           ]
         }
       }

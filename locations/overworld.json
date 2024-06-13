@@ -90,7 +90,7 @@
                   "$hasSword, Slingshot, $canLeaveForest, Shadow_Crystal",
                   "skip-prologue-on, $canLeaveForest, Shadow_Crystal"
                 ],
-                "visibility_rules": ["howling-stones-enabled"],
+                "visibility_rules": ["golden-wolves-on"],
                 "chest_unopened_img": "images/GWolf.png",
                 "chest_opened_img": "images/GWolf-grey.png"
               }
@@ -279,7 +279,7 @@
                     "access_rules": [
                       "$Faron_Mist_Poe"
                     ],
-                    "visibility_rules": ["poes-enabled"],
+                    "visibility_rules": ["poes-overworld", "poes-all"],
                     "item_count": 1,
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"
@@ -379,7 +379,7 @@
                   },
                   {
                     "name": "Lost Woods Waterfall Poe",
-                    "visibility_rules": ["poes-enabled"],
+                    "visibility_rules": ["poes-overworld", "poes-all"],
                     "access_rules": [
                       "$Lost_Woods_Waterfall_Poe"
                     ],
@@ -431,7 +431,7 @@
                   {
                     "name": "Lost Woods Boulder Poe",
                     "item_count": 1,
-                    "visibility_rules": ["poes-enabled"],
+                    "visibility_rules": ["poes-overworld", "poes-all"],
                     "access_rules": [
                       "$Sacred_Grove_Boulder_Poe"
                     ],
@@ -474,7 +474,7 @@
                 "access_rules": [
                   "$Sacred_Grove_Master_Sword_Poe"
                 ],
-                "visibility_rules": ["poes-enabled"]
+                "visibility_rules": ["poes-overworld", "poes-all"]
               }
             ],
             "map_locations": [
@@ -514,7 +514,7 @@
                 "access_rules": [
                   "Progressive_Dominion_Rod, Shadow_Crystal"
                 ],
-                "visibility_rules": ["poes-enabled"],
+                "visibility_rules": ["poes-overworld", "poes-all"],
                 "chest_unopened_img": "images/soul.png",
                 "chest_opened_img": "images/soul-grey.png"
               }
@@ -609,7 +609,7 @@
                     "access_rules": [
                       "$Faron_Field_Poe"
                     ],
-                    "visibility_rules": ["poes-enabled"],
+                    "visibility_rules": ["poes-overworld", "poes-all"],
                     "item_count": 1,
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"
@@ -737,7 +737,7 @@
                 "access_rules": [
                   "$canAccessLanayru, Shadow_Crystal, $canAccessSnowpeakRuins"
                 ],
-                "visibility_rules": ["howling-stones-enabled"],
+                "visibility_rules": ["golden-wolves-on"],
                 "chest_unopened_img": "images/GWolf.png",
                 "chest_opened_img": "images/GWolf-grey.png",
                 "item_count": 1
@@ -762,7 +762,7 @@
                 "access_rules": [
                   "Shadow_Crystal"
                 ],
-                "visibility_rules": ["poes-enabled"]
+                "visibility_rules": ["poes-overworld", "poes-all"]
               },
               {
                 "name": "Kakariko Graveyard Grave Poe",
@@ -770,7 +770,7 @@
                 "access_rules": [
                   "Shadow_Crystal"
                 ],
-                "visibility_rules": ["poes-enabled"]
+                "visibility_rules": ["poes-overworld", "poes-all"]
               }
             ],
             "map_locations": [
@@ -879,7 +879,7 @@
                 "access_rules": [
                   "Shadow_Crystal, $canCompleteMDH"
                 ],
-                "visibility_rules": ["poes-enabled"],
+                "visibility_rules": ["poes-overworld", "poes-all"],
                 "item_count": 1,
                 "chest_unopened_img": "images/soul.png",
                 "chest_opened_img": "images/soul-grey.png"
@@ -925,7 +925,7 @@
                 "access_rules": [
                   "Shadow_Crystal, $canBurnWebs"
                 ],
-                "visibility_rules": ["poes-enabled"],
+                "visibility_rules": ["poes-overworld", "poes-all"],
                 "item_count": 1,
                 "chest_unopened_img": "images/soul.png",
                 "chest_opened_img": "images/soul-grey.png"
@@ -1057,7 +1057,7 @@
                 "access_rules": [
                   "Shadow_Crystal"
                 ],
-                "visibility_rules": ["poes-enabled"],
+                "visibility_rules": ["poes-overworld", "poes-all"],
                 "item_count": 1,
                 "chest_unopened_img": "images/soul.png",
                 "chest_opened_img": "images/soul-grey.png"
@@ -1091,7 +1091,7 @@
                 "access_rules": [
                   "Shadow_Crystal"
                 ],
-                "visibility_rules": ["poes-enabled"],
+                "visibility_rules": ["poes-overworld", "poes-all"],
                 "item_count": 1,
                 "chest_unopened_img": "images/soul.png",
                 "chest_opened_img": "images/soul-grey.png"
@@ -1138,7 +1138,7 @@
                     "access_rules": [
                       "Fyrus, Shadow_Crystal"
                     ],
-                    "visibility_rules": ["poes-enabled,GoronMines"],
+                    "visibility_rules": ["poes-overworld,GoronMines","poes-all,GoronMines"],
                     "item_count": 1,
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"
@@ -1288,7 +1288,7 @@
                     "access_rules": [
                       "Shadow_Crystal"
                     ],
-                    "visibility_rules": ["poes-enabled"],
+                    "visibility_rules": ["poes-overworld", "poes-all"],
                     "item_count": 1,
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"
@@ -1373,7 +1373,7 @@
                 "access_rules": [
                   "Shadow_Crystal, Clawshot, Ilia_Charm, Progressive_Bow, Progressive_Dominion_Rod"
                 ],
-                "visibility_rules": ["poes-enabled"],
+                "visibility_rules": ["poes-overworld", "poes-all"],
                 "item_count": 1,
                 "chest_unopened_img": "images/soul.png",
                 "chest_opened_img": "images/soul-grey.png"
@@ -1485,7 +1485,7 @@
                     "access_rules": [
                       "Shadow_Crystal"
                     ],
-                    "visibility_rules": ["poes-enabled"],
+                    "visibility_rules": ["poes-overworld", "poes-all"],
                     "item_count": 1,
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"
@@ -1540,7 +1540,7 @@
                     "access_rules": [
                       "Shadow_Crystal"
                     ],
-                    "visibility_rules": ["poes-enabled"],
+                    "visibility_rules": ["poes-overworld", "poes-all"],
                     "item_count": 1,
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"
@@ -1657,7 +1657,7 @@
                 "access_rules": [
                   "Shadow_Crystal"
                 ],
-                "visibility_rules": ["poes-enabled"],
+                "visibility_rules": ["poes-overworld", "poes-all"],
                 "item_count": 1,
                 "chest_unopened_img": "images/soul.png",
                 "chest_opened_img": "images/soul-grey.png"
@@ -1767,7 +1767,7 @@
                     "access_rules": [
                       "Shadow_Crystal, $canCompleteMDH"
                     ],
-                    "visibility_rules": ["poes-enabled"],
+                    "visibility_rules": ["poes-overworld", "poes-all"],
                     "item_count": 1,
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"
@@ -1789,7 +1789,7 @@
                     "access_rules": [
                       "Shadow_Crystal"
                     ],
-                    "visibility_rules": ["poes-enabled"],
+                    "visibility_rules": ["poes-overworld", "poes-all"],
                     "item_count": 2,
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"
@@ -1855,7 +1855,7 @@
                     "access_rules": [
                       "Shadow_Crystal, $canLaunchBombs, Clawshot"
                     ],
-                    "visibility_rules": ["poes-enabled"],
+                    "visibility_rules": ["poes-overworld", "poes-all"],
                     "item_count": 1,
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"
@@ -1917,7 +1917,7 @@
                     "access_rules": [
                       "Shadow_Crystal"
                     ],
-                    "visibility_rules": ["poes-enabled"],
+                    "visibility_rules": ["poes-overworld", "poes-all"],
                     "item_count": 1,
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"
@@ -1946,7 +1946,7 @@
                     "access_rules": [
                       "$canCompletePrologue, Shadow_Crystal"
                     ],
-                    "visibility_rules": ["howling-stones-enabled"],
+                    "visibility_rules": ["golden-wolves-on"],
                     "chest_unopened_img": "images/GWolf.png",
                     "chest_opened_img": "images/GWolf-grey.png",
                     "item_count": 1
@@ -1963,7 +1963,7 @@
                     "access_rules": [
                       "Shadow_Crystal"
                     ],
-                    "visibility_rules": ["poes-enabled"],
+                    "visibility_rules": ["poes-overworld", "poes-all"],
                     "item_count": 1,
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"
@@ -2146,7 +2146,7 @@
                     "access_rules": [
                       "$canSmash, Shadow_Crystal"
                     ],
-                    "visibility_rules": ["howling-stones-enabled"],
+                    "visibility_rules": ["golden-wolves-on"],
                     "chest_unopened_img": "images/GWolf.png",
                     "chest_opened_img": "images/GWolf-grey.png",
                     "item_count": 1
@@ -2220,7 +2220,7 @@
                     "access_rules": [
                       "Shadow_Crystal"
                     ],
-                    "visibility_rules": ["poes-enabled"],
+                    "visibility_rules": ["poes-overworld", "poes-all"],
                     "item_count": 1,
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"
@@ -2238,7 +2238,7 @@
                     "access_rules": [
                       "Wooden_Statue, Shadow_Crystal"
                     ],
-                    "visibility_rules": ["howling-stones-enabled"],
+                    "visibility_rules": ["golden-wolves-on"],
                     "chest_unopened_img": "images/GWolf.png",
                     "chest_opened_img": "images/GWolf-grey.png",
                     "item_count": 1
@@ -2315,7 +2315,7 @@
                         "access_rules": [
                           "Shadow_Crystal"
                         ],
-                        "visibility_rules": ["poes-enabled"],
+                        "visibility_rules": ["poes-overworld", "poes-all"],
                         "item_count": 1,
                         "chest_unopened_img": "images/soul.png",
                         "chest_opened_img": "images/soul-grey.png"
@@ -2392,7 +2392,7 @@
                         "access_rules": [
                           "Shadow_Crystal"
                         ],
-                        "visibility_rules": ["poes-enabled"],
+                        "visibility_rules": ["poes-overworld", "poes-all"],
                         "item_count": 1,
                         "chest_unopened_img": "images/soul.png",
                         "chest_opened_img": "images/soul-grey.png"
@@ -2422,7 +2422,7 @@
                         "access_rules": [
                           "Shadow_Crystal"
                         ],
-                        "visibility_rules": ["poes-enabled"],
+                        "visibility_rules": ["poes-overworld", "poes-all"],
                         "item_count": 1,
                         "chest_unopened_img": "images/soul.png",
                         "chest_opened_img": "images/soul-grey.png"
@@ -2521,7 +2521,7 @@
                         "access_rules": [
                           "Shadow_Crystal, $canSmash, Lantern"
                         ],
-                        "visibility_rules": ["poes-enabled"],
+                        "visibility_rules": ["poes-overworld", "poes-all"],
                         "clear_as_group": false,
                         "item_count": 3
                       }
@@ -2542,7 +2542,7 @@
                         "access_rules": [
                           "Shadow_Crystal"
                         ],
-                        "visibility_rules": ["poes-enabled"],
+                        "visibility_rules": ["poes-overworld", "poes-all"],
                         "item_count": 1,
                         "chest_unopened_img": "images/soul.png",
                         "chest_opened_img": "images/soul-grey.png"
@@ -2564,7 +2564,7 @@
                         "access_rules": [
                           "Shadow_Crystal"
                         ],
-                        "visibility_rules": ["poes-enabled"],
+                        "visibility_rules": ["poes-overworld", "poes-all"],
                         "item_count": 1,
                         "chest_unopened_img": "images/soul.png",
                         "chest_opened_img": "images/soul-grey.png"
@@ -2650,7 +2650,7 @@
                     "access_rules": [
                       "Shadow_Crystal"
                     ],
-                    "visibility_rules": ["poes-enabled"],
+                    "visibility_rules": ["poes-overworld", "poes-all"],
                     "item_count": 1,
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"
@@ -2795,7 +2795,7 @@
                     "access_rules": [
                       "Clawshot, Shadow_Crystal"
                     ],
-                    "visibility_rules": ["poes-enabled"]
+                    "visibility_rules": ["poes-overworld", "poes-all"]
                   },
                   {
                     "name": "Gerudo Desert Rock Grotto First Poe",
@@ -2803,7 +2803,7 @@
                     "access_rules": [
                       "Clawshot, Shadow_Crystal, $canSmash"
                     ],
-                    "visibility_rules": ["poes-enabled"]
+                    "visibility_rules": ["poes-overworld", "poes-all"]
                   },
                   {
                     "name": "Gerudo Desert Rock Grotto Second Poe",
@@ -2811,7 +2811,7 @@
                     "access_rules": [
                       "Clawshot, Shadow_Crystal, $canSmash"
                     ],
-                    "visibility_rules": ["poes-enabled"]
+                    "visibility_rules": ["poes-overworld", "poes-all"]
                   }
                 ],
                 "map_locations": [
@@ -2917,7 +2917,7 @@
                     "access_rules": [
                       "$canDefeatBulblin, $canAccessLanayru, Shadow_Crystal"
                     ],
-                    "visibility_rules": ["howling-stones-enabled"],
+                    "visibility_rules": ["golden-wolves-on"],
                     "chest_unopened_img": "images/GWolf.png",
                     "chest_opened_img": "images/GWolf-grey.png",
                     "item_count": 1
@@ -2927,7 +2927,7 @@
                     "access_rules": [
                       "Shadow_Crystal"
                     ],
-                    "visibility_rules": ["poes-enabled"],
+                    "visibility_rules": ["poes-overworld", "poes-all"],
                     "item_count": 1,
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"
@@ -2972,7 +2972,7 @@
                       "Shadow_Crystal, $canDefeatKingBulblinDesert, Gerudo_Desert_Small_Key",
                       "Shadow_Crystal, early-arbiters-on"
                     ],
-                    "visibility_rules": ["poes-enabled"],
+                    "visibility_rules": ["poes-overworld", "poes-all"],
                     "item_count": 1,
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"
@@ -2995,7 +2995,7 @@
                     "access_rules": [
                       "Spinner, Shadow_Crystal"
                     ],
-                    "visibility_rules": ["poes-enabled"]
+                    "visibility_rules": ["poes-overworld", "poes-all"]
                   },
                   {
                     "name": "Cave of Ordeals Floor 33 Poe",
@@ -3003,7 +3003,7 @@
                     "access_rules": [
                       "Spinner, Shadow_Crystal, Progressive_Dominion_Rod_2, Ball_and_Chain"
                     ],
-                    "visibility_rules": ["poes-enabled"]
+                    "visibility_rules": ["poes-overworld", "poes-all"]
                   },
                   {
                     "name": "Cave of Ordeals Floor 44 Poe",
@@ -3011,7 +3011,7 @@
                     "access_rules": [
                       "Spinner, Shadow_Crystal, Progressive_Dominion_Rod_2, Double_Clawshot, Ball_and_Chain"
                     ],
-                    "visibility_rules": ["poes-enabled"]
+                    "visibility_rules": ["poes-overworld", "poes-all"]
                   },
                   {
                     "name": "Cave of Ordeals Great Fairy Reward",
@@ -3037,7 +3037,7 @@
                     "access_rules": [
                       "Clawshot, Shadow_Crystal"
                     ],
-                    "visibility_rules": ["poes-enabled"],
+                    "visibility_rules": ["poes-overworld", "poes-all"],
                     "item_count": 1,
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"
@@ -3068,7 +3068,7 @@
                       "Shadow_Crystal, $canDefeatKingBulblinDesert, Gerudo_Desert_Small_Key",
                       "Shadow_Crystal, early-arbiters-on"
                     ],
-                    "visibility_rules": ["poes-enabled"],
+                    "visibility_rules": ["poes-overworld", "poes-all"],
                     "item_count": 1,
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"
@@ -3130,7 +3130,7 @@
                   "Shadow_Crystal, Reekfish_Scent",
                   "Shadow_Crystal, early-snowpeak-on"
                 ],
-                "visibility_rules": ["poes-enabled"],
+                "visibility_rules": ["poes-overworld", "poes-all"],
                 "item_count": 1,
                 "chest_unopened_img": "images/soul.png",
                 "chest_opened_img": "images/soul-grey.png"
@@ -3153,7 +3153,7 @@
                   "Shadow_Crystal, Reekfish_Scent",
                   "Shadow_Crystal, early-snowpeak-on"
                 ],
-                "visibility_rules": ["poes-enabled"],
+                "visibility_rules": ["poes-overworld", "poes-all"],
                 "item_count": 1,
                 "chest_unopened_img": "images/soul.png",
                 "chest_opened_img": "images/soul-grey.png"
@@ -3176,7 +3176,7 @@
                   "Shadow_Crystal, Reekfish_Scent",
                   "Shadow_Crystal, early-snowpeak-on"
                 ],
-                "visibility_rules": ["poes-enabled"],
+                "visibility_rules": ["poes-overworld", "poes-all"],
                 "item_count": 1,
                 "chest_unopened_img": "images/soul.png",
                 "chest_opened_img": "images/soul-grey.png"
@@ -3199,7 +3199,7 @@
                   "Shadow_Crystal, Reekfish_Scent",
                   "Shadow_Crystal, early-snowpeak-on"
                 ],
-                "visibility_rules": ["poes-enabled"],
+                "visibility_rules": ["poes-overworld", "poes-all"],
                 "item_count": 1,
                 "chest_unopened_img": "images/soul.png",
                 "chest_opened_img": "images/soul-grey.png"
@@ -3230,7 +3230,7 @@
                   "Shadow_Crystal, Reekfish_Scent",
                   "Shadow_Crystal, early-snowpeak-on"
                 ],
-                "visibility_rules": ["poes-enabled"],
+                "visibility_rules": ["poes-overworld", "poes-all"],
                 "item_count": 1,
                 "chest_unopened_img": "images/soul.png",
                 "chest_opened_img": "images/soul-grey.png"

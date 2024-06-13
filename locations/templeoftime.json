@@ -109,7 +109,7 @@
                     "access_rules": [
                       "Shadow_Crystal, Progressive_Dominion_Rod"
                     ],
-                    "visibility_rules": ["poes-enabled"],
+                    "visibility_rules": ["poes-dungeons", "poes-all"],
                     "item_count": 1,
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"
@@ -377,7 +377,7 @@
                     "access_rules": [
                       "Clawshot, Shadow_Crystal"
                     ],
-                    "visibility_rules": ["poes-enabled"],
+                    "visibility_rules": ["poes-dungeons", "poes-all"],
                     "item_count": 1,
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"

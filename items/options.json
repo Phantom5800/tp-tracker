@@ -7,11 +7,11 @@
     "initial_stage_idx": 1,
     "stages": [
       {
-        "img": "images/FaronEscapeOff.png",
+        "img": "images/options/FaronWoods-Closed.png",
         "codes": "skip-faron-off"
       },
       {
-        "img": "images/FaronEscapeOn.png",
+        "img": "images/options/FaronWoods-Open.png",
         "codes": "skip-faron-on",
         "inherit_codes": false
       }
@@ -25,11 +25,11 @@
     "initial_stage_idx": 1,
     "stages": [
       {
-        "img": "images/MDHSkipOff.png",
+        "img": "images/options/SkipMDH-Off.png",
         "codes": "skip-mdh-off"
       },
       {
-        "img": "images/MDHSkipOn.png",
+        "img": "images/options/SkipMDH-On.png",
         "codes": "skip-mdh-on",
         "inherit_codes": false
       }
@@ -43,11 +43,11 @@
     "initial_stage_idx": 1,
     "stages": [
       {
-        "img": "images/SkipIntroOff.png",
+        "img": "images/options/SkipPrologue-Off.png",
         "codes": "skip-prologue-off"
       },
       {
-        "img": "images/SkipIntroOn.png",
+        "img": "images/options/SkipPrologue-On.png",
         "codes": "skip-prologue-on",
         "inherit_codes": false
       }
@@ -58,14 +58,14 @@
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
-    "initial_stage_idx": 1,
+    "initial_stage_idx": 0,
     "stages": [
       {
-        "img": "images/city-closed.png",
+        "img": "images/options/CitS-Closed.png",
         "codes": "early-city-off"
       },
       {
-        "img": "images/city-open.png",
+        "img": "images/options/CitS-Open.png",
         "codes": "early-city-on",
         "inherit_codes": false
       }
@@ -79,16 +79,16 @@
     "initial_stage_idx": 2,
     "stages": [
       {
-        "img": "images/mines-closed.png",
+        "img": "images/options/GM-Closed.png",
         "codes": "early-mines-off"
       },
       {
-        "img": "images/mines-no-wrestle.png",
+        "img": "images/options/GM-NoWrestling.png",
         "codes": "early-mines-no-wrestle",
         "inherit_codes": false
       },
       {
-        "img": "images/mines-open.png",
+        "img": "images/options/GM-Open.png",
         "codes": "early-mines-open",
         "inherit_codes": false
       }
@@ -102,26 +102,26 @@
     "initial_stage_idx": 1,
     "stages": [
       {
-        "img": "images/castle-vanilla.png",
+        "img": "images/options/HC-Vanilla.png",
         "codes": "castle-vanilla"
       },
       {
-        "img": "images/castle-fused.png",
+        "img": "images/options/HC-FusedShadows.png",
         "codes": "castle-fused",
         "inherit_codes": false
       },
       {
-        "img": "images/castle-mirror.png",
+        "img": "images/options/HC-MirrorShards.png",
         "codes": "castle-mirror",
         "inherit_codes": false
       },
       {
-        "img": "images/castle-all.png",
+        "img": "images/options/HC-AllDungeons.png",
         "codes": "castle-ad",
         "inherit_codes": false
       },
       {
-        "img": "images/castle-open.png",
+        "img": "images/options/HC-Open.png",
         "codes": "castle-open",
         "inherit_codes": false
       }
@@ -149,14 +149,14 @@
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
-    "initial_stage_idx": 1,
+    "initial_stage_idx": 0,
     "stages": [
       {
-        "img": "images/lakebed-closed.png",
+        "img": "images/options/Lakebed-Closed.png",
         "codes": "early-lakebed-off"
       },
       {
-        "img": "images/lakebed-open.png",
+        "img": "images/options/Lakebed-Open.png",
         "codes": "early-lakebed-on",
         "inherit_codes": false
       }
@@ -170,11 +170,11 @@
     "initial_stage_idx": 1,
     "stages": [
       {
-        "img": "images/arbiters-closed.png",
+        "img": "images/options/AG-Closed.png",
         "codes": "early-arbiters-off"
       },
       {
-        "img": "images/arbiters-open.png",
+        "img": "images/options/AG-Open.png",
         "codes": "early-arbiters-on",
         "inherit_codes": false
       }
@@ -185,14 +185,14 @@
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
-    "initial_stage_idx": 1,
+    "initial_stage_idx": 0,
     "stages": [
       {
-        "img": "images/snowpeak-closed.png",
+        "img": "images/options/Snowpeak-Closed.png",
         "codes": "early-snowpeak-off"
       },
       {
-        "img": "images/snowpeak-open.png",
+        "img": "images/options/Snowpeak-Open.png",
         "codes": "early-snowpeak-on",
         "inherit_codes": false
       }
@@ -206,16 +206,16 @@
     "initial_stage_idx": 2,
     "stages": [
       {
-        "img": "images/time-closed.png",
+        "img": "images/options/ToT-Closed.png",
         "codes": "early-tot-off"
       },
       {
-        "img": "images/time-grove.png",
+        "img": "images/options/ToT-MasterSword.png",
         "codes": "early-tot-grove",
         "inherit_codes": false
       },
       {
-        "img": "images/time-open.png",
+        "img": "images/options/ToT-Open.png",
         "codes": "early-tot-open",
         "inherit_codes": false
       }
@@ -244,49 +244,82 @@
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
-    "initial_stage_idx": 2,
+    "initial_stage_idx": 1,
     "stages": [
       {
-        "img": "images/palace-vanilla.png",
+        "img": "images/options/PoT-Vanilla.png",
         "codes": "palace-vanilla"
       },
       {
-        "img": "images/palace-fused.png",
+        "img": "images/options/PoT-FusedShadows.png",
         "codes": "palace-fused",
         "inherit_codes": false
       },
       {
-        "img": "images/palace-mirror.png",
+        "img": "images/options/PoT-MirrorShards.png",
         "codes": "palace-mirror",
         "inherit_codes": false
       },
       {
-        "img": "images/palace-open.png",
+        "img": "images/options/PoT-Open.png",
         "codes": "palace-open",
         "inherit_codes": false
       }
     ]
   },
   {
-    "name": "Small Keysy",
-    "type": "toggle",
+    "name": "Small Keys",
+    "type": "progressive",
+    "allow_disabled": false,
     "loop": true,
-    "img": "images/smallkey.png",
-    "codes": "small-keysy-enabled"
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/options/SmallKeys-On.png",
+        "codes": "small-keysy-off"
+      },
+      {
+        "img": "images/options/SmallKeys-Keysy.png",
+        "codes": "small-keysy-enabled",
+        "inherit_codes": false
+      }
+    ]
   },
   {
     "name": "Boss Keysy",
-    "type": "toggle",
+    "type": "progressive",
+    "allow_disabled": false,
     "loop": true,
-    "img": "images/bosskey.png",
-    "codes": "boss-keysy-enabled"
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/options/BigKeys-On.png",
+        "codes": "boss-keysy-off"
+      },
+      {
+        "img": "images/options/BigKeys-Keysy.png",
+        "codes": "boss-keysy-enabled",
+        "inherit_codes": false
+      }
+    ]
   },
   {
     "name": "Golden Bugs",
-    "type": "toggle",
+    "type": "progressive",
+    "allow_disabled": false,
     "loop": true,
-    "img": "images/Golden_Bug.png",
-    "codes": "golden-bugs-enabled"
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/options/GoldenBugs-Off.png",
+        "codes": "golden-bugs-off"
+      },
+      {
+        "img": "images/options/GoldenBugs-On.png",
+        "codes": "golden-bugs-enabled",
+        "inherit_codes": false
+      }
+    ]
   },
   {
     "name": "Agitha Checks",
@@ -298,10 +331,31 @@
   },
   {
     "name": "Poe Souls",
-    "type": "toggle",
+    "type": "progressive",
+    "allow_disabled": false,
     "loop": true,
-    "img": "images/ghost.png",
-    "codes": "poes-enabled"
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/options/Poes-Vanilla.png",
+        "codes": "poes-off"
+      },
+      {
+        "img": "images/options/Poes-Overworld.png",
+        "codes": "poes-overworld",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/options/Poes-Dungeons.png",
+        "codes": "poes-dungeons",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/options/Poes-All.png",
+        "codes": "poes-all",
+        "inherit_codes": false
+      }
+    ]
   },
   {
     "name": "Jovani Rewards",
@@ -313,10 +367,21 @@
   },
   {
     "name": "Howling Stone Wolves",
-    "type": "toggle",
+    "type": "progressive",
+    "allow_disabled": false,
     "loop": true,
-    "img": "images/GWolf.png",
-    "codes": "howling-stones-enabled"
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/options/GoldenWolf-Off.png",
+        "codes": "golden-wolves-off"
+      },
+      {
+        "img": "images/options/GoldenWolf-On.png",
+        "codes": "golden-wolves-on",
+        "inherit_codes": false
+      }
+    ]
   },
   /////////////////////////////////////////////////////////////////////////////
   // Glitch Logic
@@ -443,6 +508,24 @@
       {
         "img": "images/glitches/WolfJumps-On.png",
         "codes": "wolf-jumps-on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Wolf Super Jumps",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/glitches/WolfSuperjump-Off.png",
+        "codes": "wolf-superjumps-off"
+      },
+      {
+        "img": "images/glitches/WolfSuperjump-On.png",
+        "codes": "wolf-superjumps-on",
         "inherit_codes": false
       }
     ]

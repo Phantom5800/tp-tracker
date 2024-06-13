@@ -328,7 +328,7 @@
                     "access_rules": [
                       "Shadow_Crystal, Double_Clawshot"
                     ],
-                    "visibility_rules": ["poes-enabled"],
+                    "visibility_rules": ["poes-dungeons", "poes-all"],
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png",
                     "item_count": 1
@@ -464,7 +464,7 @@
                   {
                     "name": "Poe Above Central Fan",
                     "item_count": 1,
-                    "visibility_rules": ["poes-enabled"],
+                    "visibility_rules": ["poes-dungeons", "poes-all"],
                     "access_rules": [
                       "Shadow_Crystal"
                     ],

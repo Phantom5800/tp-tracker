@@ -16,12 +16,6 @@
               "type": "group",
               "header": "Items",
               "dock": "top",
-              "header_content": {
-                "type": "button_popup",
-                "style": "settings",
-                "popup_background": "#FF212121",
-                "layout": "options_popup"
-              },
               "content": {
                 "type": "layout",
                 "background": "#262626",
@@ -141,7 +135,7 @@
                 },
                 {
                   "title": "Palace of Twilight",
-                  "icon": "images/Boss8.png",
+                  "icon": "images/master-sword-light.png",
                   "content": {
                     "type": "map",
                     "maps": [
@@ -157,6 +151,14 @@
                     "maps": [
                       "Hyrule Castle"
                     ]
+                  }
+                },
+                {
+                  "title": "Settings",
+                  "icon": "images/gatekeys.png",
+                  "content": {
+                    "type": "layout",
+                    "key": "options_popup"
                   }
                 }
               ]
