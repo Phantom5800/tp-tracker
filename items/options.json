@@ -329,12 +329,30 @@
     "initial_stage_idx": 0,
     "stages": [
       {
-        "img": "images/glitches/AirRefill-Off",
+        "img": "images/glitches/AirRefill-Off.png",
         "codes": "air-refill-off"
       },
       {
         "img": "images/glitches/AirRefill-On.png",
         "codes": "air-refill-on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Ball and Chain Item Grab",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/glitches/BallAndChainItemGrab-Off.png",
+        "codes": "b&c-items-off"
+      },
+      {
+        "img": "images/glitches/BallAndChainItemGrab-On.png",
+        "codes": "b&c-items-on",
         "inherit_codes": false
       }
     ]
@@ -347,12 +365,30 @@
     "initial_stage_idx": 0,
     "stages": [
       {
-        "img": "images/glitches/LJA-Off",
+        "img": "images/glitches/LJA-Off.png",
         "codes": "lja-off"
       },
       {
         "img": "images/glitches/LJA-On.png",
         "codes": "lja-on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Magic Armor Replaces Iron Boots",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/glitches/MagicArmorWeight-Off.png",
+        "codes": "magic-armor-off"
+      },
+      {
+        "img": "images/glitches/MagicArmorWeight-On.png",
+        "codes": "magic-armor-on",
         "inherit_codes": false
       }
     ]
@@ -365,7 +401,7 @@
     "initial_stage_idx": 0,
     "stages": [
       {
-        "img": "images/glitches/MapGlitch-Off",
+        "img": "images/glitches/MapGlitch-Off.png",
         "codes": "map-glitch-off"
       },
       {
@@ -383,12 +419,30 @@
     "initial_stage_idx": 0,
     "stages": [
       {
-        "img": "images/glitches/MoonBoots-Off",
+        "img": "images/glitches/MoonBoots-Off.png",
         "codes": "moon-boots-off"
       },
       {
         "img": "images/glitches/MoonBoots-On.png",
         "codes": "moon-boots-on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Precise Wolf Jumps",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/glitches/WolfJumps-Off.png",
+        "codes": "wolf-jumps-off"
+      },
+      {
+        "img": "images/glitches/WolfJumps-On.png",
+        "codes": "wolf-jumps-on",
         "inherit_codes": false
       }
     ]

@@ -40,18 +40,22 @@
         "content": {
           "type": "itemgrid",
           "item_margin": "1,2",
-          "item_size": 45,
+          "item_width": 300,
           "rows": [
             [
               "air-refill-off",
-              "lja-off"
+              "b&c-items-off"
+            ],
+            [
+              "lja-off",
+              "magic-armor-off"
             ],
             [
               "map-glitch-off",
               "moon-boots-off"
             ],
             [
-
+              "wolf-jumps-off"
             ]
           ]
         }

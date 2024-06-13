@@ -32,6 +32,10 @@ function canDoAirRefill()
           and (has("Magic_Armor") or (has("Iron_Boots") and getItemWheelSlotCount() >= 3))
 end
 
+function canDoBallAndChainItemGrab()
+  return has("b&c-items-on") and has("Ball_and_Chain")
+end
+
 function canDoMoonBoots()
   if has("moon-boots-off") then
     return false
@@ -76,6 +80,14 @@ function canDoMapGlitch()
     return false
   end
   return has("Shadow_Crystal") and canLeaveForest()
+end
+
+function canDoPreciseWolfJumps()
+  return has("wolf-jumps-on") and has("Shadow_Crystal")
+end
+
+function canSinkWithMagicArmor()
+  return has("magic-armor-on") and has("Magic_Armor")
 end
 
 function canDoStorage()

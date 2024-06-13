@@ -364,7 +364,7 @@
           {
             "name": "Lost Woods",
             "access_rules":[
-              "$canCompletePrologue, Shadow_Crystal"
+              "$Lost_Woods_Enter"
             ],
             "children": [
               {
@@ -373,18 +373,19 @@
                   {
                     "name": "Lost Woods Lantern Chest",
                     "access_rules": [
-                      "Lantern"
+                      "$Lost_Woods_Lantern_Chest"
                     ],
                     "item_count": 1
                   },
                   {
-                    "name": "Sacred Grove Spinner Chest",
+                    "name": "Lost Woods Waterfall Poe",
+                    "visibility_rules": ["poes-enabled"],
                     "access_rules": [
-                      "$canDefeatSkullKid, Spinner",
-                      "early-tot-grove, Spinner",
-                      "early-tot-open, Spinner"
+                      "$Lost_Woods_Waterfall_Poe"
                     ],
-                    "item_count": 1
+                    "item_count": 1,
+                    "chest_unopened_img": "images/soul.png",
+                    "chest_opened_img": "images/soul-grey.png"
                   }
                 ],
                 "map_locations": [
@@ -396,17 +397,12 @@
                 ]
               },
               {
-                "name": "Sacred Grove Master Sword",
+                "name": "Sacred Grove ToT Door",
                 "sections": [
                   {
                     "name": "Sacred Grove Male Snail",
                     "access_rules": [
-                      "$canDefeatSkullKid, Boomerang",
-                      "early-tot-grove, Boomerang",
-                      "early-tot-open, Boomerang",
-                      "$canDefeatSkullKid, Clawshot",
-                      "early-tot-grove, Clawshot",
-                      "early-tot-open, Clawshot"
+                      "$Sacred_Grove_Male_Snail"
                     ],
                     "visibility_rules": ["golden-bugs-enabled"],
                     "item_count": 1,
@@ -424,40 +420,30 @@
               },
               {
                 "name": "Sacred Grove Baba Serpent Grotto",
-                "access_rules": [
-                  "$canDefeatSkullKid, Shadow_Crystal, $canSmash",
-                  "early-tot-grove, Shadow_Crystal, $canSmash",
-                  "early-tot-open, Shadow_Crystal, $canSmash"
-                ],
                 "sections": [
                   {
                     "name": "Sacred Grove Baba Serpent Grotto Chest",
                     "access_rules": [
-                      "$canDefeatBabaSerpent, $canKnockDownHangingBaba"
+                      "$Sacred_Grove_Baba_Serpent_Grotto"
                     ],
                     "item_count": 1
-                  },
-                  {
-                    "name": "Lost Woods Waterfall Poe",
-                    "visibility_rules": ["poes-enabled"],
-                    "access_rules": [
-                      "$canCompletePrologue, Shadow_Crystal"
-                    ],
-                    "item_count": 1,
-                    "chest_unopened_img": "images/soul.png",
-                    "chest_opened_img": "images/soul-grey.png"
                   },
                   {
                     "name": "Lost Woods Boulder Poe",
                     "item_count": 1,
                     "visibility_rules": ["poes-enabled"],
                     "access_rules": [
-                      "$canCompletePrologue, Shadow_Crystal, $canDefeatSkullKid, $canSmash",
-                      "$canCompletePrologue, Shadow_Crystal, early-tot-grove, $canSmash",
-                      "$canCompletePrologue, Shadow_Crystal, early-tot-open, $canSmash"
+                      "$Sacred_Grove_Boulder_Poe"
                     ],
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"
+                  },
+                  {
+                    "name": "Sacred Grove Spinner Chest",
+                    "access_rules": [
+                      "$Sacred_Grove_Spinner_Chest"
+                    ],
+                    "item_count": 1
                   }
                 ],
                 "map_locations": [
@@ -471,26 +457,22 @@
             ]
           },
           {
-            "name": "Lost Woods/Sacred Grove",
+            "name": "Master Sword Pedestal",
             "sections": [
               {
                 "name": "Master Sword and Shadow Crystal",
                 "item_count": 2,
                 "access_rules": [
-                  "$canCompletePrologue, $canDefeatSkullKid",
-                  "$canCompletePrologue, early-tot-grove",
-                  "$canCompletePrologue, early-tot-open"
+                  "$Sacred_Grove_Master_Sword"
                 ]
               },
               {
                 "name": "Sacred Grove Master Sword Poe",
                 "chest_unopened_img": "images/soul.png",
                 "chest_opened_img": "images/soul-grey.png",
-                  "item_count": 1,
+                "item_count": 1,
                 "access_rules": [
-                  "$canCompletePrologue, Shadow_Crystal, $canDefeatSkullKid",
-                  "$canCompletePrologue, Shadow_Crystal, early-tot-grove",
-                  "$canCompletePrologue, Shadow_Crystal, early-tot-open"
+                  "$Sacred_Grove_Master_Sword_Poe"
                 ],
                 "visibility_rules": ["poes-enabled"]
               }
@@ -519,8 +501,7 @@
               {
                 "name": "Sacred Grove Female Snail",
                 "access_rules": [
-                  "Clawshot",
-                  "Boomerang"
+                  "$Sacred_Grove_Female_Snail"
                 ],
                 "visibility_rules": ["golden-bugs-enabled"],
                 "item_count": 1,

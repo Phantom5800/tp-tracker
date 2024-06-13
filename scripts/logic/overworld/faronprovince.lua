@@ -155,3 +155,61 @@ end
 --[[-------------------------------------------------------
   Sacred Grove
 ---------------------------------------------------------]]
+function Lost_Woods_Enter()
+  return canCompletePrologue() and has("Shadow_Crystal")
+end
+
+function defeatSkullKid()
+  return canDefeatSkullKid() or has('early-tot-grove') or has("early-tot-open")
+end
+
+function Lost_Woods_Lantern_Chest()
+  return has("Lantern")
+end
+
+function Lost_Woods_Waterfall_Poe()
+  return defeatSkullKid() and has("Shadow_Crystal")
+end
+
+function Sacred_Grove_Spinner_Chest()
+  return defeatSkullKid() and has("Spinner")
+end
+
+function Sacred_Grove_Baba_Serpent_Grotto()
+  if defeatSkullKid() and canSmash() and has("Shadow_Crystal") then
+    return canDefeatBabaSerpent() and canKnockDownHangingBaba()
+  end
+  return false
+end
+
+function Sacred_Grove_Boulder_Poe()
+  return defeatSkullKid() and canSmash() and has("Shadow_Crystal")
+end
+
+function Sacred_Grove_Master_Sword()
+  return defeatSkullKid()
+end
+
+function Sacred_Grove_Master_Sword_Poe()
+  return defeatSkullKid() and has("Shadow_Crystal")
+end
+
+function Sacred_Grove_Male_Snail()
+  if defeatSkullKid() then
+    if has("Boomerang") or has("Clawshot") then
+      return true
+    elseif canDoBallAndChainItemGrab() then
+      return true,AccessibilityLevel.SequenceBreak
+    end
+  end
+  return false
+end
+
+function Sacred_Grove_Female_Snail()
+  if has("Boomerang") or has("Clawshot") then
+    return true
+  elseif canDoBallAndChainItemGrab() then
+    return true,AccessibilityLevel.SequenceBreak
+  end
+  return false
+end
