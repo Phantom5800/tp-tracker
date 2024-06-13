@@ -196,6 +196,7 @@
                     [
                       {
                         "name": "Faron Woods Owl Statue Sky Character",
+                        "visibility_rules": ["sky-characters-on"],
                         "access_rules":
                         [
                           "$Faron_Woods_Owl_Statue_Sky_Character"
@@ -944,6 +945,7 @@
             "sections": [
               {
                 "name": "Kakariko Gorge Owl Statue Sky Character",
+                "visibility_rules": ["sky-characters-on"],
                 "access_rules": [
                   "Progressive_Dominion_Rod_2"
                 ],
@@ -976,6 +978,7 @@
               },
               {
                 "name": "Barnes Bomb Bag",
+                "visibility_rules": ["shops-on"],
                 "item_count": 1
               },
               {
@@ -998,6 +1001,7 @@
               },
               {
                 "name": "Kakariko Village Malo Mart Items",
+                "visibility_rules": ["shops-on"],
                 "item_count": 3
               },
               {
@@ -1005,7 +1009,7 @@
                 "access_rules": [
                   "Progressive_Bow, Fyrus"
                 ],
-                "visibility_rules": ["GoronMines"],
+                "visibility_rules": ["shops-on,GoronMines"],
                 "item_count": 1
               },
               {
@@ -1228,6 +1232,7 @@
                 "sections": [
                   {
                     "name": "North Eldin Owl Statue Sky Character",
+                    "visibility_rules": ["sky-characters-on"],
                     "access_rules": [
                       "Progressive_Dominion_Rod_2"
                     ],
@@ -1874,6 +1879,7 @@
                 "sections": [
                   {
                     "name": "Lake Hylia Bridge Owl Statue Sky Character",
+                    "visibility_rules": ["sky-characters-on"],
                     "access_rules": [
                       "Progressive_Dominion_Rod_2, Clawshot"
                     ],
@@ -1900,6 +1906,7 @@
                 "sections": [
                   {
                     "name": "Hyrule Field Ampitheater Owl Statue Sky Character",
+                    "visibility_rules": ["sky-characters-on"],
                     "access_rules": [
                       "Progressive_Dominion_Rod_2"
                     ],
@@ -2165,6 +2172,7 @@
                 "sections": [
                   {
                     "name": "Castle Town Malo Mart Magic Armor",
+                    "visibility_rules": ["shops-on"],
                     "access_rules": [
                       "increase-wallet",
                       "Progressive_Wallet_2"
@@ -2739,6 +2747,7 @@
                 "sections": [
                   {
                     "name": "Gerudo Desert Owl Statue Sky Character",
+                    "visibility_rules": ["sky-characters-on"],
                     "access_rules": [
                       "Progressive_Dominion_Rod_2"
                     ],

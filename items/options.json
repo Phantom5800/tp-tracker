@@ -383,6 +383,60 @@
       }
     ]
   },
+  {
+    "name": "NPC Gift Items",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/options/NPCGifts-Off.png",
+        "codes": "npc-gifts-off"
+      },
+      {
+        "img": "images/options/NPCGifts-On.png",
+        "codes": "npc-gifts-on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Shop Items",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/options/Shops-Off.png",
+        "codes": "shops-off"
+      },
+      {
+        "img": "images/options/Shops-On.png",
+        "codes": "shops-on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Sky Characters",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/options/SkyCharacters-Off.png",
+        "codes": "sky-characters-off"
+      },
+      {
+        "img": "images/options/SkyCharacters-On.png",
+        "codes": "sky-characters-on",
+        "inherit_codes": false
+      }
+    ]
+  },
   /////////////////////////////////////////////////////////////////////////////
   // Glitch Logic
   /////////////////////////////////////////////////////////////////////////////

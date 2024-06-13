@@ -73,11 +73,15 @@
                 "rows": [
                   [
                     "golden-bugs-off",
-                    "poes-off"
+                    "sky-characters-off"
+                  ],
+                  [
+                    "npc-gifts-off",
+                    "shops-off"
                   ],
                   [
                     "golden-wolves-off",
-                    ""
+                    "poes-off"
                   ]
                 ]
               }
