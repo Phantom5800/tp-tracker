@@ -317,5 +317,80 @@
     "loop": true,
     "img": "images/GWolf.png",
     "codes": "howling-stones-enabled"
+  },
+  /////////////////////////////////////////////////////////////////////////////
+  // Glitch Logic
+  /////////////////////////////////////////////////////////////////////////////
+  {
+    "name": "Air Refill",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/glitches/AirRefill-Off",
+        "codes": "air-refill-off"
+      },
+      {
+        "img": "images/glitches/AirRefill-On.png",
+        "codes": "air-refill-on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Boomerang LJA",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/glitches/LJA-Off",
+        "codes": "lja-off"
+      },
+      {
+        "img": "images/glitches/LJA-On.png",
+        "codes": "lja-on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Map Glitch",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/glitches/MapGlitch-Off",
+        "codes": "map-glitch-off"
+      },
+      {
+        "img": "images/glitches/MapGlitch-On.png",
+        "codes": "map-glitch-on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Moon Boots",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/glitches/MoonBoots-Off",
+        "codes": "moon-boots-off"
+      },
+      {
+        "img": "images/glitches/MoonBoots-On.png",
+        "codes": "moon-boots-on",
+        "inherit_codes": false
+      }
+    ]
   }
 ]

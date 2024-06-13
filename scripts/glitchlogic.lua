@@ -24,36 +24,57 @@ function getItemWheelSlotCount()
 end
 
 function canDoAirRefill()
+  if has("air-refill-off") then
+    return false
+  end
   return canUseWaterBombs()
           and (hasSword() or has("Clawshot"))
           and (has("Magic_Armor") or (has("Iron_Boots") and getItemWheelSlotCount() >= 3))
 end
 
 function canDoMoonBoots()
+  if has("moon-boots-off") then
+    return false
+  end
   return hasSword()
           and (has("Magic_Armor")
                 or (has("Iron_Boots") and getItemWheelSlotCount() >= 3)) -- be able to force unequip iron
 end
 
 function canDoJSMoonBoots()
+  if has("moon-boots-off") then
+    return false
+  end
   return canDoMoonBoots() and countof("Progressive_Hidden_Skill") >= 6
 end
 
 function canDoBSMoonBoots()
+  if has("moon-boots-off") then
+    return false
+  end
   return countof("Progressive_Hidden_Skill") >= 3 and has("Magic_Armor")
 end
 
 function canDoEBMoonBoots()
+  if has("moon-boots-off") then
+    return false
+  end
   return canDoMoonBoots()
           and countof("Progressive_Hidden_Skill") >= 1
           and has("Progressive_Sword_2")
 end
 
 function canDoLJA()
+  if has("lja-off") then
+    return false
+  end
   return hasSword() and has("Boomerang")
 end
 
 function canDoMapGlitch()
+  if has("map-glitch-off") then
+    return false
+  end
   return has("Shadow_Crystal") and canLeaveForest()
 end
 
