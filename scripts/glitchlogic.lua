@@ -1,7 +1,3 @@
-function showGlitchLogic()
-  return show_glitch_logic
-end
-
 local item_wheel_items = {
   "Auru_Memo",
   "Bomb_Bag",

@@ -54,102 +54,113 @@
               "dock": "top",
               "tabs": [
                 {
-                  "title": "Main",
-                  "icon": "images/master-sword.png",
+                  "type": "dock",
+                  "title": "Maps",
+                  "icon": "images/hiddenskill.png",
                   "content": {
-                    "type": "map",
-                    "maps": [
-                      "Main"
-                    ]
-                  }
-                },
-                {
-                  "title": "Forest",
-                  "icon": "images/boomerang.png",
-                  "content": {
-                    "type": "map",
-                    "maps": [
-                      "Forest"
-                    ]
-                  }
-                },
-                {
-                  "title": "Goron Mines",
-                  "icon": "images/bow.png",
-                  "content": {
-                    "type": "map",
-                    "maps": [
-                      "Goron Mines"
-                    ]
-                  }
-                },
-                {
-                  "title": "Lakebed",
-                  "icon": "images/clawshot.png",
-                  "content": {
-                    "type": "map",
-                    "maps": [
-                      "Lakebed Temple"
-                    ]
-                  }
-                },
-                {
-                  "title": "Arbiter's",
-                  "icon": "images/spinner.png",
-                  "content": {
-                    "type": "map",
-                    "maps": [
-                      "Arbiter's Grounds"
-                    ]
-                  }
-                },
-                {
-                  "title": "Snowpeak",
-                  "icon": "images/chainball.png",
-                  "content": {
-                    "type": "map",
-                    "maps": [
-                      "Snowpeak"
-                    ]
-                  }
-                },
-                {
-                  "title": "Temple of Time",
-                  "icon": "images/dominion.png",
-                  "content": {
-                    "type": "map",
-                    "maps": [
-                      "Temple of Time"
-                    ]
-                  }
-                },
-                {
-                  "title": "City in the Sky",
-                  "icon": "images/clawshot2.png",
-                  "content": {
-                    "type": "map",
-                    "maps": [
-                      "City in the Sky"
-                    ]
-                  }
-                },
-                {
-                  "title": "Palace of Twilight",
-                  "icon": "images/master-sword-light.png",
-                  "content": {
-                    "type": "map",
-                    "maps": [
-                      "Palace of Twilight"
-                    ]
-                  }
-                },
-                {
-                  "title": "Hyrule Castle",
-                  "icon": "images/Boss9.png",
-                  "content": {
-                    "type": "map",
-                    "maps": [
-                      "Hyrule Castle"
+                    "type": "tabbed",
+                    "dock": "top",
+                    "tabs": [
+                      {
+                        "title": "Main",
+                        "icon": "images/master-sword.png",
+                        "content": {
+                          "type": "map",
+                          "maps": [
+                            "Main"
+                          ]
+                        }
+                      },
+                      {
+                        "title": "Forest",
+                        "icon": "images/boomerang.png",
+                        "content": {
+                          "type": "map",
+                          "maps": [
+                            "Forest"
+                          ]
+                        }
+                      },
+                      {
+                        "title": "Goron Mines",
+                        "icon": "images/bow.png",
+                        "content": {
+                          "type": "map",
+                          "maps": [
+                            "Goron Mines"
+                          ]
+                        }
+                      },
+                      {
+                        "title": "Lakebed",
+                        "icon": "images/clawshot.png",
+                        "content": {
+                          "type": "map",
+                          "maps": [
+                            "Lakebed Temple"
+                          ]
+                        }
+                      },
+                      {
+                        "title": "Arbiter's",
+                        "icon": "images/spinner.png",
+                        "content": {
+                          "type": "map",
+                          "maps": [
+                            "Arbiter's Grounds"
+                          ]
+                        }
+                      },
+                      {
+                        "title": "Snowpeak",
+                        "icon": "images/chainball.png",
+                        "content": {
+                          "type": "map",
+                          "maps": [
+                            "Snowpeak"
+                          ]
+                        }
+                      },
+                      {
+                        "title": "Temple of Time",
+                        "icon": "images/dominion.png",
+                        "content": {
+                          "type": "map",
+                          "maps": [
+                            "Temple of Time"
+                          ]
+                        }
+                      },
+                      {
+                        "title": "City in the Sky",
+                        "icon": "images/clawshot2.png",
+                        "content": {
+                          "type": "map",
+                          "maps": [
+                            "City in the Sky"
+                          ]
+                        }
+                      },
+                      {
+                        "title": "Palace of Twilight",
+                        "icon": "images/master-sword-light.png",
+                        "content": {
+                          "type": "map",
+                          "maps": [
+                            "Palace of Twilight"
+                          ]
+                        }
+                      },
+                      {
+                        "title": "Hyrule Castle",
+                        "icon": "images/Boss9.png",
+                        "content": {
+                          "type": "map",
+                          "maps": [
+                            "Hyrule Castle"
+                          ]
+                        }
+                      }
                     ]
                   }
                 },
