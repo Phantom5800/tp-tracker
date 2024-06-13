@@ -2,8 +2,8 @@
   Dungeon Progress
 ---------------------------------------------------------]]
 function canAccessLakebed()
-  local lanayru_through_eldin = (canSmash() and (hasSword() and has("Slingshot")) or has("skip-prologue-on")
-  local lanayru_through_faron = has("Gate_Keys") and (hasSword() and has("Slingshot")) or has("skip-prologue-on"))
+  local lanayru_through_eldin = (canSmash() and (hasSword() and has("Slingshot"))) or has("skip-prologue-on")
+  local lanayru_through_faron = (has("Gate_Keys") and (hasSword() and has("Slingshot"))) or has("skip-prologue-on")
   if (canLeaveForest() and lanayru_through_eldin or lanayru_through_faron) then
     local glitchless_lakebed_entry = has("Zora_Armor") and (has("early-lakebed-on") or (has("Iron_Boots") and canUseWaterBombs()))
     local glitched_lakebed_entry = has("Zora_Armor") -- pillar clip with zora armor
