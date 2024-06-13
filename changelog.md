@@ -6,3 +6,6 @@
   * Master Sword pedestal checks
   * 4 Mirror shards
   * New Stallord item check
+
+# 0.1.2
+* Add the options to toggle on/off glitch logic settings.
