@@ -9,3 +9,6 @@
 
 # 0.1.3
 * Add the options to toggle on/off glitch logic settings.
+
+# 0.1.4
+* Move settings menu and glitch logic to a tab next to the maps.
