@@ -10,7 +10,7 @@ function canAccessLakebed()
     if has("Lakebed") then
       if glitchless_lakebed_entry then
         return true
-      elseif showGlitchLogic() and glitched_lakebed_entry then
+      elseif glitched_lakebed_entry then
         return true,AccessibilityLevel.SequenceBreak
       end
     end
@@ -21,7 +21,7 @@ end
 function canGetThroughStalactiteRoom()
   if canLaunchBombs() then
     return true
-  elseif showGlitchLogic() and canDoLJA() then
+  elseif canDoLJA() then
     return true,AccessibilityLevel.SequenceBreak
   end
   return false
@@ -31,7 +31,7 @@ function canCompleteLakebedTemple()
   if canDefeatMorpheel() then
     if has("Lakebed_Temple_Big_Key") or has("boss-keysy-enabled") then
       return true
-    elseif showGlitchLogic() and hasSword() then -- boss key skip is possible
+    elseif hasSword() then -- boss key skip is possible
       return true,AccessibilityLevel.SequenceBreak
     end
   end
@@ -64,7 +64,7 @@ function Lakebed_Before_Deku_Toad_Alcove_Chest()
     return true
   elseif (has("Lakebed_Temple_Small_Key", 2) or has("small-keysy-enabled")) and has("Clawshot") then
     return true
-  elseif showGlitchLogic() and canDoLJA() then
+  elseif canDoLJA() then
     return true,AccessibilityLevel.SequenceBreak
   else
     return false
