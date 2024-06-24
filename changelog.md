@@ -16,3 +16,6 @@
 # 0.1.5
 * Minor changes to key logic in Lakebed Temple (full logic rewrite eventually).
 * Visibility settings for shop items and sky characters.
+
+# 0.1.6
+* Colors on map nodes are by province.
