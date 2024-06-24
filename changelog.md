@@ -12,3 +12,7 @@
 
 # 0.1.4
 * Move settings menu and glitch logic to a tab next to the maps.
+
+# 0.1.5
+* Minor changes to key logic in Lakebed Temple (full logic rewrite eventually).
+* Visibility settings for shop items and sky characters.

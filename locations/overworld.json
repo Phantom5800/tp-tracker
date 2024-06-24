@@ -160,7 +160,6 @@
         [
           {
             "name": "Faron Woods",
-            "color": "#18a50e",
             "children":
             [
               {
@@ -534,7 +533,6 @@
             "access_rules": [
               "$Faron_Field_Room_Access"
             ],
-            "color": "#18a50e",
             "children": [
               {
                 "name": "Faron Field",
@@ -676,7 +674,7 @@
           "$hasSword, Slingshot, $canLeaveForest",
           "skip-prologue-on, $canLeaveForest"
         ],
-        "color": "#18a50e",
+        "color": "#ff5826",
         "children":
         [
           {
@@ -1112,7 +1110,6 @@
           },
           {
             "name": "Death Mountain",
-            "color": "#18a50e",
             "children": [
               {
                 "name": "Death Mountain",
@@ -1161,11 +1158,9 @@
           },
           {
             "name": "Eldin Field",
-            "color": "#09a09d",
             "children": [
               {
                 "name": "Eldin Field Bomb Rock Chest",
-                "color": "#18a50e",
                 "sections": [
                   {
                     "name": "Eldin Field Bomb Rock Chest",
@@ -1434,7 +1429,7 @@
       },
       {
         "name": "Lanayru Province",
-        "color": "#18a50e",
+        "color": "#09a09d",
         "access_rules": [
           "$canSmash, $hasSword, Slingshot, $canLeaveForest",
           "$canSmash, skip-prologue-on, $canLeaveForest",
@@ -1453,7 +1448,6 @@
             "children": [
               {
                 "name": "Zoras Domain",
-                "color": "#18a50e",
                 "sections": [
                   {
                     "name": "Zoras Domain Chest Behind Waterfall",
@@ -1473,7 +1467,6 @@
               },
               {
                 "name": "Zoras Domain Chest By Mother and Child Isles",
-                "color": "#18a50e",
                 "sections": [
                   {
                     "name": "Zoras Domain Chest By Mother and Child Isles",
@@ -1679,10 +1672,9 @@
           },
           {
             "name": "Lanayru Field",
-            "color": "#09a09d",
             "children": [
               {
-                "name": "West Hyrule Field",
+                "name": "Beside Castle Town",
                 "sections": [
                   {
                     "name": "West Hyrule Field Male Butterfly",
@@ -2115,39 +2107,37 @@
                 ]
               },
               {
-                "name": "West Hyrule Field Helmasaur Grotto",
-                    "color": "#18a50e",
-                    "sections": [
-                      {
-                        "name": "West Hyrule Field Helmasaur Grotto Chest",
-                        "access_rules": [
-                          "Clawshot, Shadow_Crystal"
-                        ],
-                        "item_count": 1
-                      },
-                      {
-                        "name": "West Hyrule Field Female Butterfly",
-                        "access_rules": [
-                          "Clawshot",
-                          "Boomerang"
-                        ],
-                        "visibility_rules": ["golden-bugs-enabled"],
-                        "item_count": 1,
-                        "chest_unopened_img": "images/Golden_Bug.png",
-                        "chest_opened_img": "images/Golden_Bug-grey.png"
-                      }
+                "name": "Beside Castle Town Helmasaur Grotto",
+                "sections": [
+                  {
+                    "name": "West Hyrule Field Helmasaur Grotto Chest",
+                    "access_rules": [
+                      "Clawshot, Shadow_Crystal"
                     ],
-                    "map_locations": [
-                      {
-                        "map": "Main",
-                        "x": 543,
-                        "y": 481
-                      }
+                    "item_count": 1
+                  },
+                  {
+                    "name": "West Hyrule Field Female Butterfly",
+                    "access_rules": [
+                      "Clawshot",
+                      "Boomerang"
+                    ],
+                    "visibility_rules": ["golden-bugs-enabled"],
+                    "item_count": 1,
+                    "chest_unopened_img": "images/Golden_Bug.png",
+                    "chest_opened_img": "images/Golden_Bug-grey.png"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "Main",
+                    "x": 543,
+                    "y": 481
+                  }
                 ]
               },
               {
-                "name": "West Hyrule Field",
-                "color": "#18a50e",
+                "name": "Beside Castle Town",
                 "sections": [
                   {
                     "name": "West Hyrule Field Golden Wolf",
@@ -2269,7 +2259,6 @@
               },
               {
                 "name": "Lake Hylia",
-                "color": "#09a09d",
                 "children": [
                   {
                     "name": "Lake Hylia Underwater Chest",
@@ -2293,7 +2282,6 @@
                   },
                   {
                     "name": "Lake Hylia Water Toadpoli Grotto Chest",
-                    "color": "#18a50e",
                     "sections": [
                       {
                         "name": "Lake Hylia Water Toadpoli Grotto Chest",
@@ -2313,7 +2301,6 @@
                   },
                   {
                     "name": "Lake Hylia",
-                    "color": "#18a50e",
                     "sections": [
                       {
                         "name": "Auru Gift To Fyer",
@@ -2340,7 +2327,6 @@
                   },
                   {
                     "name": "Outside Lanayru Spring Left Statue Chest",
-                    "color": "#18a50e",
                     "sections": [
                       {
                         "name": "Outside Lanayru Spring Left Statue Chest",
@@ -2357,7 +2343,6 @@
                   },
                   {
                     "name": "Outside Lanayru Spring Right Statue Chest",
-                    "color": "#18a50e",
                     "sections": [
                       {
                         "name": "Outside Lanayru Spring Right Statue Chest",
@@ -2374,7 +2359,6 @@
                   },
                   {
                     "name": "Flight By Fowl",
-                    "color": "#18a50e",
                     "sections": [
                       {
                         "name": "Flight By Fowl Top Platform Reward",
@@ -2417,7 +2401,6 @@
                   },
                   {
                     "name": "Lake Hylia Shell Blade Grotto Chest",
-                    "color": "#18a50e",
                     "sections": [
                       {
                         "name": "Lake Hylia Shell Blade Grotto Chest",
@@ -2601,12 +2584,11 @@
           "Gate_Keys, $hasSword, Slingshot, $canLeaveForest, Auru_Memo",
           "Gate_Keys, skip-prologue-on, $canLeaveForest, Auru_Memo"
         ],
-        "color": "#18a50e",
+        "color": "#ffE900",
         "children":
         [
           {
             "name": "Gerudo Desert",
-            "color": "#18a50e",
             "children": [
               {
                 "name": "Gerudo Desert",
@@ -3104,11 +3086,10 @@
           "Shadow_Crystal, $hasSword, Slingshot, $canLeaveForest",
           "Shadow_Crystal, skip-prologue-on, $canLeaveForest"
         ],
-        "color": "#18a50e",
+        "color": "#e2f3ff",
         "children": [
           {
             "name": "Snowpeak Climb",
-            "color": "#18a50e",
             "sections": [
               {
                 "name": "Ashei Sketch",
