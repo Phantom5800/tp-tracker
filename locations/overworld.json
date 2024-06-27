@@ -50,14 +50,12 @@
               },
               {
                 "name": "Uli Cradle Delivery",
-                "short_name": "Rod",
                 "item_count": 1,
                 "chest_unopened_img": "images/rod.png",
                 "chest_opened_img": "images/rod_grey.png"
               },
               {
                 "name": "Ordon Cat Rescue",
-                "short_name": "Bottle 1",
                 "access_rules": [
                   "$Ordon_Village_Cat_Rescue"
                 ],
@@ -88,7 +86,6 @@
               },
               {
                 "name": "Wrestling With Bo",
-                "short_name": "Iron Boots",
                 "capture_item": true,
                 "item_count": 1
               }
@@ -892,6 +889,7 @@
                   "Boomerang",
                   "Clawshot"
                 ],
+                "capture_item": true,
                 "item_count": 1,
                 "chest_unopened_img": "images/HP.png",
                 "chest_opened_img": "images/HP_grey.png"
@@ -1020,6 +1018,7 @@
                   "$canLaunchBombs, Bomb_Bag:1, Boomerang",
                   "$canLaunchBombs, Bomb_Bag:1, Clawshot"
                 ],
+                "capture_item": true,
                 "item_count": 1,
                 "chest_unopened_img": "images/HP.png",
                 "chest_opened_img": "images/HP_grey.png"

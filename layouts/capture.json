@@ -16,7 +16,6 @@
           "Bomb_Bag"
         ],
         [
-          "Water_Bombs",
           "Hawkeye",
           "Clawshot",
           "Spinner",
@@ -27,36 +26,18 @@
         [
           "Auru_Memo",
           "Ashei_Sketch",
-          "Renado_Letter",
-          "Invoice",
-          "Wooden_Statue",
-          "Ilia_Charm",
-          "Horse_Call"
-        ],
-        [
           "Skybook",
           "Progressive_Hidden_Skill",
           "Shadow_Crystal",
-          "Progressive_Sword_1",
-          "Shield1",
-          "Hero_Tunic",
-          "Wallet"
-        ],
-        [
           "Golden_Bugs",
-          "Poe_Soul",
-          "Zora_Armor",
-          "Magic_Armor",
-          "Piece_of_Heart",
-          "Heart_Container",
-          "Foolish_Item"
+          "Poe_Soul"
         ],
         [
-          "Youth_Scent",
-          "Ilia_Scent",
-          "Poe_Scent",
-          "Reekfish_Scent",
-          "Medicine_Scent"
+          "Progressive_Sword_1",
+          "Ordon_Shield",
+          "Hylian_Shield",
+          "Zora_Armor",
+          "Magic_Armor"
         ]
       ]
     }

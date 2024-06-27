@@ -20,3 +20,4 @@
 # 0.1.6
 * Colors on map nodes are by province.
 * Add option to hide Grottos on the map.
+* Add capture items to various hintable checks.

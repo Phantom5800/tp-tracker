@@ -32,6 +32,7 @@
                   "content": {
                     "type": "scroll",
                     "horizontal_scrollbar_visibility": "disabled",
+                    "max_width": "600",
                     "content": {
                       "type": "recentpins",
                       "style": "wrap",
