@@ -437,6 +437,24 @@
       }
     ]
   },
+  {
+    "name": "Grottos",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/options/Grottos-Off.png",
+        "codes": "grottos-off"
+      },
+      {
+        "img": "images/options/Grottos-On.png",
+        "codes": "grottos-on",
+        "inherit_codes": false
+      }
+    ]
+  },
   /////////////////////////////////////////////////////////////////////////////
   // Glitch Logic
   /////////////////////////////////////////////////////////////////////////////

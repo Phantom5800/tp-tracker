@@ -112,6 +112,7 @@
                 "sections": [
                   {
                     "name": "Ordon Ranch Grotto Lantern Chest",
+                    "visibility_rules": ["grottos-on"],
                     "access_rules": [
                       "Shadow_Crystal, Lantern"
                     ],
@@ -346,6 +347,7 @@
                   },
                   {
                     "name": "Faron Woods Golden Wolf",
+                    "visibility_rules": ["golden-wolves-on"],
                     "item_count": 1,
                     "chest_unopened_img": "images/GWolf.png",
                     "chest_opened_img": "images/GWolf-grey.png"
@@ -424,6 +426,7 @@
                 "sections": [
                   {
                     "name": "Sacred Grove Baba Serpent Grotto Chest",
+                    "visibility_rules": ["grottos-on"],
                     "access_rules": [
                       "$Sacred_Grove_Baba_Serpent_Grotto"
                     ],
@@ -576,6 +579,7 @@
               },
               {
                 "name": "Faron Field Corner Grotto",
+                "visibility_rules": ["grottos-on"],
                 "access_rules": [
                   "$Faron_Field_Corner_Grotto"
                 ],
@@ -1180,6 +1184,7 @@
               },
               {
                 "name": "Eldin Field Bomskit Grotto",
+                "visibility_rules": ["grottos-on"],
                 "sections": [
                   {
                     "name": "Eldin Field Bomskit Grotto Lantern Chest",
@@ -1206,6 +1211,7 @@
               },
               {
                 "name": "Eldin Field Water Bomb Fish Grotto ",
+                "visibility_rules": ["grottos-on"],
                 "sections": [
                   {
                     "name": "Eldin Field Water Bomb Fish Grotto Chest",
@@ -1305,6 +1311,7 @@
               },
               {
                 "name": "North Eldin Stalfos Grotto",
+                "visibility_rules": ["grottos-on"],
                 "sections": [
                   {
                     "name": "North Eldin Stalfos Grotto Left Small Chest",
@@ -1787,7 +1794,7 @@
                     "access_rules": [
                       "Shadow_Crystal"
                     ],
-                    "visibility_rules": ["poes-overworld", "poes-all"],
+                    "visibility_rules": ["grottos-on,poes-overworld", "grottos-on,poes-all"],
                     "item_count": 2,
                     "chest_unopened_img": "images/soul.png",
                     "chest_opened_img": "images/soul-grey.png"
@@ -1836,6 +1843,7 @@
                 "sections": [
                   {
                     "name": "Lake Hylia Bridge Bubble Grotto Chest",
+                    "visibility_rules": ["grottos-on"],
                     "access_rules": [
                       "$canLaunchBombs, Shadow_Crystal, Clawshot"
                     ],
@@ -2017,6 +2025,7 @@
                 "sections": [
                   {
                     "name": "Outside South Castle Town Tetike Grotto Chest",
+                    "visibility_rules": ["grottos-on"],
                     "access_rules": [
                       "Shadow_Crystal"
                     ],
@@ -2043,6 +2052,7 @@
                 "sections": [
                   {
                     "name": "Lanayru Field Skulltula Grotto Chest",
+                    "visibility_rules": ["grottos-on"],
                     "access_rules": [
                       "Lantern, Shadow_Crystal"
                     ],
@@ -2111,6 +2121,7 @@
                 "sections": [
                   {
                     "name": "West Hyrule Field Helmasaur Grotto Chest",
+                    "visibility_rules": ["grottos-on"],
                     "access_rules": [
                       "Clawshot, Shadow_Crystal"
                     ],
@@ -2285,6 +2296,7 @@
                     "sections": [
                       {
                         "name": "Lake Hylia Water Toadpoli Grotto Chest",
+                        "visibility_rules": ["grottos-on"],
                         "access_rules": [
                           "Shadow_Crystal, $canDefeatWaterToadpoli"
                         ],
@@ -2404,6 +2416,7 @@
                     "sections": [
                       {
                         "name": "Lake Hylia Shell Blade Grotto Chest",
+                        "visibility_rules": ["grottos-on"],
                         "access_rules": [
                           "Shadow_Crystal, $canDefeatShellBlade"
                         ],
@@ -2631,6 +2644,7 @@
                 "sections": [
                   {
                     "name": "Gerudo Desert Skulltula Grotto Chest",
+                    "visibility_rules": ["grottos-on"],
                     "access_rules": [
                       "Shadow_Crystal"
                     ],
@@ -2776,6 +2790,7 @@
                 "sections": [
                   {
                     "name": "Gerudo Desert Rock Grotto Lantern Chest",
+                    "visibility_rules": ["grottos-on"],
                     "access_rules": [
                       "Clawshot, Shadow_Crystal, $canSmash, Lantern"
                     ],
@@ -2795,7 +2810,7 @@
                     "access_rules": [
                       "Clawshot, Shadow_Crystal, $canSmash"
                     ],
-                    "visibility_rules": ["poes-overworld", "poes-all"]
+                    "visibility_rules": ["grottos-on,poes-overworld", "grottos-on,poes-all"]
                   },
                   {
                     "name": "Gerudo Desert Rock Grotto Second Poe",
@@ -2803,7 +2818,7 @@
                     "access_rules": [
                       "Clawshot, Shadow_Crystal, $canSmash"
                     ],
-                    "visibility_rules": ["poes-overworld", "poes-all"]
+                    "visibility_rules": ["grottos-on,poes-overworld", "grottos-on,poes-all"]
                   }
                 ],
                 "map_locations": [
@@ -3109,6 +3124,7 @@
             "sections": [
               {
                 "name": "Snowpeak Freezard Grotto Chest",
+                "visibility_rules": ["grottos-on"],
                 "access_rules": [
                   "Shadow_Crystal, Reekfish_Scent, Ball_and_Chain",
                   "Shadow_Crystal, early-snowpeak-on, Ball_and_Chain"
