@@ -4,6 +4,24 @@
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
     "children": [
+      // {
+      //   "name": "Barren Regions",
+      //   "color": "#222222",
+      //   "sections": [
+      //     {
+      //       "name": "Ordon",
+      //       "item_count": 1
+      //     }
+      //   ],
+      //   "map_locations": [
+      //     {
+      //       "map": "Main",
+      //       "size": 50,
+      //       "x": 30,
+      //       "y": 1225
+      //     }
+      //   ]
+      // },
       {
         "name": "Ordon Province",
         "color": "#8e7023",
@@ -43,6 +61,7 @@
                 "access_rules": [
                   "$Ordon_Village_Cat_Rescue"
                 ],
+                "capture_item": true,
                 "chest_unopened_img": "images/bottle-empty.png",
                 "chest_opened_img": "images/bottle-grey.png",
                 "item_count": 1
@@ -70,6 +89,7 @@
               {
                 "name": "Wrestling With Bo",
                 "short_name": "Iron Boots",
+                "capture_item": true,
                 "item_count": 1
               }
             ],
@@ -135,6 +155,7 @@
                 "access_rules": [
                   "$canCompletePrologue"
                 ],
+                "capture_item": true,
                 "chest_unopened_img": "images/HP.png",
                 "chest_opened_img": "images/HP_grey.png"
               }
@@ -409,6 +430,7 @@
                     ],
                     "visibility_rules": ["golden-bugs-enabled"],
                     "item_count": 1,
+                    "capture_item": true,
                     "chest_unopened_img": "images/Golden_Bug.png",
                     "chest_opened_img": "images/Golden_Bug-grey.png"
                   }
@@ -509,6 +531,7 @@
                 ],
                 "visibility_rules": ["golden-bugs-enabled"],
                 "item_count": 1,
+                "capture_item": true,
                 "chest_unopened_img": "images/Golden_Bug.png",
                 "chest_opened_img": "images/Golden_Bug-grey.png"
               },
@@ -545,6 +568,7 @@
                     "access_rules": [
                       "$Faron_Field_Bridge_Chest"
                     ],
+                    "capture_item": true,
                     "item_count": 1
                   }
                 ],
@@ -565,6 +589,7 @@
                       "$Faron_Field_Tree_Heart_Piece"
                     ],
                     "item_count": 1,
+                    "capture_item": true,
                     "chest_unopened_img": "images/HP.png",
                     "chest_opened_img": "images/HP_grey.png"
                   }
@@ -579,21 +604,23 @@
               },
               {
                 "name": "Faron Field Corner Grotto",
-                "visibility_rules": ["grottos-on"],
                 "access_rules": [
                   "$Faron_Field_Corner_Grotto"
                 ],
                 "sections": [
                   {
                     "name": "Faron Field Corner Grotto Left Chest",
+                    "visibility_rules": ["grottos-on"],
                     "item_count": 1
                   },
                   {
                     "name": "Faron Field Corner Grotto Right Chest",
+                    "visibility_rules": ["grottos-on"],
                     "item_count": 1
                   },
                   {
                     "name": "Faron Field Corner Grotto Rear Chest",
+                    "visibility_rules": ["grottos-on"],
                     "item_count": 1
                   }
                 ],
@@ -656,6 +683,7 @@
                     ],
                     "visibility_rules": ["golden-bugs-enabled"],
                     "item_count": 1,
+                    "capture_item": true,
                     "chest_unopened_img": "images/Golden_Bug.png",
                     "chest_opened_img": "images/Golden_Bug-grey.png"
                   }
@@ -833,6 +861,7 @@
                   "Boomerang"
                 ],
                 "visibility_rules": ["golden-bugs-enabled"],
+                "capture_item": true,
                 "item_count": 1,
                 "chest_unopened_img": "images/Golden_Bug.png",
                 "chest_opened_img": "images/Golden_Bug-grey.png"
@@ -854,6 +883,7 @@
                 "access_rules": [
                   "Double_Clawshot"
                 ],
+                "capture_item": true,
                 "item_count": 1
               },
               {
@@ -1184,11 +1214,11 @@
               },
               {
                 "name": "Eldin Field Bomskit Grotto",
-                "visibility_rules": ["grottos-on"],
                 "sections": [
                   {
                     "name": "Eldin Field Bomskit Grotto Lantern Chest",
                     "item_count": 1,
+                    "visibility_rules": ["grottos-on"],
                     "access_rules": [
                       "Shadow_Crystal, Lantern"
                     ]
@@ -1196,6 +1226,7 @@
                   {
                     "name": "Eldin Field Bomskit Grotto Left Chest",
                     "item_count": 1,
+                    "visibility_rules": ["grottos-on"],
                     "access_rules": [
                       "Shadow_Crystal"
                     ]
@@ -1211,10 +1242,10 @@
               },
               {
                 "name": "Eldin Field Water Bomb Fish Grotto ",
-                "visibility_rules": ["grottos-on"],
                 "sections": [
                   {
                     "name": "Eldin Field Water Bomb Fish Grotto Chest",
+                    "visibility_rules": ["grottos-on"],
                     "access_rules": [
                       "Shadow_Crystal"
                     ],
@@ -1311,10 +1342,10 @@
               },
               {
                 "name": "North Eldin Stalfos Grotto",
-                "visibility_rules": ["grottos-on"],
                 "sections": [
                   {
                     "name": "North Eldin Stalfos Grotto Left Small Chest",
+                    "visibility_rules": ["grottos-on"],
                     "access_rules": [
                       "Spinner, Shadow_Crystal, $canSmash",
                       "Spinner, Shadow_Crystal, Gate_Keys"
@@ -1323,6 +1354,7 @@
                   },
                   {
                     "name": "North Eldin Stalfos Grotto Right Small Chest",
+                    "visibility_rules": ["grottos-on"],
                     "access_rules": [
                       "Spinner, Shadow_Crystal, $canSmash",
                       "Spinner, Shadow_Crystal, Gate_Keys"
@@ -1331,6 +1363,7 @@
                   },
                   {
                     "name": "North Eldin Stalfos Grotto Stalfos Chest",
+                    "visibility_rules": ["grottos-on"],
                     "access_rules": [
                       "Spinner, Shadow_Crystal, $canSmash, $canDefeatStalfos",
                       "Spinner, Shadow_Crystal, Gate_Keys, $canDefeatStalfos"
@@ -1513,6 +1546,7 @@
                     "access_rules": [
                       "Lantern, Iron_Boots"
                     ],
+                    "capture_item": true,
                     "item_count": 1
                   },
                   {
@@ -1520,6 +1554,7 @@
                     "access_rules": [
                       "Boomerang, Iron_Boots"
                     ],
+                    "capture_item": true,
                     "item_count": 1
                   },
                   {
@@ -1527,6 +1562,7 @@
                     "access_rules": [
                       "Iron_Boots, Zora_Armor, Bomb_Bag:1, $canUseWaterBombs"
                     ],
+                    "capture_item": true,
                     "item_count": 1
                   }
                 ],
@@ -1565,7 +1601,8 @@
           {
             "name": "Upper Zoras River",
             "access_rules": [
-              "$canSmash"
+              "$canSmash",
+              "Shadow_Crystal"
             ],
             "sections": [
               {
@@ -1573,6 +1610,7 @@
                 "access_rules": [
                   "Progressive_Bow, Progressive_Sword_1"
                 ],
+                "capture_item": true,
                 "item_count": 1
               },
               {
@@ -1584,9 +1622,6 @@
               },
               {
                 "name": "Upper Zoras River Female Dragonfly",
-                "access_rules": [
-                  "$canSmash"
-                ],
                 "visibility_rules": ["golden-bugs-enabled"],
                 "item_count": 1,
                 "chest_unopened_img": "images/Golden_Bug.png",
@@ -1603,37 +1638,20 @@
           },
           {
             "name": "Fishing Hole",
-            "access_rules": [
-              "$canSmash"
-            ],
             "sections": [
               {
                 "name": "Fishing Hole Heart Piece",
                 "item_count": 1,
                 "chest_unopened_img": "images/HP.png",
                 "chest_opened_img": "images/HP_grey.png"
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Main",
-                "x": 760,
-                "y": 110
-              }
-            ]
-          },
-          {
-            "name": "Fishing Hole",
-            "access_rules": [
-              "$canSmash"
-            ],
-            "sections": [
+              },
               {
                 "name": "Fishing Hole Bottle",
                 "access_rules": [
                   "Progressive_Fishing_Rod_1"
                 ],
                 "item_count": 1,
+                "capture_item": true,
                 "chest_unopened_img": "images/bottle-empty.png",
                 "chest_opened_img": "images/bottle-grey.png"
               }
@@ -1641,7 +1659,7 @@
             "map_locations": [
               {
                 "map": "Main",
-                "x": 780,
+                "x": 770,
                 "y": 110
               }
             ]
@@ -1654,6 +1672,7 @@
                 "access_rules": [
                   "Shadow_Crystal"
                 ],
+                "capture_item": true,
                 "item_count": 1,
                 "chest_unopened_img": "images/HP.png",
                 "chest_opened_img": "images/HP_grey.png"
@@ -1709,6 +1728,7 @@
                       "Boomerang"
                     ],
                     "visibility_rules": ["golden-bugs-enabled"],
+                    "capture_item": true,
                     "item_count": 1,
                     "chest_unopened_img": "images/Golden_Bug.png",
                     "chest_opened_img": "images/Golden_Bug-grey.png"
@@ -1733,6 +1753,7 @@
                     ],
                     "visibility_rules": ["golden-bugs-enabled"],
                     "item_count": 1,
+                    "capture_item": true,
                     "chest_unopened_img": "images/Golden_Bug.png",
                     "chest_opened_img": "images/Golden_Bug-grey.png"
                   }
@@ -1825,6 +1846,7 @@
                       "Clawshot"
                     ],
                     "visibility_rules": ["golden-bugs-enabled"],
+                    "capture_item": true,
                     "item_count": 1,
                     "chest_unopened_img": "images/Golden_Bug.png",
                     "chest_opened_img": "images/Golden_Bug-grey.png"
@@ -1947,6 +1969,7 @@
                     "access_rules": [
                       "Clawshot, Spinner"
                     ],
+                    "capture_item": true,
                     "item_count": 1
                   },
                   {
@@ -1964,6 +1987,7 @@
                     "access_rules": [
                       "Clawshot, Shadow_Crystal"
                     ],
+                    "capture_item": true,
                     "item_count": 1
                   },
                   {
@@ -2075,6 +2099,7 @@
                     "access_rules": [
                       "Ball_and_Chain"
                     ],
+                    "capture_item": true,
                     "item_count": 1
                   },
                   {
@@ -2084,6 +2109,7 @@
                       "Boomerang"
                     ],
                     "visibility_rules": ["golden-bugs-enabled"],
+                    "capture_item": true,
                     "item_count": 1,
                     "chest_unopened_img": "images/Golden_Bug.png",
                     "chest_opened_img": "images/Golden_Bug-grey.png"
@@ -2134,6 +2160,7 @@
                       "Boomerang"
                     ],
                     "visibility_rules": ["golden-bugs-enabled"],
+                    "capture_item": true,
                     "item_count": 1,
                     "chest_unopened_img": "images/Golden_Bug.png",
                     "chest_opened_img": "images/Golden_Bug-grey.png"
@@ -2191,6 +2218,7 @@
                   },
                   {
                     "name": "Charlo Donation Blessing",
+                    "capture_item": true,
                     "item_count": 1
                   },
                   {
@@ -2205,6 +2233,7 @@
                     "access_rules": [
                       "Double_Clawshot"
                     ],
+                    "capture_item": true,
                     "item_count": 1
                   },
                   {
@@ -2214,6 +2243,7 @@
                     ],
                     "visibility_rules": ["jovani-enabled"],
                     "item_count": 1,
+                    "capture_item": true,
                     "chest_unopened_img": "images/bottle-empty.png",
                     "chest_opened_img": "images/bottle-grey.png"
                   },
@@ -2223,6 +2253,7 @@
                       "Shadow_Crystal, Poe_Soul:60"
                     ],
                     "visibility_rules": ["jovani-enabled"],
+                    "capture_item": true,
                     "item_count": 1
                   },
                   {
@@ -2237,6 +2268,9 @@
                   },
                   {
                     "name": "Telma Invoice",
+                    "visibility_rules": [
+                      "TempleOfTime"
+                    ],
                     "access_rules": [
                       "Renado_Letter"
                     ],
@@ -2420,6 +2454,7 @@
                         "access_rules": [
                           "Shadow_Crystal, $canDefeatShellBlade"
                         ],
+                        "capture_item": true,
                         "item_count": 1
                       },
                       {
