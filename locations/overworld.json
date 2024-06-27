@@ -786,20 +786,14 @@
                 "chest_opened_img": "images/Golden_Bug-grey.png"
               },
               {
-                "name": "Kakariko Graveyard Open Poe",
-                "item_count": 1,
+                "name": "Kakariko Graveyard Open Poes",
+                "item_count": 2,
                 "access_rules": [
                   "Shadow_Crystal"
                 ],
-                "visibility_rules": ["poes-overworld", "poes-all"]
-              },
-              {
-                "name": "Kakariko Graveyard Grave Poe",
-                "item_count": 1,
-                "access_rules": [
-                  "Shadow_Crystal"
-                ],
-                "visibility_rules": ["poes-overworld", "poes-all"]
+                "visibility_rules": ["poes-overworld", "poes-all"],
+                "chest_unopened_img": "images/soul.png",
+                "chest_opened_img": "images/soul-grey.png"
               }
             ],
             "map_locations": [
@@ -2371,24 +2365,12 @@
                     ]
                   },
                   {
-                    "name": "Outside Lanayru Spring Left Statue Chest",
+                    "name": "Outside Lanayru Spring Statue Chests",
                     "sections": [
                       {
                         "name": "Outside Lanayru Spring Left Statue Chest",
                         "item_count": 1
-                      }
-                    ],
-                    "map_locations": [
-                      {
-                        "map": "Main",
-                        "x": 499.6,
-                        "y": 634.5
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Outside Lanayru Spring Right Statue Chest",
-                    "sections": [
+                      },
                       {
                         "name": "Outside Lanayru Spring Right Statue Chest",
                         "item_count": 1
@@ -2397,7 +2379,7 @@
                     "map_locations": [
                       {
                         "map": "Main",
-                        "x": 519.6,
+                        "x": 509.6,
                         "y": 634.5
                       }
                     ]
@@ -2479,32 +2461,18 @@
                     "name": "Lanayru Spring",
                     "sections": [
                       {
-                        "name": "Lanayru Spring Underwater Left Chest",
+                        "name": "Lanayru Spring Underwater Chests",
                         "access_rules": [
                           "Iron_Boots"
                         ],
-                        "item_count": 1
+                        "item_count": 2
                       },
                       {
-                        "name": "Lanayru Spring Underwater Right Chest",
-                        "access_rules": [
-                          "Iron_Boots"
-                        ],
-                        "item_count": 1
-                      },
-                      {
-                        "name": "Lanayru Spring Back Room Left Chest",
+                        "name": "Lanayru Spring Back Room Left Chests",
                         "access_rules": [
                           "Clawshot"
                         ],
-                        "item_count": 1
-                      },
-                      {
-                        "name": "Lanayru Spring Back Room Right Chest",
-                        "access_rules": [
-                          "Clawshot"
-                        ],
-                        "item_count": 1
+                        "item_count": 2
                       },
                       {
                         "name": "Lanayru Spring Back Room Lantern Chest",
@@ -2514,18 +2482,11 @@
                         "item_count": 1
                       },
                       {
-                        "name": "Lanayru Spring West Double Clawshot Chest",
+                        "name": "Lanayru Spring West Double Clawshot Chests",
                         "access_rules": [
                           "Double_Clawshot"
                         ],
-                        "item_count": 1
-                      },
-                      {
-                        "name": "Lanayru Spring East Double Clawshot Chest",
-                        "access_rules": [
-                          "Double_Clawshot"
-                        ],
-                        "item_count": 1
+                        "item_count": 2
                       }
                     ],
                     "map_locations": [
