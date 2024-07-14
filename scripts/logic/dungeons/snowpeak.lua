@@ -5,12 +5,12 @@ function canAccessSnowpeakRuins()
   if canSmash()
           and ((hasSword() and has("Slingshot")) or has("skip-prologue-on"))
           and canLeaveForest()
-          and has("Shadow_Crystal")
-          and (has("Reekfish_Scent") or has("early-snowpeak-on")) then
+          and has("Shadow_Crystal") then
+    local reekfish,access = hasReekfish()
     if has("Snowpeak") then
-      return true
+      return reekfish,access
     else
-      return true,AccessibilityLevel.SequenceBreak
+      return reekfish,AccessibilityLevel.SequenceBreak
     end
   end
   return false
@@ -23,6 +23,15 @@ function canCompleteSnowpeakRuins()
           and hasBombs()
           and (has("Snowpeak_Ruins_Bedroom_Key") or has("boss-keysy-enabled"))
           and canDefeatBlizzeta()
+end
+
+function hasReekfish()
+  if has("Reekfish_Scent") or has("early-snowpeak-on") then
+    return true
+  elseif canDoMapGlitch() then
+    return true,AccessibilityLevel.SequenceBreak
+  end
+  return false
 end
 
 --[[-------------------------------------------------------
