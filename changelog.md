@@ -21,3 +21,6 @@
 * Colors on map nodes are by province.
 * Add option to hide Grottos on the map.
 * Add capture items to various hintable checks.
+
+# 0.1.7
+* Fix snowpeak access logic
