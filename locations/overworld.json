@@ -4,24 +4,94 @@
     "chest_unopened_img": "images/chest_closed.png",
     "chest_opened_img": "images/chest_open.png",
     "children": [
-      // {
-      //   "name": "Barren Regions",
-      //   "color": "#222222",
-      //   "sections": [
-      //     {
-      //       "name": "Ordon",
-      //       "item_count": 1
-      //     }
-      //   ],
-      //   "map_locations": [
-      //     {
-      //       "map": "Main",
-      //       "size": 50,
-      //       "x": 30,
-      //       "y": 1225
-      //     }
-      //   ]
-      // },
+      {
+        "name": "Always Hints",
+        "color": "#222222",
+        "sections": [
+          {
+            "name": "Goron Springwater Rush",
+            "item_count": 1,
+            "capture_item": true
+          },
+          {
+            "name": "Ice Block Puzzle Chest",
+            "item_count": 1,
+            "capture_item": true
+          },
+          {
+            "name": "Iza Helping Hand",
+            "item_count": 1,
+            "capture_item": true
+          },
+          {
+            "name": "Plumm Fruit Minigame",
+            "item_count": 1,
+            "capture_item": true
+          },
+          {
+            "name": "Shell Blade Grotto Chest",
+            "item_count": 1,
+            "capture_item": true
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Main",
+            "size": 50,
+            "x": 30,
+            "y": 1225
+          }
+        ]
+      },
+      {
+        "name": "Overworld Sometimes Hints",
+        "color": "#222222",
+        "sections": [
+          {
+            "name": "Faron Field Bridge Chest",
+            "item_count": 1,
+            "capture_item": true
+          },
+          {
+            "name": "Kakariko Gorge Double Clawshot Chest",
+            "item_count": 1,
+            "capture_item": true
+          },
+          {
+            "name": "Herding Goats Reward",
+            "item_count": 1,
+            "capture_item": true
+          },
+          {
+            "name": "Lanayru Field Spinner Track Chest",
+            "item_count": 1,
+            "capture_item": true
+          },
+          {
+            "name": "South Castle Town Spinner Chest",
+            "item_count": 1,
+            "capture_item": true
+          },
+          {
+            "name": "South Castle Town Tightrope Chest",
+            "item_count": 1,
+            "capture_item": true
+          },
+          {
+            "name": "Wrestling With Bo",
+            "item_count": 1,
+            "capture_item": true
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Main",
+            "size": 50,
+            "x": 90,
+            "y": 1225
+          }
+        ]
+      },
       {
         "name": "Ordon Province",
         "color": "#8e7023",
@@ -1322,7 +1392,8 @@
                       "$canSmash",
                       "Gate_Keys"
                     ],
-                    "item_count": 1
+                    "item_count": 1,
+                    "capture_item": true
                   },
                   {
                     "name": "East Castle Town Bridge Poe",
@@ -1611,7 +1682,7 @@
               {
                 "name": "Iza Helping Hand",
                 "access_rules": [
-                  "Progressive_Bow, Progressive_Sword_1"
+                  "Progressive_Bow, $canDefeatShadowBeast"
                 ],
                 "capture_item": true,
                 "item_count": 1
@@ -1619,7 +1690,7 @@
               {
                 "name": "Iza Raging Rapid Minigame",
                 "access_rules": [
-                  "Progressive_Bow, Progressive_Sword_1"
+                  "Progressive_Bow, $canDefeatShadowBeast"
                 ],
                 "item_count": 1
               },
@@ -3229,7 +3300,7 @@
               {
                 "name": "Snowpeak Cave Ice Poe",
                 "access_rules": [
-                  "Shadow_Crystal, $hasReekfish"
+                  "Shadow_Crystal, $hasReekfish, Ball_and_Chain"
                 ],
                 "visibility_rules": ["poes-overworld", "poes-all"],
                 "item_count": 1,
@@ -3251,7 +3322,7 @@
               {
                 "name": "Snowboard Racing Prize",
                 "access_rules": [
-                  "Blizzeta, Shadow_Crystal, $hasReekfish, $canCompleteSnowpeakRuins, $canDefeatShadowBeast"
+                  "Blizzeta, Shadow_Crystal, $hasReekfish, $canDefeatShadowBeast"
                 ],
                 "visibility_rules": ["Snowpeak"],
                 "item_count": 1

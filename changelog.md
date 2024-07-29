@@ -23,4 +23,10 @@
 * Add capture items to various hintable checks.
 
 # 0.1.7
-* Fix snowpeak access logic
+* Fix snowpeak access logic.
+* Add a section for the "Always Hints" checks on the map (will be sync'd with regular location in the future).
+* Add a section for the overworld "Sometimes Hints" checks on the map (will be sync'd with regular location in the future).
+
+# 0.1.8
+* Minor logic fixes in Snowpeak.
+* Logical accessibility fix for Iza.
