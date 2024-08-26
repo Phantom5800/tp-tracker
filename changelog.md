@@ -30,3 +30,6 @@
 # 0.1.8
 * Minor logic fixes in Snowpeak.
 * Logical accessibility fix for Iza.
+
+# 0.1.9
+* Hide Gerudo Desert bugs when bugs are disabled in settings.

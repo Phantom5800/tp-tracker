@@ -2684,6 +2684,7 @@
                 "sections": [
                   {
                     "name": "Gerudo Desert Male Dayfly",
+                    "visibility_rules": ["golden-bugs-enabled"],
                     "item_count": 1,
                     "chest_unopened_img": "images/Golden_Bug.png",
                     "chest_opened_img": "images/Golden_Bug-grey.png"
@@ -2702,6 +2703,7 @@
                 "sections": [
                   {
                     "name": "Gerudo Desert Female Dayfly",
+                    "visibility_rules": ["golden-bugs-enabled"],
                     "item_count": 1,
                     "chest_unopened_img": "images/Golden_Bug.png",
                     "chest_opened_img": "images/Golden_Bug-grey.png"
