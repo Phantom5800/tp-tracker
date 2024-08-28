@@ -36,3 +36,6 @@
 
 # 0.1.10
 * Add an items only layout for the tracker.
+
+# 0.1.11
+* Still show dungeon items in item tracker.
