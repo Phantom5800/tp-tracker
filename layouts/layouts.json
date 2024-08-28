@@ -1,4 +1,12 @@
 {
+  "tracker_items_only": {
+    "type": "container",
+    "background": "#262626",
+    "content": {
+      "type": "layout",
+      "key": "item_grid"
+    }
+  },
   "tracker_right_map": {
     "type": "container",
     "background": "#323232",

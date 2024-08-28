@@ -33,3 +33,6 @@
 
 # 0.1.9
 * Hide Gerudo Desert bugs when bugs are disabled in settings.
+
+# 0.1.10
+* Add an items only layout for the tracker.

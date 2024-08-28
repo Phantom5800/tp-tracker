@@ -34,5 +34,9 @@ end
 Tracker:AddLayouts("layouts/item_grids.json")
 Tracker:AddLayouts("layouts/layouts.json")
 Tracker:AddLayouts("layouts/capture.json")
-Tracker:AddLayouts("layouts/tracker.json")
+if (string.find(Tracker.ActiveVariantUID, "map_tracker")) then
+    Tracker:AddLayouts("layouts/map_tracker.json")
+else
+    Tracker:AddLayouts("layouts/item_tracker.json")
+end
 Tracker:AddLayouts("layouts/broadcast.json")
